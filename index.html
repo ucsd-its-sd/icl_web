@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ITS Classroom Lookup</title>
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="header">
+    </div>
+    <div id="container">
+    </div>
+    <div id="footer">
+    </div>
+    <div class='template' id="template-back-button">
+        <div class="back-button-row"><a href="#" class='back-button' onclick="icl.app.back(); ; return false;">&lt;
+                BACK</a></div>
+    </div>
+    <div class="template" id="template-window-start">
+        {<!--}
+        <div class="window window-newly-added" data-uid="{{uid}}">
+        <div class="window-panel">
+            {{backButton}}
+        {-->}
+    </div>
+    <div class="template" id="template-window-end">
+        {<!--}</div></div>{-->}
+    </div>
+    <div class="template" id="template-search-result">
+        <li class="search-result">
+            <div class="search-result-room">
+                <a href="#" onclick="icl.app.openSchedule('{{room}}'); return false;">
+                    {{room}}
+                </a>
+            </div>
+            <div class="search-result-schedule-preview">
+                {{schedulePreview}}
+            </div>
+        </li>
+    </div>
+    <div class="template" id="template-search">
+        {{windowStart}}
+        <div class='search-text-box-row'>
+            <input type='text' class='search-box' placeholder='Search'>
+        </div>
+        <ul class="search-results">
+        </ul>
+        {{windowEnd}}
+    </div>
+    <div class="template" id="template-schedule-view">
+        {{windowStart}}
+
+        <h1>Current Class</h1>
+        {{currentClass}}
+        {<!--}
+        <h1>Overall Schedule</h1>
+        <table class="schedule-table">
+        <tr>
+        <td>
+        <table class="schedule-day-table">
+            {{timeIncrements}}
+        </table>
+        </td><td>
+        <table class="schedule-day-table">
+            {{mondaySchedule}}
+        </table>
+        </td><td>
+        <table class="schedule-day-table">
+            {{tuesdaySchedule}}
+        </table>
+        </td><td>
+        <table class="schedule-day-table">
+            {{wednesdaySchedule}}
+        </table>
+        </td><td>
+        <table class="schedule-day-table">
+            {{thursdaySchedule}}
+        </table>
+        </td><td>
+        <table class="schedule-day-table">
+            {{fridaySchedule}}
+        </table>
+        </td></tr
+        </table>
+        {-->}
+        {{windowEnd}}
+    </div>
+    <div class='template' id='template-current-class'>
+        {<!--}
+        <table class='current-class-table'>
+            <tr>
+                <th>Course Code</th>
+                <td>{{courseCode}}</td>
+            </tr>
+            {{professors}}
+            <tr>
+                <th>Class Time</th>
+                <td>{{classTime}}</td>
+            </tr>
+            <tr>
+                <th>Meeting Type</th>
+                <td>{{meetingType}}</td>
+            </tr>
+        </table>
+        {-->}
+
+    </div>
+    <div class='template' id='template-professor'>
+        {<!--}
+        <tr>
+            <th>Professor</th>
+            <td>
+                <a href="#" onclick="icl.app.openProfessor('{{professor}}'); return false;">
+                    {{professor}}
+                </a>
+            </td>
+        </tr>
+        {-->}
+    </div>
+</body>
+
+<script src="./js/base.js"></script>
+<script src="./js/parseClassrooms.js"></script>
+<script src="./js/dateUtil.js"></script>
+<script src="./js/retrieveClassrooms.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/templates.js"></script>
+<script src="./js/app.js"></script>
+
+</html>

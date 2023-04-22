@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.template {
+    display:none;
+}
+html, body {
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #EEE;
+}
+.window {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    display:flex;
+    justify-content:center;
+    padding-top:5vh;
+    padding-bottom:5vh;
+}
+.window-newly-added {
+    display:none
+}
+.window-panel {
+    padding:2em;
+    background-color: #FFF;
+    border-radius:1em;
+    max-height:90vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+    width:90vw;
+}
+.search-box {
+    font-size: 5vh;
+    padding: 1vh;
+    border: 1px solid #000;
+}
+.search-results {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.search-result {
+    padding:1em;
+    font-size: 120%;
+}
+.schedule-table {
+    width:100%;
+}
+.schedule-day-table {
+    width:100%;
+}
+.schedule-day-table td {
+    border:1px solid #000;
+}
+td {
+    line-height:12.4px;
+    font-size:12px;
+    padding-bottom:0px;
+    padding-top:1px;
+    padding-left:3px;
+}
+td.noborder {
+    border:none;
+    font-size:16px;
+    margin:0;
+    padding:0;
+    line-height:10px;
+}
+.schedule-day-table tr{
+    height: 10px;
+}
