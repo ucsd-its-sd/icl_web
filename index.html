@@ -9,13 +9,16 @@
 
 <body>
     <div id="header">
+        <h1><a href="#">ITS Classroom Lookup</a></h1>
     </div>
     <div id="container">
     </div>
     <div id="footer">
+        Made with 💀 by Ari Stassinopoulos. Special thanks to <a href="https://github.com/SheepTester"
+            target="_blank">Sean the SheepTester</a> for classroom data!
     </div>
     <div class='template' id="template-back-button">
-        <div class="back-button-row"><a href="#" class='back-button' onclick="icl.app.back(); ; return false;">&lt;
+        <div class="back-button-row"><a href="#" class='back-button' onclick="icl.app.back();">&lt;
                 BACK</a></div>
     </div>
     <div class="template" id="template-window-start">
@@ -31,7 +34,7 @@
     <div class="template" id="template-search-result">
         <li class="search-result">
             <div class="search-result-room">
-                <a href="#" onclick="icl.app.openSchedule('{{room}}'); return false;">
+                <a href="#/room/{{room}}">
                     {{room}}
                 </a>
             </div>
@@ -42,8 +45,11 @@
     </div>
     <div class="template" id="template-search">
         {{windowStart}}
+        <label for='classroomSearch'>
+            <h1>Search for a classroom</h1>
+        </label>
         <div class='search-text-box-row'>
-            <input type='text' class='search-box' placeholder='Search'>
+            <input id='classroomSearch' type='text' class='search-box' placeholder='APM1313'>
         </div>
         <ul class="search-results">
         </ul>
@@ -58,28 +64,36 @@
         <h1>Overall Schedule</h1>
         <table class="schedule-table">
         <tr>
+        <td></td>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        </tr>
+        <tr>
         <td>
         <table class="schedule-day-table">
             {{timeIncrements}}
         </table>
         </td><td>
-        <table class="schedule-day-table">
+        <table class="{{mondayIsCurrentDay}} schedule-day-table">
             {{mondaySchedule}}
         </table>
         </td><td>
-        <table class="schedule-day-table">
+        <table class="{{tuesdayIsCurrentDay}} schedule-day-table">
             {{tuesdaySchedule}}
         </table>
         </td><td>
-        <table class="schedule-day-table">
+        <table class="{{wednesdayIsCurrentDay}} schedule-day-table">
             {{wednesdaySchedule}}
         </table>
         </td><td>
-        <table class="schedule-day-table">
+        <table class="{{thursdayIsCurrentDay}} schedule-day-table">
             {{thursdaySchedule}}
         </table>
         </td><td>
-        <table class="schedule-day-table">
+        <table class="{{fridayIsCurrentDay}} schedule-day-table">
             {{fridaySchedule}}
         </table>
         </td></tr

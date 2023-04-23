@@ -10,31 +10,42 @@
         // Create empty classes array
         classes = [],
         // Create empty rooms object, indexed by code
-        rooms = {};
+        rooms = {},
+        // Create errors object to handle errors
+        errors = [];
       //
       if (version.trim().toUpperCase() !== "V2") {
         throw "fuck";
       }
       classroomsContentLines.forEach((line) => {
-        // Get current class (most recent) index
-        var classIdx = classes.length - 1
-        // Detect new class header
-        if (line.slice(0, 1) != '\t') {
-          // Add an empty class
-          classes.push({
-            code: line.slice(0, 9).replaceAll(' ', ''),
-            sectionLines: [],
-            sectionData: []
+        try {
+          // Get current class (most recent) index
+          var classIdx = classes.length - 1
+          // Detect new class header
+          if (line.slice(0, 1) != '\t') {
+            // Add an empty class
+            classes.push({
+              code: line.slice(0, 9).replaceAll(' ', ''),
+              sectionLines: [],
+              sectionData: []
+            });
+            // Break
+            return;
+          } else {
+            // Parse the line(s) (some are missing newlines at the end, so we can handle that recursively through recursion)
+            const parsedLineData = parseLineRecursive(line);
+            // Because we can have one or more, we need to add all of them in sequence
+            parsedLineData.forEach(
+              (lineData) => classes[classIdx].sectionLines.push(lineData)
+            );
+          }
+        } catch (exception) {
+          errors.push({
+            exception: exception,
+            data: {
+              line: line
+            }
           });
-          // Break
-          return;
-        } else {
-          // Parse the line(s) (some are missing newlines at the end, so we can handle that recursively through recursion)
-          const parsedLineData = parseLineRecursive(line);
-          // Because we can have one or more, we need to add all of them in sequence
-          parsedLineData.forEach(
-            (lineData) => classes[classIdx].sectionLines.push(lineData)
-          );
         }
       });
       // For each class that we have the line data
@@ -57,7 +68,13 @@
                 lineData
               )
             } catch (exception) {
-              console.log(lineData, classObject)
+              errors.push({
+                exception: exception,
+                data: {
+                  lineData: lineData,
+                  classObject: classObject
+                }
+              });
             }
           }
         });
@@ -67,52 +84,55 @@
         const course = classObject.code;
         // For each section we've found
         classObject.sectionData.forEach((sectionData) => {
-          // Get the professor name from the section
-          const professorName = sectionData.meta.professorName;
-          // Get each meeting for the section
-          sectionData.meetings.forEach((meeting) => {
-            // Get all necessary properties to build object
-            const room = meeting.building + meeting.room,
-              meetingType = meeting.meetingType,
-              start = meeting.start,
-              end = meeting.end,
-              type = meeting.type,
-              meetingObject = {
-                professors: processProfessorName(professorName),
-                start: start,
-                end: end,
-                type: type,
-                meetingType: meetingType,
-                course: course
-              };
-            if (meeting.type == 'event') {
-              // Event
-              meetingObject.date = meeting.date;
-            } else {
-              // Recurring meeting
-              meetingObject.days = meeting.meetingDays;
-            }
+          try {
+            // Get the professor name from the section
+            const professorName = sectionData.meta.professorName;
+            // Get each meeting for the section
+            sectionData.meetings.forEach((meeting) => {
+              // Get all necessary properties to build object
+              const room = meeting.building + meeting.room,
+                meetingType = meeting.meetingType,
+                start = meeting.start,
+                end = meeting.end,
+                type = meeting.type,
+                meetingObject = {
+                  professors: processProfessorName(professorName),
+                  start: start,
+                  end: end,
+                  type: type,
+                  meetingType: meetingType,
+                  course: course
+                };
+              if (meeting.type == 'event') {
+                // Event
+                meetingObject.date = meeting.date;
+              } else {
+                // Recurring meeting
+                meetingObject.days = meeting.meetingDays;
+              }
+              // Create empty room in output object if it does not exist
+              if (!(Object.keys(rooms).some((key) => key == room))) {
+                rooms[room] = [];
+              }
 
-            if (room == '') {
-              // console.log(classObject.code, sectionData);
-            }
-            // Create empty room in output object if it does not exist
-            if (!(Object.keys(rooms).some((key) => key == room))) {
-              rooms[room] = [];
-            }
-
-            rooms[room].push(meetingObject);
-          });
+              rooms[room].push(meetingObject);
+            });
+          } catch (exception) {
+            errors.push({
+              exception: exception,
+              data: {
+                sectionData: sectionData
+              }
+            });
+          }
         });
       });
-      return { classes: classes, rooms: rooms };
+      return { classes: classes, rooms: rooms, errors: errors };
     },
     parseLineRecursive = (line, returnValue) => {
       // Create returnValue array
       if (!(returnValue instanceof Array)) {
         returnValue = [];
-      } else {
-        // console.log(line, returnValue);
       }
       line = line.trim();
       // Determine line type from the beginning
@@ -161,7 +181,6 @@
         // Recurse based on the proper line length.
         const correctLength = lineLengths[lineType];
         if (line.length > correctLength) {
-          // console.log(line, line.slice(correctLength));
           // Parse the rest of it
           parseLineRecursive(line.slice(correctLength), returnValue);
           // Cut line to correct length

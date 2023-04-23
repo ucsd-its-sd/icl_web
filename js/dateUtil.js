@@ -25,7 +25,6 @@
             end = parseInt(meeting.end),
             startMins = Math.floor(start / 100) * 60 + start % 100,
             endMins = Math.floor(end / 100) * 60 + end % 100;
-          // console.log(startMins, endMins);
           return endMins - startMins;
         })()
       }));
@@ -41,5 +40,5 @@
       }
       return schedules;
     };
-  window.icl.dateUtil = { getScheduleDateString: getScheduleDateString, getDaySchedule: getDaySchedule, getWeekSchedule: getWeekSchedule };
+  window.icl.dateUtil = { getScheduleDateString: getScheduleDateString, getDaySchedule: getDaySchedule, getWeekSchedule: getWeekSchedule, getScheduleDay: getScheduleDay };
 })();
