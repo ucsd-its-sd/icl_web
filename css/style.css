@@ -93,6 +93,8 @@ html, body {
 }
 .schedule-day-table td {
     border:1px solid #000;
+    background-color: #FFF;
+    overflow:auto;
 }
 td {
     line-height:12.4px;
@@ -101,12 +103,12 @@ td {
     padding-top:1px;
     padding-left:3px;
 }
-.schedule-table td {
+.schedule-table td.schedule-container {
     border:none;
     margin:none;
     padding:none;
 }
-.schedule-table td:has(.schedule-day-table.not-current-day) {
+td.schedule-container:has(.schedule-day-table.not-current-day) {
     background-color:#E5E5E5;
 }
 td.noborder {
