@@ -19,6 +19,7 @@
     getWidth = () => 100,
     // Context management
     stack = [],
+    // Manage back buttons
     windowChangeAnimation = {
       isAnimating: false,
       reportAnimationStart: () => {
@@ -35,28 +36,30 @@
       }
     },
     pushToStack = ($el, anchor, offscreenCallback) => {
-      console.log('push to stack');
 
+      // Make it ✨asynchronous
       return new Promise((resolve, reject) => {
         windowChangeAnimation.reportAnimationStart();
         const width = getWidth();
         $el.style.transition = 'none';
-        console.log(stack.length);
         if (stack.length > 0)
           $el.style.transform = 'translateX(' + width + 'vw)';
         $el.style.transition = transitionString;
         if ($el.classList.contains('window-newly-added')) {
           $el.classList.remove('window-newly-added');
         }
-        console.log($el.style.transform);
-
+        // We need to delay setting the translation to zero by like 100ms to stop it from glitching lmfao
         setTimeout(() => {
+          // Run the "offscreen callback" if it exists
           if (offscreenCallback && typeof offscreenCallback == 'function')
             offscreenCallback();
+          // Add the element to the stack
           stack.push({ isOffscreen: false, anchor: anchor, $el: $el });
+          // Set stuff that's offscreen to be offscreen
           const stackSize = stack.length;
           if (stack.length > 1)
             stack[stackSize - 2].isOffscreen = true;
+          // Move stuff around
           stack.forEach((stackItem, i) => {
             const coefficient = (stackSize - i) - 1,
               translation = ((-1 * coefficient) * width);
@@ -64,7 +67,7 @@
               + translation
               + 'vw)';
           });
-          console.log($el.style.transform);
+          // Enable the back buttons when it's all joever
           setTimeout(() => {
             windowChangeAnimation.reportAnimationFinish();
             return resolve();
@@ -72,71 +75,96 @@
         }, 100);
       });
     },
+    // Do the thing above but make the element from an HTML string
     createAndPushToStack = (elContent, anchor, offscreenCallback) => {
-      console.log('creating and pushing to stack');
+      // CHILL, DUMMY
       const $dummyContainer = document.createElement('div');
 
+      // Create the element
       $dummyContainer.innerHTML = elContent;
       const $dummyEl = $dummyContainer.children[0];
 
+      // Move the element onto the container and delete the dummy
       const $el = $container.appendChild($dummyEl);
       $dummyContainer.remove();
+
+      // Push to the stack
       return pushToStack($el, anchor, () => {
-        console.log('pushing to stack');
         if (offscreenCallback && typeof offscreenCallback == 'function')
           offscreenCallback($el);
       });
     },
+    // Handle going back
     popFromStack = () => {
-      console.log('popping from stack');
+      // Make it ✨asynchronous
       return new Promise((resolve, reject) => {
+        if (stackSize < 2)
+          // what the fuck
+          return reject();
+        // Disable the back buttons
         windowChangeAnimation.reportAnimationStart();
+        // I did this by pixel size initially but it's by vw units now because I realised it was dumb
         const width = getWidth(),
+          // Get the item we're removing
           stackItem = stack.pop(),
           $el = stackItem.$el,
+          // This will be the current size because pop removed the item from the stack already
           stackSize = stack.length;
+        // Move the element off to the right
         $el.style.transform = 'translateX(' + width + 'vw)';
+        // Make the element to the left know it's not offscreen
         stack[stackSize - 1].isOffscreen = false;
+        // Move everything 100vw to the right (1 screen width)
         stack.forEach((stackItem, i) => {
+          // haha math
           const coefficient = (stackSize - i) - 1;
           stackItem.$el.style.transform = 'translateX('
             + (-1 * coefficient * width)
             + 'vw)';
         });
+        // Re-enable back buttons when it's joever
         setTimeout(() => {
           windowChangeAnimation.reportAnimationFinish();
+          // Delete the element we popped off
           $el.remove();
           return resolve();
         }, transitionLength * 1000);
       });
     },
+    // Handle going back
     popToAnchor = (anchor) => {
-      console.log('popToAnchor triggered');
+      // Make it ✨ async
       return new Promise((resolve, reject) => {
+        // Reject if the anchor dne
         if (!stack.some((stackItem) => stackItem.anchor === anchor)) {
-          console.log('not in stack, rejecting');
           return reject();
         }
+        // Done if we're here already
         if (stack[stack.length - 1].anchor === anchor) {
-          console.log('top of stack, resolving');
           return resolve();
         }
+        // DID YOU KNOW YOU CAN DO RECURSION WITH PROMISES? I HATE THIS
         return popFromStack().then(() => popToAnchor(anchor).then(resolve));
       });
     },
+    // Disable all the back buttons
     disableBackButtons = () =>
       [].forEach.call(
         document.querySelectorAll('.back-button'),
         ($button) => $button.disabled = true
       ),
+    // Enable all the back buttons
     enableBackButtons = () => [].forEach.call(
       document.querySelectorAll('.back-button'),
       ($button) => $button.disabled = false
     ),
+    // Table of hourly time increments from 8:00AM to 7:30 PM
     timeIncrements = Array.apply(null, { length: (19.5 - 8) * 6 }).map((_, i) => {
+      // Goofy math
       const minutes = ((i % 6) * 10) + '',
         hours = (8 + Math.floor(i / 6)) + '',
         time = (hours.padStart(2, 0) + ':' + minutes.padStart(2, 0));
+      // If there's an hour, put one in the table
       if (i % 6 == 0) {
         return '<tr><td class="noborder">' + time + '</td></tr>';
       } else {
@@ -148,6 +176,7 @@
         const minutes = (i % 6) * 10,
           hours = 8 + Math.floor(i / 6),
           time = ('' + (hours * 1e2 + minutes)).padStart(4, 0);
+        console.log(schedule, time);
         if (schedule.length > 0 && schedule[0].start === time) {
           const meeting = schedule.shift();
           return '<tr><td rowspan=' + (meeting.length / 10) + '>'
@@ -228,7 +257,6 @@
 
       window.onhashchange = () => {
         const hash = location.hash.replaceAll('#', '');
-        console.log(hash);
         popToAnchor(hash).catch(() => {
           //Check if this is caused by clicking to open a schedule
           if (hash.startsWith('/room/')) {
@@ -261,7 +289,7 @@
     });
   // Register event listeners
   window.icl.app = {
-    back: () => popFromStack(),
+    back: () => history.back(),
     openProfessor: (professor) => {
       const searchURL = 'https://act.ucsd.edu/directory/search?last={{last}}&first={{first}}&searchType=0'
         .replace('{{last}}', professor.split(' ')[1])

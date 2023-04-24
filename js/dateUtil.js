@@ -12,9 +12,9 @@
         } else {
           return meeting.date === dateString;
         }
-      }).sort((a, b) => {
-        b.start - a.start;
-      }).map((meeting) => ({
+      }).sort(
+        (a, b) => parseInt(a.start) - parseInt(b.start)
+      ).map((meeting) => ({
         course: meeting.course,
         start: meeting.start,
         end: meeting.end,
