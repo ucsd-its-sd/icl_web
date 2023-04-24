@@ -98,7 +98,7 @@
     popFromStack = () => {
       // Make it ✨asynchronous
       return new Promise((resolve, reject) => {
-        if (stackSize < 2)
+        if (stack.length < 2)
           // what the fuck
           return reject();
         // Disable the back buttons
