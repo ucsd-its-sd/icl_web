@@ -176,9 +176,12 @@
         const minutes = (i % 6) * 10,
           hours = 8 + Math.floor(i / 6),
           time = ('' + (hours * 1e2 + minutes)).padStart(4, 0);
-        console.log(schedule, time);
+
         if (schedule.length > 0 && schedule[0].start === time) {
           const meeting = schedule.shift();
+          while (schedule.length > 0 && schedule[0].start === time) {
+            meeting.course += ' / ' + schedule.shift().course;
+          }
           return '<tr><td rowspan=' + (meeting.length / 10) + '>'
             + meeting.course + " " + meeting.meetingType + " | "
             + meeting.start + "-" + meeting.end + "<br/>"
