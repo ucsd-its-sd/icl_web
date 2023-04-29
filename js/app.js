@@ -13,6 +13,9 @@
     SEARCH_RESULT = icl.templateFromID('template-search-result'),
     SEARCH = icl.templateFromID('template-search'),
     SCHEDULE_VIEW = icl.templateFromID('template-schedule-view'),
+    CLASS_ROW = icl.templateFromID('template-class-row'),
+    NO_SCHEDULED_CLASSES = icl.templateFromID('template-no-scheduled-classes'),
+    CLASS_ROW_PROFESSOR_LINK = icl.templateFromID('template-class-row-professor-link'),
     $container = document.getElementById('container'),
     // Utility functions
     generateUID = () => ('' + new Date().getTime()).slice(-6),
@@ -171,6 +174,7 @@
         return '<tr></tr>'
       }
     }).join(''),
+    // Render the schedule for a day
     renderDaySchedule = (schedule) => schedule.length > 0 ? (
       '<tbody>' + Array.apply(null, { length: (19.5 - 8) * 6 }).map((_, i) => {
         const minutes = (i % 6) * 10,
@@ -179,26 +183,28 @@
 
         if (schedule.length > 0 && schedule[0].start === time) {
           const meeting = schedule.shift();
+          var course = meeting.course;
           while (schedule.length > 0 && schedule[0].start === time) {
-            meeting.course += ' / ' + schedule.shift().course;
+            course += ' / ' + schedule.shift().course;
           }
-          return '<tr><td rowspan=' + (meeting.length / 10) + '>'
-            + meeting.course + " " + meeting.meetingType + " | "
-            + meeting.start + "-" + meeting.end + "<br/>"
-            + meeting.professors.map((professorName) =>
-              (
-                "<a href='#' onclick='icl.app.openProfessor(\"{{professor}}\"); return false;'>"
-                + "{{professor}}</a>"
-              ).replaceAll('{{professor}}', professorName)
-            ).join('<br/>')
-            + '</td></tr>';
+          return CLASS_ROW({
+            length: (meeting.length / 10) + '',
+            course: course,
+            meetingType: meeting.meetingType,
+            start: meeting.start,
+            end: meeting.end,
+            professors: meeting.professors.map((professor) =>
+              CLASS_ROW_PROFESSOR_LINK({ professor: professor, link: professorLink(professor) })
+            ).join(' / ')
+          });
         } else {
           return '<tr></tr>'
         }
       }).join('') + '</tbody>'
     ) : (
-      '<tbody><tr><td class="noborder">No scheduled classes</td></tr></tbody>'
+      NO_SCHEDULED_CLASSES()
     ),
+    // Open a window with the given schedule
     openSchedule = (rooms, room) => {
       const roomMeetings = rooms[room],
         date = new Date(),
@@ -213,7 +219,8 @@
         scheduleArgs = {
           'windowStart': WINDOW_START({
             'uid': generateUID(),
-            'backButton': BACK_BUTTON()
+            'backButton': BACK_BUTTON(),
+            'title': room
           }),
           'windowEnd': WINDOW_END(),
           'timeIncrements': '<tbody>' + timeIncrements + '</tbody>',
@@ -221,7 +228,7 @@
             {
               courseCode: currentClass.course,
               professors: currentClass.professors.map(
-                (professor) => PROFESSOR({ professor: professor })
+                (professor) => PROFESSOR({ professor: professor, link: professorLink(professor) })
               ).join(''),
               classTime: currentClass.start + "-" + currentClass.end,
               meetingType: currentClass.meetingType
@@ -248,7 +255,11 @@
       } else {
         $searchResultsList.innerHTML = '';
       }
-    };
+    },
+    professorLink = (professor) => "https://act.ucsd.edu/directory/search?" +
+      "last={{last}}&first={{first}}&searchType=0"
+        .replace('{{last}}', professor.split(' ')[1])
+        .replace('{{first}}', professor.split(' ')[0]);
   // Load class data
   icl
     .retrieveClassrooms("./source/classrooms-SP23.txt")
@@ -277,6 +288,7 @@
       const searchWindow = SEARCH({
         'windowStart': WINDOW_START({ backButton: '', uid: generateUID() }),
         'windowEnd': WINDOW_END(),
+        'title': ''
       });
 
       createAndPushToStack(searchWindow, '', ($el) => {
@@ -292,12 +304,12 @@
     });
   // Register event listeners
   window.icl.app = {
-    back: () => history.back(),
-    openProfessor: (professor) => {
-      const searchURL = 'https://act.ucsd.edu/directory/search?last={{last}}&first={{first}}&searchType=0'
-        .replace('{{last}}', professor.split(' ')[1])
-        .replace('{{first}}', professor.split(' ')[0]);
-      window.open(searchURL);
-    }
+    back: () => history.back()
+    // openProfessor: (professor) => {
+    //   const searchURL = 'https://act.ucsd.edu/directory/search?last={{last}}&first={{first}}&searchType=0'
+    //     .replace('{{last}}', professor.split(' ')[1])
+    //     .replace('{{first}}', professor.split(' ')[0]);
+    //   window.open(searchURL);
+    // }
   };
 })();

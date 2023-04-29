@@ -25,7 +25,7 @@
         {<!--}
         <div class="window window-newly-added" data-uid="{{uid}}">
         <div class="window-panel">
-            {{backButton}}
+            {{backButton}} <h2>{{title}}</h2>
         {-->}
     </div>
     <div class="template" id="template-window-end">
@@ -126,12 +126,28 @@
         <tr>
             <th>Professor</th>
             <td>
-                <a href="#" onclick="icl.app.openProfessor('{{professor}}'); return false;">
+                <a href="{{link}}" target="_blank">
                     {{professor}}
                 </a>
             </td>
         </tr>
         {-->}
+    </div>
+    <div class='template' id='template-class-row'>
+        {<!--}
+        <tr><td rowspan="{{length}}">
+            {{course}} {{meetingType}} | {{start}}-{{end}}<br/>
+            {{professors}}
+        </td></tr>
+        {-->}
+    </div>
+    <div class='template' id='template-class-row-professor-link'>
+        <a href='{{link}}' target="_blank">
+            {{professor}}
+        </a>
+    </div>
+    <div class='template' id='template-no-scheduled-classes'>
+        {<!--}<tbody><tr><td class="noborder">No scheduled classes</td></tr></tbody>{-->}
     </div>
 </body>
 
