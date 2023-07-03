@@ -262,7 +262,7 @@
         .replace('{{first}}', professor.split(' ')[0]);
   // Load class data
   icl
-    .retrieveClassrooms("./source/classrooms-SP23.txt")
+    .retrieveClassrooms("./source/classrooms-S123.txt")
     .then((classroomContent) => {
       const classroomsParsed = icl.parseClassrooms(classroomContent),
         rooms = classroomsParsed.rooms;
