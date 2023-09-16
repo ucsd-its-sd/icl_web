@@ -1,3 +1,53 @@
+// Line types:
+
+// Class definition (no URL)
+// EMED296  Independent Reseach
+// ^ Course code [9]
+//          ^ Title [*]
+
+// Class definition (URL)
+// EDS 380A SS Internship Seminar I	/courses/EDS.html#eds380a
+// ^ Course code [9]
+//          ^ Title [*]
+//                                         ^URL [*]
+
+// Section definition
+// :A00Erik Norman,Carlson
+// ^ Marker for whether the section has exams (: / . / ' / ) [1]
+//  ^ Section number [3]
+//     ^ Professor name [*]
+
+// Recurring meeting (Capacity)
+// 0050WLH  24   LE2207 14001520C00
+// ^ Capacity [4]
+//     ^ Building code [5]
+//          ^ Meeting days [5]
+//               ^ Meeting type [2]
+//                 ^ Room number [5]
+//                      ^ Start time [4]
+//                          ^ End time [4]
+//                              ^ Section code [4]
+
+// Recurring meeting (no Capacity)
+// YORK 135  LE2622 15001550A00
+// ^ Building code [5]
+//      ^ Meeting days [5]
+//           ^ Meeting type [2]
+//             ^ Room number [5]
+//                  ^ Start time [4]
+//                      ^ End time [4]
+//                          ^ Section code [4]
+
+
+// Event
+// 20231214TBA  FITBA  15001759
+// ^ Date [8]
+//         ^ Building [5]
+//              ^ Event type [2]
+//                ^ Room number [5]
+//                     ^ Start time [4]
+//                         ^ End time [4]
+
 (() => {
   const allCaps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     parseClassrooms = (classroomsContent) => {
@@ -5,8 +55,8 @@
       var classroomsContentTrimmed = classroomsContent.trim(),
         // Split into lines
         classroomsContentLines = classroomsContentTrimmed.split('\n'),
-        // Get the version number. I have no idea what this means but it should probably be V2 :)
-        version = classroomsContentLines.shift(),
+        // Get the version number. I have no idea what this means but it should probably be V3 :)
+        version = classroomsContentLines.shift().slice(0, 2),
         // Create empty classes array
         classes = [],
         // Create empty rooms object, indexed by code
@@ -14,7 +64,7 @@
         // Create errors object to handle errors
         errors = [];
       //
-      if (version.trim().toUpperCase() !== "V2") {
+      if (version.trim().toUpperCase() !== "V3") {
         throw "fuck";
       }
       classroomsContentLines.forEach((line) => {
@@ -22,7 +72,7 @@
           // Get current class (most recent) index
           var classIdx = classes.length - 1
           // Detect new class header
-          if (line.slice(0, 1) != '\t') {
+          if (/[A-Z]/.test(line.slice(0, 1)) && line.toUpperCase() !== line) {
             // Add an empty class
             classes.push({
               code: line.slice(0, 9).replaceAll(' ', ''),
@@ -137,29 +187,32 @@
       line = line.trim();
       // Determine line type from the beginning
       const lineLengths = {
-        // Building + Meeting days + Meeting type + Room + Time
-        recurringNoSection: 5 + 5 + 2 + 5 + 8,
-        // Date + Building + Meeting type + Room + Time
-        event: 8 + 5 + 2 + 5 + 8,
-        // ??? + Section + Building + Meeting days + Meeting type + Room + Time
-        recurringSection: 4 + 3 + 5 + 5 + 2 + 5 + 8,
-        // 0000 or 9999 + Section + Building + Meeting days  + Meeting type + Room + Time*
-        recurringTBA: 4 + 3 + 5 + 5 + 2 + 5 + 7,
-        // ? + Section code + Professor name
-        sectionDefinition: 1 + 4 + 9999
+        recurringNoCapacity: 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
+        recurringCapacity: 4 + 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
+        event: 8 + 5 + 2 + 5 + 4 + 4 + 3,
+        sectionDefinition: 1 + 3 + 9999
+        // // Building + Meeting days + Meeting type + Room + Time
+        // recurringNoCapacity: 5 + 5 + 2 + 5 + 8,
+        // // Date + Building + Meeting type + Room + Time
+        // event: 8 + 5 + 2 + 5 + 8,
+        // // ??? + Section + Building + Meeting days + Meeting type + Room + Time
+        // recurringSection: 4 + 3 + 5 + 5 + 2 + 5 + 8,
+        // // 0000 or 9999 + Section + Building + Meeting days  + Meeting type + Room + Time*
+        // recurringTBA: 4 + 3 + 5 + 5 + 2 + 5 + 7,
+        // // ? + Section code + Professor name
+        // sectionDefinition: 1 + 4 + 9999
       };
       var lineType = (
         // Detect events
         line.slice(0, 2) === "20" ? "event" : (
           // Detect recurring meetings with no section
-          allCaps.includes(line.slice(0, 1)) ? "recurringNoSection" : (
+          allCaps.includes(line.slice(0, 1)) ? "recurringNoCapacity" : (
             // Detect TBA recurring (for line length, this will be discarded later)
-            line.includes("TBA") && (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999") ? "recurringTBA" : (
+            line.includes("TBA") && (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999") ? "recurringCapacity" : (
               (
                 // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
-                !isNaN(parseInt(line.slice(0, 4))) &&
-                !isNaN(parseInt(line.slice(5, 7)))
-              ) ? "recurringSection" : (
+                !isNaN(parseInt(line.slice(0, 4)))
+              ) ? "recurringCapacity" : (
                 'sectionDefinition'
               )
             )
@@ -173,7 +226,7 @@
         // ? + Section code + Professor name
         returnValue.unshift({
           type: 'sectionDefinition',
-          sectionCode: line.slice(0, 4).trim(),
+          sectionCode: line.slice(1, 4).trim(),
           professorName: line.slice(4).trim()
         });
         return returnValue;
@@ -183,6 +236,7 @@
         if (line.length > correctLength) {
           // Parse the rest of it
           parseLineRecursive(line.slice(correctLength), returnValue);
+          console.log(line.slice(correctLength))
           // Cut line to correct length
           line = line.slice(0, correctLength);
         }
@@ -204,12 +258,13 @@
         });
         return returnValue;
       }
-      else if (lineType == 'recurringSection') {
-        // Recurring section: Cut off the first 7 characters and parse as "no section"
-        lineType = 'recurringNoSection';
-        line = line.slice(7);
+      else if (lineType == 'recurringCapacity') {
+        // Recurring section: Cut off the first 4 characters and parse as "no capacity"
+        lineType = 'recurringNoCapacity';
+        line = line.slice(4);
       }
-      if (lineType == 'recurringNoSection') {
+      //Building + Meeting days + Meeting type + Room + Time
+      if (lineType == 'recurringNoCapacity') {
         returnValue.unshift({
           type: 'recurring',
           building: line.slice(0, 5).trim(),
@@ -222,7 +277,9 @@
         return returnValue;
       }
     },
-    processProfessorName = (name) => (name.split('\t').map((name) => name.split(',')[0].split(' ')[0] + ' ' + name.split(',')[1]));
+    processProfessorName = (name) => (
+      name.split('\t').map((name) => name.split(',')[0].split(' ')[0] + ' ' + name.split(',')[1])
+    );
 
   // Export
   window.icl.parseClassrooms = parseClassrooms;
