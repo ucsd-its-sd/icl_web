@@ -140,7 +140,6 @@
             // Get each meeting for the section
             sectionData.meetings.forEach((meeting) => {
               // Get all necessary properties to build object
-              console.log(professorName == "");
               const room = meeting.building + meeting.room,
                 meetingType = meeting.meetingType,
                 start = meeting.start,
@@ -192,16 +191,6 @@
         recurringCapacity: 4 + 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
         event: 8 + 5 + 2 + 5 + 4 + 4 + 3,
         sectionDefinition: 1 + 3 + 9999
-        // // Building + Meeting days + Meeting type + Room + Time
-        // recurringNoCapacity: 5 + 5 + 2 + 5 + 8,
-        // // Date + Building + Meeting type + Room + Time
-        // event: 8 + 5 + 2 + 5 + 8,
-        // // ??? + Section + Building + Meeting days + Meeting type + Room + Time
-        // recurringSection: 4 + 3 + 5 + 5 + 2 + 5 + 8,
-        // // 0000 or 9999 + Section + Building + Meeting days  + Meeting type + Room + Time*
-        // recurringTBA: 4 + 3 + 5 + 5 + 2 + 5 + 7,
-        // // ? + Section code + Professor name
-        // sectionDefinition: 1 + 4 + 9999
       };
       var lineType = (
         // Detect events
@@ -237,7 +226,6 @@
         if (line.length > correctLength) {
           // Parse the rest of it
           parseLineRecursive(line.slice(correctLength), returnValue);
-          console.log(line.slice(correctLength))
           // Cut line to correct length
           line = line.slice(0, correctLength);
         }
