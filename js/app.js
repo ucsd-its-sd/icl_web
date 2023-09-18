@@ -193,7 +193,7 @@
             meetingType: meeting.meetingType,
             start: meeting.start,
             end: meeting.end,
-            professors: meeting.professors.map((professor) =>
+            professors: meeting.professors.length == 0 ? "No listed instructors." : meeting.professors.map((professor) =>
               CLASS_ROW_PROFESSOR_LINK({ professor: professor, link: professorLink(professor) })
             ).join(' / ')
           });
@@ -227,7 +227,7 @@
           'currentClass': currentClass ? CURRENT_CLASS(
             {
               courseCode: currentClass.course,
-              professors: currentClass.professors.map(
+              professors: currentClass.professors.length == 0 ? "No listed instructors." : currentClass.professors.map(
                 (professor) => PROFESSOR({ professor: professor, link: professorLink(professor) })
               ).join(''),
               classTime: currentClass.start + "-" + currentClass.end,
@@ -249,7 +249,11 @@
       if (search.trim().length >= 2) {
         const searchResults = icl.search(search, rooms).slice(0, 10),
           searchResultHTML = searchResults.map((result) => SEARCH_RESULT(
-            { room: result[0], schedulePreview: '' }
+            {
+              room: result[0], schedulePreview: '', isNonGA: (
+                result[0] == "APM1313" ? "<span title='view current data information.'>⚙️</span>" : (!gaClassrooms.includes(result[0]) ? "<span title='this is not a general-assignment classroom.'>⚠</span>️" : "")
+              )
+            }
           )).join('');
         $searchResultsList.innerHTML = searchResultHTML;
       } else {
@@ -261,47 +265,52 @@
         .replace('{{last}}', professor.split(' ')[1])
         .replace('{{first}}', professor.split(' ')[0]);
   // Load class data
-  icl
-    .retrieveClassrooms(icl.CURRENT_PATH)
-    .then((classroomContent) => {
-      const classroomsParsed = icl.parseClassrooms(classroomContent),
-        rooms = classroomsParsed.rooms;
+  icl.retrieveGAClassroomList(icl.GA_CLASSROOMS_PATH).then((gaClassroomList) =>
+    icl
+      .retrieveClassrooms(icl.CURRENT_PATH)
+      .then((classroomContent) => {
+        const classroomsParsed = icl.parseClassrooms(classroomContent),
+          rooms = classroomsParsed.rooms;
 
-      window.rooms = rooms;
+        window.rooms = rooms;
+        window.gaClassrooms = gaClassroomList;
 
-      window.onhashchange = () => {
-        const hash = location.hash.replaceAll('#', '');
-        popToAnchor(hash).catch(() => {
-          //Check if this is caused by clicking to open a schedule
-          if (hash.startsWith('/room/')) {
-            const room = hash.slice(6).trim();
-            if (rooms[room] !== undefined) {
-              openSchedule(rooms, room);
+        window.onhashchange = () => {
+          const hash = location.hash.replaceAll('#', '');
+          popToAnchor(hash).catch(() => {
+            //Check if this is caused by clicking to open a schedule
+            if (hash.startsWith('/room/')) {
+              const room = hash.slice(6).trim();
+              if (rooms[room] !== undefined) {
+                openSchedule(rooms, room);
+              }
             }
-          }
+          });
+        };
+
+        setTimeout(() => window.onhashchange(), 300);
+
+        // Create search window
+        const searchWindow = SEARCH({
+          'windowStart': WINDOW_START({ backButton: '', uid: generateUID() }),
+          'windowEnd': WINDOW_END(),
+          'title': ''
         });
-      };
 
-      setTimeout(() => window.onhashchange(), 300);
+        createAndPushToStack(searchWindow, '', ($el) => {
+          const $searchBox = $el.querySelector('.search-box'),
+            $searchResultsList = $el.querySelector('.search-results');
 
-      // Create search window
-      const searchWindow = SEARCH({
-        'windowStart': WINDOW_START({ backButton: '', uid: generateUID() }),
-        'windowEnd': WINDOW_END(),
-        'title': ''
-      });
-
-      createAndPushToStack(searchWindow, '', ($el) => {
-        const $searchBox = $el.querySelector('.search-box'),
-          $searchResultsList = $el.querySelector('.search-results');
-
-        $searchBox.oninput = () => handleSearch($searchBox, $searchResultsList);
-        $searchBox.focus();
-        // window.icl.app.openSchedule = (room) => openSchedule(rooms, room);
-      });
-    }).catch((error) => {
-      throw error;
-    });
+          $searchBox.oninput = () => handleSearch($searchBox, $searchResultsList);
+          $searchBox.focus();
+          // window.icl.app.openSchedule = (room) => openSchedule(rooms, room);
+        });
+      }).catch((error) => {
+        throw error;
+      })
+  ).catch((error) => {
+    throw error;
+  });
   // Register event listeners
   window.icl.app = {
     back: () => history.back()

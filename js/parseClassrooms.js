@@ -140,13 +140,14 @@
             // Get each meeting for the section
             sectionData.meetings.forEach((meeting) => {
               // Get all necessary properties to build object
+              console.log(professorName == "");
               const room = meeting.building + meeting.room,
                 meetingType = meeting.meetingType,
                 start = meeting.start,
                 end = meeting.end,
                 type = meeting.type,
                 meetingObject = {
-                  professors: processProfessorName(professorName),
+                  professors: professorName == "" ? [] : processProfessorName(professorName),
                   start: start,
                   end: end,
                   type: type,
@@ -205,7 +206,7 @@
       var lineType = (
         // Detect events
         line.slice(0, 2) === "20" ? "event" : (
-          // Detect recurring meetings with no section
+          // Detect recurring meetings with no capacity
           allCaps.includes(line.slice(0, 1)) ? "recurringNoCapacity" : (
             // Detect TBA recurring (for line length, this will be discarded later)
             line.includes("TBA") && (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999") ? "recurringCapacity" : (
