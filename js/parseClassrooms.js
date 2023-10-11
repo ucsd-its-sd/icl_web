@@ -68,11 +68,13 @@
         throw "fuck";
       }
       classroomsContentLines.forEach((line) => {
+        icl.log(line);
         try {
           // Get current class (most recent) index
           var classIdx = classes.length - 1
           // Detect new class header
           if (/[A-Z]/.test(line.slice(0, 1)) && line.toUpperCase() !== line) {
+            icl.log("Class code");
             // Add an empty class
             classes.push({
               code: line.slice(0, 9).replaceAll(' ', ''),
@@ -82,7 +84,8 @@
             // Break
             return;
           } else {
-            // Parse the line(s) (some are missing newlines at the end, so we can handle that recursively through recursion)
+            // Parse the line(s) (some are missing newlines at the end, so we can handle that recursively through recursion
+            icl.log("Recursively parsing");
             const parsedLineData = parseLineRecursive(line);
             // Because we can have one or more, we need to add all of them in sequence
             parsedLineData.forEach(
@@ -180,11 +183,12 @@
       return { classes: classes, rooms: rooms, errors: errors };
     },
     parseLineRecursive = (line, returnValue) => {
+      icl.log("R> " + line);
       // Create returnValue array
       if (!(returnValue instanceof Array)) {
         returnValue = [];
       }
-      line = line.trim();
+      // line = line.trim();
       // Determine line type from the beginning
       const lineLengths = {
         recurringNoCapacity: 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
@@ -201,7 +205,7 @@
             line.includes("TBA") && (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999") ? "recurringCapacity" : (
               (
                 // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
-                !isNaN(parseInt(line.slice(0, 4)))
+                !isNaN(parseInt(line.slice(0, 4))) && !isNaN(parseInt(line.slice(0, 1)))
               ) ? "recurringCapacity" : (
                 'sectionDefinition'
               )
@@ -209,6 +213,8 @@
           )
         )
       );
+
+      icl.log("R> " + lineType);
 
       // Handle section definitions: These universally have \n after and so we do not need to worry about recursion.
       // They also don't have a defined line length
@@ -219,6 +225,7 @@
           sectionCode: line.slice(1, 4).trim(),
           professorName: line.slice(4).trim()
         });
+        icl.log("R.sectionDefinition> " + returnValue[0]);
         return returnValue;
       } else {
         // Recurse based on the proper line length.
@@ -228,6 +235,7 @@
           parseLineRecursive(line.slice(correctLength), returnValue);
           // Cut line to correct length
           line = line.slice(0, correctLength);
+          icl.log("R.slice result> " + line);
         }
       }
 
@@ -246,11 +254,15 @@
           end: line.slice(24, 28).trim()
         });
         return returnValue;
+        icl.log("R.event> " + JSON.stringify(returnValue[0]));
+
       }
       else if (lineType == 'recurringCapacity') {
         // Recurring section: Cut off the first 4 characters and parse as "no capacity"
         lineType = 'recurringNoCapacity';
         line = line.slice(4);
+        icl.log("R.recurringCapacity, slicing> ");
+
       }
       //Building + Meeting days + Meeting type + Room + Time
       if (lineType == 'recurringNoCapacity') {
@@ -263,6 +275,8 @@
           start: line.slice(17, 21).trim(),
           end: line.slice(21, 25).trim()
         });
+        icl.log("R.recurringNoCapacity, " + JSON.stringify(returnValue[0]));
+
         return returnValue;
       }
     },
