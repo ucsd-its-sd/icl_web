@@ -38,7 +38,6 @@
 //                      ^ End time [4]
 //                          ^ Section code [4]
 
-
 // Event
 // 20231214TBA  FITBA  15001759
 // ^ Date [8]
@@ -54,7 +53,7 @@
       // Trim whitespace around content (just in case :))
       var classroomsContentTrimmed = classroomsContent.trim(),
         // Split into lines
-        classroomsContentLines = classroomsContentTrimmed.split('\n'),
+        classroomsContentLines = classroomsContentTrimmed.split("\n"),
         // Get the version number. I have no idea what this means but it should probably be V3 :)
         version = classroomsContentLines.shift().slice(0, 2),
         // Create empty classes array
@@ -71,15 +70,15 @@
         icl.log(line);
         try {
           // Get current class (most recent) index
-          var classIdx = classes.length - 1
+          var classIdx = classes.length - 1;
           // Detect new class header
           if (/[A-Z]/.test(line.slice(0, 1)) && line.toUpperCase() !== line) {
             icl.log("Class code");
             // Add an empty class
             classes.push({
-              code: line.slice(0, 9).replaceAll(' ', ''),
+              code: line.slice(0, 9).replaceAll(" ", ""),
               sectionLines: [],
-              sectionData: []
+              sectionData: [],
             });
             // Break
             return;
@@ -88,16 +87,16 @@
             icl.log("Recursively parsing");
             const parsedLineData = parseLineRecursive(line);
             // Because we can have one or more, we need to add all of them in sequence
-            parsedLineData.forEach(
-              (lineData) => classes[classIdx].sectionLines.push(lineData)
+            parsedLineData.forEach((lineData) =>
+              classes[classIdx].sectionLines.push(lineData),
             );
           }
         } catch (exception) {
           errors.push({
             exception: exception,
             data: {
-              line: line
-            }
+              line: line,
+            },
           });
         }
       });
@@ -108,30 +107,28 @@
           // Get the most recent section
           var sectionIdx = classObject.sectionData.length - 1;
           // If this is a section definition
-          if (lineData.type == 'sectionDefinition') {
+          if (lineData.type == "sectionDefinition") {
             // Create an empty section
             classObject.sectionData.push({
-              'meta': lineData,
-              'meetings': []
+              meta: lineData,
+              meetings: [],
             });
           } else {
             // Push the meeting to the individual section
             try {
-              classObject.sectionData[sectionIdx].meetings.push(
-                lineData
-              )
+              classObject.sectionData[sectionIdx].meetings.push(lineData);
             } catch (exception) {
               errors.push({
                 exception: exception,
                 data: {
                   lineData: lineData,
-                  classObject: classObject
-                }
+                  classObject: classObject,
+                },
               });
             }
           }
         });
-        return classObject
+        return classObject;
       });
       classes.forEach((classObject) => {
         const course = classObject.code;
@@ -149,14 +146,17 @@
                 end = meeting.end,
                 type = meeting.type,
                 meetingObject = {
-                  professors: professorName == "" ? [] : processProfessorName(professorName),
+                  professors:
+                    professorName == ""
+                      ? []
+                      : processProfessorName(professorName),
                   start: start,
                   end: end,
                   type: type,
                   meetingType: meetingType,
-                  course: course
+                  course: course,
                 };
-              if (meeting.type == 'event') {
+              if (meeting.type == "event") {
                 // Event
                 meetingObject.date = meeting.date;
               } else {
@@ -164,7 +164,7 @@
                 meetingObject.days = meeting.meetingDays;
               }
               // Create empty room in output object if it does not exist
-              if (!(Object.keys(rooms).some((key) => key == room))) {
+              if (!Object.keys(rooms).some((key) => key == room)) {
                 rooms[room] = [];
               }
 
@@ -174,8 +174,8 @@
             errors.push({
               exception: exception,
               data: {
-                sectionData: sectionData
-              }
+                sectionData: sectionData,
+              },
             });
           }
         });
@@ -194,38 +194,37 @@
         recurringNoCapacity: 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
         recurringCapacity: 4 + 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
         event: 8 + 5 + 2 + 5 + 4 + 4 + 3,
-        sectionDefinition: 1 + 3 + 9999
+        sectionDefinition: 1 + 3 + 9999,
       };
-      var lineType = (
+      var lineType =
         // Detect events
-        line.slice(0, 2) === "20" ? "event" : (
-          // Detect recurring meetings with no capacity
-          allCaps.includes(line.slice(0, 1)) ? "recurringNoCapacity" : (
-            // Detect TBA recurring (for line length, this will be discarded later)
-            line.includes("TBA") && (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999") ? "recurringCapacity" : (
-              (
-                // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
-                !isNaN(parseInt(line.slice(0, 4))) && !isNaN(parseInt(line.slice(0, 1)))
-              ) ? "recurringCapacity" : (
-                'sectionDefinition'
-              )
-            )
-          )
-        )
-      );
+        line.slice(0, 2) === "20"
+          ? "event"
+          : // Detect recurring meetings with no capacity
+          allCaps.includes(line.slice(0, 1))
+          ? "recurringNoCapacity"
+          : // Detect TBA recurring (for line length, this will be discarded later)
+          line.includes("TBA") &&
+            (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999")
+          ? "recurringCapacity"
+          : // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
+            !isNaN(parseInt(line.slice(0, 4))) &&
+            !isNaN(parseInt(line.slice(0, 1)))
+          ? "recurringCapacity"
+          : "sectionDefinition";
 
       icl.log("R> " + lineType);
 
       // Handle section definitions: These universally have \n after and so we do not need to worry about recursion.
       // They also don't have a defined line length
-      if (lineType == 'sectionDefinition') {
+      if (lineType == "sectionDefinition") {
         // ? + Section code + Professor name
         returnValue.unshift({
-          type: 'sectionDefinition',
+          type: "sectionDefinition",
           sectionCode: line.slice(1, 4).trim(),
-          professorName: line.slice(4).trim()
+          professorName: line.slice(4).trim(),
         });
-        icl.log("R.sectionDefinition> " + returnValue[0]);
+        icl.log("R.sectionDefinition> " + JSON.stringify(returnValue[0]));
         return returnValue;
       } else {
         // Recurse based on the proper line length.
@@ -242,47 +241,47 @@
       // TBA creature
       if (line.includes("TBA")) {
         return returnValue;
-      } else if (lineType == 'event') {
+      } else if (lineType == "event") {
         // Date + Building + Meeting type + Room + Time
         returnValue.unshift({
-          type: 'event',
+          type: "event",
           date: line.slice(0, 8).trim(),
           building: line.slice(8, 13).trim(),
           meetingType: line.slice(13, 15).trim(),
           room: line.slice(15, 20).trim(),
           start: line.slice(20, 24).trim(),
-          end: line.slice(24, 28).trim()
+          end: line.slice(24, 28).trim(),
         });
         return returnValue;
         icl.log("R.event> " + JSON.stringify(returnValue[0]));
-
-      }
-      else if (lineType == 'recurringCapacity') {
+      } else if (lineType == "recurringCapacity") {
         // Recurring section: Cut off the first 4 characters and parse as "no capacity"
-        lineType = 'recurringNoCapacity';
+        lineType = "recurringNoCapacity";
         line = line.slice(4);
         icl.log("R.recurringCapacity, slicing> ");
-
       }
       //Building + Meeting days + Meeting type + Room + Time
-      if (lineType == 'recurringNoCapacity') {
+      if (lineType == "recurringNoCapacity") {
         returnValue.unshift({
-          type: 'recurring',
+          type: "recurring",
           building: line.slice(0, 5).trim(),
           meetingDays: line.slice(5, 10).trim(),
           meetingType: line.slice(10, 12).trim(),
           room: line.slice(12, 17).trim(),
           start: line.slice(17, 21).trim(),
-          end: line.slice(21, 25).trim()
+          end: line.slice(21, 25).trim(),
         });
         icl.log("R.recurringNoCapacity, " + JSON.stringify(returnValue[0]));
 
         return returnValue;
       }
     },
-    processProfessorName = (name) => (
-      name.split('\t').map((name) => name.split(',')[0].split(' ')[0] + ' ' + name.split(',')[1])
-    );
+    processProfessorName = (name) =>
+      name
+        .split("\t")
+        .map(
+          (name) => name.split(",")[0].split(" ")[0] + " " + name.split(",")[1],
+        );
 
   // Export
   window.icl.parseClassrooms = parseClassrooms;
