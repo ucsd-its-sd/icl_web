@@ -8,6 +8,7 @@
         dateString = getScheduleDateString(date);
       icl.log(date);
       icl.log([scheduleDay, dateString]);
+      icl.log(room);
       return room
         .filter((meeting) => {
           if (meeting.type == "recurring") {
@@ -41,12 +42,12 @@
         currentDate = workingDate.getDate();
       for (var day = 1; day < 6; day++) {
         workingDate = new Date(date.getTime());
-        icl.log(currentDate);
-        icl.log(currentDay);
-        icl.log(day);
-        icl.log(currentDate - (currentDay - day));
+        // icl.log(currentDate);
+        // icl.log(currentDay);
+        // icl.log(day);
+        // icl.log(currentDate - (currentDay - day));
         workingDate.setDate(currentDate - (currentDay - day));
-        icl.log(workingDate);
+        // icl.log(workingDate);
         schedules.push(getDaySchedule(room, workingDate));
       }
       return schedules;

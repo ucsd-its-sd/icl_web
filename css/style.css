@@ -1,75 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .template {
-    display:none;
+    display: none;
 }
-#header h1, #header h1 a {
-    font-size:2vh;
-    margin:0;
-    text-decoration:none;
-    color:#000;
+#header h1,
+#header h1 a {
+    font-size: 2vh;
+    margin: 0;
+    text-decoration: none;
+    color: #000;
 }
-html, body {
-    overflow:hidden;
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    padding:0;
-    margin:0;
-    background-color: #EEE;
+html,
+body {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
 }
 #header {
-    position:absolute;
-    top:0;
-    bottom:95vh;
-    left:0;
-    right:0;
-    margin:0;
-    padding:0.5em;
+    position: absolute;
+    top: 0;
+    bottom: 95vh;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0.5em;
 }
 #footer {
-    position:absolute;
-    top:95vh;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:0;
-    padding:0.5em;
+    position: absolute;
+    top: 95vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0.5em;
 }
 #container {
-    position:absolute;
-    top:5vh;
-    bottom:5vh;
-    left:0;
-    right:0;
-    margin:0;
-
+    position: absolute;
+    top: 5vh;
+    bottom: 5vh;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
 .window {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    overflow:hidden;
-    display:flex;
-    justify-content:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .window-newly-added {
-    display:none
+    display: none;
 }
 .window-panel {
-    padding:2em;
-    background-color: #FFF;
-    border-radius:1em;
-    max-height:90vh;
-    overflow-y:auto;
-    overflow-x:hidden;
-    width:90vw;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 1em;
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 90vw;
 }
 .search-box {
     font-size: 5vh;
@@ -77,46 +78,47 @@ html, body {
     border: 1px solid #000;
 }
 .search-results {
-    list-style:none;
-    padding:0;
-    margin:0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .search-result {
-    padding:1em;
+    padding: 1em;
     font-size: 120%;
 }
 .schedule-table {
-    width:100%;
+    width: 100%;
+    border-spacing: 0;
 }
 .schedule-day-table {
-    width:100%;
+    width: 100%;
 }
 .schedule-day-table td {
-    border:1px solid #000;
-    background-color: #FFF;
+    border: 1px solid #000;
+    background-color: #fff;
 }
 td {
-    line-height:12.4px;
-    font-size:12px;
-    padding-bottom:0px;
-    padding-top:1px;
-    padding-left:3px;
+    line-height: 12.4px;
+    font-size: 12px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    padding-left: 3px;
 }
 .schedule-table td.schedule-container {
-    border:none;
-    margin:none;
-    padding:none;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 td.schedule-container:has(.schedule-day-table.not-current-day) {
-    background-color:#E5E5E5;
+    background-color: #e5e5e5;
 }
 td.noborder {
-    border:none;
-    font-size:16px;
-    margin:0;
-    padding:0;
-    line-height:10px;
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 10px;
 }
-.schedule-day-table tr{
+.schedule-day-table tr {
     height: 10px;
 }

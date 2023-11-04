@@ -1,11 +1,4 @@
 (() => {
-  // const templates = {},
-  // registerTemplate = (name, template) => {
-  //   if (Object.keys(templates).any((key) => key == name)) {
-  //     throw "Could not register existing template";
-  //   }
-  //   templates[name] = template;
-  // },
   const templateFromID = (id) => {
       // const templateName = id.replace('template-', ''),
       const $el = document.getElementById(id),
@@ -27,16 +20,6 @@
       });
       return outputString;
     };
-  // runTemplate = (name, args) => {
-  //   if (!name || !args) {
-  //     throw "fuck";
-  //   }
-  //   if (!Object.keys(templates).any((key) => key == name)) {
-  //     throw "invalid template";
-  //   }
-  //   return templates[name](args);
-  // };
-
   window.icl.templateFromID = templateFromID;
   // window.icl.t = runTemplate;
 })();

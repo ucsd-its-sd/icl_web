@@ -67,7 +67,7 @@
         throw "fuck";
       }
       classroomsContentLines.forEach((line) => {
-        icl.log(line);
+        // icl.log(line);
         try {
           // Get current class (most recent) index
           var classIdx = classes.length - 1;
@@ -191,9 +191,9 @@
       // line = line.trim();
       // Determine line type from the beginning
       const lineLengths = {
-        recurringNoCapacity: 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
+        recurringNoCapacity: 5 + 5 + 2 + 5 + 4 + 4 + 3,
         recurringCapacity: 4 + 5 + 5 + 2 + 5 + 4 + 4 + 4 + 3,
-        event: 8 + 5 + 2 + 5 + 4 + 4 + 3,
+        event: 8 + 5 + 2 + 5 + 4 + 4,
         sectionDefinition: 1 + 3 + 9999,
       };
       var lineType =
@@ -208,7 +208,7 @@
             (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999")
           ? "recurringCapacity"
           : // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
-            !isNaN(parseInt(line.slice(0, 4))) &&
+          !isNaN(parseInt(line.slice(0, 4))) &&
             !isNaN(parseInt(line.slice(0, 1)))
           ? "recurringCapacity"
           : "sectionDefinition";
@@ -229,6 +229,9 @@
       } else {
         // Recurse based on the proper line length.
         const correctLength = lineLengths[lineType];
+        icl.log("R.length > " + line.length);
+        icl.log("R.correctLength > " + correctLength + " (" + lineType + ")");
+        icl.log("R.line > " + line.slice(correctLength));
         if (line.length > correctLength) {
           // Parse the rest of it
           parseLineRecursive(line.slice(correctLength), returnValue);
@@ -252,8 +255,8 @@
           start: line.slice(20, 24).trim(),
           end: line.slice(24, 28).trim(),
         });
-        return returnValue;
         icl.log("R.event> " + JSON.stringify(returnValue[0]));
+        return returnValue;
       } else if (lineType == "recurringCapacity") {
         // Recurring section: Cut off the first 4 characters and parse as "no capacity"
         lineType = "recurringNoCapacity";

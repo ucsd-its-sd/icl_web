@@ -25,7 +25,7 @@
     getWidth = () => 100,
     // Context management
     stack = [],
-    // Manage back buttons
+    // Manage back buttons and window state
     windowChangeAnimation = {
       isAnimating: false,
       reportAnimationStart: () => {
@@ -34,6 +34,7 @@
       },
       reportAnimationFinish: () => {
         isAnimating = false;
+        // prevent the same "onDoneAnimating from being called twice"
         if (typeof this.onDoneAnimating == "function") {
           enableBackButtons();
           this.onDoneAnimating();
@@ -160,12 +161,12 @@
         document.querySelectorAll(".back-button"),
         ($button) => ($button.disabled = false),
       ),
-    // Table of hourly time increments from 8:00AM to 7:30 PM
-    timeIncrements = Array.apply(null, { length: (19.5 - 8) * 6 })
+    // Table of hourly time increments from 7:00AM to 11:00 PM
+    timeIncrements = Array.apply(null, { length: (23 - 7) * 6 })
       .map((_, i) => {
         // Goofy math
         const minutes = (i % 6) * 10 + "",
-          hours = 8 + Math.floor(i / 6) + "",
+          hours = 7 + Math.floor(i / 6) + "",
           time = hours.padStart(2, 0) + ":" + minutes.padStart(2, 0);
         // If there's an hour, put one in the table
         if (i % 6 == 0) {
@@ -176,47 +177,51 @@
       })
       .join(""),
     // Render the schedule for a day
-    renderDaySchedule = (schedule) =>
-      schedule.length > 0
+    renderDaySchedule = (schedule) => {
+      icl.log(JSON.stringify(schedule, null, 2));
+      return schedule.length > 0
         ? "<tbody>" +
-          Array.apply(null, { length: (19.5 - 8) * 6 })
-            .map((_, i) => {
-              icl.log(JSON.stringify(schedule[i]));
-              const minutes = (i % 6) * 10,
-                hours = 8 + Math.floor(i / 6),
-                time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
-              icl.log;
-              if (schedule.length > 0 && schedule[0].start === time) {
-                const meeting = schedule.shift();
-                var course = meeting.course;
-                while (schedule.length > 0 && schedule[0].start === time) {
-                  course += " / " + schedule.shift().course;
+            Array.apply(null, { length: (23 - 7) * 6 })
+              .map((_, i) => {
+                icl.log(JSON.stringify(schedule[i]));
+                const minutes = (i % 6) * 10,
+                  hours = 7 + Math.floor(i / 6),
+                  time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
+                icl.log;
+                if (schedule.length > 0 && schedule[0].start === time) {
+                  const meeting = schedule.shift();
+                  var course = meeting.course;
+                  while (schedule.length > 0 && schedule[0].start === time) {
+                    if (!course.split(" / ").includes(schedule[0].course))
+                      course += " / " + schedule[0].course;
+                    schedule.shift();
+                  }
+                  return CLASS_ROW({
+                    length: meeting.length / 10 + "",
+                    course: course,
+                    meetingType: meeting.meetingType,
+                    start: meeting.start,
+                    end: meeting.end,
+                    professors:
+                      meeting.professors.length == 0
+                        ? "No listed instructors."
+                        : meeting.professors
+                            .map((professor) =>
+                              CLASS_ROW_PROFESSOR_LINK({
+                                professor: professor,
+                                link: professorLink(professor),
+                              }),
+                            )
+                            .join(" / "),
+                  });
+                } else {
+                  return "<tr></tr>";
                 }
-                return CLASS_ROW({
-                  length: meeting.length / 10 + "",
-                  course: course,
-                  meetingType: meeting.meetingType,
-                  start: meeting.start,
-                  end: meeting.end,
-                  professors:
-                    meeting.professors.length == 0
-                      ? "No listed instructors."
-                      : meeting.professors
-                          .map((professor) =>
-                            CLASS_ROW_PROFESSOR_LINK({
-                              professor: professor,
-                              link: professorLink(professor),
-                            }),
-                          )
-                          .join(" / "),
-                });
-              } else {
-                return "<tr></tr>";
-              }
-            })
-            .join("") +
-          "</tbody>"
-        : [icl.log(schedule), NO_SCHEDULED_CLASSES()],
+              })
+              .join("") +
+            "</tbody>"
+        : NO_SCHEDULED_CLASSES();
+    },
     // Open a window with the given schedule
     openSchedule = (rooms, room) => {
       const roomMeetings = rooms[room],
@@ -260,6 +265,8 @@
               })
             : "No class",
         };
+      icl.log(roomMeetings);
+      icl.log(weekSchedule);
       ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(
         (day, i) => {
           scheduleArgs[day + "Schedule"] = renderDaySchedule(weekSchedule[i]);
@@ -273,8 +280,8 @@
     handleSearch = ($searchBox, $searchResultsList) => {
       const search = $searchBox.value.toUpperCase().replace(/[^A-Z0-9]+/g, "");
       $searchBox.value = search;
-      if (search.trim().length >= 2) {
-        const searchResults = icl.search(search, rooms).slice(0, 10),
+      if (search.trim().length >= 1) {
+        const searchResults = icl.search(search, rooms),
           searchResultHTML = searchResults
             .map((result) =>
               SEARCH_RESULT({
@@ -317,7 +324,7 @@
             popToAnchor(hash).catch(() => {
               //Check if this is caused by clicking to open a schedule
               if (hash.startsWith("/room/")) {
-                const room = hash.slice(6).trim();
+                const room = hash.slice("/room/".length).trim();
                 if (rooms[room] !== undefined) {
                   openSchedule(rooms, room);
                 }

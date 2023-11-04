@@ -1,69 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ITS Classroom Lookup</title>
+        <link href="./css/style.css" rel="stylesheet" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./site.webmanifest" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <title>ITS Classroom Lookup</title>
-    <link href="./css/style.css" rel="stylesheet" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
-</head>
-
-<body>
-    <div id="header">
-        <h1><a href="#">ITS Classroom Lookup</a></h1>
-    </div>
-    <div id="container">
-    </div>
-    <div id="footer">
-        Made with 💀 by Ari Stassinopoulos. Special thanks to <a href="https://github.com/SheepTester"
-            target="_blank">Sean the SheepTester</a> for classroom data! | <a
-            href="https://github.com/stassinopoulosari/ucsd_icl" target="_blank">View my source.</a>
-    </div>
-    <div class='template' id="template-back-button">
-        <div class="back-button-row"><a href="#" class='back-button' onclick="icl.app.back();return false;">&lt;
-                BACK</a></div>
-    </div>
-    <div class="template" id="template-window-start">
-        {<!--}
-        <div class="window window-newly-added" data-uid="{{uid}}">
-        <div class="window-panel">
-            {{backButton}} <h2>{{title}}</h2>
-        {-->}
-    </div>
-    <div class="template" id="template-window-end">
-        {<!--}</div></div>{-->}
-    </div>
-    <div class="template" id="template-search-result">
-        <li class="search-result">
-            <div class="search-result-room">
-                <a href="#/room/{{room}}">{{room}}</a>&nbsp;{{isNonGA}}
-            </div>
-            <div class="search-result-schedule-preview">
-                {{schedulePreview}}
-            </div>
-        </li>
-    </div>
-    <div class="template" id="template-search">
-        {{windowStart}}
-        <label for='classroomSearch'>
-            <h1>Search for a classroom</h1>
-        </label>
-        <div class='search-text-box-row'>
-            <input id='classroomSearch' type='text' class='search-box' placeholder='APM1313'>
+    <body>
+        <div id="header">
+            <h1><a href="#">ITS Classroom Lookup</a></h1>
         </div>
-        <ul class="search-results">
-        </ul>
-        {{windowEnd}}
-    </div>
-    <div class="template" id="template-schedule-view">
-        {{windowStart}}
+        <div id="container"></div>
+        <div id="footer">
+            Made with 💀 by Ari Stassinopoulos. Special thanks to
+            <a href="https://github.com/SheepTester" target="_blank"
+                >Sean the SheepTester</a
+            >
+            for classroom data! |
+            <a
+                href="https://github.com/stassinopoulosari/ucsd_icl"
+                target="_blank"
+                >View my source.</a
+            >
+        </div>
+        <div class="template" id="template-back-button">
+            <div class="back-button-row">
+                <a
+                    href="#"
+                    class="back-button"
+                    onclick="icl.app.back();return false;"
+                    >&lt; BACK</a
+                >
+            </div>
+        </div>
+        <div class="template" id="template-window-start">
+            {<!--}
+            <div class="window window-newly-added" data-uid="{{uid}}">
+            <div class="window-panel">
+                {{backButton}} <h2>{{title}}</h2>
+            {-->}
+        </div>
+        <div class="template" id="template-window-end">
+            {<!--}</div></div>{-->}
+        </div>
+        <div class="template" id="template-search-result">
+            <li class="search-result">
+                <div class="search-result-room">
+                    <a href="#/room/{{room}}">{{room}}</a>&nbsp;{{isNonGA}}
+                </div>
+                <div class="search-result-schedule-preview">
+                    {{schedulePreview}}
+                </div>
+            </li>
+        </div>
+        <div class="template" id="template-search">
+            {{windowStart}}
+            <label for="classroomSearch">
+                <h1>Search for a classroom</h1>
+            </label>
+            <div class="search-text-box-row">
+                <input
+                    id="classroomSearch"
+                    type="text"
+                    class="search-box"
+                    placeholder="APM1313"
+                />
+            </div>
+            <ul class="search-results"></ul>
+            {{windowEnd}}
+        </div>
+        <div class="template" id="template-schedule-view">
+            {{windowStart}}
 
-        <h1>Current Class</h1>
-        {{currentClass}}
-        {<!--}
+            <h1>Current Class</h1>
+            {{currentClass}} {<!--}
         <h1>Overall Schedule</h1>
         <table class="schedule-table">
         <tr>
@@ -101,11 +129,10 @@
         </table>
         </td></tr
         </table>
-        {-->}
-        {{windowEnd}}
-    </div>
-    <div class='template' id='template-current-class'>
-        {<!--}
+        {-->} {{windowEnd}}
+        </div>
+        <div class="template" id="template-current-class">
+            {<!--}
         <table class='current-class-table'>
             <tr>
                 <th>Course Code</th>
@@ -122,10 +149,9 @@
             </tr>
         </table>
         {-->}
-
-    </div>
-    <div class='template' id='template-professor'>
-        {<!--}
+        </div>
+        <div class="template" id="template-professor">
+            {<!--}
         <tr>
             <th>Professor</th>
             <td>
@@ -135,36 +161,33 @@
             </td>
         </tr>
         {-->}
-    </div>
-    <div class='template' id='template-class-row'>
-        {<!--}
+        </div>
+        <div class="template" id="template-class-row">
+            {<!--}
         <tr><td rowspan="{{length}}">
             {{course}} {{meetingType}} | {{start}}-{{end}}<br/>
             {{professors}}
         </td></tr>
         {-->}
-    </div>
-    <div class='template' id='template-class-row-professor-link'>
-        <a href='{{link}}' target="_blank">
-            {{professor}}
-        </a>
-    </div>
-    <div class='template' id='template-no-scheduled-classes'>
-        {<!--}<tbody><tr><td class="noborder">No scheduled classes</td></tr></tbody>{-->}
-    </div>
-</body>
+        </div>
+        <div class="template" id="template-class-row-professor-link">
+            <a href="{{link}}" target="_blank"> {{professor}} </a>
+        </div>
+        <div class="template" id="template-no-scheduled-classes">
+            {<!--}<tbody><tr><td class="noborder">No scheduled classes</td></tr></tbody>{-->}
+        </div>
+    </body>
 
-<script src="./js/base.js"></script>
-<script src="./js/parseClassrooms.js"></script>
-<script src="./js/dateUtil.js"></script>
-<script src="./js/retrieveClassrooms.js"></script>
-<script src="./js/search.js"></script>
-<script src="./js/templates.js"></script>
-<script>
-    // MARK-NEXTLINEPATH
-    window.icl.CURRENT_PATH = "./source/classrooms-FA23-full.txt";
-    window.icl.GA_CLASSROOMS_PATH = "./source/ga-classrooms.json";
-</script>
-<script src="./js/app.js"></script>
-
+    <script src="./js/base.js"></script>
+    <script src="./js/parseClassrooms.js"></script>
+    <script src="./js/dateUtil.js"></script>
+    <script src="./js/network.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/templates.js"></script>
+    <script>
+        // MARK-NEXTLINEPATH
+        window.icl.CURRENT_PATH = "./source/classrooms-FA23-full.txt";
+        window.icl.GA_CLASSROOMS_PATH = "./source/ga-classrooms.json";
+    </script>
+    <script src="./js/app.js"></script>
 </html>
