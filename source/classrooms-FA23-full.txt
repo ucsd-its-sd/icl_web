@@ -1,4 +1,4 @@
-V31699192801213
+V31699208955838
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -13241,6 +13241,8 @@ NEU 199  Independent Study	/courses/NEU.html#neu199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Matthew,Shtrahman
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Kay M,Tye
+9999TBA  TBA  INTBA  TBA TBA 003
 NEU 200A Basic Neuroscience	/courses/NEU.html#neu200a
  A00Brenda Laurie,Bloodgood	Byungkook,Lim
 0000PACIF24   LE3500 10001250A00
