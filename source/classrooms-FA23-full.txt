@@ -1,4 +1,4 @@
-V31699311600609
+V31699365600907
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -4025,6 +4025,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 035
  036Wei,Wang
 9999TBA  TBA  INTBA  TBA TBA 036
+ 037Tadeusz,Molinski
+9999TBA  TBA  INTBA  TBA TBA 037
 CHEM209  Macromolecular Recognition	/courses/CHEM.html#chem209
 'A00Navtej,Toor
 0050RWAC 24   LE0115 12301350A00
@@ -7005,7 +7007,7 @@ DSC 20   Prgrmng/DataStruc for Data Sci	/courses/DSC.html#dsc20
 :A00Marina,Langlois
 0146PCYNH3    DI109  14001450A01
 CENTR135  LE214  10001050A00
-20231215TBA  FITBA  08001059
+20231109WLH  RE2207 1900195020231215TBA  FITBA  08001059
 DSC 30   DataStrc/Algrthms for Data Sci	/courses/DSC.html#dsc30
 :A00Marina,Langlois
 0125CENTR3    DI113  14001450A01
@@ -7631,7 +7633,7 @@ ECE 272B Stochastic Proc/Dynamic Sys II	/courses/ECE.html#ece272b
 ECE 275A Parameter Estimation I	/courses/ECE.html#ece275a
 'A00Florian,Meyer
 0120CSB  24   LE001  15301650A00
-20231211TBA  FITBA  15001759
+20231108WLH  RE2208 1500162020231211TBA  FITBA  15001759
 ECE 277  GPU Programming	/courses/ECE.html#ece277
  A00Cheolhong,An
 0060PCYNH24   LE121  18301950A00
@@ -11632,6 +11634,8 @@ MATH197  Industry Practicum	/courses/MATH.html#math197
 9999TBA  TBA  ITTBA  TBA TBA 004
  005Patrick J,Fitzsimmons	Robert,Houskeeper
 9999TBA  TBA  ITTBA  TBA TBA 005
+ 006David A.,Meyer
+9999TBA  TBA  ITTBA  TBA TBA 006
 MATH199  Independent Study/Undergrad	/courses/MATH.html#math199
  001Bennett,Chow
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -15423,6 +15427,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 049
  050Christina M,Gremel
 9999TBA  TBA  INTBA  TBA TBA 050
+ 051Karen Lynn,Pierce
+9999TBA  TBA  INTBA  TBA TBA 051
 PSYC201A StatComp Inference Data I	/courses/PSYC.html#psyc201a
 :A00Timothy C.,Rickard
 0014MNDLR3    LA3545 17001850A01
