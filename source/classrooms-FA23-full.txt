@@ -1,4 +1,4 @@
-V31700002800405
+V31700056800565
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -1290,7 +1290,7 @@ BNFO299  Graduate Research	/courses/BIOI.html#bnfo299
 0999TBA  TBA  INTBA  TBA TBA 037
  038Abraham Amos,Palmer
 0999TBA  TBA  INTBA  TBA TBA 038
- 039Bernhard O.,Palsson
+ 039Kevin R,King
 0999TBA  TBA  INTBA  TBA TBA 039
  040Pavel Arkadjevich,Pevzner
 0999TBA  TBA  INTBA  TBA TBA 040
@@ -9729,10 +9729,8 @@ LATI298  Directed Reading	/courses/LATI.html#lati298
 0001TBA  TBA  TUTBA  TBA TBA C00
  D00Roy,Perez
 0001TBA  TBA  TUTBA  TBA TBA D00
- E00Dana V.,Murillo
+ E00Daniel,Widener
 0002TBA  TBA  TUTBA  TBA TBA E00
- F00Michael Aar,Calderon-Zaks
-0002TBA  TBA  TUTBA  TBA TBA F00
  G00David S,Fitzgerald
 0002TBA  TBA  TUTBA  TBA TBA G00
 LATI299  Independent Research	/courses/LATI.html#lati299
@@ -10576,6 +10574,9 @@ LTFR104  Adv French Reading and Writing	/courses/LIT.html#ltfr104
 'A00Catherine,Ploye
 0025CENTR135  LE205  12001250A00
 20231214TBA  FITBA  11301429
+LTFR199  Special Studies	/courses/LIT.html#ltfr199
+ 001Catherine,Ploye
+9999TBA  TBA  INTBA  TBA TBA 001
 LTGK1    Beginning Greek	/courses/LIT.html#ltgk1
 'A00Kourtney Kristine,Murray
 0030WLH  135  LE2115 15001550A00
@@ -10951,7 +10952,7 @@ CENTR1    LE214  16001650A00
 :B00Prabhakar,Bandaru
 0146CENTR24   LE212  15301650B00
 CENTR5    LE212  15001550B00
-20231211TBA  FITBA  15001759
+20231117CENTRPB214  1600165020231211TBA  FITBA  15001759
 MAE 107  Computational Methods/Engineer	/courses/MAE.html#mae107
 :A00Padmini,Rangamani
 0083PODEM135  LE1A18 12001250A00
