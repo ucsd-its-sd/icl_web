@@ -1,4 +1,4 @@
-V31700175600374
+V31700251200672
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -3337,7 +3337,7 @@ BIOM231  Contemp Topics/Pharmacology	/courses/BIOM.html#biom231
 0000TBA  TBA  LETBA  TBA TBA A00
 BIOM242  Seminar in Genetics	/courses/BIOM.html#biom242
  A00Bruce Alan,Hamilton
-0020TBA  TBA  SETBA  TBA TBA A00
+0021TBA  TBA  SETBA  TBA TBA A00
 BIOM246  Current Literatre/Glycobiology	/courses/BIOM.html#biom246
  A00Philip,Gordts	Kamil,Godula	Jeffrey D.,Esko	Ajit P,Varki	Pascal,Gagneux	Amanda Lark,Lewis	Lars,Bode
 0000BRF2 5    SE4103 12001250A00
@@ -9047,6 +9047,9 @@ GPGN490  Special Topics Course	/courses/GPS.html#gpgn490
 0018RBC  3    LE1328 18302120C00
  D00Jesse R.,Driscoll
 0018RBC  13   LE1428 09301050D00
+GPGN496  Washington Quarter Internship	/courses/GPS.html#gpgn496
+ 001Gordon Carlos,McCord
+0001TBA  TBA  INTBA  TBA TBA 001
 GPGN497  Internship	/courses/GPS.html#gpgn497
  001Gordon Carlos,McCord
 0005TBA  TBA  ITTBA  TBA TBA 001
