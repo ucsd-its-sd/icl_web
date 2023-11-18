@@ -1,4 +1,4 @@
-V31700262000635
+V31700337600764
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -18514,12 +18514,12 @@ VIS 106C Painting: Portfolio Projects	/courses/VIS.html#vis106c
  A00Mara Julia,De Luca
 0017MANDE3    ST220B 15001750A00
 VIS 107A Sculpture: Making the Object	/courses/VIS.html#vis107a
- A00Ricardo,Dominguez
+ A00Won Ju,Lim
 0025MANDE13   ST201A 09001150A00
 VIS 108  Advanced Projects in Art	/courses/VIS.html#vis108
  A00Dino,Dinco
 0015MANDE4    ST106  15301820A00
- B00Ricardo,Dominguez
+ B00Won Ju,Lim
 0015MANDE3    ST201B 12001450B00
 VIS 110B Prof Practice in Visual Arts	/courses/VIS.html#vis110b
  A00Janelle Ann,Iglesias
