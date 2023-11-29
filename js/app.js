@@ -9,7 +9,7 @@
     BACK_BUTTON = icl.templateFromID("template-back-button"),
     WINDOW_START = icl.templateFromID("template-window-start"),
     WINDOW_END = icl.templateFromID("template-window-end"),
-    CURRENT_CLASS = icl.templateFromID("template-current-class"),
+    CLASS_DETAILS = icl.templateFromID("template-class-details"),
     PROFESSOR = icl.templateFromID("template-professor"),
     SEARCH_RESULT = icl.templateFromID("template-search-result"),
     SEARCH = icl.templateFromID("template-search"),
@@ -179,6 +179,18 @@
     // Render the schedule for a day
     renderDaySchedule = (schedule) => {
       icl.log(JSON.stringify(schedule, null, 2));
+      var scheduleCopy = [].slice.call(schedule);
+      var isInSchedule = (hours, minutes) =>
+        scheduleCopy.filter((meeting) => {
+          const start =
+              parseInt(meeting.start.slice(0, 2)) * 60 +
+              parseInt(meeting.start.slice(2)),
+            end =
+              parseInt(meeting.end.slice(0, 2)) * 60 +
+              parseInt(meeting.end.slice(2)),
+            time = hours * 60 + minutes;
+          return start <= time && end >= time;
+        })[0] !== undefined;
       return schedule.length > 0
         ? "<tbody>" +
             Array.apply(null, { length: (23 - 7) * 6 })
@@ -187,7 +199,7 @@
                 const minutes = (i % 6) * 10,
                   hours = 7 + Math.floor(i / 6),
                   time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
-                icl.log;
+
                 if (schedule.length > 0 && schedule[0].start === time) {
                   const meeting = schedule.shift();
                   var course = meeting.course;
@@ -213,7 +225,15 @@
                               }),
                             )
                             .join(" / "),
+                    timeBorder:
+                      minutes == 0
+                        ? "<td class='time-border-datacell'></td>"
+                        : "",
                   });
+                } else if (minutes == 0 && !isInSchedule(hours, minutes)) {
+                  return "<tr><td class='time-border-datacell'></td><td class='time-border-datacell'></td></tr>";
+                } else if (minutes == 0) {
+                  return "<tr><td class='time-border-datacell'></td></tr>";
                 } else {
                   return "<tr></tr>";
                 }
@@ -238,6 +258,28 @@
             currentTime = date.getHours() * 60 + date.getMinutes();
           return currentTime >= start && currentTime < end;
         })[0],
+        prevClass = daySchedule
+          .filter((meeting) => {
+            const start =
+                parseInt(meeting.start.slice(0, 2)) * 60 +
+                parseInt(meeting.start.slice(2)),
+              end =
+                parseInt(meeting.end.slice(0, 2)) * 60 +
+                parseInt(meeting.end.slice(2)),
+              currentTime = date.getHours() * 60 + date.getMinutes();
+            return currentTime > end;
+          })
+          .slice(-1)[0],
+        nextClass = daySchedule.filter((meeting) => {
+          const start =
+              parseInt(meeting.start.slice(0, 2)) * 60 +
+              parseInt(meeting.start.slice(2)),
+            end =
+              parseInt(meeting.end.slice(0, 2)) * 60 +
+              parseInt(meeting.end.slice(2)),
+            currentTime = date.getHours() * 60 + date.getMinutes();
+          return currentTime < start;
+        })[0],
         scheduleArgs = {
           windowStart: WINDOW_START({
             uid: generateUID(),
@@ -246,8 +288,26 @@
           }),
           windowEnd: WINDOW_END(),
           timeIncrements: "<tbody>" + timeIncrements + "</tbody>",
+          prevClass: prevClass
+            ? CLASS_DETAILS({
+                courseCode: prevClass.course,
+                professors:
+                  prevClass.professors.length == 0
+                    ? "No listed instructors."
+                    : prevClass.professors
+                        .map((professor) =>
+                          PROFESSOR({
+                            professor: professor,
+                            link: professorLink(professor),
+                          }),
+                        )
+                        .join(""),
+                classTime: prevClass.start + "-" + prevClass.end,
+                meetingType: prevClass.meetingType,
+              })
+            : "No class",
           currentClass: currentClass
-            ? CURRENT_CLASS({
+            ? CLASS_DETAILS({
                 courseCode: currentClass.course,
                 professors:
                   currentClass.professors.length == 0
@@ -262,6 +322,24 @@
                         .join(""),
                 classTime: currentClass.start + "-" + currentClass.end,
                 meetingType: currentClass.meetingType,
+              })
+            : "No class",
+          nextClass: nextClass
+            ? CLASS_DETAILS({
+                courseCode: nextClass.course,
+                professors:
+                  nextClass.professors.length == 0
+                    ? "No listed instructors."
+                    : nextClass.professors
+                        .map((professor) =>
+                          PROFESSOR({
+                            professor: professor,
+                            link: professorLink(professor),
+                          }),
+                        )
+                        .join(""),
+                classTime: nextClass.start + "-" + nextClass.end,
+                meetingType: nextClass.meetingType,
               })
             : "No class",
         };
@@ -291,8 +369,8 @@
                   result[0] == "APM1313"
                     ? "<span title='view current data information.'>⚙️</span>"
                     : !gaClassrooms.includes(result[0])
-                    ? "<span title='this is not a general-assignment classroom.'>⚠</span>️"
-                    : "",
+                      ? "<span title='this is not a general-assignment classroom.'>⚠</span>️"
+                      : "",
               }),
             )
             .join("");
