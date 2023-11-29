@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 * {
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 .template {
     display: none;
@@ -93,11 +94,12 @@ body {
 .schedule-day-table {
     width: 100%;
 }
-.schedule-day-table td {
+.schedule-day-table td.class-row-datacell {
     border: 1px solid #000;
     background-color: #fff;
 }
-td {
+td,
+th {
     line-height: 12.4px;
     font-size: 12px;
     padding-bottom: 0px;
@@ -121,4 +123,23 @@ td.noborder {
 }
 .schedule-day-table tr {
     height: 10px;
+}
+.time-border-datacell {
+    border-top: 5px dotted #aaa;
+}
+.temporal-class-table {
+    width: 100%;
+}
+.temporal-class-table table {
+    width: 100%;
+}
+.temporal-class-table table th {
+    text-align: right;
+}
+.temporal-class-table table td {
+    text-align: left;
+}
+.temporal-class-table,
+.temporal-class-table table {
+    table-layout: fixed;
 }
