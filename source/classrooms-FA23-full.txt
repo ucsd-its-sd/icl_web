@@ -1,4 +1,4 @@
-V31701439200825
+V31701460800392
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -9941,7 +9941,7 @@ LIGN7    Sign Languages&Their Cultures	/courses/LING.html#lign7
 LIGN8    Languages & Cultures/America	/courses/LING.html#lign8
 'A00Gabriela Hernandez,Caballero
 0210MOS  24   LE0113 11001220A00
-20231213TBA  FITBA  11301429
+20231207CSB  RE005  1600165020231213TBA  FITBA  11301429
 LIGN17   Making and Breaking Codes	/courses/LING.html#lign17
 'A00Andrew Scott,Kehler
 0250MOS  135  LE0113 11001150A00
@@ -17629,6 +17629,10 @@ SOMC243  Epidemiology/Biostats&Med Infr
 .A00Richard,Garfein
 0140TBA  TBA  LETBA  TBA TBA A00
 TBA  TBA  SETBA  TBA TBA A01
+SOMC245A Humanistic Anatomy A
+.A00Geoffroy Pierre Jean,Noel
+0160TBA  TBA  OTTBA  TBA TBA A01
+TBA  TBA  LATBA  TBA TBA A00
 SOMC247A Diagnostics IA
 .A00Nigel A,Calcutt	Ann Marie Ponsford,Tipps	Peter,Lindholm
 0150TBA  TBA  LATBA  TBA TBA A01
@@ -17660,6 +17664,9 @@ SOMI235  Healthy Minds, Healthy Bodies
 SOMI236  Fade Hypertension
  A00Alexander Lionel,Bullen
 0020TBA  TBA  LETBA  TBA TBA A00
+SOMI237  Intro to Health Teach & Learn
+ A00Katharina,Brandl	Stephen David,Schneid
+0025TBA  TBA  DITBA  TBA TBA A00
 SOMI296  Independent Study
  A00Cinnamon Sue,Bloss
 0050TBA  TBA  INTBA  TBA TBA A00
@@ -18555,7 +18562,7 @@ VIS 122B Baroque	/courses/VIS.html#vis122b
 0076SME  24   LE149  12301350A00
 20231215TBA  FITBA  11301429
 VIS 125G Hist. of Socially Engaged Art	/courses/VIS.html#vis125g
-'A00Ricardo,Dominguez
+'A00Justin Adam,Serulneck
 0030RCLAS13   LER05  13301450A00
 20231211TBA  FITBA  11301429
 VIS 126E Indigenisms I	/courses/VIS.html#vis126e
