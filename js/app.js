@@ -180,17 +180,35 @@
     renderDaySchedule = (schedule) => {
       icl.log(JSON.stringify(schedule, null, 2));
       var scheduleCopy = [].slice.call(schedule);
+      var scheduleBlock = Array.apply(null, { length: (23 - 7) * 6 }).map(
+        () => false,
+      );
+      const startTime = 7 * 60,
+        currentDate = new Date(),
+        currentHours = currentDate.getHours(),
+        currentMinutes = currentDate.getMinutes(),
+        currentTimeIdx =
+          (currentHours * 60 +
+            10 * Math.floor(currentMinutes / 10) -
+            startTime) /
+          10;
+      scheduleCopy.forEach((meeting) => {
+        const start =
+            (parseInt(meeting.start.slice(0, 2)) * 60 +
+              parseInt(meeting.start.slice(2)) -
+              startTime) /
+            10,
+          end =
+            (parseInt(meeting.end.slice(0, 2)) * 60 +
+              parseInt(meeting.end.slice(2)) -
+              startTime) /
+            10;
+        for (var time = start; time <= end; time++) {
+          scheduleBlock[time] = true;
+        }
+      });
       var isInSchedule = (hours, minutes) =>
-        scheduleCopy.filter((meeting) => {
-          const start =
-              parseInt(meeting.start.slice(0, 2)) * 60 +
-              parseInt(meeting.start.slice(2)),
-            end =
-              parseInt(meeting.end.slice(0, 2)) * 60 +
-              parseInt(meeting.end.slice(2)),
-            time = hours * 60 + minutes;
-          return start <= time && end >= time;
-        })[0] !== undefined;
+        scheduleBlock[(hours * 60 + minutes - startTime) / 10] === true;
       return schedule.length > 0
         ? "<tbody>" +
             Array.apply(null, { length: (23 - 7) * 6 })
@@ -226,10 +244,14 @@
                             )
                             .join(" / "),
                     timeBorder:
-                      minutes == 0
-                        ? "<td class='time-border-datacell'></td>"
-                        : "",
+                      i == currentTimeIdx
+                        ? "<td class='current-time-border-datacell'></td>"
+                        : minutes == 0
+                          ? "<td class='time-border-datacell'></td>"
+                          : "",
                   });
+                } else if (i == currentTimeIdx) {
+                  return "<tr><td class='current-time-border-datacell'></td><td class='current-time-border-datacell'></td></tr>";
                 } else if (minutes == 0 && !isInSchedule(hours, minutes)) {
                   return "<tr><td class='time-border-datacell'></td><td class='time-border-datacell'></td></tr>";
                 } else if (minutes == 0) {

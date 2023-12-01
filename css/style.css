@@ -127,6 +127,9 @@ td.noborder {
 .time-border-datacell {
     border-top: 5px dotted #aaa;
 }
+.current-time-border-datacell {
+    border-top: 5px dotted red;
+}
 .temporal-class-table {
     width: 100%;
 }
