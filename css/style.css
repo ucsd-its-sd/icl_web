@@ -117,8 +117,19 @@ th {
     margin: 0;
     padding: 0;
 }
+td.schedule-container {
+    background-color: #182b49;
+}
+td.schedule-container:has(.time-increments) {
+    background-color: inherit;
+}
+td.class-row-datacell.current-class,
+td.class-row-datacell.current-class * {
+    background-color: #f3e500;
+    color: #000;
+}
 td.schedule-container:has(.schedule-day-table.not-current-day) {
-    background-color: #e5e5e5;
+    background-color: #f5f0e6;
 }
 td.noborder {
     border: none;
@@ -141,20 +152,28 @@ table {
     width: auto;
 }
 .time-border-datacell {
+    border-top: 5px solid white !important;
+    border-left: none;
+}
+.not-current-day .time-border-datacell {
     border-top: 5px solid #aaa !important;
-    /* padding: 0; */
 }
 .min-width-datacell {
     width: 10px;
 }
 .current-time-border-datacell {
     border-top: 5px solid red !important;
-    /* padding: 0; */
 }
 .current-time-bottom-border-datacell {
     border-bottom: 5px solid red !important;
-    /* padding: 0; */
 }
+.not-current-day .current-time-border-datacell {
+    border-top: 5px solid red !important;
+}
+.not-current-day .current-time-bottom-border-datacell {
+    border-bottom: 5px solid red !important;
+}
+
 .temporal-class-table {
     width: 100%;
 }
@@ -174,4 +193,31 @@ table {
 }
 .class-detail-datacell {
     text-align: center;
+}
+.search-result-icon {
+    margin-bottom: -0.25em;
+}
+.today-schedule-header {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .not-current-day {
+        display: none;
+    }
+    .overall-schedule-header {
+        display: none;
+    }
+    .today-schedule-header {
+        display: block;
+    }
+    #footer {
+        display: none;
+    }
+    #container {
+        bottom: 0;
+    }
+    .window-panel {
+        max-height: 95vh;
+    }
 }

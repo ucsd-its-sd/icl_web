@@ -15,7 +15,11 @@
     SEARCH = icl.templateFromID("template-search"),
     SCHEDULE_VIEW = icl.templateFromID("template-schedule-view"),
     CLASS_ROW = icl.templateFromID("template-class-row"),
-    // NO_SCHEDULED_CLASSES = icl.templateFromID("template-no-scheduled-classes"),
+    BORDER_ROW = icl.templateFromID("template-border-row"),
+    EMPTY_ROW = icl.templateFromID("template-empty-row"),
+    TIME_CELL_ROW = icl.templateFromID("template-time-cell-row"),
+    INFO_ICON = icl.templateFromID("template-info-icon"),
+    GEN_ASS_ICON = icl.templateFromID("template-gen-ass-icon"),
     CLASS_ROW_PROFESSOR_LINK = icl.templateFromID(
       "template-class-row-professor-link",
     ),
@@ -178,9 +182,9 @@
           time = hours.padStart(2, 0) + ":" + minutes.padStart(2, 0);
         // If there's an hour, put one in the table
         if (i % 6 == 0) {
-          return '<tr><td class="noborder">' + time + "</td></tr>";
+          return TIME_CELL_ROW({ time: time });
         } else {
-          return "<tr></tr>";
+          return EMPTY_ROW();
         }
       })
       .join(""),
@@ -188,16 +192,22 @@
     scheduleLines = Array.apply(null, { length: (23 - 7) * 6 })
       .map((_, i) => {
         if (i == currentTimeIdx) {
-          return '<tr><td class="current-time-border-datacell min-width-datacell"></td></tr>';
+          return BORDER_ROW({
+            current: "current-",
+            minWidth: "min-width-datacell",
+          });
         } else if (i % 6 == 0) {
-          return '<tr><td class="time-border-datacell min-width-datacell"></td></tr>';
+          return BORDER_ROW({
+            current: "",
+            minWidth: "min-width-datacell",
+          });
         } else {
-          return "<tr></tr>";
+          return EMPTY_ROW();
         }
       })
       .join(""),
     // Render the schedule for a day
-    renderDaySchedule = (schedule) => {
+    renderDaySchedule = (schedule, isToday) => {
       icl.log(JSON.stringify(schedule, null, 2));
       var scheduleCopy = [].slice.call(schedule);
       var scheduleBlock = Array.apply(null, { length: (23 - 7) * 6 }).map(
@@ -230,7 +240,11 @@
               time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
 
             if (schedule.length > 0 && schedule[0].start === time) {
-              const meeting = schedule.shift();
+              const meeting = schedule.shift(),
+                isOngoing =
+                  isToday &&
+                  i <= currentTimeIdx &&
+                  i + meeting.length / 10 >= currentTimeIdx;
               var course = meeting.course;
               while (schedule.length > 0 && schedule[0].start === time) {
                 if (!course.split(" / ").includes(schedule[0].course))
@@ -243,6 +257,7 @@
                 meetingType: meeting.meetingType,
                 start: meeting.start,
                 end: meeting.end,
+                currentClass: isOngoing ? "current-class" : "",
                 timeBorderClass:
                   (i == currentTimeIdx
                     ? "current-time-border-datacell"
@@ -268,11 +283,11 @@
                         .join(" / "),
               });
             } else if (i == currentTimeIdx && !isInSchedule(hours, minutes)) {
-              return "<tr><td class='current-time-border-datacell'></td></tr>";
+              return BORDER_ROW({ current: "current-", minWidth: "" });
             } else if (minutes == 0 && !isInSchedule(hours, minutes)) {
-              return "<tr><td class='time-border-datacell'></td></tr>";
+              return BORDER_ROW({ current: "", minWidth: "" });
             } else {
-              return "<tr></tr>";
+              return EMPTY_ROW();
             }
           })
           .join("") +
@@ -385,9 +400,12 @@
       icl.log(weekSchedule);
       ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(
         (day, i) => {
-          scheduleArgs[day + "Schedule"] = renderDaySchedule(weekSchedule[i]);
-          scheduleArgs[day + "IsCurrentDay"] =
-            icl.dateUtil.getScheduleDay(date) == i + 1 ? "" : "not-current-day";
+          const isToday = icl.dateUtil.getScheduleDay(date) == i + 1;
+          scheduleArgs[day + "Schedule"] = renderDaySchedule(
+            weekSchedule[i],
+            isToday,
+          );
+          scheduleArgs[day + "IsCurrentDay"] = isToday ? "" : "not-current-day";
         },
       );
       scheduleWindow = SCHEDULE_VIEW(scheduleArgs);
@@ -405,9 +423,9 @@
                 schedulePreview: "",
                 isNonGA:
                   result[0] == "APM1313"
-                    ? "<img title='view current data.' alt='view current data.' style='margin-bottom:-0.25em' src='./info.svg'/>"
+                    ? INFO_ICON()
                     : gaClassrooms.includes(result[0])
-                      ? "<img title='this is a general-assignment classroom.' style='margin-bottom:-0.25em' alt='this is a general-assignment classroom.' src='./verified.svg'/>"
+                      ? GEN_ASS_ICON()
                       : "",
               }),
             )
