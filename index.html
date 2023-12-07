@@ -97,48 +97,110 @@
                     <th>Next Class</th>
                 </tr>
                 <tr>
-                    <td>{{prevClass}}</td>
-                    <td>{{currentClass}}</td>
-                    <td>{{nextClass}}</td>
+                    <td class="class-detail-datacell">{{prevClass}}</td>
+                    <td class="class-detail-datacell">{{currentClass}}</td>
+                    <td class="class-detail-datacell">{{nextClass}}</td>
                 </tr>
             </table>
             {<!--}
         <h1>Overall Schedule</h1>
         <table class="schedule-table">
         <tr>
-        <td></td>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
+        <th style='width:50px'></th>
+        <th class="min-width-datacell"></th>
+        <th >Monday</th>
+        <th class="min-width-datacell"></th>
+        <th class="min-width-datacell"></th>
+        <th >Tuesday</th>
+        <th class="min-width-datacell"></th>
+        <th class="min-width-datacell"></th>
+        <th >Wednesday</th>
+        <th class="min-width-datacell"></th>
+        <th class="min-width-datacell"></th>
+        <th >Thursday</th>
+        <th class="min-width-datacell"></th>
+        <th class="min-width-datacell"></th>
+        <th >Friday</th>
+        <th class="min-width-datacell"></th>
         </tr>
         <tr>
-        <td>
+        <td class="schedule-container">
         <table class="schedule-day-table">
             {{timeIncrements}}
         </table>
-        </td><td class="schedule-container">
+        </td>
+        <td class="schedule-container">
+        <table class="{{mondayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td>
+        <td class="schedule-container">
         <table class="{{mondayIsCurrentDay}} schedule-day-table">
             {{mondaySchedule}}
         </table>
-        </td><td class="schedule-container">
+        </td>
+        <td class="schedule-container">
+        <table class="{{mondayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td>
+        <td class="schedule-container">
+        <table class="{{tuesdayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td>
+        <td class="schedule-container">
         <table class="{{tuesdayIsCurrentDay}} schedule-day-table">
             {{tuesdaySchedule}}
         </table>
+        </td>
+        <td class="schedule-container">
+        <table class="{{tuesdayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
         </td><td class="schedule-container">
+        <table class="{{wednesdayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td>
+        <td class="schedule-container">
         <table class="{{wednesdayIsCurrentDay}} schedule-day-table">
             {{wednesdaySchedule}}
         </table>
+        </td>
+        <td class="schedule-container">
+        <table class="{{wednesdayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
         </td><td class="schedule-container">
+        <table class="{{thursdayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td>
+        <td class="schedule-container">
         <table class="{{thursdayIsCurrentDay}} schedule-day-table">
             {{thursdaySchedule}}
         </table>
+        </td>
+        <td class="schedule-container">
+        <table class="{{thursdayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
         </td><td class="schedule-container">
+        <table class="{{fridayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td>
+        <td class="schedule-container">
         <table class="{{fridayIsCurrentDay}} schedule-day-table">
             {{fridaySchedule}}
         </table>
-        </td></tr
+        </td>
+        <td class="schedule-container">
+        <table class="{{fridayIsCurrentDay}} schedule-day-table schedule-line-container">
+            {{scheduleLines}}
+        </table>
+        </td></tr>
         </table>
         {-->} {{windowEnd}}
         </div>
@@ -175,17 +237,14 @@
         </div>
         <div class="template" id="template-class-row">
             {<!--}
-        <tr><td class="class-row-datacell" rowspan="{{length}}">
+        <tr><td class="class-row-datacell {{timeBorderClass}}" rowspan="{{length}}">
             {{course}} {{meetingType}} | {{start}}-{{end}}<br/>
             {{professors}}
-        </td>{{timeBorder}}</tr>
+        </td></tr>
         {-->}
         </div>
         <div class="template" id="template-class-row-professor-link">
             <a href="{{link}}" target="_blank"> {{professor}} </a>
-        </div>
-        <div class="template" id="template-no-scheduled-classes">
-            {<!--}<tbody><tr><td class="noborder">No scheduled classes</td></tr></tbody>{-->}
         </div>
     </body>
 
@@ -197,7 +256,7 @@
     <script src="./js/templates.js"></script>
     <script>
         // MARK-NEXTLINEPATH
-    window.icl.CURRENT_PATH = "./source/classrooms-FA23-full.txt";
+        window.icl.CURRENT_PATH = "./source/classrooms-FA23-full.txt";
         window.icl.GA_CLASSROOMS_PATH = "./source/ga-classrooms.json";
     </script>
     <script src="./js/app.js"></script>

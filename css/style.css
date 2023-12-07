@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:wght@700&display=swap");
 * {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     box-sizing: border-box;
 }
 .template {
@@ -11,7 +11,8 @@
     font-size: 2vh;
     margin: 0;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-family: "Open Sans";
 }
 html,
 body {
@@ -23,7 +24,7 @@ body {
     bottom: 0;
     padding: 0;
     margin: 0;
-    background-color: #eee;
+    background-color: #182b49;
 }
 #header {
     position: absolute;
@@ -36,12 +37,16 @@ body {
 }
 #footer {
     position: absolute;
-    top: 95vh;
+    /* top: 95vh; */
     bottom: 0;
     left: 0;
     right: 0;
     margin: 0;
     padding: 0.5em;
+    color: #ffffff;
+}
+#footer a {
+    color: #ffffff;
 }
 #container {
     position: absolute;
@@ -67,7 +72,7 @@ body {
 .window-panel {
     padding: 2em;
     background-color: #fff;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     max-height: 90vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -76,6 +81,7 @@ body {
 .search-box {
     font-size: 5vh;
     padding: 1vh;
+    max-width: 100%;
     border: 1px solid #000;
 }
 .search-results {
@@ -121,18 +127,38 @@ td.noborder {
     padding: 0;
     line-height: 10px;
 }
+table {
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+    /* padding-left: 2px; */
+    /* padding-right: 2px; */
+}
 .schedule-day-table tr {
     height: 10px;
 }
+.schedule-day-table td {
+    width: auto;
+}
 .time-border-datacell {
-    border-top: 5px dotted #aaa;
+    border-top: 5px solid #aaa !important;
+    /* padding: 0; */
+}
+.min-width-datacell {
+    width: 10px;
 }
 .current-time-border-datacell {
-    border-top: 5px dotted red;
+    border-top: 5px solid red !important;
+    /* padding: 0; */
+}
+.current-time-bottom-border-datacell {
+    border-bottom: 5px solid red !important;
+    /* padding: 0; */
 }
 .temporal-class-table {
     width: 100%;
 }
+
 .temporal-class-table table {
     width: 100%;
 }
@@ -145,4 +171,7 @@ td.noborder {
 .temporal-class-table,
 .temporal-class-table table {
     table-layout: fixed;
+}
+.class-detail-datacell {
+    text-align: center;
 }

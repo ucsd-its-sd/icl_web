@@ -15,7 +15,7 @@
     SEARCH = icl.templateFromID("template-search"),
     SCHEDULE_VIEW = icl.templateFromID("template-schedule-view"),
     CLASS_ROW = icl.templateFromID("template-class-row"),
-    NO_SCHEDULED_CLASSES = icl.templateFromID("template-no-scheduled-classes"),
+    // NO_SCHEDULED_CLASSES = icl.templateFromID("template-no-scheduled-classes"),
     CLASS_ROW_PROFESSOR_LINK = icl.templateFromID(
       "template-class-row-professor-link",
     ),
@@ -161,6 +161,14 @@
         document.querySelectorAll(".back-button"),
         ($button) => ($button.disabled = false),
       ),
+    startTime = 7 * 60,
+    currentDate = new Date(),
+    currentHours = currentDate.getHours(),
+    currentMinutes = currentDate.getMinutes(),
+    currentTimeIdx = location.search.includes("currentTime=")
+      ? parseInt(location.search.split("currentTime=")[1].split("&")[0])
+      : (currentHours * 60 + 10 * Math.floor(currentMinutes / 10) - startTime) /
+        10,
     // Table of hourly time increments from 7:00AM to 11:00 PM
     timeIncrements = Array.apply(null, { length: (23 - 7) * 6 })
       .map((_, i) => {
@@ -176,6 +184,18 @@
         }
       })
       .join(""),
+    // Table of hourly time increments from 7:00AM to 11:00 PM
+    scheduleLines = Array.apply(null, { length: (23 - 7) * 6 })
+      .map((_, i) => {
+        if (i == currentTimeIdx) {
+          return '<tr><td class="current-time-border-datacell min-width-datacell"></td></tr>';
+        } else if (i % 6 == 0) {
+          return '<tr><td class="time-border-datacell min-width-datacell"></td></tr>';
+        } else {
+          return "<tr></tr>";
+        }
+      })
+      .join(""),
     // Render the schedule for a day
     renderDaySchedule = (schedule) => {
       icl.log(JSON.stringify(schedule, null, 2));
@@ -183,15 +203,6 @@
       var scheduleBlock = Array.apply(null, { length: (23 - 7) * 6 }).map(
         () => false,
       );
-      const startTime = 7 * 60,
-        currentDate = new Date(),
-        currentHours = currentDate.getHours(),
-        currentMinutes = currentDate.getMinutes(),
-        currentTimeIdx =
-          (currentHours * 60 +
-            10 * Math.floor(currentMinutes / 10) -
-            startTime) /
-          10;
       scheduleCopy.forEach((meeting) => {
         const start =
             (parseInt(meeting.start.slice(0, 2)) * 60 +
@@ -209,60 +220,64 @@
       });
       var isInSchedule = (hours, minutes) =>
         scheduleBlock[(hours * 60 + minutes - startTime) / 10] === true;
-      return schedule.length > 0
-        ? "<tbody>" +
-            Array.apply(null, { length: (23 - 7) * 6 })
-              .map((_, i) => {
-                icl.log(JSON.stringify(schedule[i]));
-                const minutes = (i % 6) * 10,
-                  hours = 7 + Math.floor(i / 6),
-                  time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
+      return (
+        "<tbody>" +
+        Array.apply(null, { length: (23 - 7) * 6 })
+          .map((_, i) => {
+            icl.log(JSON.stringify(schedule[i]));
+            const minutes = (i % 6) * 10,
+              hours = 7 + Math.floor(i / 6),
+              time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
 
-                if (schedule.length > 0 && schedule[0].start === time) {
-                  const meeting = schedule.shift();
-                  var course = meeting.course;
-                  while (schedule.length > 0 && schedule[0].start === time) {
-                    if (!course.split(" / ").includes(schedule[0].course))
-                      course += " / " + schedule[0].course;
-                    schedule.shift();
-                  }
-                  return CLASS_ROW({
-                    length: meeting.length / 10 + "",
-                    course: course,
-                    meetingType: meeting.meetingType,
-                    start: meeting.start,
-                    end: meeting.end,
-                    professors:
-                      meeting.professors.length == 0
-                        ? "No listed instructors."
-                        : meeting.professors
-                            .map((professor) =>
-                              CLASS_ROW_PROFESSOR_LINK({
-                                professor: professor,
-                                link: professorLink(professor),
-                              }),
-                            )
-                            .join(" / "),
-                    timeBorder:
-                      i == currentTimeIdx
-                        ? "<td class='current-time-border-datacell'></td>"
-                        : minutes == 0
-                          ? "<td class='time-border-datacell'></td>"
-                          : "",
-                  });
-                } else if (i == currentTimeIdx) {
-                  return "<tr><td class='current-time-border-datacell'></td><td class='current-time-border-datacell'></td></tr>";
-                } else if (minutes == 0 && !isInSchedule(hours, minutes)) {
-                  return "<tr><td class='time-border-datacell'></td><td class='time-border-datacell'></td></tr>";
-                } else if (minutes == 0) {
-                  return "<tr><td class='time-border-datacell'></td></tr>";
-                } else {
-                  return "<tr></tr>";
-                }
-              })
-              .join("") +
-            "</tbody>"
-        : NO_SCHEDULED_CLASSES();
+            if (schedule.length > 0 && schedule[0].start === time) {
+              const meeting = schedule.shift();
+              var course = meeting.course;
+              while (schedule.length > 0 && schedule[0].start === time) {
+                if (!course.split(" / ").includes(schedule[0].course))
+                  course += " / " + schedule[0].course;
+                schedule.shift();
+              }
+              return CLASS_ROW({
+                length: meeting.length / 10 + "",
+                course: course,
+                meetingType: meeting.meetingType,
+                start: meeting.start,
+                end: meeting.end,
+                timeBorderClass:
+                  (i == currentTimeIdx
+                    ? "current-time-border-datacell"
+                    : minutes == 0
+                      ? "time-border-datacell"
+                      : "") +
+                  " " +
+                  (i + meeting.length / 10 == currentTimeIdx
+                    ? "current-time-bottom-border-datacell"
+                    : minutes == 0
+                      ? "time-border-datacell"
+                      : ""),
+                professors:
+                  meeting.professors.length == 0
+                    ? "No listed instructors."
+                    : meeting.professors
+                        .map((professor) =>
+                          CLASS_ROW_PROFESSOR_LINK({
+                            professor: professor,
+                            link: professorLink(professor),
+                          }),
+                        )
+                        .join(" / "),
+              });
+            } else if (i == currentTimeIdx && !isInSchedule(hours, minutes)) {
+              return "<tr><td class='current-time-border-datacell'></td></tr>";
+            } else if (minutes == 0 && !isInSchedule(hours, minutes)) {
+              return "<tr><td class='time-border-datacell'></td></tr>";
+            } else {
+              return "<tr></tr>";
+            }
+          })
+          .join("") +
+        "</tbody>"
+      );
     },
     // Open a window with the given schedule
     openSchedule = (rooms, room) => {
@@ -308,6 +323,7 @@
             backButton: BACK_BUTTON(),
             title: room,
           }),
+          scheduleLines: scheduleLines,
           windowEnd: WINDOW_END(),
           timeIncrements: "<tbody>" + timeIncrements + "</tbody>",
           prevClass: prevClass
@@ -389,9 +405,9 @@
                 schedulePreview: "",
                 isNonGA:
                   result[0] == "APM1313"
-                    ? "<span title='view current data information.'>⚙️</span>"
-                    : !gaClassrooms.includes(result[0])
-                      ? "<span title='this is not a general-assignment classroom.'>⚠</span>️"
+                    ? "<img title='view current data.' alt='view current data.' style='margin-bottom:-0.25em' src='./info.svg'/>"
+                    : gaClassrooms.includes(result[0])
+                      ? "<img title='this is a general-assignment classroom.' style='margin-bottom:-0.25em' alt='this is a general-assignment classroom.' src='./verified.svg'/>"
                       : "",
               }),
             )
