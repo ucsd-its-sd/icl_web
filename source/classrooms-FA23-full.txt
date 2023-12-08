@@ -1,4 +1,4 @@
-V31702065600540
+V31702076400930
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -9045,7 +9045,7 @@ GPEC443  GIS & Spatial Data Analysis	/courses/GPS.html#gpec443
 GPEC450  Macroeconomics of Development	/courses/GPS.html#gpec450
  A00Samuel A,Bazzi
 0050RBC  24   LE3202 09301050A00
-GPEC452  Migration and Development
+GPEC452  Migration and Development	/courses/GPS.html#gpec452
  A00Samuel A,Bazzi
 0050RBC  13   LE3202 09301050A00
 GPEC488  Environmental & Reg Economics	/courses/GPS.html#gpec488
@@ -15487,7 +15487,7 @@ PSYC242  Current Dir/Developmental Psyc	/courses/PSYC.html#psyc242
 PSYC244  Spec Topics/Psycholinguistics	/courses/PSYC.html#psyc244
  A00Victor,Ferreira
 0020MNDLR3    LE3545 14001650A00
-PSYC269  Topics in Cogn Development
+PSYC269  Topics in Cogn Development	/courses/PSYC.html#psyc269
 'A00Adena Schachner,Brady
 0020MNDLR1    SE3545 13001550A00
 20231211MNDLRFI3545 11301429
