@@ -1,8 +1,9 @@
 (() => {
   const getScheduleDay = (date) => date.getDay(),
     getScheduleDateString = (date) =>
-      "" +
-      (date.getFullYear() * 1e4 + (date.getMonth() + 1) * 1e2 + date.getDate()),
+      String(
+        date.getFullYear() * 1e4 + (date.getMonth() + 1) * 1e2 + date.getDate(),
+      ),
     getDaySchedule = (room, date) => {
       const scheduleDay = getScheduleDay(date),
         dateString = getScheduleDateString(date);
@@ -42,12 +43,7 @@
         currentDate = workingDate.getDate();
       for (var day = 1; day < 6; day++) {
         workingDate = new Date(date.getTime());
-        // icl.log(currentDate);
-        // icl.log(currentDay);
-        // icl.log(day);
-        // icl.log(currentDate - (currentDay - day));
         workingDate.setDate(currentDate - (currentDay - day));
-        // icl.log(workingDate);
         schedules.push(getDaySchedule(room, workingDate));
       }
       return schedules;
@@ -65,17 +61,25 @@
             startMinutes: startMinutes,
             endMinutes: endMinutes,
             startIndex: Math.floor((startMinutes - startTime) / 10),
-            endIndex: Math.floor((endMinutes - startTime) / 10),
-            rowLength: Math.floor((endMinutes - startMinutes) / 10),
+            endIndex: Math.ceil((endMinutes - startTime) / 10), // Some finals end at x:29 or x:59, round up to the next ten minutes
+            rowLength: Math.ceil((endMinutes - startMinutes) / 10), // Some finals end at x:29 or x:59, round up to the next ten minutes
           };
         },
+        indexToTime: (timeIndex) => {
+          const minutes = (timeIndex % 6) * 10,
+            hours = startTime / 60 + Math.floor(timeIndex / 6),
+            timeString = String(hours * 1e2 + minutes).padStart(4, 0);
+          return { minutes: minutes, hours: hours, timeString: timeString };
+        },
       };
-    };
+    },
+    daysOfWeek = ["monday", "tuesday", "wednesday", "thursday", "friday"];
   window.icl.dateUtil = {
     getScheduleDateString: getScheduleDateString,
     getDaySchedule: getDaySchedule,
     getWeekSchedule: getWeekSchedule,
     getScheduleDay: getScheduleDay,
     indexTransformer: indexTransformer,
+    daysOfWeek: daysOfWeek,
   };
 })();

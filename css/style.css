@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:wght@700&display=swap");
+/* Set font for all elements to Fira Sans */
 * {
     font-family: "Fira Sans", sans-serif;
     box-sizing: border-box;
@@ -6,6 +7,7 @@
 .template {
     display: none;
 }
+/* Only headers keep Open Sans. */
 #header h1,
 #header h1 a {
     font-size: 2vh;
@@ -14,6 +16,7 @@
     color: #fff;
     font-family: "Open Sans";
 }
+/* Turn off scroll bars and set background color */
 html,
 body {
     overflow: hidden;
@@ -26,6 +29,7 @@ body {
     margin: 0;
     background-color: #182b49;
 }
+/* Site top header */
 #header {
     position: absolute;
     top: 0;
@@ -35,9 +39,9 @@ body {
     margin: 0;
     padding: 0.5em;
 }
+/* Site bottom footer */
 #footer {
     position: absolute;
-    /* top: 95vh; */
     bottom: 0;
     left: 0;
     right: 0;
@@ -45,9 +49,11 @@ body {
     padding: 0.5em;
     color: #ffffff;
 }
+/* Make sure the links aren't blue */
 #footer a {
     color: #ffffff;
 }
+/* Container for all the .windows */
 #container {
     position: absolute;
     top: 5vh;
@@ -56,6 +62,7 @@ body {
     right: 0;
     margin: 0;
 }
+/* We will use transforms in app.js to move these windows around, so have them in a good position by default */
 .window {
     position: absolute;
     top: 0;
@@ -69,15 +76,16 @@ body {
 .window-newly-added {
     display: none;
 }
+/* Window interior container */
 .window-panel {
     padding: 2em;
     background-color: #fff;
-    /* border-radius: 1em; */
     max-height: 90vh;
     overflow-y: auto;
     overflow-x: hidden;
     width: 90vw;
 }
+/* WE WANT A BIG SEARCH BOX */
 .search-box {
     font-size: 5vh;
     padding: 1vh;
@@ -103,8 +111,10 @@ body {
 .schedule-day-table td.class-row-datacell {
     background-color: #fff;
     padding: 0;
+    /* Adding this line lets us set the element inside to the same height */
     height: inherit;
 }
+/* Using an interior element inside the datacell lets me fix the 1-pixel gaps we were seeing. */
 .schedule-day-table td.class-row-datacell div {
     border: 1px solid #000;
     height: 100%;
@@ -112,6 +122,7 @@ body {
     padding-right: 3px;
     padding-top: 1px;
 }
+/* We don't need a top border if the outer cell has one */
 .schedule-day-table td.class-row-datacell.time-border-datacell div,
 .schedule-day-table td.class-row-datacell.current-time-border-datacell div {
     border-top: none;
@@ -130,6 +141,7 @@ th {
     padding: 0;
 }
 td.schedule-container {
+    /* Navy from brand.ucsd.edu */
     background-color: #182b49;
 }
 td.schedule-container:has(.time-increments) {
@@ -137,10 +149,12 @@ td.schedule-container:has(.time-increments) {
 }
 td.class-row-datacell.current-class,
 td.class-row-datacell.current-class * {
+    /* Citron from brand.ucsd.edu */
     background-color: #f3e500;
     color: #000;
 }
 td.schedule-container:has(.schedule-day-table.not-current-day) {
+    /* Sand from brand.ucsd.edu */
     background-color: #f5f0e6;
 }
 td.noborder {
@@ -168,33 +182,32 @@ table {
     border-bottom: 5px solid white !important;
 }
 .not-current-day .time-border-datacell {
+    /* Navy from brand.ucsd.edu */
     border-top: 5px solid #182b49 !important;
 }
 .not-current-day .time-bottom-border-datacell {
+    /* Navy from brand.ucsd.edu */
     border-bottom: 5px solid #182b49 !important;
 }
 .min-width-datacell {
     width: 10px;
 }
 .current-time-border-datacell {
+    /* Magenta from brand.ucsd.edu */
     border-top: 5px solid #d462ad !important;
 }
+/* No style for these elements currently */
 .current-time-bottom-border-datacell {
-    border-bottom: 5px solid #d462ad !important;
+    /* Magenta from brand.ucsd.edu */
+    /* border-bottom: 5px solid #d462ad !important; */
 }
-/* .not-current-day .current-time-border-datacell {
-    border-top: 5px solid #d462ad !important;
-}
-.not-current-day .current-time-bottom-border-datacell {
-    border-bottom: 5px solid #d462ad !important;
-} */
 .temporal-class-table {
     width: 100%;
 }
-
 .temporal-class-table table {
     width: 100%;
 }
+/* We want these tables as centred as possible, so align the headers right and the data left */
 .temporal-class-table table th {
     text-align: right;
 }
@@ -208,13 +221,13 @@ table {
 .class-detail-datacell {
     text-align: center;
 }
+/* Move these down slightly because they are too high by default */
 .search-result-icon {
     margin-bottom: -0.25em;
 }
 .today-schedule-header {
     display: none;
 }
-
 @media only screen and (max-width: 950px) {
     .not-current-day {
         display: none;
