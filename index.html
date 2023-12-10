@@ -92,11 +92,13 @@
 
             <table class="temporal-class-table">
                 <tr>
+                    <td style="width: 50px"></td>
                     <th>Previous Class</th>
                     <th>Current Class</th>
                     <th>Next Class</th>
                 </tr>
                 <tr>
+                    <td></td>
                     <td class="class-detail-datacell">{{prevClass}}</td>
                     <td class="class-detail-datacell">{{currentClass}}</td>
                     <td class="class-detail-datacell">{{nextClass}}</td>
@@ -239,8 +241,10 @@
         <div class="template" id="template-class-row">
             {<!--}
         <tr><td class="class-row-datacell {{timeBorderClass}} {{currentClass}}" rowspan="{{length}}">
+            <div>
             {{course}} {{meetingType}} | {{start}}-{{end}}<br/>
             {{professors}}
+            </div>
         </td></tr>
         {-->}
         </div>
@@ -288,8 +292,9 @@
     <script src="./js/templates.js"></script>
     <script>
         // MARK-NEXTLINEPATH
-    window.icl.CURRENT_PATH = "./source/classrooms-FA23-full.txt";
+        window.icl.CURRENT_PATH = "./source/classrooms-FA23-full.txt";
         window.icl.GA_CLASSROOMS_PATH = "./source/ga-classrooms.json";
+        window.icl.finals = true;
     </script>
     <script src="./js/app.js"></script>
 </html>

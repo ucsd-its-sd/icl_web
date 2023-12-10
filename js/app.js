@@ -165,23 +165,34 @@
         document.querySelectorAll(".back-button"),
         ($button) => ($button.disabled = false),
       ),
+    // Start time is 7:00 a.m. for the graph
     startTime = 7 * 60,
+    // End time is 11:00 p.m.
+    endTime = 23 * 60,
+    // Length of graph
+    indexTransformer = icl.dateUtil.indexTransformer(startTime),
+    graphLength = (endTime - startTime) / 10,
     currentDate = new Date(),
     currentHours = currentDate.getHours(),
     currentMinutes = currentDate.getMinutes(),
-    currentTimeIdx = location.search.includes("currentTime=")
-      ? parseInt(location.search.split("currentTime=")[1].split("&")[0])
-      : (currentHours * 60 + 10 * Math.floor(currentMinutes / 10) - startTime) /
-        10,
+    currentTotalMinutes = 60 * currentHours + currentMinutes,
+    currentTime = 10 * Math.floor(currentTotalMinutes / 10) - startTime,
+    currentTimeIndex = currentTime / 10,
     // Table of hourly time increments from 7:00AM to 11:00 PM
-    timeIncrements = Array.apply(null, { length: (23 - 7) * 6 })
-      .map((_, i) => {
-        // Goofy math
-        const minutes = (i % 6) * 10 + "",
-          hours = 7 + Math.floor(i / 6) + "",
-          time = hours.padStart(2, 0) + ":" + minutes.padStart(2, 0);
+    // Generate empty array and fill its values
+    timeIncrements = Array.apply(null, { length: graphLength })
+      .map((_, timeIncrementRowIndex) => {
+        // Generate time string
+        const minutesString = String((timeIncrementRowIndex % 6) * 10).padStart(
+            2,
+            0,
+          ),
+          hoursString = String(
+            Math.floor((startTime + timeIncrementRowIndex * 10) / 60),
+          ).padStart(2, 0),
+          time = hoursString + ":" + minutesString.padStart(2, 0);
         // If there's an hour, put one in the table
-        if (i % 6 == 0) {
+        if (timeIncrementRowIndex % 6 == 0) {
           return TIME_CELL_ROW({ time: time });
         } else {
           return EMPTY_ROW();
@@ -189,14 +200,18 @@
       })
       .join(""),
     // Table of hourly time increments from 7:00AM to 11:00 PM
-    scheduleLines = Array.apply(null, { length: (23 - 7) * 6 })
-      .map((_, i) => {
-        if (i == currentTimeIdx) {
+    scheduleLines = Array.apply(null, { length: graphLength })
+      .map((_, scheduleLineIndex) => {
+        // Current index
+        if (scheduleLineIndex == currentTimeIndex) {
+          // Add cell with red line
           return BORDER_ROW({
             current: "current-",
             minWidth: "min-width-datacell",
           });
-        } else if (i % 6 == 0) {
+          // Hour index
+        } else if (scheduleLineIndex % 6 == 0) {
+          // Add cell with black/white line
           return BORDER_ROW({
             current: "",
             minWidth: "min-width-datacell",
@@ -209,67 +224,73 @@
     // Render the schedule for a day
     renderDaySchedule = (schedule, isToday) => {
       icl.log(JSON.stringify(schedule, null, 2));
-      var scheduleCopy = [].slice.call(schedule);
-      var scheduleBlock = Array.apply(null, { length: (23 - 7) * 6 }).map(
+      // Make a copy of the schedule to slice and dice
+      var copiedSchedule = [].slice.call(schedule);
+      // Generate empty array
+      var scheduleBlock = Array.apply(null, { length: graphLength }).map(
         () => false,
       );
-      scheduleCopy.forEach((meeting) => {
-        const start =
-            (parseInt(meeting.start.slice(0, 2)) * 60 +
-              parseInt(meeting.start.slice(2)) -
-              startTime) /
-            10,
-          end =
-            (parseInt(meeting.end.slice(0, 2)) * 60 +
-              parseInt(meeting.end.slice(2)) -
-              startTime) /
-            10;
+      // Assemble schedule block
+      schedule.forEach((meeting) => {
+        const indices = indexTransformer.getMeetingIndices(meeting),
+          start = indices.startIndex,
+          end = indices.endIndex;
+        // Build time blocks for easy lookup
         for (var time = start; time <= end; time++) {
           scheduleBlock[time] = true;
         }
       });
-      var isInSchedule = (hours, minutes) =>
-        scheduleBlock[(hours * 60 + minutes - startTime) / 10] === true;
+      // Check if a given time is in the schedule
+      var isInSchedule = (timeIndex) => scheduleBlock[timeIndex] === true;
       return (
         "<tbody>" +
         Array.apply(null, { length: (23 - 7) * 6 })
-          .map((_, i) => {
-            icl.log(JSON.stringify(schedule[i]));
-            const minutes = (i % 6) * 10,
-              hours = 7 + Math.floor(i / 6),
+          .map((_, timeIndex) => {
+            icl.log(JSON.stringify(copiedSchedule[timeIndex]));
+            const minutes = (timeIndex % 6) * 10,
+              hours = startTime / 60 + Math.floor(timeIndex / 6),
               time = ("" + (hours * 1e2 + minutes)).padStart(4, 0);
-
-            if (schedule.length > 0 && schedule[0].start === time) {
-              const meeting = schedule.shift(),
+            if (copiedSchedule.length > 0 && copiedSchedule[0].start === time) {
+              const meeting = copiedSchedule.shift(),
+                meetingIndices = indexTransformer.getMeetingIndices(meeting),
                 isOngoing =
                   isToday &&
-                  i <= currentTimeIdx &&
-                  i + meeting.length / 10 >= currentTimeIdx;
+                  timeIndex <= currentTimeIndex &&
+                  timeIndex + meetingIndices.rowLength >= currentTimeIndex;
               var course = meeting.course;
-              while (schedule.length > 0 && schedule[0].start === time) {
-                if (!course.split(" / ").includes(schedule[0].course))
-                  course += " / " + schedule[0].course;
-                schedule.shift();
+              // Absorb cross-listed courses
+              while (
+                copiedSchedule.length > 0 &&
+                copiedSchedule[0].start === time
+              ) {
+                if (!course.split(" / ").includes(copiedSchedule[0].course))
+                  course += " / " + copiedSchedule[0].course;
+                copiedSchedule.shift();
               }
+              // Build table row
               return CLASS_ROW({
-                length: meeting.length / 10 + "",
+                // Rowspan
+                length: String(meetingIndices.rowLength),
                 course: course,
                 meetingType: meeting.meetingType,
                 start: meeting.start,
                 end: meeting.end,
+                // Get current class styling
                 currentClass: isOngoing ? "current-class" : "",
+                // Set border styles for hour and current times at top and bottom
                 timeBorderClass:
-                  (i == currentTimeIdx
+                  (timeIndex == currentTimeIndex
                     ? "current-time-border-datacell"
                     : minutes == 0
                       ? "time-border-datacell"
                       : "") +
                   " " +
-                  (i + meeting.length / 10 == currentTimeIdx
+                  (meetingIndices.endIndex == currentTimeIndex
                     ? "current-time-bottom-border-datacell"
-                    : minutes == 0
-                      ? "time-border-datacell"
+                    : meetingIndices.endIndex % 6 == 0
+                      ? "time-bottom-border-datacell"
                       : ""),
+                // List all professors with Blink links
                 professors:
                   meeting.professors.length == 0
                     ? "No listed instructors."
@@ -282,13 +303,14 @@
                         )
                         .join(" / "),
               });
-            } else if (i == currentTimeIdx && !isInSchedule(hours, minutes)) {
-              return BORDER_ROW({ current: "current-", minWidth: "" });
-            } else if (minutes == 0 && !isInSchedule(hours, minutes)) {
-              return BORDER_ROW({ current: "", minWidth: "" });
-            } else {
+            } else if (isInSchedule(timeIndex)) {
               return EMPTY_ROW();
+            } else if (timeIndex == currentTimeIndex) {
+              return BORDER_ROW({ current: "current-", minWidth: "" });
+            } else if (minutes == 0) {
+              return BORDER_ROW({ current: "", minWidth: "" });
             }
+            return EMPTY_ROW();
           })
           .join("") +
         "</tbody>"
@@ -301,37 +323,44 @@
         weekSchedule = icl.dateUtil.getWeekSchedule(roomMeetings, date),
         daySchedule = icl.dateUtil.getDaySchedule(roomMeetings, date),
         currentClass = daySchedule.filter((meeting) => {
-          const start =
-              parseInt(meeting.start.slice(0, 2)) * 60 +
-              parseInt(meeting.start.slice(2)),
-            end =
-              parseInt(meeting.end.slice(0, 2)) * 60 +
-              parseInt(meeting.end.slice(2)),
-            currentTime = date.getHours() * 60 + date.getMinutes();
+          const meetingIndices = indexTransformer.getMeetingIndices(meeting),
+            start = meetingIndices.startMinutes,
+            end = meetingIndices.endMinutes,
+            currentTime = currentTotalMinutes;
           return currentTime >= start && currentTime < end;
         })[0],
         prevClass = daySchedule
           .filter((meeting) => {
-            const start =
-                parseInt(meeting.start.slice(0, 2)) * 60 +
-                parseInt(meeting.start.slice(2)),
-              end =
-                parseInt(meeting.end.slice(0, 2)) * 60 +
-                parseInt(meeting.end.slice(2)),
-              currentTime = date.getHours() * 60 + date.getMinutes();
+            const end = indexTransformer.getMeetingIndices(meeting).endMinutes,
+              currentTime = currentTotalMinutes;
             return currentTime > end;
           })
           .slice(-1)[0],
         nextClass = daySchedule.filter((meeting) => {
           const start =
-              parseInt(meeting.start.slice(0, 2)) * 60 +
-              parseInt(meeting.start.slice(2)),
-            end =
-              parseInt(meeting.end.slice(0, 2)) * 60 +
-              parseInt(meeting.end.slice(2)),
-            currentTime = date.getHours() * 60 + date.getMinutes();
+              indexTransformer.getMeetingIndices(meeting).startMinutes,
+            currentTime = currentTotalMinutes;
           return currentTime < start;
         })[0],
+        generateClassDetails = (classObject) =>
+          classObject
+            ? CLASS_DETAILS({
+                courseCode: classObject.course,
+                professors:
+                  classObject.professors.length == 0
+                    ? "No listed instructors."
+                    : classObject.professors
+                        .map((professor) =>
+                          PROFESSOR({
+                            professor: professor,
+                            link: professorLink(professor),
+                          }),
+                        )
+                        .join(""),
+                classTime: classObject.start + "-" + classObject.end,
+                meetingType: classObject.meetingType,
+              })
+            : "No class",
         scheduleArgs = {
           windowStart: WINDOW_START({
             uid: generateUID(),
@@ -341,68 +370,17 @@
           scheduleLines: scheduleLines,
           windowEnd: WINDOW_END(),
           timeIncrements: "<tbody>" + timeIncrements + "</tbody>",
-          prevClass: prevClass
-            ? CLASS_DETAILS({
-                courseCode: prevClass.course,
-                professors:
-                  prevClass.professors.length == 0
-                    ? "No listed instructors."
-                    : prevClass.professors
-                        .map((professor) =>
-                          PROFESSOR({
-                            professor: professor,
-                            link: professorLink(professor),
-                          }),
-                        )
-                        .join(""),
-                classTime: prevClass.start + "-" + prevClass.end,
-                meetingType: prevClass.meetingType,
-              })
-            : "No class",
-          currentClass: currentClass
-            ? CLASS_DETAILS({
-                courseCode: currentClass.course,
-                professors:
-                  currentClass.professors.length == 0
-                    ? "No listed instructors."
-                    : currentClass.professors
-                        .map((professor) =>
-                          PROFESSOR({
-                            professor: professor,
-                            link: professorLink(professor),
-                          }),
-                        )
-                        .join(""),
-                classTime: currentClass.start + "-" + currentClass.end,
-                meetingType: currentClass.meetingType,
-              })
-            : "No class",
-          nextClass: nextClass
-            ? CLASS_DETAILS({
-                courseCode: nextClass.course,
-                professors:
-                  nextClass.professors.length == 0
-                    ? "No listed instructors."
-                    : nextClass.professors
-                        .map((professor) =>
-                          PROFESSOR({
-                            professor: professor,
-                            link: professorLink(professor),
-                          }),
-                        )
-                        .join(""),
-                classTime: nextClass.start + "-" + nextClass.end,
-                meetingType: nextClass.meetingType,
-              })
-            : "No class",
+          prevClass: generateClassDetails(prevClass),
+          currentClass: generateClassDetails(currentClass),
+          nextClass: generateClassDetails(nextClass),
         };
       icl.log(roomMeetings);
       icl.log(weekSchedule);
       ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(
-        (day, i) => {
-          const isToday = icl.dateUtil.getScheduleDay(date) == i + 1;
+        (day, dayIndex) => {
+          const isToday = icl.dateUtil.getScheduleDay(date) == dayIndex + 1;
           scheduleArgs[day + "Schedule"] = renderDaySchedule(
-            weekSchedule[i],
+            weekSchedule[dayIndex],
             isToday,
           );
           scheduleArgs[day + "IsCurrentDay"] = isToday ? "" : "not-current-day";
@@ -495,11 +473,5 @@
   // Register event listeners
   window.icl.app = {
     back: () => history.back(),
-    // openProfessor: (professor) => {
-    //   const searchURL = 'https://act.ucsd.edu/directory/search?last={{last}}&first={{first}}&searchType=0'
-    //     .replace('{{last}}', professor.split(' ')[1])
-    //     .replace('{{first}}', professor.split(' ')[0]);
-    //   window.open(searchURL);
-    // }
   };
 })();
