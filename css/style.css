@@ -101,8 +101,20 @@ body {
     width: 100%;
 }
 .schedule-day-table td.class-row-datacell {
-    border: 1px solid #000;
     background-color: #fff;
+    padding: 0;
+    height: inherit;
+}
+.schedule-day-table td.class-row-datacell div {
+    border: 1px solid #000;
+    height: 100%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+}
+.schedule-day-table td.class-row-datacell.time-border-datacell div,
+.schedule-day-table td.class-row-datacell.current-time-border-datacell div {
+    border-top: none;
 }
 td,
 th {
@@ -142,8 +154,6 @@ table {
     table-layout: fixed;
     border-spacing: 0;
     border-collapse: collapse;
-    /* padding-left: 2px; */
-    /* padding-right: 2px; */
 }
 .schedule-day-table tr {
     height: 10px;
@@ -153,27 +163,31 @@ table {
 }
 .time-border-datacell {
     border-top: 5px solid white !important;
-    border-left: none;
+}
+.time-bottom-border-datacell {
+    border-bottom: 5px solid white !important;
 }
 .not-current-day .time-border-datacell {
-    border-top: 5px solid #aaa !important;
+    border-top: 5px solid #182b49 !important;
+}
+.not-current-day .time-bottom-border-datacell {
+    border-bottom: 5px solid #182b49 !important;
 }
 .min-width-datacell {
     width: 10px;
 }
 .current-time-border-datacell {
-    border-top: 5px solid red !important;
+    border-top: 5px solid #d462ad !important;
 }
 .current-time-bottom-border-datacell {
-    border-bottom: 5px solid red !important;
+    border-bottom: 5px solid #d462ad !important;
 }
-.not-current-day .current-time-border-datacell {
-    border-top: 5px solid red !important;
+/* .not-current-day .current-time-border-datacell {
+    border-top: 5px solid #d462ad !important;
 }
 .not-current-day .current-time-bottom-border-datacell {
-    border-bottom: 5px solid red !important;
-}
-
+    border-bottom: 5px solid #d462ad !important;
+} */
 .temporal-class-table {
     width: 100%;
 }
@@ -201,7 +215,7 @@ table {
     display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 950px) {
     .not-current-day {
         display: none;
     }
@@ -219,5 +233,15 @@ table {
     }
     .window-panel {
         max-height: 95vh;
+    }
+}
+@media only screen and (min-width: 1285px) {
+    td,
+    th {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .schedule-day-table tr {
+        height: 15px;
     }
 }

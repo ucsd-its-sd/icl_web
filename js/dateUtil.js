@@ -51,11 +51,31 @@
         schedules.push(getDaySchedule(room, workingDate));
       }
       return schedules;
+    },
+    indexTransformer = (startTime) => {
+      return {
+        getMeetingIndices: (meeting) => {
+          const startMinutes =
+              parseInt(meeting.start.slice(0, 2)) * 60 +
+              parseInt(meeting.start.slice(2)),
+            endMinutes =
+              parseInt(meeting.end.slice(0, 2)) * 60 +
+              parseInt(meeting.end.slice(2));
+          return {
+            startMinutes: startMinutes,
+            endMinutes: endMinutes,
+            startIndex: Math.floor((startMinutes - startTime) / 10),
+            endIndex: Math.floor((endMinutes - startTime) / 10),
+            rowLength: Math.floor((endMinutes - startMinutes) / 10),
+          };
+        },
+      };
     };
   window.icl.dateUtil = {
     getScheduleDateString: getScheduleDateString,
     getDaySchedule: getDaySchedule,
     getWeekSchedule: getWeekSchedule,
     getScheduleDay: getScheduleDay,
+    indexTransformer: indexTransformer,
   };
 })();

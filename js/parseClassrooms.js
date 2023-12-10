@@ -201,17 +201,17 @@
         line.slice(0, 2) === "20"
           ? "event"
           : // Detect recurring meetings with no capacity
-          allCaps.includes(line.slice(0, 1))
-          ? "recurringNoCapacity"
-          : // Detect TBA recurring (for line length, this will be discarded later)
-          line.includes("TBA") &&
-            (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999")
-          ? "recurringCapacity"
-          : // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
-          !isNaN(parseInt(line.slice(0, 4))) &&
-            !isNaN(parseInt(line.slice(0, 1)))
-          ? "recurringCapacity"
-          : "sectionDefinition";
+            allCaps.includes(line.slice(0, 1))
+            ? "recurringNoCapacity"
+            : // Detect TBA recurring (for line length, this will be discarded later)
+              line.includes("TBA") &&
+                (line.slice(0, 4) === "0000" || line.slice(0, 4) === "9999")
+              ? "recurringCapacity"
+              : // Detect section number + section (section can be in the form of A00 or 000, so look for two numbers)
+                !isNaN(parseInt(line.slice(0, 4))) &&
+                  !isNaN(parseInt(line.slice(0, 1)))
+                ? "recurringCapacity"
+                : "sectionDefinition";
 
       icl.log("R> " + lineType);
 
@@ -242,7 +242,11 @@
       }
 
       // TBA creature
-      if (line.includes("TBA")) {
+      if (
+        line.includes("TBA") ||
+        // Don't show recurring meetings during finals week
+        (icl.finals && lineType.includes("recurring"))
+      ) {
         return returnValue;
       } else if (lineType == "event") {
         // Date + Building + Meeting type + Room + Time
