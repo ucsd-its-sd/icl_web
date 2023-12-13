@@ -1,4 +1,4 @@
-V31702422001041
+V31702497600965
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -9131,7 +9131,7 @@ GPLA441A Intermediate Spanish	/courses/GPS.html#gpla441a
 'A00Sandra Luz,Pedregal
 0018RBC  24   LE1301 08000920A00
 20231212RBC  FI1301 08001100
-GPPA409  Economic Diplomacy
+GPPA409  Economic Diplomacy	/courses/GPS.html#gppa409
  A00James H,Lambright
 0050RBC  24   LE3203 09301050A00
 GPPA435  Comp Social Welfare Policy	/courses/GPS.html#gppa435
@@ -9154,7 +9154,7 @@ GPPS413  Comparative Party Politics	/courses/GPS.html#gpps413
 GPPS421  Politics/Economic Inequality	/courses/GPS.html#gpps421
  A00John S.,Ahlquist
 0050RBC  24   LE3202 11001220A00
-GPPS422  Decision Mking of the Governed
+GPPS422  Decision Mking of the Governed	/courses/GPS.html#gpps422
 GPPS434  Humanitarian Interventions	/courses/GPS.html#gpps434
  A00Jesse R.,Driscoll
 0018RBC  1    LE1428 17001950A00
