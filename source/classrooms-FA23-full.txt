@@ -1,4 +1,4 @@
-V31702594800709
+V31702670400702
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -5772,7 +5772,7 @@ COMM120I AMP: Social Issues-Media Prod	/courses/COMM.html#comm120i
  A00Teresa Isabel Hernandez,Naval
 0030APM  24   ST2301 12301350A00
 COMM126  Children and Media	/courses/COMM.html#comm126
-'A00Elisabeth,Wiering
+'A00Liesbeth,Wiering
 0030PODEM24   SE0133 14001520A00
 20231214PODEMFI0133 15001759
 COMM132  Adv Studies-Comm, Poli & Socty	/courses/COMM.html#comm132
@@ -5980,7 +5980,7 @@ LEDDN24   LEAUD  08000920B00
 CSE 87   First-year Seminar	/courses/CSE.html#cse87
  A00Garrison W,Cottrell
 0015EBU3B3    SEB220 09001050A00
- B00Alexander Niema,Moshiri
+ B00Niema,Moshiri
 0020EBU3B3    SE4258 14001450B00
 CSE 91   Perspectives in CSE	/courses/CSE.html#cse91
 .A00Mor Mia,Minnes Kemp
@@ -6012,7 +6012,7 @@ CSE 99H  Independent Study
 9999TBA  TBA  INTBA  TBA TBA 002
  003Imani N. S.,Munyaka
 9999TBA  TBA  INTBA  TBA TBA 003
- 004Alexander Niema,Moshiri
+ 004Niema,Moshiri
 9999TBA  TBA  INTBA  TBA TBA 004
  005Hao,Su
 9999TBA  TBA  INTBA  TBA TBA 005
@@ -6029,12 +6029,12 @@ CSE 99H  Independent Study
  011Ranjit,Jhala
 9999TBA  TBA  INTBA  TBA TBA 011
 CSE 100  Advanced Data Structures	/courses/CSE.html#cse100
-:A00Alexander Niema,Moshiri
+:A00Niema,Moshiri
 0250MOS  1    DI0114 20002050A01
 WLH  135  LE2001 13001350A00
 20231104RCLASMIR01  1500155020231213RCLASFIR01  15001759
 CSE 100R Advanced Data Structures	/courses/CSE.html#cse100r
-:A00Alexander Niema,Moshiri
+:A00Niema,Moshiri
 0250RCLAS1    DIR01  20002050A01
 RCLAS135  LER11  13001350A00
 20231104RCLASMIR02  15001550
@@ -6189,7 +6189,7 @@ CSE 191  Semnr/Computer Sci & Engineer	/courses/CSE.html#cse191
  A00Mor Mia,Minnes Kemp
 9999TBA  TBA  SETBA  TBA TBA A00
 CSE 193  Introduction to CS Research	/courses/CSE.html#cse193
-:A00Ruanqianqian,Huang
+:A00Ruanqianqian (Lisa),Huang
 0049TBA  TBA  DITBA  TBA TBA A01
 PETER24   LE103  15301650A00
 20231211PETERFI103  15001759
@@ -12215,7 +12215,7 @@ MCWP40   Critical Writing	/courses/MCWP.html#mcwp40
 0020MANDE24   TUB146 14001520037
  038Jason Michael,Bartulis
 0020MANDE24   TUB153 14001520038
- 040Andrea Carolina,Montejo
+ 040Carolina,Montejo
 0020MANDE13   TUB146 08000920040
  041Carrie King,Wastal
 0015MANDE13   TUB153 09301050041
@@ -12566,7 +12566,7 @@ MUS 32   Instrumental Instruction	/courses/MUS.html#mus32
 0010TBA  TBA  STTBA  TBA TBA 011
  014Michael David,Jones
 0010TBA  TBA  STTBA  TBA TBA 014
- 015Min-Seok,Ko
+ 015Peter,Ko
 0010TBA  TBA  STTBA  TBA TBA 015
  017Mitchell Kraig,Carlstrom
 0010TBA  TBA  STTBA  TBA TBA 017
@@ -12672,7 +12672,7 @@ MUS 132  Pro-Seminar/Instrmntl Instruct	/courses/MUS.html#mus132
 0010TBA  TBA  STTBA  TBA TBA 011
  012Matthew Alexander,Henson
 0010TBA  TBA  STTBA  TBA TBA 012
- 013Min-Seok,Ko
+ 013Peter,Ko
 0010TBA  TBA  STTBA  TBA TBA 013
  014Myra,Hinrichs
 0010TBA  TBA  STTBA  TBA TBA 014
@@ -17637,6 +17637,10 @@ SOMC245A Humanistic Anatomy A
 .A00Geoffroy Pierre Jean,Noel
 0160TBA  TBA  OTTBA  TBA TBA A01
 TBA  TBA  LATBA  TBA TBA A00
+SOMC246A CARE IA
+.A00Lisa T.,Eyler
+0160TBA  TBA  LETBA  TBA TBA A00
+TBA  TBA  SETBA  TBA TBA A01TBA  TBA  CLTBA  TBA TBA A50
 SOMC247A Diagnostics IA
 .A00Nigel A,Calcutt	Ann Marie Ponsford,Tipps	Peter,Lindholm
 0150TBA  TBA  LATBA  TBA TBA A01
