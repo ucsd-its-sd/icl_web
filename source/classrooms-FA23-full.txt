@@ -1,4 +1,4 @@
-V31702681201046
+V31702735201227
 FA23     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -4031,6 +4031,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 036
  037Tadeusz,Molinski
 9999TBA  TBA  INTBA  TBA TBA 037
+ 038Joshua,Figueroa
+9999TBA  TBA  INTBA  TBA TBA 038
 CHEM209  Macromolecular Recognition	/courses/CHEM.html#chem209
 'A00Navtej,Toor
 0050RWAC 24   LE0115 12301350A00
@@ -8308,7 +8310,7 @@ EDS 286  Advanced Topics in Leadership	/courses/EDS.html#eds286
  A00Alan J.,Daly
 0018TBA  6    SETBA  09001600A00
 EDS 289D Disseration Writing Seminar	/courses/EDS.html#eds289d
-.A00Carolyn,Hofstetter
+.A00Carolyn,Hofstetter	Sarah,Fine
 0018TBA  TBA  PRTBA  TBA TBA A01
 TBA  6    SETBA  09001600A00
 EDS 290  Research Practicum	/courses/EDS.html#eds290
