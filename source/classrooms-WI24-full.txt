@@ -1,4 +1,4 @@
-V31702843201035
+V31702854000791
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -13138,7 +13138,7 @@ PHYS87   First-year Seminar	/courses/PHYS.html#phys87
  A00Benjamin,Grinstein
 0020MYR-A3    SE4623 14001450A00
  B00Raja S,Chivukula	Elizabeth H,Simmons	Adam Jonathan,Burgasser
-0000MAYER1    SE5301 17001850B00
+0020MAYER1    SE5301 17001850B00
 PHYS100B Electromagnetism II	/courses/PHYS.html#phys100b
 :A00Elizabeth,Jenkins
 0120CENTR3    DI216  16001650A01
