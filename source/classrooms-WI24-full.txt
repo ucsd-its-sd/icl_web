@@ -1,4 +1,4 @@
-V31702929600774
+V31702940401008
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -770,7 +770,7 @@ BENG247B BioElectronics	/courses/BENG.html#beng247b
 20240319TBA  FITBA  15001759
 BENG278  Magnetic Resonance Imaging	/courses/BENG.html#beng278
 .A00Francisco,Contijoch
-0009TBA  1    LETBA  13001350A00
+0017TBA  1    LETBA  13001350A00
 PFBH 4    LA108  19002200A01
 BENG280B Comparative Biomedical Imaging	/courses/BENG.html#beng280b
 BENG281  Seminar in Bioengineering	/courses/BENG.html#beng281
@@ -5145,7 +5145,7 @@ COMM140  Cinema in Latin America	/courses/COMM.html#comm140
 20240321TBA  FITBA  11301429
 COMM158  Rep/Israeli/Pal Conflict	/courses/COMM.html#comm158
 'A00Gary,Fields
-0030CENTR13   SE207  17001820A00
+0032CENTR13   SE207  17001820A00
 20240318TBA  FITBA  19002159
 COMM160  Poli Economy-Internatl Comm	/courses/COMM.html#comm160
 'A00Andrew C,Whitworth-Smith
@@ -8523,7 +8523,7 @@ HITO87   First-year Seminar	/courses/HIST.html#hito87
  C00Sarah,Schneewind
 0015RWAC 1    SE0846 11001150C00
  D00Karl G.,Gerth
-0020RWAC 4    SE0846 08000920D00
+0000RWAC 4    SE0846 08000920D00
 HITO100  The Craft of History	/courses/HIST.html#hito100
  A00Nydia,Pineda De Avila
 0025YORK 135  LE4050A09000950A00
@@ -10631,7 +10631,7 @@ WLH  24   LE2208 11001220A00
 20240321TBA  FITBA  11301429
 MATH216B Math Methods Data Science II	/courses/MATH.html#math216b
 'A00Alexander,Cloninger
-0015APM  24   LEB402A12301350A00
+0020APM  24   LEB402A12301350A00
 20240319TBA  FITBA  11301429
 MATH217  Topics in Applied Mathematics	/courses/MATH.html#math217
 'A00Xiaochuan,Tian
