@@ -1,4 +1,4 @@
-V31703113201184
+V31703167201012
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -6230,7 +6230,7 @@ DSE 260A Data Science Capstone Design 1
 0030TBA  6    LETBA  08001700A00
 CSS 1    Prog Computational Social Sci	/courses/css.html#css1
 .A00Umberto,Mignozzetti
-0050CSB  1    LA005  10001050A010050CSB  5    LA005  15001550A02
+0056CSB  1    LA005  10001050A010056CSB  5    LA005  15001550A02
 PCYNH135  LE122  08000850A00
 CSS 2    Data/Model Programming: CSS	/courses/css.html#css2
 .A00Sean Thomas,Trott
@@ -17278,7 +17278,7 @@ USP 124  Land Use Planning	/courses/USP.html#usp124
 20240318TBA  FITBA  19002159
 USP 125  The Design of Social Research	/courses/USP.html#usp125
 'A00Amy M,Lerner
-0028RWAC 24   LE0424 09301050A00
+0030RWAC 24   LE0424 09301050A00
 20240319TBA  FITBA  08001059
 USP 128A CAS: Community Engaged Resrch	/courses/USP.html#usp128a
 :A00Leslie R,Lewis
@@ -17352,7 +17352,7 @@ USP 170  Planning for Sustainable Comm	/courses/USP.html#usp170
 20240320TBA  FITBA  19002159
 USP 171  Sustainable Development	/courses/USP.html#usp171
 'A00Amy M,Lerner
-0045RWAC 24   LE0115 14001520A00
+0048RWAC 24   LE0115 14001520A00
 20240321TBA  FITBA  15001759
 USP 173  History/Urban Planning&Design	/courses/USP.html#usp173
 'A00Lawrence,Herzog
@@ -17412,7 +17412,7 @@ USP 199  Independent Study	/courses/USP.html#usp199
 9999TBA  TBA  INTBA  TBA TBA 001
 USP 271  Sustainable Development	/courses/USP.html#usp271
 'A00Amy M,Lerner
-0005RWAC 24   LE0115 14001520A00
+0002RWAC 24   LE0115 14001520A00
 20240321TBA  FITBA  15001759
 USP 500  Apprentice Teaching
  001Keith,Pezzoli
