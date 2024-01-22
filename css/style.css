@@ -199,7 +199,7 @@ table {
 /* No style for these elements currently */
 .current-time-bottom-border-datacell {
     /* Magenta from brand.ucsd.edu */
-    /* border-bottom: 5px solid #d462ad !important; */
+    border-bottom: 5px solid #d462ad !important;
 }
 .temporal-class-table {
     width: 100%;
