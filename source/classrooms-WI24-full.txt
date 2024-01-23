@@ -1,4 +1,4 @@
-V31706018403077
+V31706040000673
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -78,6 +78,16 @@ AIP 197  Academic Internship Program	/courses/AIP.html#aip197
 9999TBA  TBA  ITTBA  TBA TBA 027
  028James Edward,Cooke
 9999TBA  TBA  ITTBA  TBA TBA 028
+ 029Mahadevan,Rajasekaran
+9999TBA  TBA  ITTBA  TBA TBA 029
+ 030Jill M,Gladstein
+9999TBA  TBA  ITTBA  TBA TBA 030
+ 031Makeba,Jones
+9999TBA  TBA  ITTBA  TBA TBA 031
+ 032Gerard R.,Boss
+9999TBA  TBA  ITTBA  TBA TBA 032
+ 033Bradley Thomas,Voytek
+9999TBA  TBA  ITTBA  TBA TBA 033
 AIP 197DCWashington, DC Internship	/courses/AIP.html#aip197dc
  001Seth J,Hill
 0031TBA  TBA  ITTBA  TBA TBA 001
@@ -86,6 +96,8 @@ AIP 197P Public Service Internship	/courses/AIP.html#aip197p
 0130TBA  TBA  ITTBA  TBA TBA 001
  002Rebecca,Fielding-Miller
 9999TBA  TBA  ITTBA  TBA TBA 002
+ 003Leslie J.,Carver
+9999TBA  TBA  ITTBA  TBA TBA 003
 ANES223  Intro/Health Care Policy
  A00Robert Ernest,Hertzka
 0050TBA  TBA  LETBA  TBA TBA A00
@@ -382,6 +394,8 @@ ANTH296  Dissertation Fieldwork Prep	/courses/ANTH.html#anth296
 0003TBA  TBA  TUTBA  TBA TBA 019
  020Guillermo,Algaze
 0003TBA  TBA  TUTBA  TBA TBA 020
+ 021Bronwyn Nicole,Kaiser
+0003TBA  TBA  TUTBA  TBA TBA 021
 ANTH298  Independent Study	/courses/ANTH.html#anth298
  001Joseph D.,Hankins
 0003TBA  TBA  TUTBA  TBA TBA 001
@@ -3891,6 +3905,8 @@ YORK 2    LE2722 18001850B00
 CHEM99   Independent Study	/courses/CHEM.html#chem99
  001Andrew Brian,Pun
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Elizabeth A,Komives
+9999TBA  TBA  INTBA  TBA TBA 002
 CHEM99H  Independent Study	/courses/CHEM.html#chem99h
  001Wei,Wang
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -4067,6 +4083,12 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 028
  029Nathan A,Romero
 9999TBA  TBA  INTBA  TBA TBA 029
+ 030Colleen A,McHugh
+9999TBA  TBA  INTBA  TBA TBA 030
+ 031Seth M,Cohen
+9999TBA  TBA  INTBA  TBA TBA 031
+ 032Ulrich K.,Muller
+9999TBA  TBA  INTBA  TBA TBA 032
 CHEM200B Instrumental Analysis	/courses/CHEM.html#chem200b
 'A00Robert S.,Pomeroy
 0020TBA  135  LETBA  08000850A00
@@ -4996,6 +5018,8 @@ COGS99   Independent Study	/courses/COGS.html#cogs99
 9999TBA  TBA  INTBA  TBA TBA 002
  003Lara M,Rangel
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Douglas A.,Nitz
+9999TBA  TBA  INTBA  TBA TBA 004
 COGS99H  Independent Study
  001Bradley Thomas,Voytek
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -5247,6 +5271,10 @@ COGS199  Special Project	/courses/COGS.html#cogs199
 9999TBA  TBA  INTBA  TBA TBA 017
  018Drew Ellen,Hoffman
 9999TBA  TBA  INTBA  TBA TBA 018
+ 019Federico,Rossano
+9999TBA  TBA  INTBA  TBA TBA 019
+ 020Gedeon O.,Deak
+9999TBA  TBA  INTBA  TBA TBA 020
 COGS200  Cognitive Science Seminar	/courses/COGS.html#cogs200
 .A00Lera,Boroditsky
 0040CSB  5    DI003  14001450A01
@@ -7010,6 +7038,9 @@ ECE 65   Components & Circuits Lab	/courses/ECE.html#ece65
 0030WLH  2    LA2213A15301830A500030WLH  2    LA2213A19002200A510030WLH  3    LA2213A19002200A520030WLH  4    LA2213A12001500A530030WLH  4    LA2213A15301830A540030WLH  4    LA2215 15301830A56
 PCYNH135  LE109  13001350A00FAH  3    DI1101 15001550A01FAH  5    DI1450 09000950A02
 20240322TBA  FITBA  11301429
+ECE 99H  Independent Study
+ 001Pengtao,Xie
+9999TBA  TBA  INTBA  TBA TBA 001
 ECE 101  Linear Systems Fundamentals	/courses/ECE.html#ece101
 :A00Saharnaz,Baghdadchi
 0090FAH  1    DI1450 10001050A010090PODEM5    DI1A18 12001250A02
@@ -7875,6 +7906,8 @@ ECON291  Advanced Field Advising	/courses/ECON.html#econ291
 9999TBA  TBA  INTBA  TBA TBA 011
  012Yizhak,Fadlon
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013Craig,McIntosh
+9999TBA  TBA  INTBA  TBA TBA 013
 ECON297  Independent Study	/courses/ECON.html#econ297
  001Joel,Sobel
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7900,6 +7933,12 @@ ECON297  Independent Study	/courses/ECON.html#econ297
 9999TBA  TBA  INTBA  TBA TBA 011
  012Aram,Grigoryan
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013James E,Rauch
+9999TBA  TBA  INTBA  TBA TBA 013
+ 014Craig,McIntosh
+9999TBA  TBA  INTBA  TBA TBA 014
+ 015Julian,Betts
+9999TBA  TBA  INTBA  TBA TBA 015
 ECON299  Research in Economics	/courses/ECON.html#econ299
  001Emanuel Ignacio,Vespa
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -8451,6 +8490,8 @@ ETHN298  Directed Reading	/courses/ETHN.html#ethn298
 0000TBA  TBA  INTBA  TBA TBA 009
  010K. Wayne,Yang
 0000TBA  TBA  INTBA  TBA TBA 010
+ 011Kathryn A,Walkiewicz
+0000TBA  TBA  INTBA  TBA TBA 011
 ETHN299  Thesis Research	/courses/ETHN.html#ethn299
  001Yen,Espiritu
 0000TBA  TBA  INTBA  TBA TBA 001
@@ -9089,7 +9130,7 @@ GPPS409  Gender/International Politics	/courses/GPS.html#gpps409
 0081RBC  13   LE3201 09301050A00
 GPPS423  Corp Social Responsibility	/courses/GPS.html#gpps423
  A00Peter Alexis,Gourevitch
-0035RBC  4    LE3203 17001950A00
+0018RBC  4    LE3203 17001950A00
 GPPS428  Pol Energy/Enviro Regulation	/courses/GPS.html#gpps428
  A00Michael R,Davidson
 0081RBC  24   LE3201 12301350A00
@@ -10948,7 +10989,7 @@ MAE 200  Controls	/courses/MAE.html#mae200
 20240321TBA  FITBA  11301429
 MAE 204  Robotics	/courses/MAE.html#mae204
 :A00Michael Thomas,Tolley
-0096FAH  24   LE1101 12301350A00
+0095FAH  24   LE1101 12301350A00
 FAH  5    LE1101 08000850A00
 20240319TBA  FITBA  11301429
 MAE 205  Graduate Seminar	/courses/MAE.html#mae205
@@ -12309,6 +12350,8 @@ MED 296  Independent Research
 0005TBA  TBA  INTBA  TBA TBA 006
  007Tsung-Ting,Kuo
 0002TBA  TBA  INTBA  TBA TBA 007
+ 008Megha,Shankar
+0005TBA  TBA  INTBA  TBA TBA 008
 MED 299  Medicine Independnt Study Proj
  001Joseph David,Diaz
 0050TBA  TBA  INTBA  TBA TBA 001
@@ -12620,7 +12663,7 @@ MUS 127  Discover Jazz	/courses/MUS.html#mus127
 20240321TBA  FITBA  11301429
 MUS 130  Chamber Music Performance	/courses/MUS.html#mus130
 'A00Takae,Ohnishi
-0032CPMC 4    ST368  14001650A00
+0033CPMC 4    ST368  14001650A00
 20240321TBA  FITBA  15001759
 MUS 131  Advd Improvisation Performance	/courses/MUS.html#mus131
  A00Matana,Roberts
@@ -12687,7 +12730,7 @@ MUS 170  Art of Sound	/courses/MUS.html#mus170
 CPMC 24   LE136  14001520A00
 MUS 174B Audio&MIDI StudioTechniques II	/courses/MUS.html#mus174b
  A00King James,Britt
-0032CPMC 24   LA269  11001220A00
+0033CPMC 24   LA269  11001220A00
 MUS 201A Projects in New Music Prfrmnce	/courses/MUS.html#mus201a
  A00Mark Stuart,Dresser
 0015CPMC 2    LA264  14001650A00
@@ -12870,6 +12913,8 @@ MUS 299  Advncd Rsrch Prjcts&Indpnt Stu	/courses/MUS.html#mus299
 9999TBA  TBA  INTBA  TBA TBA 022
  023Karola,Obermueller
 9999TBA  TBA  INTBA  TBA TBA 023
+ 024Sarah E.,Hankins
+9999TBA  TBA  INTBA  TBA TBA 024
 MUS 500  Apprentice Teaching	/courses/MUS.html#mus500
  001King James,Britt
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -14062,6 +14107,8 @@ PHYA298  Directed Study in Astronomy	/courses/PHYS.html#phya298
 9999TBA  TBA  INTBA  TBA TBA 002
  003Brian,Keating
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Monica T,Allen
+9999TBA  TBA  INTBA  TBA TBA 004
 PHYA299  Thesis Research in Astronomy	/courses/PHYS.html#phya299
  001Aobo,Li
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -14249,6 +14296,9 @@ PHYS87   First-year Seminar	/courses/PHYS.html#phys87
 0020MYR-A3    SE4623 14001450A00
  B00Raja S,Chivukula	Elizabeth H,Simmons	Adam Jonathan,Burgasser
 0020MAYER1    SE5301 17001850B00
+PHYS99   Independent Study	/courses/PHYS.html#phys99
+ 001Tzer Han,Tan
+9999TBA  TBA  INTBA  TBA TBA 001
 PHYS99H  Independent Study	/courses/PHYS.html#phys99h
  001Julio,Barreiro Guerrero
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -14350,6 +14400,10 @@ PHYS199  Research for Undergraduates	/courses/PHYS.html#phys199
 9999TBA  TBA  INTBA  TBA TBA 010
  011Kam S,Arnold
 9999TBA  TBA  INTBA  TBA TBA 011
+ 012David,Kleinfeld
+9999TBA  TBA  INTBA  TBA TBA 012
+ 013Monica T,Allen
+9999TBA  TBA  INTBA  TBA TBA 013
 PHYS199H Honors Thesis Rsrch/Undergrads	/courses/PHYS.html#phys199h
  001M. Brian,Maple
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -14592,6 +14646,8 @@ PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
 0000TBA  TBA  INTBA  TBA TBA 044
  045Kam S,Arnold
 0000TBA  TBA  INTBA  TBA TBA 045
+ 046Gert,Cauwenberghs
+0000TBA  TBA  INTBA  TBA TBA 046
 POLI5D   Data Analytics/Social Sciences	/courses/POLI.html#poli5d
 :A00David Hall,Arnold
 0005DIB  5    LA122  15001550A010005DIB  5    LA122  16001650A020005WLH  5    LA2205 17001750A030005RWAC 5    LA0115 10001050A040005RWAC 5    LA0115 11001150A050005RWAC 5    LA0115 12001250A06
@@ -14670,7 +14726,7 @@ POLI153  The EU in World Politics	/courses/POLI.html#poli153
 20240318TBA  FITBA  11301429
 POLI160AAIntroduction/Policy Analysis	/courses/POLI.html#poli160aa
 'A00Jennifer Colleen,Gaudette
-0225CTL  3    LE0125 17001950A00
+0235CTL  3    LE0125 17001950A00
 20240318TBA  FITBA  19002159
 POLI170A Applied Data Analysis/PoliSci	/courses/POLI.html#poli170a
 'A00Benjamin S,Noble
@@ -15629,6 +15685,9 @@ RELI101  Tools&Methods/Studyof Religion	/courses/RELI.html#reli101
 RELI188  Special Topics in Religion	/courses/RELI.html#reli188
  A00Dayna,Kalleres
 0040PODEM135  LE0133 15001550A00
+RELI196AHHonors Thesis in Religion	/courses/RELI.html#reli196ah
+ A00Dayna,Kalleres
+9999TBA  TBA  INTBA  TBA TBA A00
 REV 20   Revelle Honors Seminar	/courses/REV.html#rev20
  A00Robert S.,Pomeroy
 0040RVCOM2    SEFORML15301730A00
@@ -17500,6 +17559,8 @@ SOCI199  Independent Study	/courses/SOC.html#soci199
 9999TBA  TBA  INTBA  TBA TBA 004
  005Makeba,Jones
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006David S,Fitzgerald
+9999TBA  TBA  INTBA  TBA TBA 006
 ENG 10   Fundamentals/Engineering Appln	/courses/ENG.html#eng10
  B00Ekaterina,Evdokimenko
 0028SME  4    LE302  16001750B00
@@ -18354,7 +18415,7 @@ USP 100  Introduction to Urban Planning	/courses/USP.html#usp100
 20240319TBA  FITBA  11301429
 USP 101  Introduction/Policy Analysis	/courses/USP.html#usp101
 'A00Jennifer Colleen,Gaudette
-0025CTL  3    LE0125 17001950A00
+0027CTL  3    LE0125 17001950A00
 20240318TBA  FITBA  19002159
 USP 105  Urban Sociology	/courses/USP.html#usp105
 'A00Yael,Shmaryahu Yeshurun
@@ -18667,11 +18728,11 @@ VIS 158C History of Social Documentary	/courses/VIS.html#vis158c
 20240319TBA  FITBA  15001759
 VIS 160A Senior Proj/Computing Arts I	/courses/VIS.html#vis160a
  A00Amy J,Alexander
-0010MANDE3    SEB114 12001450A00
+0015MANDE3    SEB114 12001450A00
  B00Mehmet,Akten
-0010EBU3B4    SEB210 15301820B00
+0015EBU3B4    SEB210 15301820B00
  C00Patricia,Stone
-0010MANDE2    SEB114 09301220C00
+0015MANDE2    SEB114 09301220C00
 VIS 161  Systems and Networks at Scale	/courses/VIS.html#vis161
  A00Benjamin H.,Bratton
 0016MANDE2    LEB114 15301820A00
@@ -18730,6 +18791,8 @@ VIS 199  Special Studies	/courses/VIS.html#vis199
 9999TBA  TBA  INTBA  TBA TBA 002
  003Brian R,Cross
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Maria Loren,Gomez Mostajo
+9999TBA  TBA  INTBA  TBA TBA 004
 VIS 201  Contemporary Critical Issues	/courses/VIS.html#vis201
  A00Edwin Teddy,Cruz
 0015VAF  3    SE366  12001450A00
