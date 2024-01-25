@@ -1,4 +1,4 @@
-V31706137200589
+V31706191201210
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -13539,15 +13539,15 @@ OBG 432  Subintrnshp/Obstetrics&Gynecol
 OBG 496  Clinical Independent Study
  001Sarah Helene,Averbach
 0005TBA  TBA  INTBA  TBA TBA 001
-OPTH296  Independent Study
- 001Sally Liu,Baxter
+OPTH296  Orthopaedics Independent Rsrch
+ 001
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
  003
 0050TBA  TBA  INTBA  TBA TBA 003
-OPTH299  Ophthalmology Indepndnt Resrch
- 001Eric Daniel,Nudleman
+OPTH299  Independent Study Project(ISP)
+ 001Eric W.,Edmonds
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
@@ -13556,8 +13556,8 @@ OPTH299  Ophthalmology Indepndnt Resrch
 OPTH410  Introduction to Ophthalmology
  A00Yunxiang,Liu
 0050TBA  TBA  CLTBA  TBA TBA A00
-OPTH425  Subinternship in Ophthalmology
- A00Andrew S,Camp
+OPTH425  Subinternship/Trauma Orthopaed
+ A00Alexandra K.,Schwartz
 0050TBA  TBA  CLTBA  TBA TBA A00
 OPTH426  Ophthalmic Plast & Reconst Sur
  A00Don Osami,Kikkawa
@@ -13567,26 +13567,9 @@ OPTH496  Clinical Independent Study
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
-ORTH250  Precptrshp/Musculoskeletal Med
+OPTH250  Precptrshp/Musculoskeletal Med
  A00Douglas Glenn,Chang
 0008TBA  TBA  PRTBA  TBA TBA A00
-ORTH296  Orthopaedics Independent Rsrch
- 001
-0050TBA  TBA  INTBA  TBA TBA 001
- 002
-0050TBA  TBA  INTBA  TBA TBA 002
- 003
-0050TBA  TBA  INTBA  TBA TBA 003
-ORTH299  Independent Study Project(ISP)
- 001Eric W.,Edmonds
-0050TBA  TBA  INTBA  TBA TBA 001
- 002
-0050TBA  TBA  INTBA  TBA TBA 002
- 003
-0050TBA  TBA  INTBA  TBA TBA 003
-ORTH425  Subinternship/Trauma Orthopaed
- A00Alexandra K.,Schwartz
-0050TBA  TBA  CLTBA  TBA TBA A00
 ORTH426  Subin/Ambulatory Orthopaedics
  A00Alexandra K.,Schwartz
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -13624,22 +13607,20 @@ PATH225  Seminars/Molecular Pathology
 .A00Richard,Klemke
 0020TBA  TBA  SETBA  TBA TBA A01
 LFFB 3    LE3A05 12001300A00
-PATH296  Pathology Independent Research	/courses/PATH.html#path296
+PATH296  Pediatrics Independent Resrch
  001
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
  003
 0050TBA  TBA  INTBA  TBA TBA 003
-PATH299  Path/Independent Study Project	/courses/PATH.html#path299
- 001Ann Marie Ponsford,Tipps
+PATH299  Pediatric Indepndnt Study Proj
+ 001M Paula,Aristizabal
 0050TBA  TBA  INTBA  TBA TBA 001
- 002Jay S.,Desgrosellier
+ 002Weena Erin,Joshi
 0050TBA  TBA  INTBA  TBA TBA 002
- 003
+ 003Maja,Marinkovic
 0050TBA  TBA  INTBA  TBA TBA 003
- 004Richard,Klemke
-0002TBA  TBA  INTBA  TBA TBA 004
 PATH401A Pathology Clerkship/Autopsy
  A00Ann Marie Ponsford,Tipps
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -13661,8 +13642,8 @@ PATH411  Intro to Anatomic Pathology
 PATH412  Intro to Ophthalmic Pathology
  A00Cole John,Ferguson
 0050TBA  TBA  CLTBA  TBA TBA A00
-PATH426  Pathology Clerkship/Pediatric
- A00Denise Michelle,Malicki
+PATH426  Clin Clerkshp/Pediatric Cardio
+ A00Brian Thomas,Fagan
 0050TBA  TBA  CLTBA  TBA TBA A00
 PATH427  Ophthalmic Pathology
  A00Cole John,Ferguson
@@ -13670,34 +13651,17 @@ PATH427  Ophthalmic Pathology
 PATH428  Pathology Clerkship/Forensic
  A00Ann Marie Ponsford,Tipps
 0050TBA  TBA  CLTBA  TBA TBA A00
-PEDS199  Independent Study
+PATH199  Independent Study
  001Alysson,Muotri
 9999TBA  TBA  INTBA  TBA TBA 001
-PEDS245  Precep/Pediatric Gastroenterol
+PATH245  Precep/Pediatric Gastroenterol
  A00Elizabeth Louise,Yu
 0002TBA  TBA  CLTBA  TBA TBA A00
-PEDS296  Pediatrics Independent Resrch
- 001
-0050TBA  TBA  INTBA  TBA TBA 001
- 002
-0050TBA  TBA  INTBA  TBA TBA 002
- 003
-0050TBA  TBA  INTBA  TBA TBA 003
-PEDS299  Pediatric Indepndnt Study Proj
- 001M Paula,Aristizabal
-0050TBA  TBA  INTBA  TBA TBA 001
- 002Weena Erin,Joshi
-0050TBA  TBA  INTBA  TBA TBA 002
- 003Maja,Marinkovic
-0050TBA  TBA  INTBA  TBA TBA 003
-PEDS401  Pediatric Core Clerkship
+PATH401  Pediatric Core Clerkship
  A00Christopher Ray,Cannavino
 0050TBA  TBA  CLTBA  TBA TBA A00
-PEDS424  Subinternship in Ped Resp Med
+PATH424  Subinternship in Ped Resp Med
  A00Daniel J,Lesser
-0050TBA  TBA  CLTBA  TBA TBA A00
-PEDS426  Clin Clerkshp/Pediatric Cardio
- A00Brian Thomas,Fagan
 0050TBA  TBA  CLTBA  TBA TBA A00
 PEDS427  Sub-Internship/Inpatient Peds
  A00Christopher Ray,Cannavino
@@ -17435,7 +17399,7 @@ FAH  135  LE1301 13001350A00
 20240322TBA  FITBA  11301429
 SOCI2    The Study of Society	/courses/SOC.html#soci2
 :A00Danielle,Raudenbush
-0000SSB  2    DI101  08000850A010000SSB  2    DI101  09000950A020032SSB  2    DI101  10001050A030032SSB  2    DI101  11001150A040032SSB  1    DI101  17001750A050032SSB  1    DI101  18001850A060000SSB  4    DI101  08000850A070000SSB  4    DI101  09000950A080032SSB  4    DI101  10001050A090032SSB  4    DI101  11001150A100033CENTR4    DI217B 17001750A110033CENTR4    DI217B 18001850A12
+0000SSB  2    DI101  08000850A010000SSB  2    DI101  09000950A020032SSB  2    DI101  10001050A030032SSB  2    DI101  11001150A040032SSB  1    DI101  17001750A050032SSB  1    DI101  18001850A060000SSB  4    DI101  08000850A070000SSB  4    DI101  09000950A080032SSB  4    DI101  10001050A090032SSB  4    DI101  11001150A100033SSB  4    DI101  17001750A110033SSB  4    DI101  18001850A12
 PETER135  LE108  13001350A00
 20240322TBA  FITBA  11301429
 SOCI30   Science, Technology & Society	/courses/SOC.html#soci30
@@ -18250,7 +18214,7 @@ TDHD20   Looking at Dance	/courses/THEA.html#tdhd20
 0040PODEM24   SE0133 14001520A00
 TDHD176  Dance History: Special Topics	/courses/THEA.html#tdhd176
 'A00Cherry,Anabo
-0020GH   13   LE247  14001520A00
+0020DANCE13   LE2    14001520A00
 20240318TBA  FITBA  15001759
 TDHT10   Introduction to Play Analysis	/courses/THEA.html#tdht10
  A00Jade Yukana,Power
