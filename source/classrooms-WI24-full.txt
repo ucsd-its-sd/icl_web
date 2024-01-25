@@ -1,4 +1,4 @@
-V31706191201210
+V31706212800715
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -185,7 +185,7 @@ ANBI134  Human Evolutionary Genetics	/courses/ANTH.html#anbi134
 ANBI136  Human Comparative Neuroanatomy	/courses/ANTH.html#anbi136
 ANBI143  The Human Skeleton	/courses/ANTH.html#anbi143
 'A00Linnea Lorene,Wilder
-0040PODEM135  SE0133 12001250A00
+0040MANDE135  SEB104 12001250A00
 20240320TBA  FITBA  11301429
 ANBI145  Bioarchaeology	/courses/ANTH.html#anbi145
 ANBI159  Biological&Cult Persptv/Intell	/courses/ANTH.html#anbi159
@@ -2748,7 +2748,7 @@ YORK 24   LE2622 14001520A00
 BIMM120  Microbiology	/courses/BIOL.html#bimm120
 :A00James W,Golden
 0216RCLAS4    DIR29  15001550A01
-SOLIS24   LE107  11001220A00
+LEDDN24   LEAUD  11001220A00
 20240321TBA  FITBA  11301429
 BIMM121  Microbiology Laboratory	/courses/BIOL.html#bimm121
 .A00Brooke Elizabeth,Pickett
@@ -8423,7 +8423,7 @@ ETHN103  Environmental Racism	/courses/ETHN.html#ethn103
 20240319TBA  FITBA  11301429
 ETHN104  Race, Space, & Segregation	/courses/ETHN.html#ethn104
 'A00Jose Ignacio,Fuste
-0069PETER24   LE103  09301050A00
+0068PETER24   LE103  09301050A00
 20240319TBA  FITBA  08001059
 ETHN112A NativeAm& Indigenous Hist US I	/courses/ETHN.html#ethn112a
  A00Mary Cameron,Klann
@@ -9916,7 +9916,7 @@ LIGM11   Elementary German Reading	/courses/LING.html#ligm11
 9999TBA  TBA  INTBA  TBA TBA A00
 LIGN8    Languages & Cultures/America	/courses/LING.html#lign8
 'A00Justin Daniel,McIntosh
-0300LEDDN24   LEAUD  11001220A00
+0300SOLIS24   LE107  11001220A00
 20240321TBA  FITBA  11301429
 LIGN17   Making and Breaking Codes	/courses/LING.html#lign17
 'A00Andrew Scott,Kehler
@@ -10955,7 +10955,7 @@ LEDDN135  LEAUD  17001850A00
 20240318TBA  FITBA  19002159
 MAE 175A Aerospace Engineering Lab	/courses/MAE.html#mae175a
 :A00Raymond A,de Callafon
-0016EBU2 2    LA121  09001150A010016EBU2 2    LA121  12301520A020016TBA  2    LATBA  09001150A030016EBU2 4    LA121  09001150A050016EBU2 4    LA121  12301520A060016TBA  4    LATBA  09001150A07
+0016EBU2 2    LA121  09001150A010016EBU2 2    LA121  12301520A020016TBA  2    LATBA  09001150A030016EBU2 4    LA121  09001150A050016EBU2 4    LA121  12301520A060015TBA  4    LATBA  09001150A07
 CENTR135  LE113  17001850A00
 20240318TBA  FITBA  19002159
 MAE 182  Spacecraft Guidance&Navigation
@@ -12751,7 +12751,7 @@ MUS 170  Art of Sound	/courses/MUS.html#mus170
 CPMC 24   LE136  14001520A00
 MUS 174B Audio&MIDI StudioTechniques II	/courses/MUS.html#mus174b
  A00King James,Britt
-0033CPMC 24   LA269  11001220A00
+0032CPMC 24   LA269  11001220A00
 MUS 201A Projects in New Music Prfrmnce	/courses/MUS.html#mus201a
  A00Mark Stuart,Dresser
 0015CPMC 2    LA264  14001650A00
@@ -13539,15 +13539,15 @@ OBG 432  Subintrnshp/Obstetrics&Gynecol
 OBG 496  Clinical Independent Study
  001Sarah Helene,Averbach
 0005TBA  TBA  INTBA  TBA TBA 001
-OPTH296  Orthopaedics Independent Rsrch
- 001
+OPTH296  Independent Study
+ 001Sally Liu,Baxter
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
  003
 0050TBA  TBA  INTBA  TBA TBA 003
-OPTH299  Independent Study Project(ISP)
- 001Eric W.,Edmonds
+OPTH299  Ophthalmology Indepndnt Resrch
+ 001Eric Daniel,Nudleman
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
@@ -13556,8 +13556,8 @@ OPTH299  Independent Study Project(ISP)
 OPTH410  Introduction to Ophthalmology
  A00Yunxiang,Liu
 0050TBA  TBA  CLTBA  TBA TBA A00
-OPTH425  Subinternship/Trauma Orthopaed
- A00Alexandra K.,Schwartz
+OPTH425  Subinternship in Ophthalmology
+ A00Andrew S,Camp
 0050TBA  TBA  CLTBA  TBA TBA A00
 OPTH426  Ophthalmic Plast & Reconst Sur
  A00Don Osami,Kikkawa
@@ -13567,9 +13567,26 @@ OPTH496  Clinical Independent Study
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
-OPTH250  Precptrshp/Musculoskeletal Med
+ORTH250  Precptrshp/Musculoskeletal Med
  A00Douglas Glenn,Chang
 0008TBA  TBA  PRTBA  TBA TBA A00
+ORTH296  Orthopaedics Independent Rsrch
+ 001
+0050TBA  TBA  INTBA  TBA TBA 001
+ 002
+0050TBA  TBA  INTBA  TBA TBA 002
+ 003
+0050TBA  TBA  INTBA  TBA TBA 003
+ORTH299  Independent Study Project(ISP)
+ 001Eric W.,Edmonds
+0050TBA  TBA  INTBA  TBA TBA 001
+ 002
+0050TBA  TBA  INTBA  TBA TBA 002
+ 003
+0050TBA  TBA  INTBA  TBA TBA 003
+ORTH425  Subinternship/Trauma Orthopaed
+ A00Alexandra K.,Schwartz
+0050TBA  TBA  CLTBA  TBA TBA A00
 ORTH426  Subin/Ambulatory Orthopaedics
  A00Alexandra K.,Schwartz
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -13607,20 +13624,22 @@ PATH225  Seminars/Molecular Pathology
 .A00Richard,Klemke
 0020TBA  TBA  SETBA  TBA TBA A01
 LFFB 3    LE3A05 12001300A00
-PATH296  Pediatrics Independent Resrch
+PATH296  Pathology Independent Research	/courses/PATH.html#path296
  001
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
  003
 0050TBA  TBA  INTBA  TBA TBA 003
-PATH299  Pediatric Indepndnt Study Proj
- 001M Paula,Aristizabal
+PATH299  Path/Independent Study Project	/courses/PATH.html#path299
+ 001Ann Marie Ponsford,Tipps
 0050TBA  TBA  INTBA  TBA TBA 001
- 002Weena Erin,Joshi
+ 002Jay S.,Desgrosellier
 0050TBA  TBA  INTBA  TBA TBA 002
- 003Maja,Marinkovic
+ 003
 0050TBA  TBA  INTBA  TBA TBA 003
+ 004Richard,Klemke
+0002TBA  TBA  INTBA  TBA TBA 004
 PATH401A Pathology Clerkship/Autopsy
  A00Ann Marie Ponsford,Tipps
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -13642,8 +13661,8 @@ PATH411  Intro to Anatomic Pathology
 PATH412  Intro to Ophthalmic Pathology
  A00Cole John,Ferguson
 0050TBA  TBA  CLTBA  TBA TBA A00
-PATH426  Clin Clerkshp/Pediatric Cardio
- A00Brian Thomas,Fagan
+PATH426  Pathology Clerkship/Pediatric
+ A00Denise Michelle,Malicki
 0050TBA  TBA  CLTBA  TBA TBA A00
 PATH427  Ophthalmic Pathology
  A00Cole John,Ferguson
@@ -13651,17 +13670,34 @@ PATH427  Ophthalmic Pathology
 PATH428  Pathology Clerkship/Forensic
  A00Ann Marie Ponsford,Tipps
 0050TBA  TBA  CLTBA  TBA TBA A00
-PATH199  Independent Study
+PEDS199  Independent Study
  001Alysson,Muotri
 9999TBA  TBA  INTBA  TBA TBA 001
-PATH245  Precep/Pediatric Gastroenterol
+PEDS245  Precep/Pediatric Gastroenterol
  A00Elizabeth Louise,Yu
 0002TBA  TBA  CLTBA  TBA TBA A00
-PATH401  Pediatric Core Clerkship
+PEDS296  Pediatrics Independent Resrch
+ 001
+0050TBA  TBA  INTBA  TBA TBA 001
+ 002
+0050TBA  TBA  INTBA  TBA TBA 002
+ 003
+0050TBA  TBA  INTBA  TBA TBA 003
+PEDS299  Pediatric Indepndnt Study Proj
+ 001M Paula,Aristizabal
+0050TBA  TBA  INTBA  TBA TBA 001
+ 002Weena Erin,Joshi
+0050TBA  TBA  INTBA  TBA TBA 002
+ 003Maja,Marinkovic
+0050TBA  TBA  INTBA  TBA TBA 003
+PEDS401  Pediatric Core Clerkship
  A00Christopher Ray,Cannavino
 0050TBA  TBA  CLTBA  TBA TBA A00
-PATH424  Subinternship in Ped Resp Med
+PEDS424  Subinternship in Ped Resp Med
  A00Daniel J,Lesser
+0050TBA  TBA  CLTBA  TBA TBA A00
+PEDS426  Clin Clerkshp/Pediatric Cardio
+ A00Brian Thomas,Fagan
 0050TBA  TBA  CLTBA  TBA TBA A00
 PEDS427  Sub-Internship/Inpatient Peds
  A00Christopher Ray,Cannavino
@@ -15138,6 +15174,8 @@ PSYC99   Independent Study	/courses/PSYC.html#psyc99
 9999TBA  TBA  LATBA  TBA TBA 007
  008Celeste Cristine,Pilegard
 9999TBA  TBA  LATBA  TBA TBA 008
+ 009Gail D.,Heyman
+9999TBA  TBA  LATBA  TBA TBA 009
 PSYC100  Clinical Psychology	/courses/PSYC.html#psyc100
 'A00Janna Alene,Dickenson
 0328PETER24   LE108  09301050A00
@@ -16775,6 +16813,10 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 023
  024Alexander,Gershunov
 9999TBA  TBA  INTBA  TBA TBA 024
+ 025Alexander,Gershunov
+9999TBA  TBA  INTBA  TBA TBA 025
+ 026Yuri A.,Fialko
+9999TBA  TBA  INTBA  TBA TBA 026
 SIO 299  Research	/courses/SIO.html#sio299
  100Richard D.,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
