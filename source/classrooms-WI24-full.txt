@@ -1,4 +1,4 @@
-V31706299200470
+V31706310000868
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -8450,10 +8450,10 @@ ETHN123  Asian American Politics	/courses/ETHN.html#ethn123
 20240318TBA  FITBA  19002159
 ETHN138  Black & Latinx Crossings	/courses/ETHN.html#ethn138
  A00Monika N.,Gosin Wisniewski
-0040SOLIS24   LE111  14001520A00
+0037SOLIS24   LE111  14001520A00
 ETHN154  History of Mexican America	/courses/ETHN.html#ethn154
 'A00Veronica,Martinez-Matsuda
-0025DIB  24   LE122  11001220A00
+0023DIB  24   LE122  11001220A00
 20240321TBA  FITBA  11301429
 ETHN163E Decolonial Theory	/courses/ETHN.html#ethn163e
  A00Shaista,Patel
@@ -8468,7 +8468,7 @@ ETHN170  Slavery and the Atlantic World	/courses/ETHN.html#ethn170
 20240318TBA  FITBA  19002159
 ETHN179  Discover Jazz	/courses/ETHN.html#ethn179
 'A00Mark Stuart,Dresser
-0025CPMC 24   LE127  11001220A00
+0023CPMC 24   LE127  11001220A00
 20240321TBA  FITBA  11301429
 ETHN198  Directed Group Studies	/courses/ETHN.html#ethn198
  A00Christen T,Sasaki
