@@ -88,6 +88,36 @@
             <ul class="search-results"></ul>
             {{windowEnd}}
         </div>
+        <div class="template" id="template-weekday-header">
+            {<!--}
+            <th class="min-width-datacell {{isCurrentDay}}"></th>
+            <th class="{{isCurrentDay}}">{{readableDay}}</th>
+            <th class="min-width-datacell {{isCurrentDay}}"></th>
+            {-->}
+        </div>
+        <div class="template" id="template-schedule-container">
+            {<!--}
+            <td class="schedule-container {{isCurrentDay}}">
+                <table
+                    class="{{isCurrentDay}} schedule-day-table schedule-line-container"
+                >
+                    {{scheduleLines}}
+                </table>
+            </td>
+            <td class="schedule-container {{isCurrentDay}}">
+                <table class="{{isCurrentDay}} schedule-day-table">
+                    {{daySchedule}}
+                </table>
+            </td>
+            <td class="schedule-container {{isCurrentDay}}">
+                <table
+                    class="{{isCurrentDay}} schedule-day-table schedule-line-container"
+                >
+                    {{scheduleLines}}
+                </table>
+            </td>
+            {-->}
+        </div>
         <div class="template" id="template-schedule-view">
             {{windowStart}}
 
@@ -111,21 +141,7 @@
         <table class="schedule-table">
         <tr>
         <th style='width:50px'></th>
-        <th class="min-width-datacell {{mondayIsCurrentDay}}"></th>
-        <th class="{{mondayIsCurrentDay}}">Monday</th>
-        <th class="min-width-datacell {{mondayIsCurrentDay}}"></th>
-        <th class="min-width-datacell {{tuesdayIsCurrentDay}}"></th>
-        <th class="{{tuesdayIsCurrentDay}}">Tuesday</th>
-        <th class="min-width-datacell {{tuesdayIsCurrentDay}}"></th>
-        <th class="min-width-datacell {{wednesdayIsCurrentDay}}"></th>
-        <th class="{{wednesdayIsCurrentDay}}">Wednesday</th>
-        <th class="min-width-datacell {{wednesdayIsCurrentDay}}"></th>
-        <th class="min-width-datacell {{thursdayIsCurrentDay}}"></th>
-        <th class="{{thursdayIsCurrentDay}}"">Thursday</th>
-        <th class="min-width-datacell {{thursdayIsCurrentDay}}"></th>
-        <th class="min-width-datacell {{fridayIsCurrentDay}}"></th>
-        <th class="{{fridayIsCurrentDay}}">Friday</th>
-        <th class="min-width-datacell {{fridayIsCurrentDay}}"></th>
+        {{weekdayHeaders}}
         </tr>
         <tr>
         <td class="schedule-container">
@@ -135,77 +151,7 @@
         </tbody>
         </table>
         </td>
-        <td class="schedule-container {{mondayIsCurrentDay}}">
-        <table class="{{mondayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td>
-        <td class="schedule-container {{mondayIsCurrentDay}}">
-        <table class="{{mondayIsCurrentDay}} schedule-day-table">
-            {{mondaySchedule}}
-        </table>
-        </td>
-        <td class="schedule-container {{mondayIsCurrentDay}}">
-        <table class="{{mondayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td>
-        <td class="schedule-container {{tuesdayIsCurrentDay}}">
-        <table class="{{tuesdayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td>
-        <td class="schedule-container {{tuesdayIsCurrentDay}}">
-        <table class="{{tuesdayIsCurrentDay}} schedule-day-table">
-            {{tuesdaySchedule}}
-        </table>
-        </td>
-        <td class="schedule-container {{tuesdayIsCurrentDay}}">
-        <table class="{{tuesdayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td><td class="schedule-container {{wednesdayIsCurrentDay}}">
-        <table class="{{wednesdayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td>
-        <td class="schedule-container {{wednesdayIsCurrentDay}}">
-        <table class="{{wednesdayIsCurrentDay}} schedule-day-table">
-            {{wednesdaySchedule}}
-        </table>
-        </td>
-        <td class="schedule-container {{wednesdayIsCurrentDay}}">
-        <table class="{{wednesdayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td><td class="schedule-container {{thursdayIsCurrentDay}}">
-        <table class="{{thursdayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td>
-        <td class="schedule-container {{thursdayIsCurrentDay}}">
-        <table class="{{thursdayIsCurrentDay}} schedule-day-table">
-            {{thursdaySchedule}}
-        </table>
-        </td>
-        <td class="schedule-container {{thursdayIsCurrentDay}}">
-        <table class="{{thursdayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td><td class="schedule-container {{fridayIsCurrentDay}}">
-        <table class="{{fridayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
-        </td>
-        <td class="schedule-container {{fridayIsCurrentDay}}">
-        <table class="{{fridayIsCurrentDay}} schedule-day-table">
-            {{fridaySchedule}}
-        </table>
-        </td>
-        <td class="schedule-container {{fridayIsCurrentDay}}">
-        <table class="{{fridayIsCurrentDay}} schedule-day-table schedule-line-container">
-            {{scheduleLines}}
-        </table>
+        {{scheduleContainers}}
         </td></tr>
         </table>
         {-->} {{windowEnd}}

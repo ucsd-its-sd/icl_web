@@ -13,6 +13,8 @@
     PROFESSOR = icl.templateFromID("template-professor"),
     SEARCH_RESULT = icl.templateFromID("template-search-result"),
     SEARCH = icl.templateFromID("template-search"),
+    WEEKDAY_HEADER = icl.templateFromID("template-weekday-header"),
+    SCHEDULE_CONTAINER = icl.templateFromID("template-schedule-container"),
     SCHEDULE_VIEW = icl.templateFromID("template-schedule-view"),
     CLASS_ROW = icl.templateFromID("template-class-row"),
     BORDER_ROW = icl.templateFromID("template-border-row"),
@@ -379,6 +381,8 @@
             info: undefined,
           }
         ).info,
+        daysOfWeek = icl.dateUtil.daysOfWeek,
+        scheduleDay = icl.dateUtil.getScheduleDay(date),
         scheduleArgs = {
           windowStart: WINDOW_START({
             uid: generateUID(),
@@ -391,19 +395,31 @@
           prevClass: generateClassDetails(prevClass),
           currentClass: generateClassDetails(currentClass),
           nextClass: generateClassDetails(nextClass),
+          weekdayHeaders: daysOfWeek
+            .map((dayOfWeek, dayIndex) =>
+              WEEKDAY_HEADER({
+                isCurrentDay:
+                  scheduleDay == dayIndex + 1 ? "" : "not-current-day",
+                readableDay: dayOfWeek[0].toUpperCase() + dayOfWeek.slice(1),
+              }),
+            )
+            .join(""),
+          scheduleContainers: daysOfWeek
+            .map((_, dayIndex) =>
+              SCHEDULE_CONTAINER({
+                isCurrentDay:
+                  scheduleDay == dayIndex + 1 ? "" : "not-current-day",
+                scheduleLines: scheduleLines,
+                daySchedule: renderDaySchedule(
+                  weekSchedule[dayIndex],
+                  scheduleDay == dayIndex + 1,
+                ),
+              }),
+            )
+            .join(""),
         };
       icl.log(roomMeetings);
       icl.log(weekSchedule);
-      icl.dateUtil.daysOfWeek.forEach((day, dayIndex) => {
-        const isToday = icl.dateUtil.getScheduleDay(date) == dayIndex + 1;
-        // e.g. mondaySchedule, tuesdaySchedule, etc.
-        scheduleArgs[day + "Schedule"] = renderDaySchedule(
-          weekSchedule[dayIndex],
-          isToday,
-        );
-        // This is a really messy way of dealing with styling but I can't really be bothered to improve it.
-        scheduleArgs[day + "IsCurrentDay"] = isToday ? "" : "not-current-day";
-      });
       scheduleWindow = SCHEDULE_VIEW(scheduleArgs);
       createAndPushToStack(scheduleWindow, "/room/" + room);
     },
