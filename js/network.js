@@ -1,9 +1,11 @@
 (() => {
+  // Common request function
   const doRequest = (path) =>
       new Promise((resolve, reject) => {
         const request = new XMLHttpRequest(),
           listener = () => {
             if (request.readyState == 4) {
+              // Make sure the response is valid
               if (!(request.status == 200 && request.responseText !== null)) {
                 // Handle error
                 return reject([request.status, request.responseText]);
@@ -22,7 +24,7 @@
         JSON.parse(response),
       );
 
-  // Export
+  // Exports
   window.icl.retrieveClassrooms = retrieveClassrooms;
   window.icl.retrieveGAClassroomList = retrieveGAClassroomList;
 })();

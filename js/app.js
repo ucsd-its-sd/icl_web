@@ -328,6 +328,7 @@
       classObject
         ? CLASS_DETAILS({
             courseCode: classObject.course,
+            // If there are no professors, say so. Otherwise, generate links to Blink
             professors:
               classObject.professors.length == 0
                 ? "No listed instructors."
@@ -349,6 +350,7 @@
         date = new Date(),
         weekSchedule = icl.dateUtil.getWeekSchedule(roomMeetings, date),
         daySchedule = icl.dateUtil.getDaySchedule(roomMeetings, date),
+        // Get meeting time relative to now
         meetingRelativity = daySchedule.map((meeting) => {
           const meetingIndices = indexTransformer.getMeetingIndices(meeting),
             start = meetingIndices.startMinutes,
@@ -359,16 +361,19 @@
             info: meeting,
           };
         }),
+        // Get the class that's now
         currentClass = (
           meetingRelativity.filter(
             (relativity) => !relativity.inPast && !relativity.inFuture,
           )[0] || { info: undefined }
         ).info,
+        // Get the LAST class in the past
         prevClass = (
           meetingRelativity
             .filter((relativity) => relativity.inPast)
             .slice(-1)[0] || { info: undefined }
         ).info,
+        // Get the FIRST class in the future
         nextClass = (
           meetingRelativity.filter((relativity) => relativity.inFuture)[0] || {
             info: undefined,
@@ -382,7 +387,7 @@
           }),
           scheduleLines: scheduleLines,
           windowEnd: WINDOW_END(),
-          timeIncrements: "<tbody>" + timeIncrements + "</tbody>",
+          timeIncrements: timeIncrements,
           prevClass: generateClassDetails(prevClass),
           currentClass: generateClassDetails(currentClass),
           nextClass: generateClassDetails(nextClass),
@@ -391,18 +396,23 @@
       icl.log(weekSchedule);
       icl.dateUtil.daysOfWeek.forEach((day, dayIndex) => {
         const isToday = icl.dateUtil.getScheduleDay(date) == dayIndex + 1;
+        // e.g. mondaySchedule, tuesdaySchedule, etc.
         scheduleArgs[day + "Schedule"] = renderDaySchedule(
           weekSchedule[dayIndex],
           isToday,
         );
+        // This is a really messy way of dealing with styling but I can't really be bothered to improve it.
         scheduleArgs[day + "IsCurrentDay"] = isToday ? "" : "not-current-day";
       });
       scheduleWindow = SCHEDULE_VIEW(scheduleArgs);
       createAndPushToStack(scheduleWindow, "/room/" + room);
     },
     handleSearch = ($searchBox, $searchResultsList) => {
+      // Make sure the search is a valid room code or subset.
       const search = $searchBox.value.toUpperCase().replace(/[^A-Z0-9]+/g, "");
+      // Hard disallow of anything other than letters, numbers
       $searchBox.value = search;
+      // Only run non-empty searches
       if (search.trim().length >= 1) {
         const searchResults = icl.search(search, rooms),
           searchResultHTML = searchResults
@@ -434,6 +444,7 @@
           const classroomsParsed = icl.parseClassrooms(classroomContent),
             rooms = classroomsParsed.rooms;
 
+          // Load classroom data into global variable
           window.rooms = rooms;
           window.gaClassrooms = gaClassroomList;
 
@@ -463,10 +474,10 @@
             const $searchBox = $el.querySelector(".search-box"),
               $searchResultsList = $el.querySelector(".search-results");
 
+            // Set event handler and focus search box for quick use
             $searchBox.oninput = () =>
               handleSearch($searchBox, $searchResultsList);
             $searchBox.focus();
-            // window.icl.app.openSchedule = (room) => openSchedule(rooms, room);
           });
         })
         .catch((error) => {
