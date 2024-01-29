@@ -1,9 +1,12 @@
 (() => {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
   const getScheduleDay = (date) => date.getDay(),
+    // Generate date string in format YYYYMMDD (same as used in the classroom data)
     getScheduleDateString = (date) =>
       String(
         date.getFullYear() * 1e4 + (date.getMonth() + 1) * 1e2 + date.getDate(),
       ),
+    // Get all recurring and singular meetings for a room on a date
     getDaySchedule = (room, date) => {
       const scheduleDay = getScheduleDay(date),
         dateString = getScheduleDateString(date);
