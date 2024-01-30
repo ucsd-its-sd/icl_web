@@ -21,7 +21,9 @@
     EMPTY_ROW = icl.templateFromID("template-empty-row"),
     TIME_CELL_ROW = icl.templateFromID("template-time-cell-row"),
     INFO_ICON = icl.templateFromID("template-info-icon"),
-    GEN_ASS_ICON = icl.templateFromID("template-gen-ass-icon"),
+    GENERAL_ASSIGNMENT_ICON = icl.templateFromID(
+      "template-general-assignment-icon",
+    ),
     CLASS_ROW_PROFESSOR_LINK = icl.templateFromID(
       "template-class-row-professor-link",
     ),
@@ -36,29 +38,38 @@
     endTime = 23 * 60,
     // Length of graph
     indexTransformer = icl.dateUtil.indexTransformer(startTime),
-    graphLength = (endTime - startTime) / 10,
+    numRows = (endTime - startTime) / 10,
     currentDate = new Date(),
     currentHours = currentDate.getHours(),
     currentMinutes = currentDate.getMinutes(),
     currentTotalMinutes = 60 * currentHours + currentMinutes,
-    currentTime = 10 * Math.floor(currentTotalMinutes / 10) - startTime,
-    currentTimeIndex = currentTime / 10,
+    currentMinutesAfterStart =
+      10 * Math.floor(currentTotalMinutes / 10) - startTime,
+    currentTimeIndex = currentMinutesAfterStart / 10,
     // Context management
-    stack = [],
+    windowStack = [],
     // Manage back buttons and window state
     windowChangeAnimation = {
       isAnimating: false,
       reportAnimationStart: () => {
-        isAnimating = true;
+        windowStack.forEach(
+          (stackElement) =>
+            (stackElement.$el.style.transition = transitionString),
+        );
+        windowChangeAnimation.isAnimating = true;
         disableBackButtons();
       },
       reportAnimationFinish: () => {
-        isAnimating = false;
+        windowChangeAnimation.isAnimating = false;
+        windowStack.forEach(
+          (stackElement) => (stackElement.$el.style.transition = "none"),
+        );
+
         // prevent the same "onDoneAnimating from being called twice"
-        if (typeof this.onDoneAnimating == "function") {
+        if (typeof windowChangeAnimation.onDoneAnimating == "function") {
           enableBackButtons();
-          this.onDoneAnimating();
-          delete this.onDoneAnimating;
+          windowChangeAnimation.onDoneAnimating();
+          delete windowChangeAnimation.onDoneAnimating;
         }
       },
     },
@@ -67,8 +78,7 @@
       return new Promise((resolve) => {
         windowChangeAnimation.reportAnimationStart();
         const width = getWidth();
-        $el.style.transition = "none";
-        if (stack.length > 0)
+        if (windowStack.length > 0)
           $el.style.transform = "translateX(" + width + "vw)";
         $el.style.transition = transitionString;
         if ($el.classList.contains("window-newly-added")) {
@@ -80,21 +90,23 @@
           if (offscreenCallback && typeof offscreenCallback == "function")
             offscreenCallback();
           // Add the element to the stack
-          stack.push({ isOffscreen: false, anchor: anchor, $el: $el });
+          windowStack.push({ isOffscreen: false, anchor: anchor, $el: $el });
           // Set stuff that's offscreen to be offscreen
-          const stackSize = stack.length;
-          if (stack.length > 1) stack[stackSize - 2].isOffscreen = true;
+          const stackSize = windowStack.length;
+          if (windowStack.length > 1)
+            windowStack[stackSize - 2].isOffscreen = true;
           // Move stuff around
-          stack.forEach((stackItem, i) => {
+          windowStack.forEach((stackItem, i) => {
             const coefficient = stackSize - i - 1,
               translation = -1 * coefficient * width;
+            stackItem.$el.style.transition = transitionString;
             stackItem.$el.style.transform = "translateX(" + translation + "vw)";
           });
           // Enable the back buttons when it's all joever
           setTimeout(() => {
             windowChangeAnimation.reportAnimationFinish();
             return resolve();
-          }, transitionLength * 900);
+          }, transitionLength * 1100);
         }, 100);
       });
     },
@@ -121,7 +133,7 @@
     popFromStack = () => {
       // Make it ✨asynchronous
       return new Promise((resolve, reject) => {
-        if (stack.length < 2)
+        if (windowStack.length < 2)
           // what the fuck
           return reject();
         // Disable the back buttons
@@ -129,16 +141,17 @@
         // I did this by pixel size initially but it's by vw units now because I realised it was dumb
         const width = getWidth(),
           // Get the item we're removing
-          stackItem = stack.pop(),
+          stackItem = windowStack.pop(),
           $el = stackItem.$el,
           // This will be the current size because pop removed the item from the stack already
-          stackSize = stack.length;
+          stackSize = windowStack.length;
+
         // Move the element off to the right
         $el.style.transform = "translateX(" + width + "vw)";
         // Make the element to the left know it's not offscreen
-        stack[stackSize - 1].isOffscreen = false;
+        windowStack[stackSize - 1].isOffscreen = false;
         // Move everything 100vw to the right (1 screen width)
-        stack.forEach((stackItem, i) => {
+        windowStack.forEach((stackItem, i) => {
           // haha math
           const coefficient = stackSize - i - 1;
           stackItem.$el.style.transform =
@@ -157,12 +170,22 @@
     popToAnchor = (anchor) => {
       // Make it ✨ async
       return new Promise((resolve, reject) => {
+        windowStack.forEach(
+          (stackItem) => (stackItem.$el.style.transition = transitionString),
+        );
         // Reject if the anchor dne
-        if (!stack.some((stackItem) => stackItem.anchor === anchor)) {
+        if (!windowStack.some((stackItem) => stackItem.anchor === anchor)) {
+          windowStack.forEach(
+            (stackItem) => (stackItem.$el.style.transition = "none"),
+          );
+
           return reject();
         }
         // Done if we're here already
-        if (stack[stack.length - 1].anchor === anchor) {
+        if (windowStack[windowStack.length - 1].anchor === anchor) {
+          windowStack.forEach(
+            (stackItem) => (stackItem.$el.style.transition = "none"),
+          );
           return resolve();
         }
         // DID YOU KNOW YOU CAN DO RECURSION WITH PROMISES? I HATE THIS
@@ -184,7 +207,7 @@
     // Table of hourly time increments from 7:00AM to 11:00 PM
     // Generate empty array and fill its values
     timeIncrements = icl
-      .defaultArray(graphLength)
+      .defaultArray(numRows)
       .map((_, timeIncrementRowIndex) => {
         // Generate time string
         const minutesString = String((timeIncrementRowIndex % 6) * 10).padStart(
@@ -205,7 +228,7 @@
       .join(""),
     // Table of hourly time increments from 7:00AM to 11:00 PM
     scheduleLines = icl
-      .defaultArray(graphLength)
+      .defaultArray(numRows)
       .map((_, scheduleLineIndex) => {
         // Current index
         if (scheduleLineIndex == currentTimeIndex) {
@@ -232,7 +255,7 @@
       // Make a copy of the schedule to slice and dice
       var copiedSchedule = [].slice.call(schedule);
       // Generate empty array
-      var scheduleBlock = icl.defaultArray(graphLength, false);
+      var scheduleBlock = icl.defaultArray(numRows, false);
       // Assemble schedule block
       schedule.forEach((meeting) => {
         const indices = indexTransformer.getMeetingIndices(meeting),
@@ -248,7 +271,7 @@
       return (
         "<tbody>" +
         icl
-          .defaultArray(graphLength)
+          .defaultArray(numRows)
           .map((_, timeIndex) => {
             icl.log(JSON.stringify(copiedSchedule[timeIndex]));
             const time = indexTransformer.indexToTime(timeIndex);
@@ -423,6 +446,12 @@
       scheduleWindow = SCHEDULE_VIEW(scheduleArgs);
       createAndPushToStack(scheduleWindow, "/room/" + room);
     },
+    iconForRoom = (room) =>
+      room == "APM1313"
+        ? INFO_ICON()
+        : gaClassrooms.includes(room)
+          ? GENERAL_ASSIGNMENT_ICON()
+          : "",
     handleSearch = ($searchBox, $searchResultsList) => {
       // Make sure the search is a valid room code or subset.
       const search = $searchBox.value.toUpperCase().replace(/[^A-Z0-9]+/g, "");
@@ -432,16 +461,11 @@
       if (search.trim().length >= 1) {
         const searchResults = icl.search(search, rooms),
           searchResultHTML = searchResults
-            .map((result) =>
+            .map((room) =>
               SEARCH_RESULT({
-                room: result[0],
+                room: room,
                 schedulePreview: "",
-                isNonGA:
-                  result[0] == "APM1313"
-                    ? INFO_ICON()
-                    : gaClassrooms.includes(result[0])
-                      ? GEN_ASS_ICON()
-                      : "",
+                isNonGA: iconForRoom(room),
               }),
             )
             .join("");
@@ -465,16 +489,22 @@
           window.gaClassrooms = gaClassroomList;
 
           window.onhashchange = () => {
-            const hash = location.hash.replaceAll("#", "");
-            popToAnchor(hash).catch(() => {
-              //Check if this is caused by clicking to open a schedule
-              if (hash.startsWith("/room/")) {
-                const room = hash.slice("/room/".length).trim();
-                if (rooms[room] !== undefined) {
-                  openSchedule(rooms, room);
+            const runHashChange = () => {
+              const hash = location.hash.replaceAll("#", "");
+              popToAnchor(hash).catch(() => {
+                //Check if this is caused by clicking to open a schedule
+                if (hash.startsWith("/room/")) {
+                  const room = hash.slice("/room/".length).trim();
+                  if (rooms[room] !== undefined) {
+                    openSchedule(rooms, room);
+                  }
                 }
-              }
-            });
+              });
+            };
+            icl.log(windowChangeAnimation.isAnimating);
+            windowChangeAnimation.isAnimating
+              ? (windowChangeAnimation.onDoneAnimating = () => runHashChange())
+              : runHashChange();
           };
 
           setTimeout(() => window.onhashchange(), 300);

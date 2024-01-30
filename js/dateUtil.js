@@ -52,6 +52,7 @@
       return schedules;
     },
     indexTransformer = (startTime) => {
+      // startTime --> 7 a.m. usually
       return {
         getMeetingIndices: (meeting) => {
           const startMinutes =
