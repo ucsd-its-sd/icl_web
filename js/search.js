@@ -5,9 +5,7 @@
       searchProcessed = string.toUpperCase().replace(/[^A-Z0-9]+/g, ""),
       searchResults = roomNames
         // I'll pretend this is O(n)
-        .filter((name) => name.includes(searchProcessed))
-        // Return full search result
-        .map((result) => [result, rooms[result]]);
+        .filter((name) => name.includes(searchProcessed));
     return searchResults;
   };
   window.icl.search = search;
