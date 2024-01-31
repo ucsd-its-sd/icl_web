@@ -1,4 +1,4 @@
-V31706709603079
+V31706731201234
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -4387,6 +4387,8 @@ CHEM299  Research in Chemistry	/courses/CHEM.html#chem299
 9999TBA  TBA  INTBA  TBA TBA 092
  093Dong,Wang
 9999TBA  TBA  INTBA  TBA TBA 093
+ 094Wan-Lu,Li
+9999TBA  TBA  INTBA  TBA TBA 094
 CHIN10BD First-Yr Chinese/Dialect II	/courses/CHIN.html#chin10bd
 :A00Mingming,Liu
 0018HSS  135  TU1106A16001650A010015YORK 135  TU4060B13001350A02
@@ -7216,6 +7218,8 @@ ECE 199  Independent Study/Undergrads	/courses/ECE.html#ece199
 9999TBA  TBA  INTBA  TBA TBA 011
  012Yuanyuan,Shi
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013Massimo,Franceschetti
+9999TBA  TBA  INTBA  TBA TBA 013
 ECE 200  Research Conference	/courses/ECE.html#ece200
  001Nicholas A,Antipa
 9999TBA  TBA  COTBA  TBA TBA 001
@@ -9416,8 +9420,6 @@ HIGR500  Apprentice Teaching	/courses/HIST.html#higr500
 0001TBA  TBA  SETBA  TBA TBA P00
  Q00Nir,Shafir
 0001TBA  TBA  SETBA  TBA TBA Q00
- R00Semih,Gokatalay
-0000TBA  TBA  SETBA  TBA TBA R00
  S00Nydia,Pineda De Avila
 0001TBA  TBA  SETBA  TBA TBA S00
  T00Jan Eric,Hansen
@@ -16862,6 +16864,8 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 026
  027Vashan,Wright
 9999TBA  TBA  INTBA  TBA TBA 027
+ 028Richard D.,Norris
+9999TBA  TBA  INTBA  TBA TBA 028
 SIO 299  Research	/courses/SIO.html#sio299
  100Richard D.,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
