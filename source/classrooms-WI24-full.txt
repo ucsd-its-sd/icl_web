@@ -1,4 +1,4 @@
-V31706731201234
+V31706742001087
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -6967,7 +6967,7 @@ DSC 291  Topics in Data Science	/courses/DSC.html#dsc291
 20240321TBA  FITBA  19002159
 DSC 293  Faculty Research Seminar	/courses/DSC.html#dsc293
  A00Tevfik Berk,Ustun
-0005TBA  TBA  SETBA  TBA TBA A00
+0020TBA  TBA  SETBA  TBA TBA A00
 DSC 294  Research Rotation	/courses/DSC.html#dsc294
  001Yusu,Wang
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -9314,7 +9314,7 @@ HIGR275B Res Sem Mod Middle Eastrn Hist	/courses/HIST.html#higr275b
 0015RWAC 5    SE0915 09001150A00
 HIGR281  Global History/Modern Era	/courses/HIST.html#higr281
  A00Jeremy,Prestholdt
-0015RWAC 2    SE0915 18302120A00
+0000RWAC 2    SE0915 18302120A00
 HIGR298  Directed Reading	/courses/HIST.html#higr298
  001Matthew,Vitz
 9999TBA  TBA  INTBA  TBA TBA 001
