@@ -1,4 +1,4 @@
-V31708524001161
+V31708545600545
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -2837,7 +2837,7 @@ BIPN134  Human Reproduction	/courses/BIOL.html#bipn134
 :A00James Edward,Cooke
 0082RCLAS2    DIR30  13001350A010082RCLAS2    DIR30  18001850A020082RCLAS4    DIR31  17001750A030069RCLAS4    DIR31  19001950A040082RCLAS5    DIR31  09000950A05
 JEANN24   LEAUD  11001220A00
-20240321TBA  FITBA  11301429
+20240228MOS  RE0114 1700185020240321TBA  FITBA  11301429
 BIPN140  Cellular Neurobiology	/courses/BIOL.html#bipn140
 :A00Matthew Rod,Lovett-Barron
 0160RCLAS2    DIR28  19001950A01
@@ -4123,6 +4123,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 039
  040Varykina G.,Thackray
 9999TBA  TBA  INTBA  TBA TBA 040
+ 041Wei,Wang
+9999TBA  TBA  INTBA  TBA TBA 041
 CHEM200B Instrumental Analysis	/courses/CHEM.html#chem200b
 'A00Robert S.,Pomeroy
 0020TBA  135  LETBA  08000850A00
@@ -8861,6 +8863,8 @@ FPM 296  Community Med Independnt Rsrch
 0050TBA  TBA  INTBA  TBA TBA 002
  003Maria Rosario Gorrez,Araneta
 0050TBA  TBA  INTBA  TBA TBA 003
+ 004Maria Rosario Gorrez,Araneta
+0050TBA  TBA  INTBA  TBA TBA 004
 FPM 297  SpecialStudy/FamMed&PublicHlth
  001Florin,Vaida
 0006TBA  TBA  INTBA  TBA TBA 001
@@ -9320,6 +9324,9 @@ HIEU116C Greece/Balkans/20th Century	/courses/HIST.html#hieu116c
 20240321TBA  FITBA  11301429
 HIEU198  Directed Grp Study/Europn Hist	/courses/HIST.html#hieu198
  001Denise,Demetriou
+9999TBA  TBA  INTBA  TBA TBA 001
+HIEU199  Independent Study/Europn Hist	/courses/HIST.html#hieu199
+ 001Edward J.,Watts
 9999TBA  TBA  INTBA  TBA TBA 001
 HIGR208  Grad. Professional Development	/courses/HIST.html#higr208
  A00Luis A,Alvarez
@@ -16129,6 +16136,8 @@ MGT 198  Directed Group Study	/courses/MGT.html#mgt198
 MGT 199  Directed Independent Study	/courses/MGT.html#mgt199
  001On,Amir
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Uri,Gneezy
+9999TBA  TBA  INTBA  TBA TBA 002
  A00Bruce,Blakley
 0001TBA  TBA  INTBA  TBA TBA A00
 MGT 241  Decision and Risk Analysis
