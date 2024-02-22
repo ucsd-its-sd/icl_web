@@ -1,4 +1,4 @@
-V31708610401386
+V31708632000476
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -13757,7 +13757,7 @@ PEDS245  Precep/Pediatric Gastroenterol
  A00Elizabeth Louise,Yu
 0002TBA  TBA  CLTBA  TBA TBA A00
 PEDS296  Pediatrics Independent Resrch
- 001
+ 001Weena Erin,Joshi
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
@@ -17838,7 +17838,7 @@ SURG200  Biomedical Ethics
 0024TBA  TBA  PRTBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
 SURG225  Preceptorship in Surgery
- A00
+ A00Nicole Elizabeth,Lopez
 0014TBA  TBA  PRTBA  TBA TBA A00
 SURG260  Introduction/Vascular Surgery
  A00Erik L.,Owens
