@@ -1,4 +1,4 @@
-V31708783200748
+V31708804801310
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -12684,6 +12684,8 @@ MUS 32   Instrumental Instruction	/courses/MUS.html#mus32
 0010TBA  TBA  STTBA  TBA TBA 010
  011David Garcia,Borgo
 0010TBA  TBA  STTBA  TBA TBA 011
+ 012Keyarash,Nourai
+0005TBA  TBA  STTBA  TBA TBA 012
 MUS 32V  Vocal Instruction	/courses/MUS.html#mus32v
  A00Miguel Angel,Zazueta Cervera
 0010TBA  TBA  LATBA  TBA TBA A00
