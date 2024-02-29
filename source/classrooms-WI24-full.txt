@@ -1,4 +1,4 @@
-V31709215200529
+V31709236801086
 WI24     Version
 .A00Ari,Stassinopoulos
 0035APM  12345LE1313 08001930A00
@@ -749,6 +749,8 @@ BENG196  Bioeng Industrial Internship	/courses/BENG.html#beng196
 9999TBA  TBA  INTBA  TBA TBA 002
  003Robert Lie-Yuan,Sah
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Vira V.,Kravets
+9999TBA  TBA  INTBA  TBA TBA 004
 BENG199  Independent Study/Undergrads	/courses/BENG.html#beng199
  001Pedro,Cabrales
 9999TBA  TBA  INTBA  TBA TBA 001
