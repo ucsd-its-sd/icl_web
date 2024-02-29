@@ -163,7 +163,7 @@
                 <th>Course Code</th>
                 <td>{{courseCode}}</td>
             </tr>
-            {{professors}}
+            {{instructors}}
             <tr>
                 <th>Class Time</th>
                 <td>{{classTime}}</td>
@@ -175,13 +175,13 @@
         </table>
         {-->}
         </div>
-        <div class="template" id="template-professor">
+        <div class="template" id="template-instructor">
             {<!--}
         <tr>
-            <th>Professor</th>
+            <th>Instructor</th>
             <td>
                 <a href="{{link}}" target="_blank">
-                    {{professor}}
+                    {{instructor}}
                 </a>
             </td>
         </tr>
@@ -192,13 +192,13 @@
         <tr><td class="class-row-datacell {{timeBorderClass}} {{currentClass}}" rowspan="{{length}}">
             <div>
             {{course}} {{meetingType}} | {{start}}-{{end}}<br/>
-            {{professors}}
+            {{instructors}}
             </div>
         </td></tr>
         {-->}
         </div>
-        <div class="template" id="template-class-row-professor-link">
-            <a href="{{link}}" target="_blank"> {{professor}} </a>
+        <div class="template" id="template-class-row-instructor-link">
+            <a href="{{link}}" target="_blank"> {{instructor}} </a>
         </div>
         <div class="template" id="template-border-row">
             {<!--}
@@ -241,7 +241,7 @@
     <script src="./js/templates.js"></script>
     <script>
         // MARK-NEXTLINEPATH
-    window.icl.CURRENT_PATH = "./source/classrooms-WI24-full.txt";
+        window.icl.CURRENT_PATH = "./source/classrooms-WI24-full.txt";
         window.icl.GA_CLASSROOMS_PATH = "./source/ga-classrooms.json";
         window.icl.finals = false;
     </script>

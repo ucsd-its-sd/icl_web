@@ -10,7 +10,7 @@
     WINDOW_START = icl.templateFromID("template-window-start"),
     WINDOW_END = icl.templateFromID("template-window-end"),
     CLASS_DETAILS = icl.templateFromID("template-class-details"),
-    PROFESSOR = icl.templateFromID("template-professor"),
+    INSTRUCTOR = icl.templateFromID("template-instructor"),
     SEARCH_RESULT = icl.templateFromID("template-search-result"),
     SEARCH = icl.templateFromID("template-search"),
     WEEKDAY_HEADER = icl.templateFromID("template-weekday-header"),
@@ -24,8 +24,8 @@
     GENERAL_ASSIGNMENT_ICON = icl.templateFromID(
       "template-general-assignment-icon",
     ),
-    CLASS_ROW_PROFESSOR_LINK = icl.templateFromID(
-      "template-class-row-professor-link",
+    CLASS_ROW_INSTRUCTOR_LINK = icl.templateFromID(
+      "template-class-row-instructor-link",
     ),
     $container = document.getElementById("container"),
     // Utility functions
@@ -318,15 +318,15 @@
                     : meetingIndices.endIndex % 6 == 0
                       ? "time-bottom-border-datacell"
                       : ""),
-                // List all professors with Blink links
-                professors:
-                  meeting.professors.length == 0
+                // List all instructors with Blink links
+                instructors:
+                  meeting.instructors.length == 0
                     ? "No listed instructors."
-                    : meeting.professors
-                        .map((professor) =>
-                          CLASS_ROW_PROFESSOR_LINK({
-                            professor: professor,
-                            link: icl.professorLink(professor),
+                    : meeting.instructors
+                        .map((instructor) =>
+                          CLASS_ROW_INSTRUCTOR_LINK({
+                            instructor: instructor,
+                            link: icl.instructorLink(instructor),
                           }),
                         )
                         .join(" / "),
@@ -353,15 +353,15 @@
       classObject
         ? CLASS_DETAILS({
             courseCode: classObject.course,
-            // If there are no professors, say so. Otherwise, generate links to Blink
-            professors:
-              classObject.professors.length == 0
+            // If there are no instructors, say so. Otherwise, generate links to Blink
+            instructors:
+              classObject.instructors.length == 0
                 ? "No listed instructors."
-                : classObject.professors
-                    .map((professor) =>
-                      PROFESSOR({
-                        professor: professor,
-                        link: icl.professorLink(professor),
+                : classObject.instructors
+                    .map((instructor) =>
+                      INSTRUCTOR({
+                        instructor: instructor,
+                        link: icl.instructorLink(instructor),
                       }),
                     )
                     .join(""),
