@@ -13,10 +13,10 @@
     defaultArray: (length, defaultValue) =>
       Array.apply(null, { length: length }).map(() => defaultValue),
     // Blink link generator
-    professorLink: (professor) =>
+    instructorLink: (instructor) =>
       "https://act.ucsd.edu/directory/search?" +
       "last={{last}}&first={{first}}&searchType=0"
-        .replace("{{last}}", professor.split(" ")[1])
-        .replace("{{first}}", professor.split(" ")[0]),
+        .replace("{{last}}", instructor.split(" ")[1])
+        .replace("{{first}}", instructor.split(" ")[0]),
   };
 })();

@@ -135,8 +135,8 @@
         // For each section we've found
         classObject.sectionData.forEach((sectionData) => {
           try {
-            // Get the professor name from the section
-            const professorName = sectionData.meta.professorName;
+            // Get the instructor name from the section
+            const instructorName = sectionData.meta.instructorName;
             // Get each meeting for the section
             sectionData.meetings.forEach((meeting) => {
               // Get all necessary properties to build object
@@ -146,10 +146,10 @@
                 end = meeting.end,
                 type = meeting.type,
                 meetingObject = {
-                  professors:
-                    professorName == ""
+                  instructors:
+                    instructorName == ""
                       ? []
-                      : processProfessorName(professorName),
+                      : processProfessorName(instructorName),
                   start: start,
                   end: end,
                   type: type,
@@ -222,7 +222,7 @@
         returnValue.unshift({
           type: "sectionDefinition",
           sectionCode: line.slice(1, 4).trim(),
-          professorName: line.slice(4).trim(),
+          instructorName: line.slice(4).trim(),
         });
         icl.log("R.sectionDefinition> " + JSON.stringify(returnValue[0]));
         return returnValue;

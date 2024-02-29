@@ -29,7 +29,7 @@
           start: meeting.start,
           end: meeting.end,
           meetingType: meeting.meetingType,
-          professors: meeting.professors,
+          instructors: meeting.instructors,
           length: (() => {
             const start = parseInt(meeting.start),
               end = parseInt(meeting.end),
