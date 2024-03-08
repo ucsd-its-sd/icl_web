@@ -1,4 +1,4 @@
-V31709928000807
+V31709938800944
 WI24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -7,7 +7,7 @@ AAS 10   Intro/African-American Studies	/courses/AASM.html#aas10
 0034SOLIS1    DI111  15001550A010035CENTR3    DI217A 16001650A02
 MANDE24   LEB150 14001520A00
 20240321MANDEFIB150 15001759
-AAS 11   Intro Black Diasporic Studies
+AAS 11   Intro Black Diasporic Studies	/courses/AASM.html#aas11
 :A00Elizabeth Annette,Butler
 0034WLH  1    DI2114 13001350A010034CENTR3    DI217A 15001550A02
 PETER24   LE102  11001220A00
@@ -619,7 +619,7 @@ AWP 4A   Analytical Writing A	/courses/AWP.html#awp4a
 0013RWAC 24   SE0530 11001220043
  044Olena,Tsurska Svetina
 0013RWAC 24   SE0540 12301350044
-AWP 10R  Lang&Learning in American Acad
+AWP 10R  Lang&Learning in American Acad	/courses/AWP.html#awp10r
  A00Karen Marie,Gocsik
 0012RCLAS24   SER02  11001220A00
 BENG1    Introduction to Bioengineering	/courses/BENG.html#beng1
@@ -3708,7 +3708,7 @@ CAT 500  Apprentice Teaching/C.A.T.
 .A00Elizabeth Ashley,Popko
 0030TBA  TBA  DITBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
-CCE 1    CriticalApproach/CommPractice
+CCE 1    CriticalApproach/CommPractice	/courses/CCE.html#cce1
 :A00David,Quijada
 0040PODEM3    DI0273 11001150A01
 PODEM24   LE0273 11001220A00
@@ -5681,7 +5681,7 @@ COMM109D MC: Advertising & Society	/courses/COMM.html#comm109d
 'A00Caroline Sarah,Jack
 0075MOS  24   LE0204 11001220A00
 20240321MOS  FI0204 11301429
-COMM109N MC: American News Media
+COMM109N MC: American News Media	/courses/COMM.html#comm109n
 'A00Daniel C,Hallin
 0037HSS  135  LE2154 10001050A00
 20240322HSS  FI2154 08001059
@@ -5823,7 +5823,7 @@ CSE 87   First-year Seminar	/courses/CSE.html#cse87
 0015EBU3B3    SEB220 09001050A00
  B00Niema,Moshiri
 0020EBU3B2    SE4140 11001150B00
-CSE 89   Intro to CSE Seminar
+CSE 89   Intro to CSE Seminar	/courses/CSE.html#cse89
 CSE 90   Undergraduate Seminar	/courses/CSE.html#cse90
  A00Mor Mia,Minnes Kemp
 9999TBA  TBA  SETBA  TBA TBA A00
@@ -6149,7 +6149,7 @@ CSE 251B ML: Neural Ntwrks/Pttrn Recogn	/courses/CSE.html#cse251b
 0239TBA  1    DITBA  16001650B01
 TBA  24   LETBA  14001520B00
 20240210TBA  MITBA  1000115020240309TBA  MITBA  1000115020240321TBA  FITBA  15001759
-CSE 251U Unsupervised Learning
+CSE 251U Unsupervised Learning	/courses/CSE.html#cse251u
 :B00Sanjoy,Dasgupta
 0191WLH  1    DI2005 20002050B01
 CENTR24   LE119  12301350B00
@@ -7904,7 +7904,7 @@ ECON183  Topics in Macroeconomics	/courses/ECON.html#econ183
 'B00Pak Yeung,Wu
 0050RWAC 24   LE0115 12301350B00
 20240316TBA  FITBA  11301429
-ECON190  Intro to Research in Economics
+ECON190  Intro to Research in Economics	/courses/ECON.html#econ190
  A00Emanuel Ignacio,Vespa
 0050SOLIS2    LE105  17001850A00
 ECON195  Intro/Teaching Economics	/courses/ECON.html#econ195
@@ -7942,7 +7942,7 @@ ECON246  International Macroeconomics	/courses/ECON.html#econ246
 'A00Pak Yeung,Wu
 0025SSB  24   LE506  14001520A00
 20240321SSB  FI506  15001759
-ECON250B Topics in Labor Economics
+ECON250B Topics in Labor Economics	/courses/ECON.html#econ250b
 'A00Gordon B.,Dahl	Eli,Berman
 0030SSB  3    LE107  11001350A00
 20240318SSB  FI107  11301429
@@ -11039,7 +11039,7 @@ MAE 175A Aerospace Engineering Lab	/courses/MAE.html#mae175a
 0016EBU2 2    LA121  09001150A010016EBU2 2    LA121  12301520A020016TBA  2    LATBA  09001150A030016EBU2 4    LA121  09001150A050016EBU2 4    LA121  12301520A060015TBA  4    LATBA  09001150A07
 CENTR135  LE113  17001850A00
 20240318CENTRFI113  19002159
-MAE 182  Spacecraft Guidance&Navigation
+MAE 182  Spacecraft Guidance&Navigation	/courses/MAE.html#mae182
 :A00Aaron,Rosengren
 0042SOLIS24   LE105  11001220A00
 SOLIS4    LE105  17001750A00
@@ -11116,7 +11116,7 @@ MAE 212  Introductory Compressible Flow	/courses/MAE.html#mae212
 'A00Antonio Luis,Sanchez
 0032EBU2 135  LE105  09000950A00
 20240320EBU2 FI105  08001059
-MAE 215  Multiphase Flow &Heat Transfer
+MAE 215  Multiphase Flow &Heat Transfer	/courses/MAE.html#mae215
 :A00Abhishek,Saha
 0030EBU2 24   LE105  09301050A00
 EBU2 2    LE174  15001550A00
@@ -11159,7 +11159,7 @@ MAE 262  Biological Fluid Mechanics	/courses/MAE.html#mae262
 'A00David,Saintillan
 0020MANDE24   LEB153 09301050A00
 20240319MANDEFIB153 08001059
-MAE 269  Bioinspired Mobile Robotics
+MAE 269  Bioinspired Mobile Robotics	/courses/MAE.html#mae269
 .A00Nicholas G,Gravish
 0035EBU2 24   LE305  09301050A00
 EBU2 3    LE305  10001050A00
@@ -14975,7 +14975,7 @@ POLI203A Analytic Theory I	/courses/POLI.html#poli203a
 POLI212  Contemporary Sociolog Theory	/courses/POLI.html#poli212
  B00Harvey Stern,Goldman
 0005SSB  3    SE414  13001550B00
-POLI223  Corruption and Distribution
+POLI223  Corruption and Distribution	/courses/POLI.html#poli223
  A00Simeon C,Nichter
 0025SSB  3    SE104  12001450A00
 POLI224  Politics of Democratization	/courses/POLI.html#poli224
@@ -16568,7 +16568,7 @@ SE  201B Nonlinear Structural Analysis	/courses/SE.html#se201b
 0050WLH  24   LE2207 12301350A00
 CSB  3    LE005  15001550A00
 20240319WLH  FI2207 11301429
-SE  203A Structural Dynamics I
+SE  203A Structural Dynamics I	/courses/SE.html#se203a
 'A00Georgios,Tsampras
 0065WLH  24   LE2111 11001220A00
 20240321WLH  FI2111 11301429
@@ -16581,7 +16581,7 @@ SE  211  Advanced Structural Concrete	/courses/SE.html#se211
 0055PCYNH24   LE120  09301050A00
 CSB  3    LE005  10001050A00
 20240319PCYNHFI120  08001059
-SE  232  Machine Learning in Comp Mechs
+SE  232  Machine Learning in Comp Mechs	/courses/SE.html#se232
 :A00Shabnam,Jandaghi Semnani
 0040SME  3    LA143  14001530A01
 WLH  24   LE2209 09301050A00
