@@ -1,4 +1,4 @@
-V31709938800944
+V31710014401237
 WI24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -7375,7 +7375,7 @@ ECE 200  Research Conference	/courses/ECE.html#ece200
 9999TBA  TBA  COTBA  TBA TBA 060
  061Abdoulaye,Ndao
 9999TBA  TBA  COTBA  TBA TBA 061
- 062Parin,Naghizadeh Ardabili
+ 062Parinaz,Naghizadeh Ardabili
 9999TBA  TBA  COTBA  TBA TBA 062
  063Rajeev,Sahay
 9999TBA  TBA  COTBA  TBA TBA 063
@@ -7624,7 +7624,7 @@ ECE 299  Research	/courses/ECE.html#ece299
 9999TBA  TBA  INTBA  TBA TBA 068
  069Abdoulaye,Ndao
 9999TBA  TBA  INTBA  TBA TBA 069
- 070Parin,Naghizadeh Ardabili
+ 070Parinaz,Naghizadeh Ardabili
 9999TBA  TBA  INTBA  TBA TBA 070
  071Rajeev,Sahay
 9999TBA  TBA  INTBA  TBA TBA 071
@@ -11849,7 +11849,7 @@ MATH220B Complex Analysis	/courses/MATH.html#math220b
 MATH221A Topics in Sev Complx Variables	/courses/MATH.html#math221a
 'A00Huang,Xiaojun
 0015APM  135  LE7321 13001350A00
-20240322APM  FI7321 11301429
+20240322RCLASFIR02  11301429
 MATH237A Topics in Diff Equations	/courses/MATH.html#math237a
 'A00Andrej,Zlatos
 0015APM  24   LEB412 09301050A00
@@ -11930,7 +11930,7 @@ MATH282B Applied Statistics II	/courses/MATH.html#math282b
 MATH285  Stochastic Processes	/courses/MATH.html#math285
 'A00Tianyi,Zheng
 0018APM  135  LE2402 15001550A00
-20240320APM  FI2402 15001759
+20240320RCLASFIR02  15001759
 MATH287A Time Series Analysis	/courses/MATH.html#math287a
 'A00Dimitris,Politis
 0020APM  35   LE2402 10001120A00
