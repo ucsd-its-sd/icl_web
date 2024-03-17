@@ -6,6 +6,7 @@
   const transitionLength = 0.5,
     transitionString =
       "transform " + transitionLength + "s cubic-bezier(0.65, 0, 0.35, 1)",
+    VERSION = icl.templateFromID("template-version"),
     BACK_BUTTON = icl.templateFromID("template-back-button"),
     WINDOW_START = icl.templateFromID("template-window-start"),
     WINDOW_END = icl.templateFromID("template-window-end"),
@@ -482,11 +483,24 @@
         .retrieveClassrooms()
         .then((classroomContent) => {
           const classroomsParsed = icl.parseClassrooms(classroomContent),
-            rooms = classroomsParsed.rooms;
+            rooms = classroomsParsed.rooms,
+            epoch = classroomsParsed.epoch,
+            term = (classroomsParsed.crawlData || "(unknown) ").split(" ")[0];
+
+          var crawlDate = new Date();
+          crawlDate.setTime(parseInt(epoch));
+
+          document.getElementById("data-version-container").innerHTML = VERSION(
+            {
+              term: term,
+              dateCrawled: icl.dateUtil.getHumanReadableDate(crawlDate),
+            },
+          );
 
           // Load classroom data into global variable
           window.rooms = rooms;
           window.gaClassrooms = gaClassroomList;
+          window.classroomsParsed = classroomsParsed;
 
           window.onhashchange = () => {
             const runHashChange = () => {

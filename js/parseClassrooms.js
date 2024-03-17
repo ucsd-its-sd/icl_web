@@ -53,9 +53,14 @@
       // Trim whitespace around content (just in case :))
       var classroomsContentTrimmed = classroomsContent.trim(),
         // Split into lines
-        classroomsContentLines = classroomsContentTrimmed.split("\n"),
+        classroomsContentLines = classroomsContentTrimmed
+          .split("\n")
+          .filter((line) => line.trim().slice(0, 1) != "#"),
+        meta = classroomsContentLines.shift(),
         // Get the version number. I have no idea what this means but it should probably be V3 :)
-        version = classroomsContentLines.shift().slice(0, 2),
+        version = meta.slice(0, 2),
+        epoch = meta.slice(2).trim(),
+        crawlData = null,
         // Create empty classes array
         classes = [],
         // Create empty rooms object, indexed by code
@@ -63,6 +68,7 @@
         // Create errors object to handle errors
         errors = [];
       //
+
       if (version.trim().toUpperCase() !== "V3") {
         throw "fuck";
       }
@@ -74,6 +80,9 @@
           // Detect new class header
           if (/[A-Z]/.test(line.slice(0, 1)) && line.toUpperCase() !== line) {
             icl.log("Class code");
+            if (classIdx === -1) {
+              crawlData = line;
+            }
             // Add an empty class
             classes.push({
               code: line.slice(0, 9).replaceAll(" ", ""),
@@ -85,7 +94,7 @@
           } else {
             // Parse the line(s) (some are missing newlines at the end, so we can handle that recursively through recursion
             icl.log("Recursively parsing");
-            const parsedLineData = parseLineRecursive(line);
+            const parsedLineData = parseLineRecursive(line, [], classIdx === 0);
             // Because we can have one or more, we need to add all of them in sequence
             parsedLineData.forEach((lineData) =>
               classes[classIdx].sectionLines.push(lineData),
@@ -180,9 +189,15 @@
           }
         });
       });
-      return { classes: classes, rooms: rooms, errors: errors };
+      return {
+        classes: classes,
+        rooms: rooms,
+        errors: errors,
+        epoch: epoch,
+        crawlData: crawlData,
+      };
     },
-    parseLineRecursive = (line, returnValue) => {
+    parseLineRecursive = (line, returnValue, isData) => {
       icl.log("R> " + line);
       // Create returnValue array
       if (!(returnValue instanceof Array)) {
@@ -245,7 +260,7 @@
       if (
         line.includes("TBA") ||
         // Don't show recurring meetings during finals week
-        (icl.finals && lineType.includes("recurring"))
+        (icl.finals && lineType.includes("recurring") && isData === false)
       ) {
         return returnValue;
       } else if (lineType == "event") {
