@@ -6,6 +6,25 @@
       String(
         date.getFullYear() * 1e4 + (date.getMonth() + 1) * 1e2 + date.getDate(),
       ),
+    getHumanReadableDate = (date) => {
+      const dateString = getScheduleDateString(date),
+        todayDate = new Date(),
+        dateStringWithDots =
+          dateString.slice(0, 4) +
+          "." +
+          dateString.slice(4, 6) +
+          "." +
+          dateString.slice(6);
+      const yesterdayDate = new Date();
+      yesterdayDate.setDate(todayDate.getDate() - 1);
+      const usedDateString =
+        getScheduleDateString(todayDate) === dateString
+          ? "today at"
+          : getScheduleDateString(yesterdayDate) === dateString
+            ? "yesterday at"
+            : dateStringWithDots;
+      return `${usedDateString} ${date.toLocaleTimeString()}`;
+    },
     // Get all recurring and singular meetings for a room on a date
     getDaySchedule = (room, date) => {
       const scheduleDay = getScheduleDay(date),
@@ -80,6 +99,7 @@
     daysOfWeek = ["monday", "tuesday", "wednesday", "thursday", "friday"];
   window.icl.dateUtil = {
     getScheduleDateString: getScheduleDateString,
+    getHumanReadableDate: getHumanReadableDate,
     getDaySchedule: getDaySchedule,
     getWeekSchedule: getWeekSchedule,
     getScheduleDay: getScheduleDay,

@@ -16776,7 +16776,7 @@ SIO 87   First-year Seminar	/courses/SIO.html#sio87
  B00Geoffrey W,Cook
 0020VAUGN2    SE147  10001150B00
 SIO 99H  Independent Study
- 001Simone,Baumann-Pickering 
+ 001Simone,Baumann-Pickering
 9999TBA  TBA  INTBA  TBA TBA 001
 SIO 102  Introduction to Geochemistry	/courses/SIO.html#sio102
 :A00James M.D.,Day
@@ -17097,7 +17097,7 @@ SIO 299  Research	/courses/SIO.html#sio299
 0010TBA  TBA  INTBA  TBA TBA 014
  015Andrew David,Barton
 0010TBA  TBA  INTBA  TBA TBA 015
- 016Simone,Baumann-Pickering 
+ 016Simone,Baumann-Pickering
 0010TBA  TBA  INTBA  TBA TBA 016
  017Janet Maria,Becker
 0010TBA  TBA  INTBA  TBA TBA 017
@@ -17285,7 +17285,7 @@ SIOB276L Quantitative Ecology Proj Lab	/courses/SIO.html#siob276l
  A00George,Sugihara
 0005ECKRT5    LA120  11001150A00
 SIOB278  Seminar in Ocean Biosciences	/courses/SIO.html#siob278
- B00Simone,Baumann-Pickering 
+ B00Simone,Baumann-Pickering
 0020VAUGN1    SE300  09001050B00
 'C00Jeff Shovlowsky,Bowman
 0015ECKRT2    SE236  12001350C00
