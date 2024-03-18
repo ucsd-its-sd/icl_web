@@ -447,13 +447,13 @@
       scheduleWindow = SCHEDULE_VIEW(scheduleArgs);
       createAndPushToStack(scheduleWindow, "/room/" + room);
     },
-    iconForRoom = (room) =>
+    iconForRoom = (room, gaClassrooms) =>
       room == "APM1313"
         ? INFO_ICON()
         : gaClassrooms.includes(room)
           ? GENERAL_ASSIGNMENT_ICON()
           : "",
-    handleSearch = ($searchBox, $searchResultsList) => {
+    handleSearch = ($searchBox, $searchResultsList, rooms, gaClassrooms) => {
       // Make sure the search is a valid room code or subset.
       const search = $searchBox.value.toUpperCase().replace(/[^A-Z0-9]+/g, "");
       // Hard disallow of anything other than letters, numbers
@@ -466,7 +466,7 @@
               SEARCH_RESULT({
                 room: room,
                 schedulePreview: "",
-                isNonGA: iconForRoom(room),
+                isNonGA: iconForRoom(room, gaClassrooms),
               }),
             )
             .join("");
@@ -478,14 +478,19 @@
   // Load class data
   icl
     .retrieveGAClassroomList()
-    .then((gaClassroomList) =>
+    .then((gaClassrooms) =>
       icl
         .retrieveClassrooms()
         .then((classroomContent) => {
           const classroomsParsed = icl.parseClassrooms(classroomContent),
             rooms = classroomsParsed.rooms,
             epoch = classroomsParsed.epoch,
-            term = (classroomsParsed.crawlData || "(unknown) ").split(" ")[0];
+            term = classroomsParsed.currentTerm;
+
+          if (icl.logLevel) {
+            window.classroomsParsed = classroomsParsed;
+            window.gaClassrooms = gaClassrooms;
+          }
 
           var crawlDate = new Date();
           crawlDate.setTime(parseInt(epoch));
@@ -496,11 +501,6 @@
               dateCrawled: icl.dateUtil.getHumanReadableDate(crawlDate),
             },
           );
-
-          // Load classroom data into global variable
-          window.rooms = rooms;
-          window.gaClassrooms = gaClassroomList;
-          window.classroomsParsed = classroomsParsed;
 
           window.onhashchange = () => {
             const runHashChange = () => {
@@ -536,7 +536,7 @@
 
             // Set event handler and focus search box for quick use
             $searchBox.oninput = () =>
-              handleSearch($searchBox, $searchResultsList);
+              handleSearch($searchBox, $searchResultsList, rooms, gaClassrooms);
             $searchBox.focus();
           });
         })

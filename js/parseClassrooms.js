@@ -193,8 +193,10 @@
         classes: classes,
         rooms: rooms,
         errors: errors,
+        // For "Last updated" in footer
         epoch: epoch,
-        crawlData: crawlData,
+        // For current term in footer
+        currentTerm: (crawlData || "(unknown) ").split(" ")[0],
       };
     },
     parseLineRecursive = (line, returnValue, isData) => {
