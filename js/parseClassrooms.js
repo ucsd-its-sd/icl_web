@@ -94,7 +94,7 @@
           } else {
             // Parse the line(s) (some are missing newlines at the end, so we can handle that recursively through recursion
             icl.log("Recursively parsing");
-            const parsedLineData = parseLineRecursive(line, [], classIdx === 0);
+            const parsedLineData = parseLineRecursive(line, [], classIdx == 0);
             // Because we can have one or more, we need to add all of them in sequence
             parsedLineData.forEach((lineData) =>
               classes[classIdx].sectionLines.push(lineData),
@@ -260,7 +260,7 @@
       if (
         line.includes("TBA") ||
         // Don't show recurring meetings during finals week
-        (icl.finals && lineType.includes("recurring") && isData === false)
+        (icl.finals && lineType.includes("recurring") && !isData)
       ) {
         return returnValue;
       } else if (lineType == "event") {
