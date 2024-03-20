@@ -1,4 +1,4 @@
-V31710939601193
+V31710961202745
 WI24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -7913,6 +7913,8 @@ ECON195  Intro/Teaching Economics	/courses/ECON.html#econ195
 ECON199  Independent Study	/courses/ECON.html#econ199
  001Dale E,Squires
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Melissa,Famulari
+9999TBA  TBA  INTBA  TBA TBA 002
 ECON200B Microeconomics B	/courses/ECON.html#econ200b
 'A00Joel Christopher,Watson	Denis,Shishkin	Emanuel Ignacio,Vespa
 0035WFH  24   LE3N12909301050A00
