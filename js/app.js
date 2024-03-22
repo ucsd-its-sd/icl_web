@@ -460,95 +460,95 @@
       $searchBox.value = search;
       // Only run non-empty searches
       if (search.trim().length >= 1) {
+        // Get search results
         const searchResults = icl.search(search, rooms),
+          // Populate results list
           searchResultHTML = searchResults
             .map((room) =>
               SEARCH_RESULT({
                 room: room,
-                schedulePreview: "",
-                isNonGA: iconForRoom(room, gaClassrooms),
+                icon: iconForRoom(room, gaClassrooms),
               }),
             )
             .join("");
         $searchResultsList.innerHTML = searchResultHTML;
       } else {
+        // Place empty results list
         $searchResultsList.innerHTML = "";
       }
-    };
-  // Load class data
-  icl
-    .retrieveGAClassroomList()
-    .then((gaClassrooms) =>
-      icl
-        .retrieveClassrooms()
-        .then((classroomContent) => {
-          const classroomsParsed = icl.parseClassrooms(classroomContent),
-            rooms = classroomsParsed.rooms,
-            epoch = classroomsParsed.epoch,
-            term = classroomsParsed.currentTerm;
-
-          if (icl.logLevel) {
-            window.classroomsParsed = classroomsParsed;
-            window.gaClassrooms = gaClassrooms;
+    },
+    // Handle hash change event given the classroom data
+    runHashChange = (rooms) => {
+      const hash = location.hash.replaceAll("#", "");
+      popToAnchor(hash).catch(() => {
+        //Check if this is caused by clicking to open a schedule
+        if (hash.startsWith("/room/")) {
+          const room = hash.slice("/room/".length).trim();
+          if (rooms[room] !== undefined) {
+            openSchedule(rooms, room);
           }
+        }
+      });
+    },
+    // Bind Hash Event
+    bindHashEvent = (rooms) => {
+      window.onhashchange = () => {
+        icl.log(windowChangeAnimation.isAnimating);
+        windowChangeAnimation.isAnimating
+          ? (windowChangeAnimation.onDoneAnimating = () => runHashChange(rooms))
+          : runHashChange(rooms);
+      };
+      // Run a hash change event to catch a reload or direct link to a classroom
+      setTimeout(() => window.onhashchange(), 300);
+    },
+    beginApp = (gaClassrooms, classroomContent) => {
+      // Variable definitions
+      const classroomsParsed = icl.parseClassrooms(classroomContent),
+        rooms = classroomsParsed.rooms,
+        epoch = classroomsParsed.epoch,
+        term = classroomsParsed.currentTerm,
+        crawlDate = new Date(),
+        // Create search window
+        searchWindow = SEARCH({
+          windowStart: WINDOW_START({ backButton: "", uid: generateUID() }),
+          windowEnd: WINDOW_END(),
+          title: "",
+        });
 
-          var crawlDate = new Date();
-          crawlDate.setTime(parseInt(epoch));
+      if (icl.logLevel) {
+        window.classroomsParsed = classroomsParsed;
+        window.gaClassrooms = gaClassrooms;
+      }
 
-          document.getElementById("data-version-container").innerHTML = VERSION(
-            {
-              term: term,
-              dateCrawled: icl.dateUtil.getHumanReadableDate(crawlDate),
-            },
-          );
+      crawlDate.setTime(parseInt(epoch));
 
-          window.onhashchange = () => {
-            const runHashChange = () => {
-              const hash = location.hash.replaceAll("#", "");
-              popToAnchor(hash).catch(() => {
-                //Check if this is caused by clicking to open a schedule
-                if (hash.startsWith("/room/")) {
-                  const room = hash.slice("/room/".length).trim();
-                  if (rooms[room] !== undefined) {
-                    openSchedule(rooms, room);
-                  }
-                }
-              });
-            };
-            icl.log(windowChangeAnimation.isAnimating);
-            windowChangeAnimation.isAnimating
-              ? (windowChangeAnimation.onDoneAnimating = () => runHashChange())
-              : runHashChange();
-          };
+      document.getElementById("data-version-container").innerHTML = VERSION({
+        term: term,
+        dateCrawled: icl.dateUtil.getHumanReadableDate(crawlDate),
+      });
 
-          setTimeout(() => window.onhashchange(), 300);
+      // Handle hashchange event
+      bindHashEvent(rooms);
 
-          // Create search window
-          const searchWindow = SEARCH({
-            windowStart: WINDOW_START({ backButton: "", uid: generateUID() }),
-            windowEnd: WINDOW_END(),
-            title: "",
-          });
+      // Push search window
+      createAndPushToStack(searchWindow, "", ($el) => {
+        const $searchBox = $el.querySelector(".search-box"),
+          $searchResultsList = $el.querySelector(".search-results");
 
-          createAndPushToStack(searchWindow, "", ($el) => {
-            const $searchBox = $el.querySelector(".search-box"),
-              $searchResultsList = $el.querySelector(".search-results");
+        // Set event handler and focus search box for quick use
+        $searchBox.oninput = () =>
+          handleSearch($searchBox, $searchResultsList, rooms, gaClassrooms);
+        $searchBox.focus();
+      });
+    };
 
-            // Set event handler and focus search box for quick use
-            $searchBox.oninput = () =>
-              handleSearch($searchBox, $searchResultsList, rooms, gaClassrooms);
-            $searchBox.focus();
-          });
-        })
-        .catch((error) => {
-          throw error;
-        }),
-    )
+  // Load class data
+  Promise.all([icl.retrieveGAClassroomList(), icl.retrieveClassrooms()])
+    .then((promiseResults) => {
+      const [gaClassrooms, classroomContent] = promiseResults;
+      beginApp(gaClassrooms, classroomContent);
+    })
     .catch((error) => {
       throw error;
     });
-  // Register event listeners
-  window.icl.app = {
-    back: () => history.back(),
-  };
 })();
