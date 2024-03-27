@@ -1,4 +1,4 @@
-V31711490400306
+V31711544400343
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -9668,7 +9668,7 @@ LTCS87   First-year Seminar	/courses/LIT.html#ltcs87
 0020RWAC 1    SE0374 11001250B00
 LTCS150  Topics in Cultural Studies	/courses/LIT.html#ltcs150
 'A00Ping H,Liao
-0040WLH  24   LE2209 15301650A00
+0015WLH  24   LE2209 15301650A00
 20240610TBA  FITBA  15001759
 LTCS225  Historical Analysis/Cultrl Txt	/courses/LIT.html#ltcs225
  A00Andrea,Mendoza
