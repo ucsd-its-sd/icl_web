@@ -1,4 +1,4 @@
-V31711836000326
+V31711890001123
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -7643,7 +7643,7 @@ EDS 124ARTeach Computation/DigitalWorld	/courses/EDS.html#eds124ar
 0200TBA  TBA  LETBA  TBA TBA B00
 EDS 124BRTeach Computational Thinking	/courses/EDS.html#eds124br
  A00Emi,Eguchi
-0075TBA  TBA  LETBA  TBA TBA A00
+0100TBA  TBA  LETBA  TBA TBA A00
 EDS 125  Hist,Polic&Theory/Bilingual Ed	/courses/EDS.html#eds125
 'A00Maria Jose,Aragon
 0050RWAC 24   LE0115 11001220A00
