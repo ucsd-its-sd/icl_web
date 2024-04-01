@@ -1,4 +1,4 @@
-V31711998000789
+V31712008800690
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -15,7 +15,7 @@ AAS 198  Directed Group Study	/courses/AASM.html#aas198
  001Dennis R.,Childs
 0020TBA  TBA  INTBA  TBA TBA 001
  002Jacinda,Abdul-Mutakabbir
-0008TBA  TBA  INTBA  TBA TBA 002
+0000TBA  TBA  INTBA  TBA TBA 002
 AIP 97   Academic Internship	/courses/AIP.html#aip97
  001Joseph D.,Hankins
 0000TBA  TBA  ITTBA  TBA TBA 001
@@ -143,7 +143,7 @@ ANAR111  Foundations of Archaeology	/courses/ANTH.html#anar111
 20240613TBA  FITBA  11301429
 ANAR115  Coastal Geomorphology/Environ	/courses/ANTH.html#anar115
 'A00Gilad,Shtienberg
-0036ERCA 24   LE117  08000920A00
+0000ERCA 24   LE117  08000920A00
 20240613TBA  FITBA  08001059
 ANAR120  Documenting Climate Change	/courses/ANTH.html#anar120
  A00
@@ -480,13 +480,13 @@ AUD 299  Doctoral Project	/courses/AUDL.html#aud299
 0012TBA  TBA  INTBA  TBA TBA C00
 AWP 3    Analytical Writing	/courses/AWP.html#awp3
  002William Allan,Given
-0009RWAC 135  SE0530 09000950002
+0010RWAC 135  SE0530 09000950002
  007Geoffrey Scott,West
-0007CENTR24   SE202  09301050007
+0008CENTR24   SE202  09301050007
  009Samuel,Kolodezh
-0007CENTR24   SE202  12301350009
+0008CENTR24   SE202  12301350009
  010Peter W,Gilbert
-0007CENTR24   SE202  14001520010
+0008CENTR24   SE202  14001520010
 AWP 4A   Analytical Writing A	/courses/AWP.html#awp4a
  001Melinda G,Grant
 0010RWAC 24   SE0530 11001220001
@@ -2499,7 +2499,7 @@ BIEB121  Ecology Laboratory	/courses/BIOL.html#bieb121
 0032YORK 24   LA4124 14001750B00
 BIEB130  Marine Conservation Biology	/courses/BIOL.html#bieb130
 :A00Carolyn M.,Kurle
-0295RCLAS5    DIR36  10001050A01
+0330RCLAS5    DIR36  10001050A01
 CENTR24   LE101  11001220A00
 20240611TBA  FITBA  11301429
 BIEB146  Genome Diversity and Dynamics	/courses/BIOL.html#bieb146
@@ -3734,7 +3734,7 @@ CGS 114  Gender,Race,Ethnicity & Class	/courses/CGS.html#cgs114
 0019WLH  135  LE2206 14001450A00
 CGS 116  Feminist Social Movements	/courses/CGS.html#cgs116
  A00
-0020MCGIL135  LE2315 11001150A00
+0022MCGIL135  LE2315 11001150A00
 CGS 117  Transgenderisms	/courses/CGS.html#cgs117
 'A00Amanda Maria Yoland,Martin Sandino
 0015PODEM24   LE0132 09301050A00
@@ -3748,7 +3748,7 @@ CGS 128  Transnational Feminisms	/courses/CGS.html#cgs128
 0015SSB  24   LE103  11001220A00
 CGS 137  Latina Issues & Cultural Prod.	/courses/CGS.html#cgs137
  A00Amanda Maria Yoland,Martin Sandino
-0019PODEM24   LE0132 11001220A00
+0021PODEM24   LE0132 11001220A00
 CGS 150  Visuality, Sexuality, and Race	/courses/CGS.html#cgs150
 'A00Daphne,Taylor-Garcia
 0018SOLIS24   LE111  12301350A00
@@ -7120,7 +7120,7 @@ ECE 284  Topics/Computer Engineering	/courses/ECE.html#ece284
 20240612TBA  FITBA  08001059
 ECE 285  Spec Topic/Signal&Imag/Robotic	/courses/ECE.html#ece285
 'A00Xiaolong,Wang
-0182LEDDN24   LEAUD  14001520A00
+0200LEDDN24   LEAUD  14001520A00
 20240611TBA  FITBA  15001759
 'B00Nicholas A,Antipa
 0060EBU1 13   LE2315 11001220B00
@@ -7650,7 +7650,7 @@ EDS 125  Hist,Polic&Theory/Bilingual Ed	/courses/EDS.html#eds125
 20240611TBA  FITBA  11301429
 EDS 126  Social Organization/Education	/courses/EDS.html#eds126
 :A00Makeba,Jones
-0025TBA  TBA  DITBA  TBA TBA A010025TBA  TBA  DITBA  TBA TBA A020028TBA  TBA  DITBA  TBA TBA A030022PCYNH4    DI240  18301920A04
+0030TBA  TBA  DITBA  TBA TBA A010030TBA  TBA  DITBA  TBA TBA A020028TBA  TBA  DITBA  TBA TBA A030022PCYNH4    DI240  18301920A04
 PCYNH24   LE106  17001820A00
 20240613TBA  FITBA  19002159
 EDS 128B Intro/Teaching&Learning (Elem)	/courses/EDS.html#eds128b
@@ -7890,7 +7890,7 @@ EDS 379C SinglSubj(Secnd)Intrn Prac III	/courses/EDS.html#eds379c
 0045TBA  TBA  PRTBA  TBA TBA D00
 EDS 380C SS Internship Seminar III	/courses/EDS.html#eds380c
  A00Alison Michelle,Black
-0045RWAC 4    SE0622 17302020A00
+0040RWAC 4    SE0622 17302020A00
 EDS 382  Inclusive Education Practices	/courses/EDS.html#eds382
 'A00Christoforos,Mamas
 0045RWAC 3    LE0622 17302020A00
@@ -8009,7 +8009,7 @@ ETHN120D Race & Oral Hist. in San Diego	/courses/ETHN.html#ethn120d
 SOLIS24   LE109  12301350A00
 ETHN125R R-Asian American History	/courses/ETHN.html#ethn125r
  A00Christen T,Sasaki
-0050RCLAS24   LER03  11001220A00
+0049RCLAS24   LER03  11001220A00
 ETHN126  Comp Filip&Viet Am Ident&Cmnty	/courses/ETHN.html#ethn126
 'A00Ly Thi Hai,Tran
 0039WLH  135  LE2207 17001750A00
@@ -8020,7 +8020,7 @@ ETHN127  Sexuality & Nation	/courses/ETHN.html#ethn127
 20240611TBA  FITBA  15001759
 ETHN137  Latina Issues & Cultural Prod.	/courses/ETHN.html#ethn137
  A00Amanda Maria Yoland,Martin Sandino
-0018PODEM24   LE0132 11001220A00
+0021PODEM24   LE0132 11001220A00
 ETHN139  Chicano Literature in English	/courses/ETHN.html#ethn139
 'A00Christopher Michael,Perreira
 0025PODEM24   LE1A19 12301350A00
@@ -8733,7 +8733,7 @@ HIAF113  SmallWars GloblOrdr/Afrca&Asia	/courses/HIST.html#hiaf113
 20240610TBA  FITBA  15001759
 HIAF114  Black Internationalism	/courses/HIST.html#hiaf114
  A00Bright,Gyamfi
-0050YORK 24   LE4080A14001520A00
+0055YORK 24   LE4080A14001520A00
 HIEA132  Hist/People's Republic/China	/courses/HIST.html#hiea132
 'A00Benjamin Nathan,Kletzer
 0030SOLIS24   LE105  08000920A00
@@ -9430,25 +9430,25 @@ LIGN502  Apprentice Teaching/Linguistcs	/courses/LING.html#lign502
 0005TBA  TBA  PRTBA  TBA TBA 009
 LIGN503  Apprentc Teachn/Amer Sign Lang	/courses/LING.html#lign503
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIGN504  Apprentice Teaching of French	/courses/LING.html#lign504
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIGN505  Apprentice Teaching of German	/courses/LING.html#lign505
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIGN506  Apprentice Teaching of Italian	/courses/LING.html#lign506
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIGN507  Apprentice Teaching of Spanish	/courses/LING.html#lign507
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIGN508  Apprentc Teachn/Directed Study	/courses/LING.html#lign508
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIGN509  Apprentc Teachn/Head TA	/courses/LING.html#lign509
  A00Grant Todd,Goodall
-0000TBA  TBA  INTBA  TBA TBA A00
+0010TBA  TBA  INTBA  TBA TBA A00
 LIHL112P Filipino for Filipino Speakers	/courses/LING.html#lihl112p
 'A00Leticia Cant,Pagkalinawan
 0028CENTR24   LE217A 09301050A00
@@ -11052,7 +11052,7 @@ MATH292  Seminar In Topology	/courses/MATH.html#math292
 0010APM  2    SE7321 16301720A00
 MATH294  The Mathematics of Finance	/courses/MATH.html#math294
 'A00Patrick J,Fitzsimmons
-0015APM  135  LEB412 12001250A00
+0025APM  135  LEB412 12001250A00
 20240612TBA  FITBA  11301429
 MATH295  Special Topics in Mathematics	/courses/MATH.html#math295
  A00Ioan,Bejenaru
@@ -11953,7 +11953,7 @@ MUS 202  Advanced Projects/Performance	/courses/MUS.html#mus202
 0001TBA  TBA  SETBA  TBA TBA A00
 MUS 203C Advanced Prjct/Composition III	/courses/MUS.html#mus203c
  A00Michelle Siulai,Lou
-0015CPMC 2    SE231  14001650A00
+0000CPMC 2    SE231  14001650A00
 MUS 203D Advanced Prjcts in Composition	/courses/MUS.html#mus203d
  A00Anthony Curtis,Davis
 0005TBA  TBA  STTBA  TBA TBA A00
@@ -12177,7 +12177,7 @@ CENG175  NanoEngineering in Medicine	/courses/NANO.html#ceng175
 20240612TBA  FITBA  15001759
 CENG176B Chem Engineerng Process Lab II	/courses/NANO.html#ceng176b
 .A00Justin Paul,Opatkiewicz
-0052EBU2 13   LA203  10001250A01
+0053EBU2 13   LA203  10001250A01
 PCYNH24   LE120  12301350A00
 .B00Liangfang,Zhang
 0049EBU2 24   LA203  10001250B01
