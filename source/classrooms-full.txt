@@ -1,4 +1,4 @@
-V31712862000395
+V31712872800618
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -242,7 +242,7 @@ ANSC137  Chinese Popular Religion	/courses/ANTH.html#ansc137
 20240614TBA  FITBA  11301429
 ANSC138  Cultural Design Practicum	/courses/ANTH.html#ansc138
  A00Steven Martin,Parish
-0020SSB  24   LE269  12001320A00
+0021SSB  24   LE269  12001320A00
 ANSC142  Anthropology of Latin America	/courses/ANTH.html#ansc142
 'A00Annika Britt,Stone
 0040WLH  24   LE2208 12301350A00
@@ -837,7 +837,7 @@ BENG233  Neuromusc Physiology/Biomechcs	/courses/BENG.html#beng233
 20240612TBA  FITBA  11301429
 BENG234  Neurophysiol/Molecules-Systems	/courses/BENG.html#beng234
 'A00Gabriel,Silva
-0065PFBH 24   LE161  09301050A00
+0070PFBH 24   LE161  09301050A00
 20240611TBA  FITBA  08001059
 BENG235  Mol Im & Quant in Living Cells	/courses/BENG.html#beng235
  A00Bogdan,Bintu
@@ -8895,7 +8895,7 @@ GPGN495  Adv Projects Energy Analytics	/courses/GPS.html#gpgn495
 0018RBC  4    SE1401 15301720A00
 GPGN497  Internship	/courses/GPS.html#gpgn497
  002Gordon Carlos,McCord
-0005TBA  TBA  ITTBA  TBA TBA 002
+0010TBA  TBA  ITTBA  TBA TBA 002
 GPGN499  Independent Research	/courses/GPS.html#gpgn499
  001Achyuta Rasendra,Adhvaryu
 0000TBA  TBA  INTBA  TBA TBA 001
@@ -8942,7 +8942,7 @@ GPGN499  Independent Research	/courses/GPS.html#gpgn499
  022Morgan,Levy
 0000TBA  TBA  INTBA  TBA TBA 022
  023Elizabeth Deirdre,Lyons
-0006TBA  TBA  INTBA  TBA TBA 023
+0008TBA  TBA  INTBA  TBA TBA 023
  024Gordon Carlos,McCord
 0000TBA  TBA  INTBA  TBA TBA 024
  025Craig,McIntosh
@@ -9087,7 +9087,7 @@ HIAF114  Black Internationalism	/courses/HIST.html#hiaf114
 0070WLH  24   LE2111 14001520A00
 HIEA132  Hist/People's Republic/China	/courses/HIST.html#hiea132
 'A00Benjamin Nathan,Kletzer
-0030SOLIS24   LE105  08000920A00
+0035SOLIS24   LE105  08000920A00
 20240613TBA  FITBA  08001059
 HIEA154  Korean History Through Film	/courses/HIST.html#hiea154
  A00Todd A.,Henry
@@ -10554,7 +10554,7 @@ AESE279A AESE Quarterly Team Project	/courses/MAS.html#aese279a
 0033TBA  56   INTBA  09001800A00
 MAE 3    Intro to Mechanical Design	/courses/MAE.html#mae3
 :A00Huihui,Qi
-0020EBU2 2    LA313  11001350A010016EBU2 2    LA313  14301720A03
+0020EBU2 2    LA313  11001350A010013EBU2 2    LA313  14301720A03
 PCYNH24   LE122  09301050A00
 20240611TBA  FITBA  08001059
 :B00Nathan Joseph,Delson	Jennifer S,Mullin
@@ -10823,7 +10823,7 @@ MAE 240  Space Flight Mechanics	/courses/MAE.html#mae240
 EBU2 4    LE305  08300920A00
 MAE 242  Robot Motion Planning	/courses/MAE.html#mae242
 'A00Sonia,Martinez
-0049WLH  135  LE2113 11001150A00
+0048WLH  135  LE2113 11001150A00
 20240614TBA  FITBA  11301429
 MAE 249  Soft Robotics	/courses/MAE.html#mae249
  A00Michael Thomas,Tolley
@@ -11223,7 +11223,7 @@ PETER24   LE104  09301050A00
 20240611TBA  FITBA  08001059
 MATH142B Introduction to Analysis II	/courses/MATH.html#math142b
 :A00John Dietrich,Eggers
-0035APM  4    DI5402 14001450A010035APM  4    DI5402 15001550A02
+0036APM  4    DI5402 14001450A010036APM  4    DI5402 15001550A02
 PETER135  LE102  11001150A00
 20240614TBA  FITBA  11301429
 :B00Anthony,Sanchez
@@ -14239,23 +14239,23 @@ PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
  033Dusan,Keres
 0000TBA  TBA  INTBA  TBA TBA 033
  034Shelley Adams,Wright
-9999TBA  TBA  INTBA  TBA TBA 034
+0000TBA  TBA  INTBA  TBA TBA 034
  035Monica T,Allen
-9999TBA  TBA  INTBA  TBA TBA 035
+0000TBA  TBA  INTBA  TBA TBA 035
  036Kenneth Arthur,Intriligator
-9999TBA  TBA  INTBA  TBA TBA 036
+0000TBA  TBA  INTBA  TBA TBA 036
  037Oleg,Shpyrko
-9999TBA  TBA  INTBA  TBA TBA 037
+0000TBA  TBA  INTBA  TBA TBA 037
  038Alexey,Arefiev
-9999TBA  TBA  INTBA  TBA TBA 038
+0000TBA  TBA  INTBA  TBA TBA 038
  039Wei,Xiong
-9999TBA  TBA  INTBA  TBA TBA 039
+0000TBA  TBA  INTBA  TBA TBA 039
  040Michael M.,Fogler
-9999TBA  TBA  INTBA  TBA TBA 040
+0000TBA  TBA  INTBA  TBA TBA 040
  041Johnatan,Aljadeff
-9999TBA  TBA  INTBA  TBA TBA 041
+0000TBA  TBA  INTBA  TBA TBA 041
  042Stefan G.,Llewellyn Smith
-9999TBA  TBA  INTBA  TBA TBA 042
+0000TBA  TBA  INTBA  TBA TBA 042
 POLI5D   Data Analytics/Social Sciences	/courses/POLI.html#poli5d
 :A00Yinlin,Dai
 0007PETER5    LA103  13001350A010007PETER5    LA103  14001450A020006PETER5    LA103  15001550A030005PETER5    LA103  16001650A04
@@ -14765,7 +14765,7 @@ PSYC100  Clinical Psychology	/courses/PSYC.html#psyc100
 20240611TBA  FITBA  15001759
 PSYC101  Developmental Psychology	/courses/PSYC.html#psyc101
 'A00Caren Michelle,Walker
-0340GH   24   LE242  12301350A00
+0348GH   24   LE242  12301350A00
 20240610TBA  FITBA  11301429
 PSYC102  Sensory Neuroscience	/courses/PSYC.html#psyc102
 'A00Nirelia Melbina-,Moranton
@@ -18078,7 +18078,7 @@ VIS 101A Designing Urban Ecologies	/courses/VIS.html#vis101a
 0015MANDE3    LEB114 09001150A00
 VIS 102  Democratizing the City	/courses/VIS.html#vis102
 'A00Edwin Teddy,Cruz
-0085SME  13   LE149  15001620A00
+0088SME  13   LE149  15001620A00
 20240612TBA  FITBA  15001759
 VIS 105A Drawing: Representing/Subject	/courses/VIS.html#vis105a
  A00Amy,Adler
