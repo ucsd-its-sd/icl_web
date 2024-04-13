@@ -1,4 +1,4 @@
-V31713034801188
+V31713045600658
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3362,7 +3362,7 @@ BIOM231  Contemp Topics/Pharmacology	/courses/BIOM.html#biom231
 0000TBA  TBA  LETBA  TBA TBA B00
 BIOM242  Seminar in Genetics	/courses/BIOM.html#biom242
  A00Bruce Alan,Hamilton
-0020TBA  TBA  SETBA  TBA TBA A00
+0022TBA  TBA  SETBA  TBA TBA A00
 BIOM246  Current Literatre/Glycobiology	/courses/BIOM.html#biom246
  A00Philip,Gordts	Kamil,Godula	Jeffrey D.,Esko	Ajit P,Varki	Pascal,Gagneux	Amanda Lark,Lewis	Lars,Bode
 0000BRF2 5    SE4103 12001250A00
