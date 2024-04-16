@@ -1,4 +1,4 @@
-V31713218401101
+V31713272400425
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3835,7 +3835,7 @@ CGS 137  Latina Issues & Cultural Prod.	/courses/CGS.html#cgs137
 0021PODEM24   LE0132 11001220A00
 CGS 150  Visuality, Sexuality, and Race	/courses/CGS.html#cgs150
 'A00Daphne,Taylor-Garcia
-0018SOLIS24   LE111  12301350A00
+0017SOLIS24   LE111  12301350A00
 20240610TBA  FITBA  11301429
 CGS 196B Honors Thesis	/courses/CGS.html#cgs196b
  A00Stanley M.,Lo
@@ -8364,14 +8364,14 @@ ETHN100C Social Justice Praxis	/courses/ETHN.html#ethn100c
 0040SOLIS24   PR109  11001220A00
 ETHN101TVEthnic Images on TV	/courses/ETHN.html#ethn101tv
 .A00Curtis F.,Marez
-0028CENTR5    DI205  14001450A010027CENTR5    DI205  15001550A02
+0027CENTR5    DI205  14001450A010027CENTR5    DI205  15001550A02
 CSB  24   LE004  12301350A00
 ETHN108  Race, Culture & Social Change	/courses/ETHN.html#ethn108
  A00Sarah E.,Hankins
 0034CPMC 24   LE136  09301050A00
 ETHN113A Decolonizing Geology	/courses/ETHN.html#ethn113a
  A00Bradley T.,Werner
-0016HSS  24   LE2333B14001520A00
+0015HSS  24   LE2333B14001520A00
 ETHN114B Rep Native Am-Exhibit Design	/courses/ETHN.html#ethn114b
 'A00Ross H.,Frank
 0011HSS  24   SE1106A15301650A00
@@ -8385,7 +8385,7 @@ ETHN125R R-Asian American History	/courses/ETHN.html#ethn125r
 0050RCLAS24   LER03  11001220A00
 ETHN126  Comp Filip&Viet Am Ident&Cmnty	/courses/ETHN.html#ethn126
 'A00Ly Thi Hai,Tran
-0040WLH  135  LE2207 17001750A00
+0034WLH  135  LE2207 17001750A00
 20240614TBA  FITBA  19002159
 ETHN127  Sexuality & Nation	/courses/ETHN.html#ethn127
 'A00Amanda Maria Yoland,Martin Sandino
@@ -8396,7 +8396,7 @@ ETHN137  Latina Issues & Cultural Prod.	/courses/ETHN.html#ethn137
 0023PODEM24   LE0132 11001220A00
 ETHN139  Chicano Literature in English	/courses/ETHN.html#ethn139
 'A00Christopher Michael,Perreira
-0025PODEM24   LE1A19 12301350A00
+0023PODEM24   LE1A19 12301350A00
 20240610TBA  FITBA  11301429
 ETHN143  Chicana/o Film & Media Studies	/courses/ETHN.html#ethn143
 'A00Curtis F.,Marez
@@ -8407,7 +8407,7 @@ ETHN144M Antiracist Medicine/HealthCare	/courses/ETHN.html#ethn144m
 0067PETER24   LE102  09301050A00
 ETHN150  Visuality, Sexuality, and Race	/courses/ETHN.html#ethn150
 'A00Daphne,Taylor-Garcia
-0018SOLIS24   LE111  12301350A00
+0017SOLIS24   LE111  12301350A00
 20240610TBA  FITBA  11301429
 ETHN153  Citizenship & Civil Rts/20th c	/courses/ETHN.html#ethn153
 'A00Veronica,Martinez-Matsuda
@@ -14579,7 +14579,7 @@ POLI273  Causal Inference	/courses/POLI.html#poli273
 0025SSB  5    SE104  12001450A00
 POLI280  Wrkshp: Intl Law & Regulation	/courses/POLI.html#poli280
  A00Emilie,Hafner-Burton
-0025SSB  5    SE104  15001750A00
+0030SSB  5    SE104  15001750A00
 POLI281  Workshop: American Politics	/courses/POLI.html#poli281
  A00Pamela M,Ban
 0025SSB  1    SE353  12001450A00
