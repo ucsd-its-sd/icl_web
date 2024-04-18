@@ -547,6 +547,8 @@
     .then((promiseResults) => {
       const [gaClassrooms, classroomContent] = promiseResults;
       beginApp(gaClassrooms, classroomContent);
+      if (icl.seanwall)
+        document.querySelector("html").classList.add("seanwall");
     })
     .catch((error) => {
       throw error;

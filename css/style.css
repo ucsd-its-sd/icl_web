@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:wght@700&display=swap");
 /* Set font for all elements to Fira Sans */
-* {
+html * {
     font-family: "Fira Sans", sans-serif;
+    box-sizing: border-box;
+}
+html.seanwall * {
+    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
 }
 .template {
