@@ -1,4 +1,4 @@
-V31713996746258
+V31714050606904
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -137,12 +137,12 @@ AIP 197  Academic Internship Program	/courses/AIP.html#aip197
 9999TBA  TBA  ITTBA  TBA TBA 045
  046Erik,Viirre
 9999TBA  TBA  ITTBA  TBA TBA 046
+ 047Matthew Charles,Boomhower
+9999TBA  TBA  ITTBA  TBA TBA 047
 AIP 197DCWashington, DC Internship	/courses/AIP.html#aip197dc
  001Seth J,Hill
 0031TBA  TBA  ITTBA  TBA TBA 001
 AIP 197P Public Service Internship	/courses/AIP.html#aip197p
- 001Brian,Goldfarb
-9999TBA  TBA  ITTBA  TBA TBA 001
  002Jill M,Gladstein
 9999TBA  TBA  ITTBA  TBA TBA 002
 AIP 197T AIP: Special Programs	/courses/AIP.html#aip197t
@@ -4198,6 +4198,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 046
  047Anjan,Debnath
 9999TBA  TBA  INTBA  TBA TBA 047
+ 048Michael,Tauber
+9999TBA  TBA  INTBA  TBA TBA 048
 CHEM214  Molecular & Cellular Biochem	/courses/CHEM.html#chem214
 'A00Gourisankar,Ghosh
 0020RWAC 135  LE0115 09000950A00
@@ -11158,7 +11160,7 @@ MAE 299  Graduate Research	/courses/MAE.html#mae299
  065Dmitriy,Orlov
 9999TBA  TBA  INTBA  TBA TBA 065
 MATH2    Intro to College Mathematics	/courses/MATH.html#math2
-:A00Michael J,Holst
+:A00Nandagopal,Ramachandran
 0035CENTR2    DI217B 17001750A01
 PODEM135  LE1A22 10001050A00
 20240610TBA  FITBA  08001059
@@ -11166,7 +11168,7 @@ PODEM135  LE1A22 10001050A00
 0035CENTR2    DI217B 18001850B01
 APM  135  LEB412 11001150B00
 20240614TBA  FITBA  11301429
-:C00Michael J,Holst
+:C00Wei,Yin
 0035HSS  2    DI1315 19001950C01
 PODEM135  LE1A22 13001350C00
 20240613TBA  FITBA  11301429
@@ -12211,6 +12213,8 @@ MED 296  Independent Research
 0005TBA  TBA  INTBA  TBA TBA 004
  005Pam Rajendran,Taub
 0002TBA  TBA  INTBA  TBA TBA 005
+ 006Paula Michelle,Mesarwi
+0005TBA  TBA  INTBA  TBA TBA 006
 MED 299  Medicine Independnt Study Proj
  001Laramie Rae,Smith
 0010TBA  TBA  INTBA  TBA TBA 001
@@ -12743,6 +12747,8 @@ MUS 299  Advncd Rsrch Prjcts&Indpnt Stu	/courses/MUS.html#mus299
 9999TBA  TBA  INTBA  TBA TBA 026
  027Roger L.,Reynolds
 9999TBA  TBA  INTBA  TBA TBA 027
+ 028Keyavash,Nourai
+0003TBA  TBA  INTBA  TBA TBA 028
 MUS 500  Apprentice Teaching	/courses/MUS.html#mus500
  001Anthony I,Burr
 0005TBA  TBA  INTBA  TBA TBA 001
