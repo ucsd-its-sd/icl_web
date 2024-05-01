@@ -1,4 +1,4 @@
-V31714515078072
+V31714569148463
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3727,7 +3727,7 @@ CAT 125  Public Rhetoric & Prac Comm	/courses/CAT.html#cat125
  013Becca Rae,Rose
 0020HSS  24   SE1106A12301350013
  014Becca Rae,Rose
-0020WLH  24   SE2112 15301650014
+0020MANDE24   SEB104 15301650014
  015Becca Rae,Rose
 0020WLH  24   SE2112 11001220015
  016Adriana,Tosun
@@ -6097,6 +6097,8 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 019
  020Ramamohan,Paturi
 9999TBA  TBA  INTBA  TBA TBA 020
+ 021Garrison W,Cottrell
+9999TBA  TBA  INTBA  TBA TBA 021
 CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
  001Melissa Ann,Gymrek
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -8017,6 +8019,8 @@ ECON299  Research in Economics	/courses/ECON.html#econ299
 9999TBA  TBA  INTBA  TBA TBA 018
  019Johannes Friedrich,Wieland
 9999TBA  TBA  INTBA  TBA TBA 019
+ 020Giacomo,Rondina
+9999TBA  TBA  INTBA  TBA TBA 020
 ECON500C Teaching Methods in Economics	/courses/ECON.html#econ500c
  A00Prashant,Bharadwaj
 0099TBA  TBA  INTBA  TBA TBA A00
@@ -8679,6 +8683,8 @@ FMPH199  Independent Study	/courses/FMPH.html#fmph199
 9999TBA  TBA  INTBA  TBA TBA 010
  011Cheryl,Anderson
 9999TBA  TBA  INTBA  TBA TBA 011
+ 012Rebecca,Fielding-Miller
+9999TBA  TBA  INTBA  TBA TBA 012
 FMPH223  Analysis of Longitudinal Data	/courses/FMPH.html#fmph223
 :A00Florin,Vaida
 0026LFFB 1    LE107  09001050A00
@@ -10696,6 +10702,9 @@ TBA  TBA  SETBA  TBA TBA A00
 .B00Amy Sara,Carroll
 9999TBA  TBA  PRTBA  TBA TBA B01
 TBA  TBA  SETBA  TBA TBA B00
+.C00Anna Joy,Springer
+9999TBA  TBA  PRTBA  TBA TBA C01
+TBA  TBA  SETBA  TBA TBA C00
 AESE261  Managing Stakeholder Rltnships	/courses/MAS.html#aese261
 'A00Thomas,Roemer	Gurbinder S,Chauhan
 0033TBA  56   LETBA  09001800A00
@@ -10922,6 +10931,8 @@ MAE 199  Independent Study/Undergrads	/courses/MAE.html#mae199
 9999TBA  TBA  INTBA  TBA TBA 007
  008Frank E,Talke
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Lisa Voula,Poulikakos
+9999TBA  TBA  INTBA  TBA TBA 009
 MAE 202  Thermal Processes	/courses/MAE.html#mae202
 'A00Prabhakar,Bandaru
 0070RWAC 24   LE0121 12301350A00
@@ -12358,6 +12369,8 @@ MSED299  Reading and Research	/courses/MSED.html#msed299
 0015TBA  TBA  INTBA  TBA TBA 001
  002Stanley M.,Lo
 0010TBA  TBA  INTBA  TBA TBA 002
+ 003Alison G.,Wishard Guerra
+0003TBA  TBA  INTBA  TBA TBA 003
 MUS 1C   Fundamentals of Music C	/courses/MUS.html#mus1c
 :A00Myra,Hinrichs
 0025CPMC 13   LA265  09000950A010025CPMC 13   LA265  10001050A020025CPMC 35   LA265  11001150A03
@@ -14467,6 +14480,8 @@ PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
 9999TBA  TBA  INTBA  TBA TBA 045
  046James G,Branson
 9999TBA  TBA  INTBA  TBA TBA 046
+ 047David Robert,Tytler
+9999TBA  TBA  INTBA  TBA TBA 047
 POLI5D   Data Analytics/Social Sciences	/courses/POLI.html#poli5d
 :A00Yinlin,Dai
 0007PETER5    LA103  13001350A010007PETER5    LA103  14001450A020006PETER5    LA103  15001550A030005PETER5    LA103  16001650A04
@@ -14572,6 +14587,9 @@ POLI196  Community Stations Fieldwork
 POLI197SDLocal Internship Pol Sci	/courses/POLI.html#poli197sd
  001Maysa,Nichter
 0999TBA  TBA  ITTBA  TBA TBA 001
+POLI198  Directed Group Study	/courses/POLI.html#poli198
+ A00James Lawrence,Broz
+9999TBA  TBA  SETBA  TBA TBA A00
 POLI198RAResearch Apprenticeship	/courses/POLI.html#poli198ra
  001James Lawrence,Broz
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -15285,6 +15303,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 065
  066Emily Brockway,Treichler
 9999TBA  TBA  INTBA  TBA TBA 066
+ 067Christina M,Gremel
+9999TBA  TBA  INTBA  TBA TBA 067
 PSYC205  Emotion	/courses/PSYC.html#psyc205
 'A00Christine Renee,Harris
 0020MNDLR24   SE3545 14001520A00
@@ -16471,7 +16491,7 @@ SIO 10   The Earth	/courses/SIO.html#sio10
 SIO 16   Geology of the National Parks	/courses/SIO.html#sio16
 'A00Jeffrey S,Gee
 0120CSB  135  LE002  14001450A00
-20240614TBA  FITBA  15001759
+20240506WLH  RE2111 1700175020240507WLH  RE2111 1700175020240614TBA  FITBA  15001759
 SIO 50   Intro to Physical Geology	/courses/SIO.html#sio50
 :A00Geoffrey W,Cook
 0022YORK 13   LA3030 11001250A010022YORK 24   LA3030 14001550A02
