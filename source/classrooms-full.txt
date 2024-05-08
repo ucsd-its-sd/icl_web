@@ -1,4 +1,4 @@
-V31715174074145
+V31715195372562
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6099,6 +6099,8 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 020
  021Garrison W,Cottrell
 9999TBA  TBA  INTBA  TBA TBA 021
+ 022Taylor D,Berg-Kirkpatrick
+9999TBA  TBA  INTBA  TBA TBA 022
 CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
  001Melissa Ann,Gymrek
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -15053,7 +15055,7 @@ PSYC133R Circadian Rhythms-Bio Clocks	/courses/PSYC.html#psyc133r
 RCLAS3    LER03  15001620A00
 20240612TBA  FITBA  15001759
 PSYC134  Eating Disorders	/courses/PSYC.html#psyc134
-'A00Walter H.,Kaye
+'A00Leslie Karwoski,Anderson
 0300SOLIS3    LE107  17001950A00
 20240614TBA  FITBA  19002159
 PSYC137  Social Cognition	/courses/PSYC.html#psyc137
@@ -16295,6 +16297,8 @@ SE  199  Independent Study/Undergrads	/courses/SE.html#se199
 9999TBA  TBA  INTBA  TBA TBA 003
  004Ingrid,Tomac
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Michael,Todd
+9999TBA  TBA  INTBA  TBA TBA 005
 SE  202  Structural Stability	/courses/SE.html#se202
 :A00John B,Kosmatka
 0030CENTR24   LE217A 15301650A00
@@ -18335,6 +18339,9 @@ USP 195  Teaching Apprentice-Undergrad	/courses/USP.html#usp195
 USP 198  Directed Group Study	/courses/USP.html#usp198
  A00Leslie R,Lewis
 9999TBA  TBA  SETBA  TBA TBA A00
+USP 199  Independent Study	/courses/USP.html#usp199
+ 001Leslie R,Lewis
+9999TBA  TBA  INTBA  TBA TBA 001
 USP 265C Adv.SpecTopics/Transportation	/courses/USP.html#usp265c
 USP 500  Apprentice Teaching
  001Isaac,Martin
