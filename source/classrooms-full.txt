@@ -1,4 +1,4 @@
-V31715260483030
+V31715281750879
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8242,6 +8242,9 @@ EDS 296  Research Apprenticeship	/courses/EDS.html#eds296
 0025TBA  TBA  INTBA  TBA TBA 018
  019Andrew,Phuong
 0999TBA  TBA  INTBA  TBA TBA 019
+EDS 297  Directed Group Study	/courses/EDS.html#eds297
+ 001Alison G.,Wishard Guerra
+0005TBA  TBA  INTBA  TBA TBA 001
 EDS 299  Dissertation Research	/courses/EDS.html#eds299
  001Alan J.,Daly
 0000TBA  TBA  INTBA  TBA TBA 001
