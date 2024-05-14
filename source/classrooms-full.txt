@@ -1,4 +1,4 @@
-V31715638312421
+V31715692402241
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6057,6 +6057,8 @@ CSE 198  Direct Group Study	/courses/CSE.html#cse198
 9999TBA  TBA  INTBA  TBA TBA 007
  008Yingjun,Cao
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Mor Mia,Minnes Kemp
+9999TBA  TBA  INTBA  TBA TBA 009
 CSE 199  Independent Study	/courses/CSE.html#cse199
  001Tajana Simunic,Rosing
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -10068,7 +10070,7 @@ LIIT1C   Italian Conversation	/courses/LING.html#liit1c
 0014HSS  135  TU1128B11001150B00
 LIIT1CX  Analysis of Italian	/courses/LING.html#liit1cx
 'A00Chiara,Carnelos
-0028APM  24   DI3402 12301350A00
+0028APM  24   DI4301 12301350A00
 20240610TBA  FITBA  11301429
 LIPO1C   Portuguese Conversation	/courses/LING.html#lipo1c
  A00Denise,Paladini
@@ -10077,7 +10079,7 @@ LIPO1C   Portuguese Conversation	/courses/LING.html#lipo1c
 0014APM  135  TU3218 13001350B00
 LIPO1CX  Analysis of Portuguese	/courses/LING.html#lipo1cx
 'A00Cassia,De Abreu
-0028APM  24   DI4301 12301350A00
+0028APM  24   DI3402 12301350A00
 20240610TBA  FITBA  11301429
 LISL1A   American Sign Lang Conversatn	/courses/LING.html#lisl1a
  C00Margaret S.,Lott
@@ -10919,6 +10921,8 @@ HSS  2    LE2333A13001350B00
 MAE 197  Engineering Internship	/courses/MAE.html#mae197
  001Jan,Kleissl
 9999TBA  TBA  ITTBA  TBA TBA 001
+ 002Huihui,Qi
+9999TBA  TBA  ITTBA  TBA TBA 002
 MAE 198  Directed Group Study	/courses/MAE.html#mae198
  A00Nathan Joseph,Delson
 0015TBA  TBA  TUTBA  TBA TBA A00
