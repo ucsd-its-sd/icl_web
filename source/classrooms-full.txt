@@ -1,4 +1,4 @@
-V31715983897975
+V31716037940554
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5366,6 +5366,8 @@ COGS199  Special Project	/courses/COGS.html#cogs199
 9999TBA  TBA  INTBA  TBA TBA 018
  019Sean Thomas,Trott
 9999TBA  TBA  INTBA  TBA TBA 019
+ 020Andrea,Chiba
+9999TBA  TBA  INTBA  TBA TBA 020
 COGS200  Cognitive Science Seminar	/courses/COGS.html#cogs200
 COGS205  Introduction/Thesis Research	/courses/COGS.html#cogs205
  A00Andrea,Chiba
@@ -18414,7 +18416,7 @@ VIS 102  Democratizing the City	/courses/VIS.html#vis102
 0088SME  13   LE149  15001620A00
 20240612TBA  FITBA  15001759
 VIS 105A Drawing: Representing/Subject	/courses/VIS.html#vis105a
- A00Amy,Adler
+ A00Jonathan,Pylypchuk
 0033MANDE24   ST220A 12301520A00
 VIS 105B Drawing: Practices and Genre	/courses/VIS.html#vis105b
  A00Malgorzata,Herc-Balaszek
@@ -18437,7 +18439,7 @@ VIS 107B Sculpture: Practices & Genre	/courses/VIS.html#vis107b
  A00Danielle Adobi,Dean
 0025MANDE24   ST201A 12301520A00
 VIS 110A Contemporary Issues & Practice	/courses/VIS.html#vis110a
- A00Amy,Adler
+ A00Dino,Dinco
 0018MANDE3    ST201B 15001750A00
 VIS 110E Art/Public Spaces/Site Specifc	/courses/VIS.html#vis110e
  A00Mathieu,Gregoire
