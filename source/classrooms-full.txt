@@ -1,4 +1,4 @@
-V31716297244478
+V31716318635993
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3800,6 +3800,8 @@ CCS 197  Carbon Neutrality Internship	/courses/CCS.html#ccs197
 9999TBA  TBA  ITTBA  TBA TBA 001
  002Tarik,Benmarhnia
 9999TBA  TBA  ITTBA  TBA TBA 002
+ 003Ryan Charles,Kastner
+9999TBA  TBA  ITTBA  TBA TBA 003
 CCS 199  Independent Study or Research	/courses/CCS.html#ccs199
  001Corey John,Gabriel
 9999TBA  TBA  INTBA  TBA TBA 001
