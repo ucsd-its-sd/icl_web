@@ -5,6 +5,9 @@ SP24     Version
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
+SP24     Version
+.A00Kevin,Fisher
+0035APM  12345LE1313 08001930A00
 AAS 10   Intro/African-American Studies	/courses/AASM.html#aas10
 :A00Elizabeth Annette,Butler
 0034PCYNH1    DI240  14001450A010034WLH  1    DI2115 16001650A02
