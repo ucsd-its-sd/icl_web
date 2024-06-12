@@ -1,4 +1,4 @@
-V31718198486333
+V31718219753790
 SP24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1708,6 +1708,8 @@ BGGN299  Thesis Research in Biology	/courses/BIOL.html#bggn299
 9999TBA  TBA  INTBA  TBA TBA 034
  035Jeff M,Hasty
 9999TBA  TBA  INTBA  TBA TBA 035
+ 036Daniel Patrick,Hollern
+9999TBA  TBA  INTBA  TBA TBA 036
  037David A.,Holway
 9999TBA  TBA  INTBA  TBA TBA 037
  038Alisa,Huffaker
@@ -2177,6 +2179,8 @@ BGRD200  Research Discussion	/courses/BIOL.html#bgrd200
 9999TBA  TBA  SETBA  TBA TBA 266
  267Anthony Joseph,Molina
 9999TBA  TBA  SETBA  TBA TBA 267
+ 268
+9999TBA  TBA  SETBA  TBA TBA 268
  269Sanjay K,Nigam
 9999TBA  TBA  SETBA  TBA TBA 269
  270Maho,Niwa
@@ -6304,6 +6308,8 @@ CSE 293  Spec Proj/Computer Sci & Engin	/courses/CSE.html#cse293
 9999TBA  TBA  INTBA  TBA TBA 027
  028Nadezhda,Polikarpova
 9999TBA  TBA  INTBA  TBA TBA 028
+ 029Joseph Gibbs,Politz
+9999TBA  TBA  INTBA  TBA TBA 029
  030George M,Porter
 9999TBA  TBA  INTBA  TBA TBA 030
  031Leonard Emerson,Porter
@@ -8751,6 +8757,8 @@ FMPH299  Dissertation Research	/courses/FMPH.html#fmph299
 9999TBA  TBA  INTBA  TBA TBA 001
  002Sonia,Jain
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Xin,Tu
+9999TBA  TBA  INTBA  TBA TBA 003
  004Tarik,Benmarhnia
 9999TBA  TBA  INTBA  TBA TBA 004
  005Steven D.,Edland
@@ -10452,6 +10460,8 @@ LTEN298  Special Projects:Writng Course	/courses/LIT.html#lten298
 9999TBA  TBA  INTBA  TBA TBA 001
  002Daniel J.,Vitkus
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Daisuke,Miyao
+9999TBA  TBA  INTBA  TBA TBA 003
 LTEN299  Dissertation	/courses/LIT.html#lten299
  001Shelley,Streeby
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -13217,7 +13227,7 @@ NEUG221  Advanced Topics/Neuroscience	/courses/NEU.html#neug221
  A00Binhai,Zheng
 0015LFFB 2    LE3A05 13001450A00
 NEUG280  Minor Proposition	/courses/NEU.html#neug280
- A00Xu,Chen
+ A00Xu,Chen	Giordano,De Guglielmo
 0020MET  1    LE223  09001050A00
 NEUG296  Neurosciences ResearchRotation	/courses/NEU.html#neug296
  A00Brenda Laurie,Bloodgood
@@ -14478,6 +14488,8 @@ PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
 0000TBA  TBA  INTBA  TBA TBA 022
  023Patrick H,Diamond
 0000TBA  TBA  INTBA  TBA TBA 023
+ 024John A.,McGreevy
+0000TBA  TBA  INTBA  TBA TBA 024
  025Mattia,Serra
 0000TBA  TBA  INTBA  TBA TBA 025
  026Tatyana,Sharpee
@@ -16841,6 +16853,8 @@ SIO 299  Research	/courses/SIO.html#sio299
 0010TBA  TBA  INTBA  TBA TBA 016
  017Janet Maria,Becker
 0010TBA  TBA  INTBA  TBA TBA 017
+ 018Tarik,Benmarhnia
+0010TBA  TBA  INTBA  TBA TBA 018
  019Yehuda,Bock
 0010TBA  TBA  INTBA  TBA TBA 019
  020Adrian Antal,Borsa
@@ -17606,7 +17620,7 @@ SURG296  Surgery Independent Research
  005Sharona,Ben-Haim
 0002TBA  TBA  INTBA  TBA TBA 005
 SURG299  Surgery Independent Study Proj
- 001
+ 001Elsie,Ross
 0050TBA  TBA  INTBA  TBA TBA 001
  002
 0050TBA  TBA  INTBA  TBA TBA 002
