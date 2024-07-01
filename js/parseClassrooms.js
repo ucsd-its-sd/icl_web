@@ -264,6 +264,7 @@
         // Don't show recurring meetings during finals week
         (icl.finals && lineType.includes("recurring") && !isData)
       ) {
+        icl.log("TBA Creature triggered with line " + line);
         return returnValue;
       } else if (lineType == "event") {
         // Date + Building + Meeting type + Room + Time
@@ -286,6 +287,7 @@
       }
       //Building + Meeting days + Meeting type + Room + Time
       if (lineType == "recurringNoCapacity") {
+        icl.log("R.recurringNoCapacity > " + line);
         returnValue.unshift({
           type: "recurring",
           building: line.slice(0, 5).trim(),
