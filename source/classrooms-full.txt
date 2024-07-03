@@ -1,4 +1,4 @@
-V31720012913254
+V31720034070759
 S124     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -415,6 +415,10 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 003
  004Carlo,Ballatore
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005William Henry,Gerwick
+9999TBA  TBA  INTBA  TBA TBA 005
+ 006Faik,Tezcan
+9999TBA  TBA  INTBA  TBA TBA 006
 CHIN169A Medical Chinese I	/courses/CHIN.html#chin169a
 'A00Xiao,Wang
 0020RCLAS13   LER03  18002050A00
@@ -983,6 +987,9 @@ LIGN170  Psycholinguistics	/courses/LING.html#lign170
 'A00Ebru,Evcen
 0030CENTR24   LE205  14001650A00
 20240803TBA  FITBA  15001759
+LIGN199  Independent Study/Linguistics	/courses/LING.html#lign199
+ 001Marc,Garellek
+9999TBA  TBA  INTBA  TBA TBA 001
 LISP1D   Spanish Conversation	/courses/LING.html#lisp1d
  A00Samuel,Godoy	Alicia,Munoz Sanchez
 0014RCLAS13   TUR13  08001050A00
@@ -1061,8 +1068,6 @@ MAE 11   Thermodynamics	/courses/MAE.html#mae11
 RCLAS3    LER115 13001450A00
 20240803TBA  FITBA  15001759
 MAE 30A  Statics & Intro to Dynamics	/courses/MAE.html#mae30a
- A00
-0000TBA  TBA  LETBA  TBA TBA A00
 MAE 101A Introductory Fluid Mechanics	/courses/MAE.html#mae101a
 :A00Zahra,Sadeghizadeh
 0100RCLAS24   LER65  08001050A00
