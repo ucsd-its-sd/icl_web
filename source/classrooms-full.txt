@@ -1,4 +1,4 @@
-V31720185670132
+V31720206881225
 S124     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -37,7 +37,7 @@ ANSC146  Global Health Persp/HIV	/courses/ANTH.html#ansc146
 0023RCLAS24   LER01  17001950A00
 ANSC148  Global Health&Cultrl Diversity	/courses/ANTH.html#ansc148
 'A00Olga Lid,Olivas Hernandez
-0022RCLAS24   LER03  11001350A00
+0020RCLAS24   LER03  11001350A00
 20240803TBA  FITBA  11301429
 ANSC150  Culture and Mental Health	/courses/ANTH.html#ansc150
 'A00Julia Kathryn,Sloane
@@ -98,7 +98,7 @@ BICD100  Genetics	/courses/BIOL.html#bicd100
 0075RCLAS24   DIR13  09000950A010075RCLAS24   DIR06  13001350A02
 RCLAS13   LER100 14001650A00
 20240802TBA  FITBA  15001759
-BICD102GSGenetic Inquiry/Global Context
+BICD102GSGenetic Inquiry/Global Context	/courses/BIOL.html#bicd102gs
  A00Stanley M.,Lo
 0000TBA  TBA  LETBA  TBA TBA A00
 BIEB136GSTropical Field Ecology	/courses/BIOL.html#bieb136gs
@@ -108,7 +108,7 @@ BIEB137GSSea Turtle Eco/Conservation	/courses/BIOL.html#bieb137gs
 .A00David A.,Holway	Jonathan,Shurin
 0000TBA  TBA  LATBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
-BIEB138GSBiodiversity/Galapagos/Ecuador
+BIEB138GSBiodiversity/Galapagos/Ecuador	/courses/BIOL.html#bieb138gs
 .A00Giorgia,Pirino
 0000TBA  TBA  FWTBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
@@ -122,7 +122,7 @@ BILD4    Introductory Biology Lab	/courses/BIOL.html#bild4
 0000TATA 24   LA2301 13001550A010000TATA 24   LA2302 13001550A02
 DIB  24   LE121  09301050A00
 20240803TBA  FITBA  08001059
-BILD60GS DEI in Bio & Global Contexts
+BILD60GS DEI in Bio & Global Contexts	/courses/BIOL.html#bild60gs
  A00Stanley M.,Lo
 0000TBA  TBA  LETBA  TBA TBA A00
 BILD99   Independent Research	/courses/BIOL.html#bild99
@@ -496,7 +496,7 @@ COGS174GSDrugs: Brain, Mind and Culture
 TBA  TBA  LETBA  TBA TBA A00
 COGS180  Decision Making in the Brain	/courses/COGS.html#cogs180
 :A00
-0040RCLAS24   DIR33  13001350A02
+0033RCLAS24   DIR33  13001350A02
 RCLAS1234 LER30  17001820A00
 20240802TBA  FITBA  19002159
 COGS186  Genetic Algorithms	/courses/COGS.html#cogs186
@@ -578,7 +578,7 @@ PCYNH1234 LE120  18301950A00
 20240803TBA  FITBA  19002159
 CSE 101  Design & Analysis of Algorithm	/courses/CSE.html#cse101
 :A00Oliver,Braun
-0052PCYNH5    DI121  10001150A01
+0050PCYNH5    DI121  10001150A01
 PCYNH1234 LE120  20002120A00
 20240803TBA  FITBA  19002159
 CSE 105  Theory of Computation	/courses/CSE.html#cse105
@@ -743,12 +743,12 @@ ECON178  Economic&Business Forecasting	/courses/ECON.html#econ178
 0035RCLAS3    DIR80  17001850A01
 RCLAS24   LER80  14001650A00
 20240803TBA  FITBA  15001759
-EDS 40   Nature, Community & Education
+EDS 40   Nature, Community & Education	/courses/EDS.html#eds40
 :A00Alison Michelle,Black
 0020RWAC 24   DI0416 13001350A01
 RWAC 24   LE0416 11001250A00
 20240803TBA  FITBA  11301429
-EDS 107  Struggle for K-12 Ethnic Stdy
+EDS 107  Struggle for K-12 Ethnic Stdy	/courses/EDS.html#eds107
 EDS 110R Early Learning Environments	/courses/EDS.html#eds110r
 'A01Yan,Jiang
 0031RCLAS3    DIR15  13001450A01
@@ -830,7 +830,7 @@ GLBH146  Global Health Persp/HIV	/courses/GHP.html#glbh146
 0030RCLAS24   LER01  17001950A00
 GLBH148  Global Health&Cultrl Diversity	/courses/GHP.html#glbh148
 'A00Olga Lid,Olivas Hernandez
-0030RCLAS24   LER03  11001350A00
+0032RCLAS24   LER03  11001350A00
 20240803TBA  FITBA  11301429
 GLBH150  Culture and Mental Health	/courses/GHP.html#glbh150
 'A00Julia Kathryn,Sloane
@@ -851,7 +851,7 @@ HIEU124GSThe City in Italy	/courses/HIST.html#hieu124gs
  A00Kristina,Markman
 0028TBA  TBA  LETBA  TBA TBA A00
 HIEU147  Europe and the World I	/courses/HIST.html#hieu147
-HIEU149GSMedieval Spain
+HIEU149GSMedieval Spain	/courses/HIST.html#hieu149gs
  A00Michael Alan,Caldwell
 0028TBA  TBA  LETBA  TBA TBA A00
 HILD2C   United States History	/courses/HIST.html#hild2c
@@ -942,7 +942,7 @@ LATI50   Introduction to Latin America	/courses/LATI.html#lati50
 0022RCLAS13   DIR56  11001150A010022RCLAS13   DIR56  12001250A020022RCLAS13   DIR56  13001350A030022RCLAS13   DIR56  14001450A04
 RCLAS13   LER56  08001050A00
 20240802TBA  FITBA  08001059
-LATI160  Latin American Third Cinema
+LATI160  Latin American Third Cinema	/courses/LATI.html#lati160
 :A00Troy Andreas,Kokinis
 0030TBA  TBA  DITBA  TBA TBA A01
 RCLAS24   LER56  08001050A00
@@ -1986,7 +1986,7 @@ VIS 124CNNineteenth Century Art	/courses/VIS.html#vis124cn
 'A00Jordan M,Rose
 0075RCLAS13   LER11  11001350A00
 20240802TBA  FITBA  11301429
-VIS 125GSUnderground Berlin
+VIS 125GSUnderground Berlin	/courses/VIS.html#vis125gs
  A00Alena J,Williams
 0022TBA  TBA  LETBA  TBA TBA A00
 VIS 128D Topics/Art History of Americas	/courses/VIS.html#vis128d
@@ -1998,7 +1998,7 @@ VIS 151  Experimental Cinema	/courses/VIS.html#vis151
 0034MANDE4    DIB111E12001350A02
 SME  23   LE149  11001350A00
 20240802TBA  FITBA  11301429
-VIS 154GSEurope After Empire
+VIS 154GSEurope After Empire	/courses/VIS.html#vis154gs
  A00Alena J,Williams
 0022TBA  TBA  LETBA  TBA TBA A00
 VIS 160A Senior Proj/Computing Arts I	/courses/VIS.html#vis160a
