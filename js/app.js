@@ -543,9 +543,14 @@
     };
 
   // Load class data
-  Promise.all([icl.retrieveGAClassroomList(), icl.retrieveClassrooms()])
+  Promise.all([
+    icl.retrieveGAClassroomList(),
+    icl.retrieveClassrooms(),
+    icl.retrieveFinals(),
+  ])
     .then((promiseResults) => {
-      const [gaClassrooms, classroomContent] = promiseResults;
+      const [gaClassrooms, classroomContent, finals] = promiseResults;
+      icl.finals = finals.trim().toUpperCase() == "TRUE";
       beginApp(gaClassrooms, classroomContent);
       if (icl.seanwall)
         document.querySelector("html").classList.add("seanwall");

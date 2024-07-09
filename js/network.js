@@ -18,7 +18,8 @@
         request.open("GET", path, true);
         request.send();
       }),
-    retrieveClassrooms = () => doRequest(icl.CURRENT_PATH),
+    retrieveFinals = () => doRequest(icl.FINALS_PATH),
+    retrieveClassrooms = () => doRequest(icl.DATA_PATH),
     retrieveGAClassroomList = () =>
       doRequest(window.icl.GA_CLASSROOMS_PATH).then((response) =>
         JSON.parse(response),
@@ -27,4 +28,5 @@
   // Exports
   window.icl.retrieveClassrooms = retrieveClassrooms;
   window.icl.retrieveGAClassroomList = retrieveGAClassroomList;
+  window.icl.retrieveFinals = retrieveFinals;
 })();
