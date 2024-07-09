@@ -1,4 +1,4 @@
-V31720484903450
+V31720531288356
 S124     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -551,6 +551,9 @@ COMM146  Adv Studies-Cultural Prductn	/courses/COMM.html#comm146
 COMM190  Junior Seminar in Comm	/courses/COMM.html#comm190
  A00Soraya Jill,Abuelhiga
 0023RCLAS13   SER06  08001050A00
+COMM199H Honors Project Completion	/courses/COMM.html#comm199h
+ 001Elana,Zilberg
+9999TBA  TBA  INTBA  TBA TBA 001
 CSE 8A   Intro to Programming 1	/courses/CSE.html#cse8a
 :A00Cora,Coleman
 0025EBU3B3    LAB270 15001650A500025EBU3B3    LAB270 17001850A51
@@ -1217,6 +1220,9 @@ MATH193A Actuarial Mathematics I	/courses/MATH.html#math193a
 0030APM  24   DIB412 10001050A010030APM  24   DIB412 11001150A020030HSS  24   DI4025 10001050A030030HSS  24   DI4025 11001150A04
 RCLAS135  LER30  10001150A00
 20240803TBA  FITBA  11301429
+MATH199  Independent Study/Undergrad	/courses/MATH.html#math199
+ 001Ioana,Dumitriu
+9999TBA  TBA  INTBA  TBA TBA 001
 MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
  001Rayan,Saab
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -1603,6 +1609,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 004
  005Samantha,Chalker
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Lindsey Jane,Powell
+9999TBA  TBA  INTBA  TBA TBA 006
 RELI145GSCommunication, Tech & Religion
 .A00Babak,Rahimi
 0020TBA  TBA  LETBA  TBA TBA A00
