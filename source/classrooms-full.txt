@@ -8,6 +8,9 @@ S124     Version
 S124     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
+S124     Version
+.A00Kevin,Fisher
+0035APM  12345LE1313 08001930A00
 AIP 197  Academic Internship Program	/courses/AIP.html#aip197
  001Julie A,Law
 9999TBA  TBA  ITTBA  TBA TBA 001
