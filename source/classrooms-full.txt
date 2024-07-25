@@ -1,4 +1,4 @@
-V31721913737533
+V31721934972159
 S124     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1511,6 +1511,9 @@ POLI160AAIntroduction/Policy Analysis	/courses/POLI.html#poli160aa
 20240802TBA  FITBA  08001059
 POLI162  Environmental Policy	/courses/POLI.html#poli162
 POLI171  Making Policy with Data	/courses/POLI.html#poli171
+POLI199  Independent Study	/courses/POLI.html#poli199
+ 001James Lawrence,Broz
+9999TBA  TBA  INTBA  TBA TBA 001
 PSY 199  Independent Study
  001Tamar,Gollan
 9999TBA  TBA  INTBA  TBA TBA 001
