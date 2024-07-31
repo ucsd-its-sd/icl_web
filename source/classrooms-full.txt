@@ -1,4 +1,4 @@
-V31722377773251
+V31722432129576
 S124     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -629,7 +629,7 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 001
 CSE 299  Research	/courses/CSE.html#cse299
 DOC 100D Promises&Contradictions/USCult	/courses/DOC.html#doc100d
-'A00Natalye Joann,Pass
+'A00Natalye,Pass
 0025RCLAS13   LER05  14001650A00
 20240802RCLASFIR05  15001759
 DSC 10   Principles of Data Science	/courses/DSC.html#dsc10
