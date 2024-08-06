@@ -1,4 +1,4 @@
-V31722950584788
+V31722971720083
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -324,6 +324,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 042
  043Ludmil B,Alexandrov
 9999TBA  TBA  INTBA  TBA TBA 043
+ 044Eugene Wei-Ming,Yeo
+9999TBA  TBA  INTBA  TBA TBA 044
 CAT 124  Sixth College Practicum	/courses/CAT.html#cat124
 .A00Becca Rae,Rose
 0020TBA  TBA  PRTBA  TBA TBA A01
@@ -408,6 +410,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 003
  004Kim Bohemie,Dore
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Carlo,Ballatore
+9999TBA  TBA  INTBA  TBA TBA 005
 COGS3    Introduction to Computing	/courses/COGS.html#cogs3
 COGS14A  Intro. to Research Methods	/courses/COGS.html#cogs14a
 :A00Ana,Chkhaidze
@@ -488,7 +492,7 @@ COMM100B Comm, Culture & Representation	/courses/COMM.html#comm100b
 RCLAS13   LER75  14001650A00
 20240906TBA  FITBA  15001759
 COMM100C Comm, Institutions & Power	/courses/COMM.html#comm100c
-:A00Loreto,Montero Munoz
+:A00Eva Marie,Ruskiewicz
 0025RCLAS1    DIR06  11001250A010025RCLAS3    DIR06  11001250A02
 RCLAS24   LER06  14001650A00
 20240907TBA  FITBA  15001759
@@ -761,7 +765,7 @@ GLBH111  Health Frontiers in Tijuana	/courses/GHP.html#glbh111
 TBA  TBA  SETBA  TBA TBA A00
 GLBH181  Essentials of Global Health	/courses/GHP.html#glbh181
 'A00Alan,Card
-0055RCLAS13   LER01  14001650A00
+0060RCLAS13   LER01  14001650A00
 20240906TBA  FITBA  15001759
 HDS 60   Intro to Statistical Analysis	/courses/HDS.html#hds60
 :A00Melissa Fawn,Warstadt
@@ -1504,7 +1508,7 @@ PSYC172  Psychology of Human Sexuality	/courses/PSYC.html#psyc172
 20240907TBA  FITBA  11301429
 PSYC181  Drugs And Behavior	/courses/PSYC.html#psyc181
 'A00Stephan,Anagnostaras
-0216RCLAS24   LER16  14001650A00
+0219RCLAS24   LER16  14001650A00
 20240907TBA  FITBA  15001759
 PSYC191  Psychology of Sleep	/courses/PSYC.html#psyc191
 'A00Timothy C.,Rickard
@@ -1648,7 +1652,7 @@ SE  154  Design of Timber Structures	/courses/SE.html#se154
 DIB  24   LE121  17001950A00
 20240907TBA  FITBA  19002159
 SE  164GSSensors/Data Acquisition SE
-.A00
+.A00Kenneth J. H.,Loh	Chin Hsiung,Loh
 0020TBA  TBA  LATBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
 SE  167GSSignal Proc.&Spectral Analysis
