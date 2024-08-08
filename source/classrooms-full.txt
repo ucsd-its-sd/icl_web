@@ -1,4 +1,4 @@
-V31723069137330
+V31723123345525
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1738,7 +1738,7 @@ SOCI148E Inequality and Jobs	/courses/SOC.html#soci148e
 20240907TBA  FITBA  15001759
 SOCI157  Religion/Contemporary Society	/courses/SOC.html#soci157
 'A00Bennetta W.,Jules-Rosette
-0030SSB  24   LE101  18002050A00
+0000SSB  24   LE101  18002050A00
 20240907TBA  FITBA  19002159
 SOCI160  Sociology of Culture	/courses/SOC.html#soci160
 'A00Christine Anna,Payne
