@@ -1,4 +1,4 @@
-V31723144528977
+V31723155530161
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -745,7 +745,7 @@ ETHN168  Comparative Ethnic Literature	/courses/ETHN.html#ethn168
 20240907TBA  FITBA  11301429
 ETHN182  Race, Gender, Sexuality Sci Fi	/courses/ETHN.html#ethn182
  A00Nima,Rassooli
-0046RCLAS24   LER11  17001950A00
+0045RCLAS24   LER11  17001950A00
 ETHN183  Gender,Race,Ethnicity & Class	/courses/ETHN.html#ethn183
 'A00Megan E.,Wesling
 0016RCLAS24   LER10  14001650A00
