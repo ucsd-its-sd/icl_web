@@ -1,4 +1,4 @@
-V31723209749828
+V31723231005397
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -516,6 +516,9 @@ COMM146  Adv Studies-Cultural Prductn	/courses/COMM.html#comm146
 COMM190  Junior Seminar in Comm	/courses/COMM.html#comm190
  A00Nicoletta,Vangelisti
 0023RCLAS13   SER80  14001650A00
+COMM199  Independent Study/Communicatn	/courses/COMM.html#comm199
+ 001Brian,Goldfarb
+9999TBA  TBA  INTBA  TBA TBA 001
 CSE 8A   Intro to Programming 1	/courses/CSE.html#cse8a
 :A00Edwin A,Solares
 0050EBU3B3    LAB260 11001250A500050EBU3B3    LAB260 13001450A51
@@ -609,7 +612,7 @@ ECON1    Principles of Microeconomics	/courses/ECON.html#econ1
 :A00Meredith Helen,Crane
 0070WLH  5    DI2205 11001250A01
 MOS  1234 LE0204 11001220A00
-20240907TBA  FITBA  11301429
+20240814MOS  RE0204 1700185020240907TBA  FITBA  11301429
 ECON2    Market Imperfections & Policy	/courses/ECON.html#econ2
 :A00Meredith Helen,Crane
 0070RWAC 5    DI0121 08000950A01
@@ -617,7 +620,7 @@ RWAC 1234 LE0121 12301350A00
 20240907TBA  FITBA  08001059
 ECON3    Principles of Macroeconomics	/courses/ECON.html#econ3
 :A00Giacomo,Rondina
-0070WLH  5    DI2111 13001450A01
+0044WLH  5    DI2111 13001450A01
 PETER24   LE102  14001650A00
 20240907TBA  FITBA  15001759
 ECON4    Financial Accounting	/courses/ECON.html#econ4
@@ -768,7 +771,7 @@ GLBH111  Health Frontiers in Tijuana	/courses/GHP.html#glbh111
 TBA  TBA  SETBA  TBA TBA A00
 GLBH181  Essentials of Global Health	/courses/GHP.html#glbh181
 'A00Alan,Card
-0060RCLAS13   LER01  14001650A00
+0061RCLAS13   LER01  14001650A00
 20240906TBA  FITBA  15001759
 HDS 60   Intro to Statistical Analysis	/courses/HDS.html#hds60
 :A00Melissa Fawn,Warstadt
@@ -1132,7 +1135,7 @@ PETER135  LE102  11001250A00
 20240907TBA  FITBA  11301429
 MATH185  Intro to Computational Stats	/courses/MATH.html#math185
 :A00Ery,Arias-Castro
-0035PODEM24   DI1A22 15001550A01
+0035APM  24   DI2301 15001550A01
 CENTR135  LE217A 14001550A00
 20240907TBA  FITBA  19002159
 MATH193B Actuarial Mathematics II	/courses/MATH.html#math193b
@@ -1737,9 +1740,6 @@ SOCI148E Inequality and Jobs	/courses/SOC.html#soci148e
 0040RCLAS24   LER31  14001650A00
 20240907TBA  FITBA  15001759
 SOCI157  Religion/Contemporary Society	/courses/SOC.html#soci157
-'A00Bennetta W.,Jules-Rosette
-0000SSB  24   LE101  18002050A00
-20240907TBA  FITBA  19002159
 SOCI160  Sociology of Culture	/courses/SOC.html#soci160
 'A00Christine Anna,Payne
 0065RCLAS24   LER32  14001650A00
