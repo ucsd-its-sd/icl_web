@@ -1,4 +1,4 @@
-V31724019533788
+V31724073815290
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -710,8 +710,9 @@ EDS 125  Hist,Polic&Theory/Bilingual Ed	/courses/EDS.html#eds125
 0030CENTR24   LE203  11001350A00
 20240907TBA  FITBA  11301429
 EDS 126  Social Organization/Education	/courses/EDS.html#eds126
-'A01Makeba,Jones
+:A00Makeba,Jones
 0030TBA  TBA  DITBA  TBA TBA A01
+TBA  TBA  LETBA  TBA TBA A00
 20240906TBA  FITBA  11301429
 EDS 380C SS Internship Seminar III	/courses/EDS.html#eds380c
  A00Christopher P.,Halter
@@ -800,6 +801,9 @@ HIEU148  Europe and the World II	/courses/HIST.html#hieu148
  A00Dimitrios,Stergiopoulos
 0032TBA  TBA  LETBA  TBA TBA A00
 HIEU154  Mod German/Bismarck to Hitler	/courses/HIST.html#hieu154
+'A00Frank Peter,Biess
+0032TBA  TBA  LETBA  TBA TBA A00
+20240906TBA  FITBA  19002159
 HILD2C   United States History	/courses/HIST.html#hild2c
 :A00Felicitas,Hartung
 0032RCLAS3    DIR13  21002250A01
@@ -819,8 +823,9 @@ HILD14   Film & History in Latin Amer	/courses/HIST.html#hild14
 0050TBA  TBA  DITBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
 HILD20   Wrld History I:Ancient-Medievl	/courses/HIST.html#hild20
-'A01Kevin John,Westerfeld
+:A00Kevin John,Westerfeld
 0032TBA  TBA  DITBA  TBA TBA A01
+TBA  TBA  LETBA  TBA TBA A00
 20240906TBA  FITBA  08001059
 HILD30   History of Public Health	/courses/HIST.html#hild30
 .A00Csaba Istvan,Olasz
@@ -831,6 +836,9 @@ HISC119  Biology and Society	/courses/HIST.html#hisc119
 0032RCLAS24   LER14  17001950A00
 20240907TBA  FITBA  19002159
 HITO133  War & Society/Second World War	/courses/HIST.html#hito133
+'A00Frank Peter,Biess
+0032TBA  TBA  LETBA  TBA TBA A00
+20240906TBA  FITBA  15001759
 HITO155  Race/Sport/Inequality 20th Cen	/courses/HIST.html#hito155
  A00Daniel,Widener
 0032TBA  TBA  LETBA  TBA TBA A00
@@ -1729,8 +1737,9 @@ SOCI121R Economy and Society	/courses/SOC.html#soci121r
 0045RCLAS13   LER31  14001650A00
 20240906TBA  FITBA  15001759
 SOCI126  Social Organization/Education	/courses/SOC.html#soci126
-'A01Makeba,Jones
+:A00Makeba,Jones
 0010TBA  TBA  DITBA  TBA TBA A01
+TBA  TBA  LETBA  TBA TBA A00
 20240906TBA  FITBA  11301429
 SOCI127  Immigration, Race, & Ethnicity	/courses/SOC.html#soci127
 'A00Dasom,Lee
