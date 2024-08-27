@@ -2,6 +2,9 @@ V31724765003339
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
+S224     Version
+.A00Kevin,Fisher
+0035APM  12345LE1313 08001930A00
 ANAR104  Intro GIS for Anth & Arch	/courses/ANTH.html#anar104
 :A00Eric Andrew,Rodriguez
 0020TBA  TBA  LATBA  TBA TBA A01
