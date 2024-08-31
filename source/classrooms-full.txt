@@ -1,4 +1,4 @@
-V31725110484374
+V31725131718345
 S224     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1585,7 +1585,7 @@ MGT 71   Business & Operations Mgt	/courses/MGT.html#mgt71
 MGT 100  Customer Analytics	/courses/MGT.html#mgt100
 'A00Daniel Ryan,Yavorsky
 0098OTRSN35   LE1S11411001350A00
-20240907TBA  FITBA  11301429
+20240907OTRSNFI1S11311301429
 MGT 103  Product Marketing & Management	/courses/MGT.html#mgt103
 'A00Kristine R,Ehrich
 0098RCLAS24   LER60  08001050A00
