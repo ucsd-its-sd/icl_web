@@ -1,4 +1,4 @@
-V31725995866178
+V31726006789507
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6237,7 +6237,7 @@ ECE 148  Intro to Autonomous Vehicles	/courses/ECE.html#ece148
 SME  24   LE304  17001820A00
 ECE 155  Digital Communications Theory	/courses/ECE.html#ece155
 :B00Laurence B.,Milstein
-0000EBU1 2    DI2315 08000850B01
+0020EBU1 2    DI2315 08000850B01
 EBU1 135  LE2315 08000850B00
 20241209TBA  FITBA  08001059
 ECE 158A Data Networks I	/courses/ECE.html#ece158a
@@ -6356,7 +6356,7 @@ ECE 251C Filter Banks and Wavelets	/courses/ECE.html#ece251c
 20241212TBA  FITBA  08001059
 ECE 253  Fundmntls/Digital Image Proces	/courses/ECE.html#ece253
 'C00Truong Quang,Nguyen
-0068WLH  24   LE2111 17001820C00
+0104WLH  24   LE2111 17001820C00
 20241213TBA  FITBA  19002159
 ECE 255A Information Theory	/courses/ECE.html#ece255a
 'A00Alon,Orlitsky
