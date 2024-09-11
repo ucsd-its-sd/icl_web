@@ -1,4 +1,4 @@
-V31726061156364
+V31726082147714
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -790,7 +790,7 @@ BENG216  NeuroIntegrated Bioelectronics
 0070PFBH 5    LA161  15301620A01
 PFBH 13   LE191  15301650A00
 BENG219  Data Sci Multiscale Biology
- A00Daniela,Valdez-Jasso	Johannes,Schoeneberg
+ A00Daniela,Valdez-Jasso
 0000SOLIS24   LE110  15301650A00
 BENG221  Mathematical Methods/Bioeng	/courses/BENG.html#beng221
 :A00Daniela,Valdez-Jasso
@@ -2355,7 +2355,7 @@ WLH  24   LE2001 14001520A00
 20241212TBA  FITBA  15001759
 :B00Fabian Chavez,Rivera
 0060CNCB 3    DISEM  13001350B010060PODEM3    DI1A19 17001750B020060PODEM5    DI1A20 16001650B030070CNCB 1    DISEM  14001450B04
-CENTR24   LE101  09301050B00
+MOS  24   LE0114 09301050B00
 20241212TBA  FITBA  08001059
 BIBC103  Biochemical Techniques	/courses/BIOL.html#bibc103
 .A00Emily N,Grossman
@@ -2672,6 +2672,8 @@ BISP193  Biology Education Research	/courses/BIOL.html#bisp193
 9999TBA  TBA  INTBA  TBA TBA 001
  002Ashley Lauren,Juavinett
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Stanley M.,Lo
+9999TBA  TBA  INTBA  TBA TBA 003
 BISP194  Adv Topics in Modern Biology	/courses/BIOL.html#bisp194
  A00Joel Okrent,Wertheim
 0032YORK 2    SE3010 10001120A00
@@ -2771,6 +2773,10 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 137
  138Mark Anthony,Herzik
 9999TBA  TBA  INTBA  TBA TBA 138
+ 139Kim Bohemie,Dore
+9999TBA  TBA  INTBA  TBA TBA 139
+ 140David Louis,Boyle
+9999TBA  TBA  INTBA  TBA TBA 140
  001Wei,Ying
 9999TBA  TBA  INTBA  TBA TBA 001
  002Pengzhe,Lu
@@ -4065,7 +4071,7 @@ CHIN100ANThird-Year Chinese I	/courses/CHIN.html#chin100an
 20241213TBA  FITBA  11301429
 CHIN185A Read/Chinese Cult & Soc I	/courses/CHIN.html#chin185a
 'A00Mingming,Liu
-0004RWAC 24   LE0626 14001520A00
+0003RWAC 24   LE0626 14001520A00
 20241212TBA  FITBA  15001759
 'B00Mingming,Liu
 0012RWAC 24   LE0626 11001220B00
@@ -4669,11 +4675,11 @@ COGS199  Special Project	/courses/COGS.html#cogs199
 COGS201  Neural Dynamics of Cognition	/courses/COGS.html#cogs201
 :A00Lara M,Rangel
 0025TBA  TBA  DITBA  TBA TBA A01
-CSB  4    LE180  12001450A00
+CSB  4    LE003  12001450A00
 20241213TBA  FITBA  11301429
 COGS203  Foundation:Theor&Meth in Studi	/courses/COGS.html#cogs203
  A00Seana M,Coulson
-0020CSB  24   SE180  09301050A00
+0020CSB  24   SE003  09301050A00
 COGS210A Introduction to Research	/courses/COGS.html#cogs210a
  001David Joel,Kirsh
 9999TBA  TBA  TUTBA  TBA TBA 001
@@ -4701,7 +4707,7 @@ COGS210A Introduction to Research	/courses/COGS.html#cogs210a
 9999TBA  TBA  TUTBA  TBA TBA 012
 COGS211A Research Methods/Cogn Science	/courses/COGS.html#cogs211a
  A00Lera,Boroditsky
-0020CSB  2    SE180  15001550A00
+0020CSB  2    SE272  15001550A00
 COGS230  Interaction Design Research	/courses/COGS.html#cogs230
 'A00Imani N. S.,Munyaka
 0020YORK 24   SE2622 12301350A00
@@ -4911,7 +4917,7 @@ COMM101  Intro Audio-Vis Media Practice	/courses/COMM.html#comm101
 PETER13   LE102  17001820A00
 20241212TBA  FITBA  19002159
 COMM101A Media Activism	/courses/COMM.html#comm101a
- A00
+ A00Grant Maurstad,Leuning
 0018MCC  24   ST250  12301350A00
 COMM101D MPL:Non-Linear Digital Editing	/courses/COMM.html#comm101d
 'A00Daniel J,Martinico
@@ -5247,7 +5253,7 @@ CSE 207B Applied Cryptography
  A00Nadia A,Heninger
 0040WLH  24   LE2112 14001520A00
 CSE 209A Top/Sem/Algrthms,Complxty&Logc	/courses/CSE.html#cse209a
- A00
+ A00Shachar,Lovett
 0000EBU3B1    LE4258 14001450A00
 CSE 210  Principle/Software Engineering	/courses/CSE.html#cse210
 'A00Thomas Allan,Powell
@@ -5287,8 +5293,8 @@ CSE 237C Validation&Testing/EmbeddedSys	/courses/CSE.html#cse237c
 0046PODEM24   LE0133 09301050A00
 20241212TBA  FITBA  08001059
 CSE 239B Top/Sem/Programming Languages	/courses/CSE.html#cse239b
- A00Loris,D'Antoni
-0000EBU3B5    SE4140 12001250A00
+ B00Loris,D'Antoni
+0000EBU3B3    SE4140 13001350B00
 CSE 240A Princ/Computer Architecture	/courses/CSE.html#cse240a
 'A00Hadi,Esmaeilzadeh
 0158MANDE13   LEB202 17001820A00
@@ -5483,6 +5489,8 @@ CSE 293  Spec Proj/Computer Sci & Engin	/courses/CSE.html#cse293
 9999TBA  TBA  INTBA  TBA TBA 052
  053Hao,Zhang
 9999TBA  TBA  INTBA  TBA TBA 053
+ 054Christine J.,Alvarado
+9999TBA  TBA  INTBA  TBA TBA 054
 CSE 294  Research Meeting in CSE	/courses/CSE.html#cse294
  A00Alex,Orailoglu
 0000TBA  TBA  SETBA  TBA TBA A00
@@ -5835,6 +5843,31 @@ MCGIL24   LE1350 13301520A00
 CSS 209  Comp Social Science Rsrch Sem	/courses/css.html#css209
  A00Umberto,Mignozzetti
 0045RWAC 4    SE0116 10001050A00
+CSS 296  Research Comp Social Science	/courses/css.html#css296
+ 001Umberto,Mignozzetti
+0000TBA  TBA  INTBA  TBA TBA 001
+ 002Eric Craig,Leas
+0000TBA  TBA  INTBA  TBA TBA 002
+ 003Holly,Okonkwo
+0000TBA  TBA  INTBA  TBA TBA 003
+ 004Jason G,Fleischer
+0000TBA  TBA  INTBA  TBA TBA 004
+ 005Sarah,Creel
+0000TBA  TBA  INTBA  TBA TBA 005
+ 006Hemal,Patel
+0000TBA  TBA  INTBA  TBA TBA 006
+ 007Isaac,Martin
+0000TBA  TBA  INTBA  TBA TBA 007
+ 008William Francis,Styler
+0000TBA  TBA  INTBA  TBA TBA 008
+ 009
+0000TBA  TBA  INTBA  TBA TBA 009
+ 010
+0000TBA  TBA  INTBA  TBA TBA 010
+ 011
+0000TBA  TBA  INTBA  TBA TBA 011
+ 012Umberto,Mignozzetti
+0000TBA  TBA  INTBA  TBA TBA 012
 DDPM200  Opps/Pharma,Biotech,&Mgd Care
 'A00Joseph David,Ma
 0036TBA  2    LETBA  16001700A00
@@ -6104,6 +6137,8 @@ DSC 294  Research Rotation	/courses/DSC.html#dsc294
 DSC 297  DSC Graduate Internship	/courses/DSC.html#dsc297
  001Zhiting,Hu
 9999TBA  TBA  ITTBA  TBA TBA 001
+ 002Arya,Mazumdar
+9999TBA  TBA  ITTBA  TBA TBA 002
 DSC 299  Graduate Research	/courses/DSC.html#dsc299
  001Zhiting,Hu
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -6123,6 +6158,8 @@ DSC 299  Graduate Research	/courses/DSC.html#dsc299
 9999TBA  TBA  INTBA  TBA TBA 008
  009Arya,Mazumdar
 9999TBA  TBA  INTBA  TBA TBA 009
+ 010Mikhail,Belkin
+9999TBA  TBA  INTBA  TBA TBA 010
 DSC 599  Teaching Methods/Data Science	/courses/DSC.html#dsc599
  A00
 9999TBA  135  LETBA  12001250A00
@@ -6356,7 +6393,7 @@ ECE 251C Filter Banks and Wavelets	/courses/ECE.html#ece251c
 20241212TBA  FITBA  08001059
 ECE 253  Fundmntls/Digital Image Proces	/courses/ECE.html#ece253
 'C00Truong Quang,Nguyen
-0104WLH  24   LE2111 17001820C00
+0104FAH  24   LE1450 17001820C00
 20241213TBA  FITBA  19002159
 ECE 255A Information Theory	/courses/ECE.html#ece255a
 'A00Alon,Orlitsky
@@ -6811,8 +6848,8 @@ ECON281  Special Topics in Economics	/courses/ECON.html#econ281
 0055SUMNR13   LE101  15001620A00
 20241213TBA  FITBA  15001759
 ECON285  Pre-Candidacy Presentation	/courses/ECON.html#econ285
- A00Prashant,Bharadwaj	Isabel,Trevino
-0000SSB  2    SE107  11301350A00
+ B00Prashant,Bharadwaj	Isabel,Trevino
+0025SSB  12   SE506  12301350B00
 ECON286  Grad Resrch Presntation Worksh	/courses/ECON.html#econ286
  A00Xinwei,Ma
 0020SSB  3    LE107  13001350A00
@@ -6845,6 +6882,8 @@ ECON297  Independent Study	/courses/ECON.html#econ297
 9999TBA  TBA  INTBA  TBA TBA 003
  004Fabian Paul,Eckert
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Gordon B.,Dahl
+9999TBA  TBA  INTBA  TBA TBA 005
 ECON299  Research in Economics	/courses/ECON.html#econ299
  001Jeffrey,Clemens
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7364,6 +7403,11 @@ ETHN500  Apprntice Teaching/Ethn Stdies	/courses/ETHN.html#ethn500
 ETIM289  Interdis Methds Sem Spec Topic	/courses/ETHN.html#etim289
  A00Christopher Michael,Perreira
 0000SSB  1    SE103  13001550A00
+FILM87   First-year Seminar	/courses/FILM.html#film87
+ A00Babak,Rahimi
+0020MCC  2    SE221  10001050A00
+ B00Babak,Rahimi
+0020MCC  2    SE221  11001150B00
 FMPH291  Special Topics/Public Health	/courses/FMPH.html#fmph291
  A00Britt Paige,Skaathun
 0005TBA  3    SETBA  13001550A00
@@ -7391,7 +7435,7 @@ FMPH491  Special Topics/Public Health	/courses/FMPH.html#fmph491
  A00Angela Robertson,Bazzi
 0010MET  1    SE313  09001150A00
  B00Samantha,Hurst
-0012MET  1    SE304  13001550B00
+0012MET  1    SE223  13001550B00
  C00Natasha,Martin	Annick,Borquez
 0000MET  4    SE204  10001250C00
 FMPH496A PH Leadership in Practice
@@ -8332,7 +8376,7 @@ LIAB1AX  Analysis of Arabic	/courses/LING.html#liab1ax
 .B01
 
 TBA  TBA  LATBA  TBA TBA B01
-:C00
+:C00Youniss,El Cheddadi
 0028CENTR24   DI218  11001220C00
 TBA  TBA  LATBA  TBA TBA C01
 20241211TBA  FITBA  11301429
@@ -8393,18 +8437,11 @@ LIFR1AX  Analysis of French	/courses/LING.html#lifr1ax
 0028CENTR24   DI207  11001220C00
 20241211TBA  FITBA  11301429
 LIFR1B   French Conversation	/courses/LING.html#lifr1b
- A00Vinciane G,Van Moer
-0000CENTR135  TU202  16001650A00
  B00Vinciane G,Van Moer
 0014HSS  135  TU2333B13001350B00
  C00Vinciane G,Van Moer
 0014CENTR135  TU206  14001450C00
- D00Vinciane G,Van Moer
-0000CENTR135  TU223  15001550D00
 LIFR1BX  Analysis of French	/courses/LING.html#lifr1bx
-'A00Vinciane G,Van Moer
-0000HSS  24   DI1305 08000920A00
-20241210TBA  FITBA  08001059
 'B00Vinciane G,Van Moer
 0032APM  24   DI4301 09301050B00
 20241212TBA  FITBA  08001059
@@ -8434,16 +8471,9 @@ LIGM1A   German Conversation	/courses/LING.html#ligm1a
 0014CENTR135  TU223  10001050B00
  C00Eva K,Fischer-Grunski
 0014CENTR135  TU223  11001150C00
- D00Eva K,Fischer-Grunski
-0000HSS  135  TU2333B12001250D00
  E00Eva K,Fischer-Grunski
 0014HSS  135  TU1128B13001350E00
- F00Eva K,Fischer-Grunski
-0000CENTR135  TU202  14001450F00
 LIGM1AX  Analysis of German	/courses/LING.html#ligm1ax
-'A00Eva K,Fischer-Grunski
-0000HSS  24   DI1315 08000920A00
-20241210TBA  FITBA  08001059
 'B00Eva K,Fischer-Grunski
 0028HSS  24   DI1315 09301050B00
 20241212TBA  FITBA  08001059
@@ -8672,7 +8702,7 @@ LIHL124F Int Vietnamese/Vietnamese Spkr	/courses/LING.html#lihl124f
 20241213TBA  FITBA  11301429
 LIHL132F Adv Filipino/Filipino Spkrs	/courses/LING.html#lihl132f
 'B00Leticia Cant,Pagkalinawan
-0015APM  24   LEB432 09301050B00
+0015HSS  24   LE1128B09301050B00
 20241212TBA  FITBA  08001059
 LIHL134F Adv Vietnamese/Vietnamese Spkr	/courses/LING.html#lihl134f
 'A00Hoan Thi,Nguyen
@@ -8800,7 +8830,7 @@ LISP1A   Spanish Conversation	/courses/LING.html#lisp1a
  F00Alicia,Munoz Sanchez
 0014CENTR135  TU202  13001350F00
  G00Alicia,Munoz Sanchez
-0014HSS  135  TU2333B14001450G00
+0014CENTR135  TU202  14001450G00
  H00Alicia,Munoz Sanchez
 0014MCGIL135  TU2334 15001550H00
 LISP1AX  Analysis of Spanish	/courses/LING.html#lisp1ax
@@ -8881,7 +8911,7 @@ LISP1D   Spanish Conversation	/courses/LING.html#lisp1d
  006Alicia,Munoz Sanchez
 0014CENTR135  TU224C 12001250006
  007Alicia,Munoz Sanchez
-0014MCGIL135  TU2315 12001250007
+0014HSS  135  TU2333B12001250007
  008Alicia,Munoz Sanchez
 0014CENTR135  TU223  13001350008
  009Alicia,Munoz Sanchez
@@ -10081,7 +10111,7 @@ CENTR24   LE214  09301050B00
 20241212TBA  FITBA  08001059
 MATH174  Numericl Methods/Physcl Modlng	/courses/MATH.html#math174
 :A00Jor-el Thomas Caparas,Briones
-0030APM  3    DI2402 18001850A010035HSS  3    DI1305 19001950A02
+0031APM  3    DI2402 18001850A010035HSS  3    DI1305 19001950A02
 RWAC 135  LE0121 13001350A00
 20241209TBA  FITBA  11301429
 MATH180A Introduction to Probability	/courses/MATH.html#math180a
@@ -10090,11 +10120,11 @@ MATH180A Introduction to Probability	/courses/MATH.html#math180a
 CENTR135  LE119  14001450A00
 20241211TBA  FITBA  15001759
 :B00Christopher John,Gartland
-0032APM  2    DIB412 16001650B010032APM  2    DIB412 17001750B020032APM  2    DIB412 18001850B030032APM  2    DIB412 19001950B040033APM  2    DI6402 17001750B050033APM  2    DI6402 18001850B06
+0032APM  2    DIB412 16001650B010032APM  2    DIB412 17001750B020032APM  2    DIB412 18001850B030032APM  2    DIB412 19001950B040033WLH  2    DI2209 17001750B050033WLH  2    DI2209 18001850B06
 CENTR135  LE119  15001550B00
 20241213TBA  FITBA  15001759
 :C00Christopher John,Gartland
-0035APM  4    DI6402 17001750C010035APM  4    DI6402 18001850C020035APM  4    DI6402 19001950C030035CENTR4    DI217A 17001750C050035CENTR4    DI217A 18001850C06
+0035WLH  4    DI2209 17001750C010035WLH  4    DI2209 18001850C020035APM  4    DI6402 19001950C030035CENTR4    DI217A 17001750C050035CENTR4    DI217A 18001850C06
 CENTR135  LE119  16001650C00
 20241210TBA  FITBA  15001759
 MATH180C Intro/Stochastic Processes II	/courses/MATH.html#math180c
@@ -10240,7 +10270,7 @@ MATH272A Numer Partial Diff Equatns I	/courses/MATH.html#math272a
 20241213TBA  FITBA  19002159
 MATH274  Numericl Methods/Physcl Modlng	/courses/MATH.html#math274
 :A00Jor-el Thomas Caparas,Briones
-0005APM  3    DI2402 18001850A01
+0004APM  3    DI2402 18001850A01
 RWAC 135  LE0121 13001350A00
 20241209TBA  FITBA  11301429
 MATH277A Topics in Comp&Applied Math	/courses/MATH.html#math277a
@@ -10274,7 +10304,7 @@ MATH283  Stat Methods in Bioinformatics	/courses/MATH.html#math283
 20241213TBA  FITBA  15001759
 MATH286  Stochastic Differential Equatn	/courses/MATH.html#math286
 'A00Patrick J,Fitzsimmons
-0020APM  135  LEB412 10001050A00
+0021APM  135  LEB412 10001050A00
 20241213TBA  FITBA  08001059
 MATH288  Seminar/Probability&Statistics	/courses/MATH.html#math288
  A00Jie Jun,Ang
@@ -11269,7 +11299,7 @@ MUS 299  Advncd Rsrch Prjcts&Indpnt Stu	/courses/MUS.html#mus299
  021Rand,Steiger
 9999TBA  TBA  INTBA  TBA TBA 021
 MUS 500  Apprentice Teaching	/courses/MUS.html#mus500
- 001
+ 001Marcelo,Freitas Caetano
 0010TBA  TBA  INTBA  TBA TBA 001
  002King James,Britt
 0005TBA  TBA  INTBA  TBA TBA 002
@@ -11289,12 +11319,14 @@ MUS 500  Apprentice Teaching	/courses/MUS.html#mus500
 0008TBA  TBA  INTBA  TBA TBA 009
  010
 0008TBA  TBA  INTBA  TBA TBA 010
- 011
+ 011Stephen John,de Filippo
 0005TBA  TBA  INTBA  TBA TBA 011
  012
 0005TBA  TBA  INTBA  TBA TBA 012
- 013
+ 013Alejandrina M.,Medina
 0005TBA  TBA  INTBA  TBA TBA 013
+ 014David Garcia,Borgo
+0005TBA  TBA  INTBA  TBA TBA 014
 MUS 501  Apprentice Teaching	/courses/MUS.html#mus501
  A00Amy Marie,Cimini
 0015CPMC 5    LE231  14001550A00
@@ -11693,8 +11725,16 @@ NEUG265  Mechanisms of Pain	/courses/NEU.html#neug265
  A00Tony L.,Yaksh
 0015TBA  TBA  SETBA  TBA TBA A00
 NEUG296  Neurosciences ResearchRotation	/courses/NEU.html#neug296
- A00Brenda Laurie,Bloodgood	Scott Michael,Sternson	Monique Leana,George
+ A00Brenda Laurie,Bloodgood
 0005TBA  TBA  INTBA  TBA TBA A00
+ B00Scott Michael,Sternson
+0005TBA  TBA  INTBA  TBA TBA B00
+ C00Monique Leana,George
+0005TBA  TBA  INTBA  TBA TBA C00
+ D00Christine Nicole,Smith
+0005TBA  TBA  INTBA  TBA TBA D00
+ E00Francesca,Telese
+0005TBA  TBA  INTBA  TBA TBA E00
 NEUG299  Neurosciences Research	/courses/NEU.html#neug299
  001Eiman,Abdel-Azim
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -11836,8 +11876,16 @@ NEUG299  Neurosciences Research	/courses/NEU.html#neug299
 9999TBA  TBA  INTBA  TBA TBA 069
  070Eran A,Mukamel
 9999TBA  TBA  INTBA  TBA TBA 070
+ 071Axel,Nimmerjahn
+9999TBA  TBA  INTBA  TBA TBA 071
+ 072Isaac,Chaim
+9999TBA  TBA  INTBA  TBA TBA 072
+ 073Monique Leana,George
+9999TBA  TBA  INTBA  TBA TBA 073
+ 074Eric,Courchesne
+9999TBA  TBA  INTBA  TBA TBA 074
 NEUG500  NeuroscienceApprenticeTeaching	/courses/NEU.html#neug500
- A00
+ A00Brenda Laurie,Bloodgood
 0015TBA  TBA  INTBA  TBA TBA A00
  B00Virginia,De Sa
 0001TBA  TBA  INTBA  TBA TBA B00
@@ -13061,6 +13109,8 @@ PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
 9999TBA  TBA  INTBA  TBA TBA 050
  051Scott,Rifkin
 9999TBA  TBA  INTBA  TBA TBA 051
+ 052Tarun,Grover
+9999TBA  TBA  INTBA  TBA TBA 052
 PHYS500  Introduction/Physics Teaching	/courses/PHYS.html#phys500
  A00Gurleen K,Bal	Brian,Shotwell
 0050TBA  TBA  INTBA  TBA TBA A00
@@ -13107,7 +13157,7 @@ POLI100H Race & Ethnicity/Amer Politics	/courses/POLI.html#poli100h
 20241209TBA  FITBA  08001059
 POLI100I Participation and Inequality	/courses/POLI.html#poli100i
 'A00LaGina,Gause
-0060RWAC 24   LE0121 09301050A00
+0060MANDE24   LEB150 09301050A00
 20241212TBA  FITBA  08001059
 POLI100V Organized Interests	/courses/POLI.html#poli100v
 'A00LaGina,Gause
@@ -13886,7 +13936,7 @@ RAD 496  Clinical Independent Study
 0005TBA  TBA  INTBA  TBA TBA 004
 RELI1    Introduction to Religion	/courses/RELI.html#reli1
 :A00Dayna,Kalleres
-0025RWAC 2    DI0374 08000850A010025RWAC 2    DI0374 09000950A02
+0000RWAC 2    DI0374 08000850A010000RWAC 2    DI0374 09000950A02
 RWAC 135  LE0103 10001050A00
 20241213TBA  FITBA  08001059
 REV 1    First Year Experience	/courses/REV.html#rev1
@@ -14203,6 +14253,9 @@ MGT 187  New Venture Finance	/courses/MGT.html#mgt187
 0100FAH  1    LE1450 17001950A00
 20241212TBA  FITBA  19002159
 MGT 189  Topics in Finance	/courses/MGT.html#mgt189
+MGT 199  Directed Independent Study	/courses/MGT.html#mgt199
+ A00Ania,Jaroszewicz
+9999TBA  TBA  INTBA  TBA TBA A00
 MGT 228  Experiments in Organizations	/courses/MGT.html#mgt228
  A00Sally,Sadoff
 0020WFH  2    LE4W11410001250A00
@@ -14546,7 +14599,7 @@ SE  164  Sensors/Data Acquisition SE	/courses/SE.html#se164
 WLH  24   LE2113 15301650A00
 SE  180  Earthquake Engineering	/courses/SE.html#se180
 'A00Ahmed,Elgamal
-0104FAH  24   LE1450 17001850A00
+0120MANDE24   LEB202 17001850A00
 20241213TBA  FITBA  19002159
 SE  181  Geotechnical Engineering	/courses/SE.html#se181
 :A00John Scott,McCartney
@@ -14991,6 +15044,8 @@ SIO 299  Research	/courses/SIO.html#sio299
 9999TBA  TBA  INTBA  TBA TBA 149
  150Daniel,Wangpraseurt
 9999TBA  TBA  INTBA  TBA TBA 150
+ 151Margaret Larkin,Odlum
+9999TBA  TBA  INTBA  TBA TBA 151
  001Sarah Miranda,Aarons
 9999TBA  TBA  INTBA  TBA TBA 001
  002Marco Octavio,Aburto Oropeza
@@ -15204,7 +15259,7 @@ SIOB273  Professional Ethics in Science	/courses/SIO.html#siob273
 0020VAUGN2    SE300  14001550B00
 SIOB275A Benthic Ecology	/courses/SIO.html#siob275a
 'A00James J.,Leichter
-0020VAUGN24   LE100  10001120A00
+0030VAUGN24   LE100  10001120A00
 20241214TBA  FITBA  08001059
 SIOB276L Quantitative Ecology Proj Lab	/courses/SIO.html#siob276l
  A00George,Sugihara
@@ -15215,7 +15270,7 @@ SIOB278  Seminar in Ocean Biosciences	/courses/SIO.html#siob278
  B00Amr,Hamdoun
 0020HUBBS3    SE4500 14001650B00
 SIOB279  Ecology Seminar/BO	/courses/SIO.html#siob279
-'A00
+'A00James J.,Leichter
 0015TBA  3    SETBA  12151315A00
 20241212TBA  FITBA  11301429
 SIOB280  Biological Oceanography	/courses/SIO.html#siob280
@@ -15327,6 +15382,9 @@ SOCG208A Graduate Student Seminar	/courses/SOC.html#socg208a
 SOCG214  Urban Sociology	/courses/SOC.html#socg214
  A00Danielle,Raudenbush
 0012SSB  2    SE414  14001650A00
+SOCG216  Sociology of Culture	/courses/SOC.html#socg216
+ A00Thomas Matthew,Medvetz
+0012SSB  3    SE414  12001450A00
 SOCG226  Political Sociology	/courses/SOC.html#socg226
 SOCG227  Ethnographic Film: Media Meth	/courses/SOC.html#socg227
 .A00Bennetta W.,Jules-Rosette
@@ -15471,8 +15529,8 @@ SOCG500  Apprentice Teaching	/courses/SOC.html#socg500
 9999TBA  TBA  INTBA  TBA TBA I00
 SOCI1    Introduction to Sociology	/courses/SOC.html#soci1
 :A00Julia Ellen,Rogers
-0030SSB  1    DI101  08000850A010030SSB  1    DI101  09000950A020030SSB  1    DI101  12001250A030030SSB  1    DI101  13001350A040030SSB  5    DI101  10001050A050030SSB  5    DI101  11001150A060030SSB  5    DI101  12001250A070030SSB  5    DI101  13001350A08
-MOS  24   LE0114 09301050A00
+0030SSB  1    DI101  08000850A010030SSB  1    DI101  09000950A020030SSB  1    DI101  12001250A030030SSB  1    DI101  13001350A040030SSB  5    DI101  10001050A050030SSB  5    DI101  11001150A060030SSB  5    DI101  12001250A070030SSB  5    DI101  13001350A080030SSB  5    DI101  09000950A09
+CENTR24   LE101  09301050A00
 20241212TBA  FITBA  08001059
 SOCI30   Science, Technology & Society	/courses/SOC.html#soci30
 :A00Jonathan Joseph,Ruiz
@@ -16044,7 +16102,7 @@ SYN 150R Defining Scope/Changing Planet	/courses/SYN.html#syn150r
 0020RCLAS13   SER11  12301350001
 SYN 199  Independent Study	/courses/SYN.html#syn199
  001Jill M,Gladstein
-0999TBA  TBA  INTBA  TBA TBA 001
+0000TBA  TBA  INTBA  TBA TBA 001
 SYN 500  Apprentice/SynthesisProgram	/courses/SYN.html#syn500
  A00
 0100TBA  TBA  SETBA  TBA TBA A00
@@ -16613,7 +16671,7 @@ USP 170  Planning for Sustainable Comm	/courses/USP.html#usp170
 20241210TBA  FITBA  08001059
 USP 171  Sustainable Development	/courses/USP.html#usp171
 'A00Amy M,Lerner
-0065MANDE24   LEB150 09301050A00
+0065RWAC 24   LE0121 09301050A00
 20241212TBA  FITBA  08001059
 USP 175  Site Analysis	/courses/USP.html#usp175
 'A00Leigh Elizabeth,Kyle
@@ -16661,7 +16719,7 @@ USP 194  Research Seminar/Washington DC	/courses/USP.html#usp194
 9999TBA  TBA  SETBA  TBA TBA A00
 USP 271  Sustainable Development	/courses/USP.html#usp271
 'A00Amy M,Lerner
-0003MANDE24   LEB150 09301050A00
+0003RWAC 24   LE0121 09301050A00
 20241212TBA  FITBA  08001059
 VIS 1    Intr/Art-Making:2-D Practices	/courses/VIS.html#vis1
 .A00
@@ -16777,10 +16835,6 @@ VIS 131  Special Projects in Media	/courses/VIS.html#vis131
 0000MANDE1    LE106  18002050B00
 20241209TBA  FITBA  19002159
 VIS 133  Lecture Topics in Spec Design	/courses/VIS.html#vis133
-:A00
-0000MANDE5    DIB111E09000950A010000MANDE5    DIB111E10001050A02
-SME  24   LE149  09301050A00
-20241212TBA  FITBA  08001059
 VIS 133A Studio Topics in Spec Design	/courses/VIS.html#vis133a
  A00Jessica Erin,D'Elena-Tweed
 0015SME  2    SE102  12301520A00
@@ -16909,6 +16963,8 @@ VIS 295  Individual Studies/Grad Studnt	/courses/VIS.html#vis295
 0000TBA  TBA  INTBA  TBA TBA 010
  011Danielle Adobi,Dean
 0000TBA  TBA  INTBA  TBA TBA 011
+ 012Malik Julian,Gaines
+0000TBA  TBA  INTBA  TBA TBA 012
 VIS 299  Graduate Research	/courses/VIS.html#vis299
  001Kuiyi,Shen
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -16926,6 +16982,8 @@ VIS 299  Graduate Research	/courses/VIS.html#vis299
 9999TBA  TBA  INTBA  TBA TBA 007
  008Grant,Kester
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Mehmet,Akten
+9999TBA  TBA  INTBA  TBA TBA 009
 VIS 500  Apprentice Teaching	/courses/VIS.html#vis500
  A00Ruben,Ortiz-Torres
 0015TBA  TBA  INTBA  TBA TBA A00
