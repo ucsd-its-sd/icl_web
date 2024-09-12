@@ -1,4 +1,4 @@
-V31726168583917
+V31726179636616
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8456,9 +8456,9 @@ LIFR1AX  Analysis of French	/courses/LING.html#lifr1ax
 20241211TBA  FITBA  11301429
 LIFR1B   French Conversation	/courses/LING.html#lifr1b
  B00Vinciane G,Van Moer
-0014HSS  135  TU2333B13001350B00
+0015HSS  135  TU2333B13001350B00
  C00Vinciane G,Van Moer
-0014CENTR135  TU206  14001450C00
+0016CENTR135  TU206  14001450C00
 LIFR1BX  Analysis of French	/courses/LING.html#lifr1bx
 'B00Vinciane G,Van Moer
 0032APM  24   DI4301 09301050B00
@@ -16338,7 +16338,7 @@ TDGR251  Playwriting Practicum	/courses/THEA.html#tdgr251
 0005TBA  TBA  PRTBA  TBA TBA B00
 TDGR262  Cross Boundaries:Design Improv	/courses/THEA.html#tdgr262
 .B00Victoria A.,Petrovich
-0010TBA  TBA  STTBA  TBA TBA B01
+0000TBA  TBA  STTBA  TBA TBA B01
 GH   5    ST321  11001350B00
 TDGR270A Design Studio I:Scenic Design	/courses/THEA.html#tdgr270a
  A00Robert L.,Brill
