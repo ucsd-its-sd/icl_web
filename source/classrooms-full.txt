@@ -1,4 +1,4 @@
-V31726320127946
+V31726341334417
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -119,7 +119,7 @@ ANBI145  Bioarchaeology	/courses/ANTH.html#anbi145
 ANBI159  Biological&Cult Persptv/Intell	/courses/ANTH.html#anbi159
 ANSC104  The US-Mexico Border	/courses/ANTH.html#ansc104
 'A00Rihan Wen Xin,Yeh
-0025TBA  24   LETBA  14001520A00
+0025SSB  24   LE102  14001520A00
 20241212TBA  FITBA  15001759
 ANSC121  Psychological Anthropology	/courses/ANTH.html#ansc121
 'A00Julia Kathryn,Sloane
@@ -179,14 +179,14 @@ MOS  24   LE0113 08000920A00
 20241210TBA  FITBA  08001059
 ANTH87   Freshman Seminar	/courses/ANTH.html#anth87
  A00Saiba,Varma
-0020SSB  2    SE102  15001600A00
+0020SSB  2    SE269  15001600A00
  B00David K.,Jordan
 0020SSB  2    SE269  11001150B00
  C00David K.,Jordan
 0020SSB  2    SE269  12001250C00
 ANTH101  Foundations/Social Complexity	/courses/ANTH.html#anth101
 :A00
-0038TBA  2    DITBA  12001250A010039TBA  2    DITBA  13001350A020000TBA  4    DITBA  12001250A030039TBA  4    DITBA  13001350A04
+0038SSB  2    DI102  12001250A010039SSB  2    DI102  13001350A020039APM  4    DI2301 13001350A04
 CSB  135  LE001  14001450A00
 20241211TBA  FITBA  15001759
 ANTH105  Climate Change, Race,& Inequal	/courses/ANTH.html#anth105
@@ -1596,6 +1596,9 @@ BGGN275  Lab Methodology
 BGGN276  Lab Analysis
  A00Joseph,Pogliano
 0000YORK 35   LA4406 15001650A00
+BGGN294  Transitional Lab Projects	/courses/BIOL.html#bggn294
+ A00Eric J,Bennett
+0000TBA  TBA  INTBA  TBA TBA A00
 BGGN295  Scientific Presentation-Biol	/courses/BIOL.html#bggn295
  A00Ella,Tour
 0000PACIF24   LE3500 12001320A00
@@ -2445,7 +2448,7 @@ BILD3    Organismic&Evolutionary Biol	/courses/BIOL.html#bild3
 WLH  135  LE2001 14001450A00
 20241102PETERMI110  1400155020241207TBA  FITBA  11301429
 :B00Sarah R,Stockwell
-0075RWAC 3    DI0121 08000850B010075MOS  3    DI0204 16001650B020075MOS  3    DI0204 17001750B030075PACIF5    DI3500 16001650B04
+0075PODEM3    DI1A18 08000850B010075PODEM3    DI1A18 16001650B020075PODEM3    DI1A18 17001750B030075CSB  5    DI001  16001650B04
 PETER135  LE108  11001150B00
 20241102PETERMI108  1400155020241207TBA  FITBA  11301429
 :C00Shannon Rhey,Butler
@@ -2723,6 +2726,20 @@ BISP196  Honors: Biological Sciences	/courses/BIOL.html#bisp196
 9999TBA  TBA  INTBA  TBA TBA 019
  020Omar Sultan,Akbari
 9999TBA  TBA  INTBA  TBA TBA 020
+ 021Pavel Arkadjevich,Pevzner
+9999TBA  TBA  INTBA  TBA TBA 021
+ 022Jill Cathleen,Wildonger
+9999TBA  TBA  INTBA  TBA TBA 022
+ 023Tenio,Popmintchev
+9999TBA  TBA  INTBA  TBA TBA 023
+ 024Alon M,Goren
+9999TBA  TBA  INTBA  TBA TBA 024
+ 025Cole John,Ferguson
+9999TBA  TBA  INTBA  TBA TBA 025
+ 026David,Vera
+9999TBA  TBA  INTBA  TBA TBA 026
+ 027Stefan,Leutgeb
+9999TBA  TBA  INTBA  TBA TBA 027
 BISP197  Biology Internship Program	/courses/BIOL.html#bisp197
  001James E.,Wilhelm
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -2815,6 +2832,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 140
  141Catriona,Jamieson
 9999TBA  TBA  INTBA  TBA TBA 141
+ 142Joseph,Pogliano
+9999TBA  TBA  INTBA  TBA TBA 142
  001Wei,Ying
 9999TBA  TBA  INTBA  TBA TBA 001
  002Pengzhe,Lu
@@ -4114,6 +4133,9 @@ CHIN185A Read/Chinese Cult & Soc I	/courses/CHIN.html#chin185a
 'B00Mingming,Liu
 0012RWAC 24   LE0626 11001220B00
 20241211TBA  FITBA  11301429
+CLAS196A Dir Honors Thesis in CLAS A	/courses/CLAS.html#clas196a
+ A00Jacobo,Myerston Santana
+0001TBA  TBA  PRTBA  TBA TBA A00
 CLIN294A Proseminar in Neuropsychology	/courses/CLIN.html#clin294a
  A00Amanda Gooding,Weingarten
 0010TBA  TBA  SETBA  TBA TBA A00
@@ -4970,9 +4992,6 @@ COMM101D MPL:Non-Linear Digital Editing	/courses/COMM.html#comm101d
 0015MCC  1    ST221  15001750A00
 20241213TBA  FITBA  15001759
 COMM101K MPL: Documentary Sketchbook	/courses/COMM.html#comm101k
-'A00Zeinabu I.,Davis
-0000MCC  3    ST140  14001650A00
-20241211TBA  FITBA  15001759
 COMM101N MPL:Sound Prductn & Manipulatn	/courses/COMM.html#comm101n
 'A00Daniel J,Martinico
 0016MCC  3    ST221  15001750A00
@@ -4989,7 +5008,7 @@ COMM102C MMPP: Media & Design Practicum	/courses/COMM.html#comm102c
 0006TBA  1    FWTBA  14001750A010006TBA  2    FWTBA  14001750A020006TBA  3    FWTBA  14001750A03
 MCC  4    LE250  09301220A00
 COMM103D Documentary History & Theory	/courses/COMM.html#comm103d
-'A00
+'A00Zeinabu I.,Davis
 0050PCYNH3    LE120  17001950A00
 20241212TBA  FITBA  19002159
 COMM104G CMS: Latin America & Caribbean	/courses/COMM.html#comm104g
@@ -6219,6 +6238,8 @@ DSC 299  Graduate Research	/courses/DSC.html#dsc299
 9999TBA  TBA  INTBA  TBA TBA 011
  012Yusu,Wang
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013Duncan,Watson-Parris
+9999TBA  TBA  INTBA  TBA TBA 013
 DSC 599  Teaching Methods/Data Science	/courses/DSC.html#dsc599
  A00
 9999TBA  135  LETBA  12001250A00
@@ -6713,6 +6734,8 @@ ECE 501  Teaching	/courses/ECE.html#ece501
 9999TBA  TBA  INTBA  TBA TBA 019
  020Rajeev,Sahay
 9999TBA  TBA  INTBA  TBA TBA 020
+ 021Ian A,Galton
+9999TBA  TBA  INTBA  TBA TBA 021
 ECON1    Principles of Microeconomics	/courses/ECON.html#econ1
 :A00Steven B.,Levkoff
 0120HSS  2    DI1330 17001750A010115CENTR2    DI214  18001850A020115PCYNH2    DI122  19001950A030125CENTR4    DI214  17001750A040125CENTR4    DI214  18001850A05
@@ -7566,7 +7589,7 @@ FPM 299  Comm/Fam Med Indepndnt Stu-ISP
 0010TBA  TBA  INTBA  TBA TBA 001
  002Michelle Lee,Johnson
 0010TBA  TBA  INTBA  TBA TBA 002
- 003
+ 003Kevin,Fraser
 0010TBA  TBA  INTBA  TBA TBA 003
 FPM 410  Intro to Underserved Medicine
  A00Michelle Lee,Johnson
@@ -9197,6 +9220,9 @@ LTFR104  Adv French Reading and Writing	/courses/LIT.html#ltfr104
 'A00Catherine,Ploye
 0015RWAC 135  LE0365 12001250A00
 20241212TBA  FITBA  11301429
+LTFR199  Special Studies	/courses/LIT.html#ltfr199
+ 001Catherine,Ploye
+9999TBA  TBA  INTBA  TBA TBA 001
 LTGK1    Beginning Greek	/courses/LIT.html#ltgk1
 'A00Kourtney Kristine,Murray
 0030WLH  135  LE2115 15001550A00
@@ -9327,7 +9353,7 @@ LTSP100F Adv Span Heritage Lang & Cult
 0025HSS  135  LE2152 10001050A00
  B00Jose,Carvajal Regidor
 0025HSS  135  LE2152 11001150B00
- C00Jose,Carvajal Regidor
+ C00Jorge,Sanchez Cruz
 0025RWAC 135  LE0371 13001350C00
 LTSP124  Spanish in the Community
  A00Ryan Matthew,Bessett
@@ -9638,6 +9664,8 @@ MAE 197  Engineering Internship	/courses/MAE.html#mae197
 MAE 199  Independent Study/Undergrads	/courses/MAE.html#mae199
  001Sylvia Lee,Herbert
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Jan,Kleissl
+9999TBA  TBA  INTBA  TBA TBA 002
 MAE 201  Mechanics of Fluids	/courses/MAE.html#mae201
 'A00Hieu Tan,Pham
 0085FAH  24   LE1450 11001220A00
@@ -11395,6 +11423,8 @@ MUS 299  Advncd Rsrch Prjcts&Indpnt Stu	/courses/MUS.html#mus299
 9999TBA  TBA  INTBA  TBA TBA 020
  021Rand,Steiger
 9999TBA  TBA  INTBA  TBA TBA 021
+ 022Karola,Obermueller
+9999TBA  TBA  INTBA  TBA TBA 022
 MUS 500  Apprentice Teaching	/courses/MUS.html#mus500
  001Marcelo,Freitas Caetano
 0010TBA  TBA  INTBA  TBA TBA 001
@@ -12201,6 +12231,8 @@ PATH496  Clinical Independent Study
 PEDS199  Independent Study
  001Alysson,Muotri
 0050TBA  TBA  INTBA  TBA TBA 001
+ 002Alessandra,Franco
+0050TBA  TBA  INTBA  TBA TBA 002
 PEDS229  Cognitive Strategies Instructn
  A00Natalie,Rodriguez
 0004TBA  TBA  LETBA  TBA TBA A00
@@ -12915,7 +12947,7 @@ RWAC 135  LE0121 11001150A00
 20241210TBA  FITBA  11301429
 PHYS161  Black Holes	/courses/PHYS.html#phys161
 :A00George Michael,Fuller
-0075PODEM3    DI1A18 17001750A01
+0075MOS  3    DI0204 17001750A01
 MOS  24   LE0204 12301350A00
 20241213TBA  FITBA  11301429
 PHYS175  Biological Physics	/courses/PHYS.html#phys175
@@ -13104,6 +13136,8 @@ PHYS298  Directed Study in Physics	/courses/PHYS.html#phys298
 9999TBA  TBA  INTBA  TBA TBA 052
  053Alexey,Arefiev
 9999TBA  TBA  INTBA  TBA TBA 053
+ 054Amato Tomas,Evan
+9999TBA  TBA  INTBA  TBA TBA 054
 PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
  001Monica T,Allen
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -14362,6 +14396,9 @@ MGT 187  New Venture Finance	/courses/MGT.html#mgt187
 0100FAH  1    LE1450 17001950A00
 20241212TBA  FITBA  19002159
 MGT 189  Topics in Finance	/courses/MGT.html#mgt189
+MGT 198  Directed Group Study	/courses/MGT.html#mgt198
+ 001Wade Douglas,Lindenberger
+0004TBA  TBA  INTBA  TBA TBA 001
 MGT 199  Directed Independent Study	/courses/MGT.html#mgt199
  A00Ania,Jaroszewicz
 9999TBA  TBA  INTBA  TBA TBA A00
@@ -15454,8 +15491,8 @@ SIOG228  Research Seminar	/courses/SIO.html#siog228
  A00Ryan F.,Hechinger
 0030ECKRT4    SE127  15301650A00
 SIOG233  Intro to Computing at SIO	/courses/SIO.html#siog233
- B00Peter M,Shearer
-0000IGPP 24   LE303  15001620B00
+ C00Peter M,Shearer
+0015SPIES24   LE330  12301350C00
 SIOG238  Numerical Methods	/courses/SIO.html#siog238
 'A00David Alexander,May
 0020IGPP 13   LE4301 11001220A00
@@ -16021,6 +16058,8 @@ PHB 298  Independent Study
 9999TBA  TBA  INTBA  TBA TBA A00
  B00Loki,Natarajan
 9999TBA  TBA  INTBA  TBA TBA B00
+ C00Sonia,Jain
+9999TBA  TBA  INTBA  TBA TBA C00
 PHB 299  Dissertation Research
  001Florin,Vaida
 0999TBA  TBA  INTBA  TBA TBA 001
@@ -16397,12 +16436,9 @@ TDGR251  Playwriting Practicum	/courses/THEA.html#tdgr251
  B00Deborah Isobel,Stein
 0005TBA  TBA  PRTBA  TBA TBA B00
 TDGR262  Cross Boundaries:Design Improv	/courses/THEA.html#tdgr262
-.B00Victoria A.,Petrovich
-0000TBA  TBA  STTBA  TBA TBA B01
-GH   5    ST321  11001350B00
 .C00Victoria A.,Petrovich
 0000TBA  TBA  PRTBA  TBA TBA C01
-TBA  5    STTBA  11001350C00
+GH   5    ST321  11001350C00
 TDGR270A Design Studio I:Scenic Design	/courses/THEA.html#tdgr270a
  A00Robert L.,Brill
 0020GH   1    ST111  10001250A00
@@ -16973,7 +17009,7 @@ VIS 145B Time&Process Digital Media II	/courses/VIS.html#vis145b
  A00Patricia,Stone
 0015MANDE1    LEB206 15001750A00
 VIS 146A Comp Controlled Fab Art 1
- B00
+ B00Robert Daniel,Twomey
 0022SME  24   LE302  09301050B00
 VIS 147A Electronic Technologies/Art I	/courses/VIS.html#vis147a
 :A00Brett,Stalbaum
@@ -16981,7 +17017,7 @@ VIS 147A Electronic Technologies/Art I	/courses/VIS.html#vis147a
 PODEM3    LE1A19 18001950A00
 20241209TBA  FITBA  19002159
 VIS 147B Electronic Technologies/Art II	/courses/VIS.html#vis147b
- A00
+ A00Robert Daniel,Twomey
 0015SME  3    LE102  09001150A00
 VIS 149  Contemporary Computer Topics	/courses/VIS.html#vis149
  A00
@@ -17015,7 +17051,7 @@ VIS 174  Media Sketchbook	/courses/VIS.html#vis174
  B00Mariah J,Garnett
 0022MANDE24   LE103  12301520B00
 VIS 175  Editing - Theory & Practice	/courses/VIS.html#vis175
- A00
+ A00Dino,Dinco
 0022MANDE13   LE103  15001750A00
 VIS 177  Scripting Strategies	/courses/VIS.html#vis177
  A00Patricia,Stone
