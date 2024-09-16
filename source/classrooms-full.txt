@@ -1,4 +1,4 @@
-V31726438819720
+V31726493308790
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4560,7 +4560,7 @@ YORK 24   LE2722 11001220B00
 20241211TBA  FITBA  11301429
 COGS87   First-year Seminar	/courses/COGS.html#cogs87
  A00Gedeon O.,Deak
-0000CSB  2    SE272  09000950A00
+0020CSB  2    SE272  09000950A00
 COGS100  Cyborgs Now and in the Future	/courses/COGS.html#cogs100
 :A00Michael Gordon,Allen
 0060WLH  1    DI2205 18001850A010060WLH  3    DI2205 18001850A020060WLH  5    DI2205 09000950A030060PETER1    DI104  16001650A040060PETER3    DI103  12001250A05
@@ -11788,6 +11788,8 @@ NANO299  Grad Research NanoEngineering	/courses/NANO.html#nano299
 NEU 199  Independent Study	/courses/NEU.html#neu199
  001Jody P,Corey-Bloom
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Victoria Blythe,Risbrough
+9999TBA  TBA  INTBA  TBA TBA 002
 NEU 200A Basic Neuroscience	/courses/NEU.html#neu200a
  A00Brenda Laurie,Bloodgood	Byungkook,Lim
 0000TBA  TBA  LETBA  TBA TBA A00
@@ -12952,7 +12954,7 @@ MOS  24   LE0204 12301350A00
 20241213TBA  FITBA  11301429
 PHYS175  Biological Physics	/courses/PHYS.html#phys175
 'A00Elena F,Koslover
-0011MYR-A24   LE5623 09301050A00
+0013MYR-A24   LE5623 09301050A00
 20241212TBA  FITBA  08001059
 PHYS191  Undergraduate Seminar/Physics	/courses/PHYS.html#phys191
  A00Daniel E,Parker
@@ -16022,6 +16024,9 @@ PH  193  Public Health Capstone I
 0033WLH  4    LE2208 17001950A00
 20241213TBA  FITBA  19002159
 PH  198  Directed Group Study
+ 001Steven D.,Edland
+9999TBA  TBA  INTBA  TBA TBA 001
+PH  199  Independent Study
  001Steven D.,Edland
 9999TBA  TBA  INTBA  TBA TBA 001
 PHB 221  Biostatistical Methods I
