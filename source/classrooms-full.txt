@@ -1,4 +1,4 @@
-V31726525143684
+V31726579611785
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -109,7 +109,7 @@ ANBI112  Methods in Human Neuroscience	/courses/ANTH.html#anbi112
 0015SSRB 3    LE310  11001350A00
 ANBI117  Ancient Genomics	/courses/ANTH.html#anbi117
 .A00Patrick Keolu Ozer,Fox
-0040TBA  TBA  LATBA  TBA TBA A01
+0000TBA  TBA  LATBA  TBA TBA A01
 WLH  135  LE2112 14001450A00
 ANBI120  Ethical Dilemmas in Bio Anthro	/courses/ANTH.html#anbi120
 'A00Amy L,Non
@@ -7069,7 +7069,7 @@ EDS 139  Practicum in Teaching/Learning	/courses/EDS.html#eds139
  A00Erica M.,Heinzman
 0050TBA  TBA  PRTBA  TBA TBA A00
  B00Bailey Miyeon,Choi
-0050TBA  TBA  PRTBA  TBA TBA B00
+0060TBA  TBA  PRTBA  TBA TBA B00
  C00Bailey Miyeon,Choi
 0040TBA  TBA  PRTBA  TBA TBA C00
  D00Patricia Ann Benitez,Hemans
@@ -15981,7 +15981,7 @@ PH  40   Introduction to Public Health
 0200CENTR13   LE101  17001820A00
 20241212TBA  FITBA  19002159
 'B00Dennis Ryan,Trinidad
-0225CENTR13   LE101  18301950B00
+0230CENTR13   LE101  18301950B00
 20241209TBA  FITBA  19002159
 PH  91   Topics in Public Health
  A00Maralee Mae,Harrell
