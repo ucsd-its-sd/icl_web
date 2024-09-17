@@ -1,4 +1,4 @@
-V31726600602532
+V31726611580736
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -82,7 +82,7 @@ ANAR100  Spec Topics/Anth Archaeology	/courses/ANTH.html#anar100
 20241212TBA  FITBA  19002159
 ANAR104  Intro GIS for Anth & Arch	/courses/ANTH.html#anar104
 .A00Anthony Thomas,Tamberino
-0025ERCA 2    LA117  09300959A01
+0000ERCA 2    LA117  09300959A01
 ERCA 2    LE117  10001050A00
 ANAR116  Sea Level Change - Israel	/courses/ANTH.html#anar116
 'A00Gilad,Shtienberg
@@ -6486,7 +6486,7 @@ EBU1 13   LE2315 09301050A00
 20241211TBA  FITBA  08001059
 ECE 260A VLSI Digit Sys Algorithms&Arch	/courses/ECE.html#ece260a
 :A00John,Eldon
-0000TBA  TBA  LATBA  TBA TBA A01
+0196TBA  TBA  LATBA  TBA TBA A01
 CENTR135  LE105  08000850A00
 20241209TBA  FITBA  08001059
 ECE 264C CMOS Analg Integr Circ&Sys III	/courses/ECE.html#ece264c
@@ -9495,7 +9495,7 @@ PCYNH24   LE109  18301950A00
 20241210TBA  FITBA  19002159
 MAE 3    Intro to Mechanical Design	/courses/MAE.html#mae3
 :A00Huihui,Qi
-0014EBU2 3    LA239  09001150A010012EBU2 3    LA239  14001650A020012EBU2 5    LA239  09001150A030012EBU2 5    LA239  14001650A04
+0016EBU2 3    LA239  09001150A010016EBU2 3    LA239  14001650A020014EBU2 5    LA239  09001150A030014EBU2 5    LA239  14001650A04
 DIB  24   LE122  09301050A00
 20241212TBA  FITBA  08001059
 :B00Jennifer S,Mullin
@@ -10423,7 +10423,7 @@ MATH282A Applied Statistics I	/courses/MATH.html#math282a
 20241209TBA  FITBA  11301429
 MATH283  Stat Methods in Bioinformatics	/courses/MATH.html#math283
 'A00Glenn,Tesler
-0000APM  13   LEB412 15001620A00
+0040APM  13   LEB412 15001620A00
 20241213TBA  FITBA  15001759
 MATH286  Stochastic Differential Equatn	/courses/MATH.html#math286
 'A00Patrick J,Fitzsimmons
@@ -15828,7 +15828,7 @@ SOCI165  Predicting the Future	/courses/SOC.html#soci165
 SOCI166  Sociology of Knowledge	/courses/SOC.html#soci166
 SOCI168G Populism: Then and Now	/courses/SOC.html#soci168g
 'B00Gershon,Shafir
-0030CENTR135  LE203  08000850B00
+0000CENTR135  LE203  08000850B00
 20241209TBA  FITBA  08001059
 SOCI173  Soc/Health, Illness, Medicine	/courses/SOC.html#soci173
 'B00Maud Marie Leonie,Arnal
@@ -16442,7 +16442,7 @@ TDGR251  Playwriting Practicum	/courses/THEA.html#tdgr251
 0005TBA  TBA  PRTBA  TBA TBA B00
 TDGR262  Cross Boundaries:Design Improv	/courses/THEA.html#tdgr262
 .C00Victoria A.,Petrovich
-0000TBA  TBA  PRTBA  TBA TBA C01
+0010TBA  TBA  PRTBA  TBA TBA C01
 GH   5    ST321  11001350C00
 TDGR270A Design Studio I:Scenic Design	/courses/THEA.html#tdgr270a
  A00Robert L.,Brill
