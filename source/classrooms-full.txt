@@ -1,10 +1,10 @@
-V31726773417463
+V31726784406255
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
 AAPI87   First-year Seminar	/courses/AAPI.html#aapi87
  A00Amanda Lee Albaniel,Solomon
-0020TBA  2    SETBA  10001050A00
+0025TBA  2    SETBA  10001050A00
 AAS 10R  Intro/African-American Studies
 .A00Elizabeth Annette,Butler
 0034RCLAS3    DIR05  14001450A010034RCLAS3    DIR05  15001550A02
@@ -5096,7 +5096,7 @@ COMM101T Media Prod Lab: Topics in Prod	/courses/COMM.html#comm101t
 0018MCC  3    ST201  14001650B00
 20241211TBA  FITBA  15001759
 'D00Matthew D,Dewey
-0007MCC  13   ST248  11001220D00
+0010MCC  13   ST248  11001220D00
 20241210TBA  FITBA  11301429
 COMM102C MMPP: Media & Design Practicum	/courses/COMM.html#comm102c
 .A00Camille E,Campion
@@ -10462,7 +10462,7 @@ MATH211B Seminar in Group Actions	/courses/MATH.html#math211b
 0010APM  4    SE7321 10001050A00
 MATH216A Math Methods Data Science I	/courses/MATH.html#math216a
 'A00Robert Jacobs,Webber
-0020APM  24   LE2402 14001520A00
+0040APM  24   LE2402 14001520A00
 20241212TBA  FITBA  15001759
 MATH218  Seminar/Math of Bio Systems	/courses/MATH.html#math218
  A00Natalia,Komarova
@@ -11784,9 +11784,9 @@ NANO111  Characterization/NanoEng Systm	/courses/NANO.html#nano111
 20241212TBA  FITBA  15001759
 NANO119  NanoEng System Design Seminar	/courses/NANO.html#nano119
  A00Jesse Vincent,Jokerst
-0040WLH  1    SE2115 12001250A00
+0035WLH  1    SE2115 12001250A00
  B00Jesse Vincent,Jokerst
-0040WLH  1    SE2115 11001150B00
+0035WLH  1    SE2115 11001150B00
 NANO148  Thermodynamics of Materials	/courses/NANO.html#nano148
 'A00
 0060PCYNH24   LE121  11001220A00
@@ -14806,7 +14806,7 @@ MGTF490  Capstone: Applied Finance Proj	/courses/MGT.html#mgtf490
  A00
 0065OTRSN3    LE3E10709001150A00
  B00Robert P,Schmidt
-0065OTRSN3    LE3E10713001550B00
+0069OTRSN3    LE3E10713001550B00
 MGTF495  Special Topics	/courses/MGT.html#mgtf495
  B00Lu,Yu
 0098WFH  5    LE4N12813001550B00
