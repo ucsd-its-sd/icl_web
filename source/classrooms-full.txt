@@ -1,4 +1,4 @@
-V31727130086452
+V31727184554098
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1302,7 +1302,7 @@ BGGN213  Foundations of Bioinformatics	/courses/BIOL.html#bggn213
 20241209TBA  FITBA  11301429
 BGGN214  Introduction to Q-Biology	/courses/BIOL.html#bggn214
 'A00Gurol Mehmet,Suel
-0040BONN 24   LE2130 12301350A00
+0048BONN 24   LE2130 12301350A00
 20241213TBA  FITBA  11301429
 BGGN227  Graduate Topics/ Plant Biology	/courses/BIOL.html#bggn227
  A00Julian I,Schroeder
@@ -8202,12 +8202,12 @@ GSS 27   SE Asia History & Culture	/courses/GSS.html#gss27
 20241212TBA  FITBA  08001059
 HDS 1    Intro/HumanDevelopmentScience	/courses/HDS.html#hds1
 :A00Clarissa Jane,Reese
-0030HSS  3    DI1128A09000950A010030HSS  3    DI2150 10001050A020030WLH  3    DI2115 11001150A030030WLH  3    DI2115 12001250A040030HSS  3    DI2154 13001350A050030HSS  3    DI2154 14001450A060030HSS  3    DI2154 15001550A07
+0032HSS  3    DI1128A09000950A010032HSS  3    DI2150 10001050A020032WLH  3    DI2115 11001150A030032WLH  3    DI2115 12001250A040032HSS  3    DI2154 13001350A050032HSS  3    DI2154 14001450A060032HSS  3    DI2154 15001550A07
 MOS  24   LE0113 11001220A00
 20241211TBA  FITBA  11301429
 HDS 60   Intro to Statistical Analysis	/courses/HDS.html#hds60
 :A00Melissa Fawn,Warstadt
-0030HSS  5    DI1128A10001050A010030HSS  5    DI1128A11001150A02
+0035HSS  5    DI1128A10001050A010035HSS  5    DI1128A11001150A02
 PODEM24   LE1A19 14001520A00
 20241212TBA  FITBA  15001759
 HDS 111  Evolution in Human Development	/courses/HDS.html#hds111
@@ -10668,7 +10668,7 @@ MATH218  Seminar/Math of Bio Systems	/courses/MATH.html#math218
 0010APM  4    SE7321 14001450A00
 MATH220A Complex Analysis	/courses/MATH.html#math220a
 'A00Peter F,Ebenfelt
-0020APM  135  LE5402 15001550A00
+0021APM  135  LE5402 15001550A00
 20241213TBA  FITBA  15001759
 MATH231A Partial Diff Equations I	/courses/MATH.html#math231a
 'A00Ioan,Bejenaru
@@ -10706,7 +10706,7 @@ MATH269  Seminar in Combinatorics	/courses/MATH.html#math269
 0010APM  2    SE7321 14001450A00
 MATH270A Numerical Linear Algebra	/courses/MATH.html#math270a
 'A00Ioana,Dumitriu
-0022APM  135  LE2402 09000950A00
+0030APM  135  LE2402 09000950A00
 20241211TBA  FITBA  08001059
 MATH271A Numerical Optimization	/courses/MATH.html#math271a
 'A00Jiawang,Nie
@@ -10763,7 +10763,7 @@ MATH289A Topics/Probability&Stats	/courses/MATH.html#math289a
 20241212TBA  FITBA  11301429
 MATH290A Topology	/courses/MATH.html#math290a
 'A00Steven V,Sam
-0020APM  135  LEB402A13001350A00
+0023APM  135  LEB402A13001350A00
 20241209TBA  FITBA  11301429
 MATH292  Seminar In Topology	/courses/MATH.html#math292
  A00Yunze,Lu
@@ -10889,7 +10889,7 @@ MATH299  Reading and Research	/courses/MATH.html#math299
 0999TBA  TBA  INTBA  TBA TBA 056
 MATH500  Teaching Assistant Training	/courses/MATH.html#math500
 .A00Jeffrey Mark,Rabin
-0000APM  4    LEB402A14001450A00
+0028APM  4    LEB402A14001450A00
 APM  4    PRB402A15001550A01
 MATS200  Graduate Seminar	/courses/MATS.html#mats200
  A00Olivia A,Graeve
@@ -12146,7 +12146,7 @@ TBA  TBA  SETBA  TBA TBA A01
 NEU 268  Molecular&Cellular Neurobiolgy	/courses/NEU.html#neu268
 NEU 276  Neurosciences Research Rounds	/courses/NEU.html#neu276
 .A00
-0000TBA  4    DITBA  15001550A01
+0002TBA  4    DITBA  15001550A01
 TBA  4    LETBA  13001450A00
 NEU 296  Neurosciences Resrch Rotation	/courses/NEU.html#neu296
  001Sean Jeffrey,Evans
@@ -12194,7 +12194,7 @@ NEUG265  Mechanisms of Pain	/courses/NEU.html#neug265
 0015TBA  TBA  SETBA  TBA TBA A00
 NEUG296  Neurosciences ResearchRotation	/courses/NEU.html#neug296
  A00Brenda Laurie,Bloodgood
-0005TBA  TBA  INTBA  TBA TBA A00
+0015TBA  TBA  INTBA  TBA TBA A00
  B00Scott Michael,Sternson
 0005TBA  TBA  INTBA  TBA TBA B00
  C00Monique Leana,George
@@ -15831,7 +15831,7 @@ SIOC217A Atmospheric & Climate Sci I	/courses/SIO.html#sioc217a
 20241212TBA  FITBA  11301429
 SIOC221A Anlys/Physicl Oceanograph Data	/courses/SIO.html#sioc221a
 'A00Jennifer A.,Mackinnon
-0020NIERN24   LE101  09301050A00
+0025NIERN24   LE101  09301050A00
 20241212TBA  FITBA  08001059
 SIOC222  Underwater Bioacoustics	/courses/SIO.html#sioc222
 'A00Simone,Baumann-Pickering 
