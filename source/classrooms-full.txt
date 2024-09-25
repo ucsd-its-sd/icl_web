@@ -1,4 +1,4 @@
-V31727216443250
+V31727270976795
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -16382,10 +16382,10 @@ SOMI421  Subinternship Palliative Med
 0050TBA  TBA  CLTBA  TBA TBA A00
 PH  40   Introduction to Public Health
 'A00Dennis Ryan,Trinidad
-0200CENTR13   LE101  17001820A00
+0229CENTR13   LE101  17001820A00
 20241212TBA  FITBA  19002159
 'B00Dennis Ryan,Trinidad
-0235CENTR13   LE101  18301950B00
+0236CENTR13   LE101  18301950B00
 20241209TBA  FITBA  19002159
 PH  91   Topics in Public Health
  A00Maralee Mae,Harrell
@@ -16428,7 +16428,7 @@ PH  161  ClinicalNutrition/PublicHealth
 0000BSB  24   LE1105 08000920A00
 PH  193  Public Health Capstone I
 'A00Annie Lu,Nguyen
-0036WLH  4    LE2208 17001950A00
+0037WLH  4    LE2208 17001950A00
 20241213TBA  FITBA  19002159
 PH  198  Directed Group Study
  001Steven D.,Edland
@@ -17413,7 +17413,7 @@ VIS 129C Seminar/Modern Art History	/courses/VIS.html#vis129c
 20241213TBA  FITBA  15001759
 VIS 131  Special Projects in Media	/courses/VIS.html#vis131
 'B00
-0000MANDE1    LE106  18002050B00
+0015MANDE1    LE106  18002050B00
 20241209TBA  FITBA  19002159
 VIS 133  Lecture Topics in Spec Design	/courses/VIS.html#vis133
 VIS 133A Studio Topics in Spec Design	/courses/VIS.html#vis133a
