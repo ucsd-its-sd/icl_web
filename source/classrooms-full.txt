@@ -1,4 +1,4 @@
-V31728134618091
+V31728155821914
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -878,6 +878,8 @@ BENG199  Independent Study/Undergrads	/courses/BENG.html#beng199
 9999TBA  TBA  INTBA  TBA TBA 028
  029Lingyan,Shi
 9999TBA  TBA  INTBA  TBA TBA 029
+ 030Reem I,Khojah
+9999TBA  TBA  INTBA  TBA TBA 030
 BENG216  NeuroIntegrated Bioelectronics
 .A00Gert,Cauwenberghs
 0070PFBH 5    LA161  15301620A01
@@ -946,6 +948,12 @@ BENG298L Laboratory Research Rotation	/courses/BENG.html#beng298l
 9999TBA  TBA  INTBA  TBA TBA 006
  007Andrew Douglas,Mc Culloch
 9999TBA  TBA  INTBA  TBA TBA 007
+ 008Gert,Cauwenberghs
+9999TBA  TBA  INTBA  TBA TBA 008
+ 009Adam J.,Engler
+9999TBA  TBA  INTBA  TBA TBA 009
+ 010Prashant Gulab Ram,Mali
+9999TBA  TBA  INTBA  TBA TBA 010
 BENG299  Graduate Research	/courses/BENG.html#beng299
  100Gurol Mehmet,Suel
 9999TBA  TBA  INTBA  TBA TBA 100
@@ -4176,6 +4184,14 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 017
  018Clifford Paul,Kubiak
 9999TBA  TBA  INTBA  TBA TBA 018
+ 019Cole John,Ferguson
+9999TBA  TBA  INTBA  TBA TBA 019
+ 020Gourisankar,Ghosh
+9999TBA  TBA  INTBA  TBA TBA 020
+ 021Anthony John,O'Donoghue
+9999TBA  TBA  INTBA  TBA TBA 021
+ 022Fleur,Ferguson
+9999TBA  TBA  INTBA  TBA TBA 022
 CHEM204  Intro to X-ray Crystallography	/courses/CHEM.html#chem204
 'A00Partho,Ghosh
 0030CENTR135  LE220  11001150A00
@@ -5168,6 +5184,8 @@ COGS199  Special Project	/courses/COGS.html#cogs199
 9999TBA  TBA  INTBA  TBA TBA 010
  011Sarah,Creel
 9999TBA  TBA  INTBA  TBA TBA 011
+ 012Lara M,Rangel
+9999TBA  TBA  INTBA  TBA TBA 012
 COGS201  Neural Dynamics of Cognition	/courses/COGS.html#cogs201
 :A00Lara M,Rangel
 0025TBA  TBA  DITBA  TBA TBA A01
@@ -5286,6 +5304,10 @@ COGS299  Thesis Research	/courses/COGS.html#cogs299
 9999TBA  TBA  INTBA  TBA TBA 010
  011James D.,Hollan
 9999TBA  TBA  INTBA  TBA TBA 011
+ 012David Joel,Kirsh
+9999TBA  TBA  INTBA  TBA TBA 012
+ 013Seana M,Coulson
+9999TBA  TBA  INTBA  TBA TBA 013
 COGS500  Teaching Apprenticeship	/courses/COGS.html#cogs500
  001Steven James,Barrera
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -5793,7 +5815,7 @@ SME  24   LE304  09301050A00
 20241212TBA  FITBA  08001059
 CSE 190  Top/Computer Sci & Engineering	/courses/CSE.html#cse190
 'A00Kristen Marie,Vaccaro
-0104CENTR135  LE105  11001150A00
+0104FAH  135  LE1450 11001150A00
 20241210TBA  FITBA  11301429
 'B00Michael J,Coblenz
 0020FAH  135  LE1101 10001050B00
@@ -6240,6 +6262,8 @@ CSE 298  Independent Study	/courses/CSE.html#cse298
 9999TBA  TBA  INTBA  TBA TBA 068
  069Michael J,Coblenz
 9999TBA  TBA  INTBA  TBA TBA 069
+ 070Ranjit,Jhala
+9999TBA  TBA  INTBA  TBA TBA 070
 CSE 299  Research	/courses/CSE.html#cse299
  001Vineet,Bafna
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -6996,6 +7020,8 @@ ECE 199  Independent Study/Undergrads	/courses/ECE.html#ece199
 9999TBA  TBA  INTBA  TBA TBA 004
  005Michael,Yip
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Edward Jay,Wang
+9999TBA  TBA  INTBA  TBA TBA 006
 ECE 201  Introduction to Biophysics	/courses/ECE.html#ece201
 :A00Yu-Hwa,Lo
 0060EBU1 24   LE2315 15301650A00
@@ -7074,7 +7100,7 @@ ECE 264C CMOS Analg Integr Circ&Sys III	/courses/ECE.html#ece264c
 0000SOLIS24   LE111  12301350A00
 20241213TBA  FITBA  11301429
 ECE 265C Power Amplifiers/Wireless Comm	/courses/ECE.html#ece265c
-'A00
+'A00Calogero Davide,Presti
 0000WLH  24   LE2115 18301950A00
 20241210TBA  FITBA  19002159
 ECE 271A Statistical Learning I	/courses/ECE.html#ece271a
@@ -7302,8 +7328,6 @@ ECE 501  Teaching	/courses/ECE.html#ece501
 9999TBA  TBA  INTBA  TBA TBA 013
  014Farinaz,Koushanfar
 9999TBA  TBA  INTBA  TBA TBA 014
- 015
-0000TBA  TBA  INTBA  TBA TBA 015
  016Daniel F.,Sievenpiper
 9999TBA  TBA  INTBA  TBA TBA 016
  017Tzu-Chien,Hsueh
@@ -7978,7 +8002,7 @@ ETHN113  Decolonizing Education	/courses/ETHN.html#ethn113
 0030CENTR135  LE203  15001550A00
 20241213TBA  FITBA  15001759
 ETHN117  Organic Social Movements	/courses/ETHN.html#ethn117
-'A00
+'A00Esther Min,Choi
 0040SOLIS1    LE111  17001950A00
 20241212TBA  FITBA  19002159
 ETHN120  Race/Perfrm: Poltcs Poplr Cult	/courses/ETHN.html#ethn120
@@ -8355,7 +8379,7 @@ GPEC488  Environmental & Reg Economics	/courses/GPS.html#gpec488
 GPGN490  Special Topics Course	/courses/GPS.html#gpgn490
  A00Jesse R.,Driscoll
 0018RBC  2    LE1428 18302120A00
- C00
+ C00Haney D,Hong
 0018RBC  1    LE1328 18302120C00
  D00Barbara Florence,Walter
 0050RBC  24   LE3203 11001220D00
@@ -9268,7 +9292,7 @@ PODEM24   LE1A18 12301350A00
 LIGN139  Field Methods	/courses/LING.html#lign139
 LIGN143  The Structure of Spanish	/courses/LING.html#lign143
 'A00Justin Daniel,McIntosh
-0041HSS  24   LE1315 14001520A00
+0041APM  24   LE4301 14001520A00
 20241212TBA  FITBA  15001759
 LIGN152  Indigenous Languages/Americas	/courses/LIGN.html#lign152
 'A00Justin Daniel,McIntosh
@@ -9697,7 +9721,7 @@ LISP1DX  Analysis of Spanish	/courses/LING.html#lisp1dx
 0028CENTR24   DI205  12301350D00
 20241207TBA  FITBA  19002159
 'E00Alicia,Munoz Sanchez
-0028APM  24   DI4301 14001520E00
+0028HSS  24   DI1315 14001520E00
 20241207TBA  FITBA  19002159
 'F00Alicia,Munoz Sanchez
 0028CENTR24   DI207  15301650F00
@@ -10249,7 +10273,7 @@ MAE 113  Fundamentals of Propulsion	/courses/MAE.html#mae113
 :B00Mohammad Yousef,Bahadori
 0101FAH  3    LE1450 17001950B00
 FAH  5    LE1450 17001750B00
-20241212TBA  FITBA  19002159
+20241004FAH  PB1450 1600165020241011FAH  PB1450 1600165020241018FAH  PB1450 1600165020241025FAH  PB1450 1600165020241101FAH  PB1450 1600165020241108FAH  PB1450 1600165020241115FAH  PB1450 1600165020241122FAH  PB1450 1600165020241206FAH  PB1450 1600165020241212TBA  FITBA  19002159
 MAE 122  Flow & Transport/Environment	/courses/MAE.html#mae122
 :A00Geno Ronald,Pawlak
 0065CENTR24   LE222  09301050A00
@@ -10993,6 +11017,8 @@ MATH199  Independent Study/Undergrad	/courses/MATH.html#math199
 9999TBA  TBA  INTBA  TBA TBA 003
  004Steven V,Sam
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Ming,Xiao
+9999TBA  TBA  INTBA  TBA TBA 005
 MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
  001Danna,Zhang
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -11849,6 +11875,10 @@ MUS 32V  Vocal Instruction	/courses/MUS.html#mus32v
 0010TBA  TBA  LATBA  TBA TBA A00
  B00Miguel Angel,Zazueta Cervera
 0010TBA  TBA  LATBA  TBA TBA B00
+ C00Mariana,Flores Bucio
+0002TBA  TBA  LATBA  TBA TBA C00
+ D00Natalia,Merlano Gomez
+0004TBA  TBA  LATBA  TBA TBA D00
 MUS 32VM Vocal Master Class	/courses/MUS.html#mus32vm
  A00Natalia,Merlano Gomez
 0015CPMC 1    LA264  15001650A00
@@ -11940,14 +11970,22 @@ MUS 132  Pro-Seminar/Instrmntl Instruct	/courses/MUS.html#mus132
 0010TBA  TBA  STTBA  TBA TBA 008
  009Steven,Schick
 0010TBA  TBA  STTBA  TBA TBA 009
+ 010Cory Benjamin,Smythe
+0001TBA  TBA  STTBA  TBA TBA 010
 MUS 132R Recital Preparation	/courses/MUS.html#mus132r
  A00Susan M,Narucki
 0002TBA  TBA  LATBA  TBA TBA A00
+ B00Cory Benjamin,Smythe
+0002TBA  TBA  LATBA  TBA TBA B00
 MUS 132V Pro-Seminar in Vocal Instruct	/courses/MUS.html#mus132v
  A00Susan M,Narucki
 0015TBA  TBA  LATBA  TBA TBA A00
  B00
 0015TBA  TBA  LATBA  TBA TBA B00
+ C00Natalia,Merlano Gomez
+0004TBA  TBA  LATBA  TBA TBA C00
+ D00Mariana,Flores Bucio
+0003TBA  TBA  LATBA  TBA TBA D00
 MUS 134  Symphonic Orchestra	/courses/MUS.html#mus134
  A00Shahrokh D,Yadegari
 0030CPMC 13   ST136  19002150A00
@@ -12155,7 +12193,7 @@ MUS 500  Apprentice Teaching	/courses/MUS.html#mus500
 0005TBA  TBA  INTBA  TBA TBA 008
  009
 0008TBA  TBA  INTBA  TBA TBA 009
- 010
+ 010Jeremy Ryan,Hyrkas
 0008TBA  TBA  INTBA  TBA TBA 010
  011Stephen John,de Filippo
 0005TBA  TBA  INTBA  TBA TBA 011
@@ -13582,7 +13620,7 @@ PHYS1BL  Electricity & Magnetism Lab	/courses/PHYS.html#phys1bl
 PHYS1C   Waves, Optics & Modern Physics	/courses/PHYS.html#phys1c
 'A00Gurleen K,Bal
 0362WLH  135  LE2001 10001050A00
-20241213TBA  FITBA  08001059
+20241007WLH  PB2205 1600165020241014WLH  PB2205 1600165020241021WLH  PB2205 1600165020241028WLH  PB2205 1600165020241104WLH  PB2205 1600165020241111WLH  PB2205 1600165020241118WLH  PB2205 1600165020241125WLH  PB2205 1600165020241202WLH  PB2205 1600165020241213TBA  FITBA  08001059
 PHYS1CL  Waves,Optics&Modrn Phys Lab	/courses/PHYS.html#phys1cl
  001Philbert S,Tsai	Jessica Lynn,Arlett
 0030MAYER2    LA2110 12001350001
@@ -13707,6 +13745,8 @@ PHYS199  Research for Undergraduates	/courses/PHYS.html#phys199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Javier Mauricio,Duarte
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Monica T,Allen
+9999TBA  TBA  INTBA  TBA TBA 003
 PHYS199H Honors Thesis Rsrch/Undergrads	/courses/PHYS.html#phys199h
  001Quinn Morgan,Konopacky
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -13716,6 +13756,8 @@ PHYS199H Honors Thesis Rsrch/Undergrads	/courses/PHYS.html#phys199h
 9999TBA  TBA  INTBA  TBA TBA 003
  004Benjamin,Grinstein
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Adam Jonathan,Burgasser
+9999TBA  TBA  INTBA  TBA TBA 005
 PHYS200A Theoretical Mechanics I	/courses/PHYS.html#phys200a
 :A00Massimiliano,Di Ventra
 0025MAYER5    DI5301 11001150A01
@@ -14409,6 +14451,8 @@ PSYC99   Independent Study	/courses/PSYC.html#psyc99
 9999TBA  TBA  LATBA  TBA TBA 006
  007Emma Harlan,Geller
 9999TBA  TBA  LATBA  TBA TBA 007
+ 008Victor,Ferreira
+9999TBA  TBA  LATBA  TBA TBA 008
 PSYC100  Clinical Psychology	/courses/PSYC.html#psyc100
 'A00Janna Alene,Dickenson
 0325PETER24   LE110  12301350A00
@@ -16700,7 +16744,7 @@ SOCI141  Crime And Society	/courses/SOC.html#soci141
 20241210TBA  FITBA  19002159
 SOCI143V Love
 'A00Kevin Michael,Lewis
-0104FAH  135  LE1450 11001150A00
+0104CENTR135  LE105  11001150A00
 20241210TBA  FITBA  11301429
 SOCI146  Criminal Punishment	/courses/SOC.html#soci146
 'A00Valerie R.,Summers
@@ -16936,6 +16980,8 @@ PH  199  Independent Study
 9999TBA  TBA  INTBA  TBA TBA 003
  004Britta Ann,Larsen
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Lindsay Morgan,Miller
+9999TBA  TBA  INTBA  TBA TBA 005
 PHB 221  Biostatistical Methods I
 'A00Jingjing,Zou
 0043BSB  24   LE1105 11001220A00
@@ -17164,10 +17210,10 @@ HSS  24   LE7077 14001520K00
 HSS  24   LE7077 15301650L00
 .N00James Cary,Deavenport
 0015HSS  2    DI7002 11301220N010015HSS  4    DI7002 11301220N02
-WLH  24   LE2115 09301050N00
+DIB  24   LE122  09301050N00
 .O00Brenna,Gormally
 0015HSS  2    DI7002 13001350O010015HSS  4    DI7002 13001350O02
-WLH  24   LE2115 11001220O00
+DIB  24   LE121  11001220O00
 SYN 150  Defining Scope/Changing Planet	/courses/SYN.html#syn150
  001Gwendolyn Anne,Fish
 0020HSS  13   SE7002 11001220001
@@ -17448,6 +17494,8 @@ TDGR297  Thesis Research	/courses/THEA.html#tdgr297
 0010TBA  TBA  INTBA  TBA TBA 006
  007Robert Harrison,McElver
 0010TBA  TBA  INTBA  TBA TBA 007
+ 008Naomi Hisako,Iizuka
+0001TBA  TBA  INTBA  TBA TBA 008
 TDGR299  Thesis Project	/courses/THEA.html#tdgr299
  001Vanessa,Stalling
 0001TBA  TBA  INTBA  TBA TBA 001
@@ -17858,7 +17906,7 @@ VIS 103A Contemporary Arts in S. Korea	/courses/VIS.html#vis103a
 0075SME  4    LE149  12301520A00
 20241213TBA  FITBA  11301429
 VIS 105A Drawing: Representing/Subject	/courses/VIS.html#vis105a
- A00
+ A00Jonathan,Pylypchuk
 0030MANDE13   ST220A 09001150A00
  B00Malgorzata,Herc-Balaszek
 0030MANDE13   ST220A 15001750B00
@@ -17872,7 +17920,7 @@ VIS 106A Painting: Image Making	/courses/VIS.html#vis106a
 VIS 106B Painting: Practices and Genre	/courses/VIS.html#vis106b
  A00
 0015MANDE24   ST220B 12301520A00
- B00
+ B00Jonathan,Pylypchuk
 0025MANDE24   ST220B 15301820B00
 VIS 107A Sculpture: Making the Object	/courses/VIS.html#vis107a
  A00Mathieu,Gregoire
@@ -18007,6 +18055,8 @@ VIS 198  Directed Group Study	/courses/VIS.html#vis198
 VIS 199  Special Studies	/courses/VIS.html#vis199
  001Michael,Trigilio
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Dean,Erdmann
+9999TBA  TBA  INTBA  TBA TBA 002
 VIS 202  Art Practice	/courses/VIS.html#vis202
  A00Lorena,Mostajo
 0011SME  1    SE102  12001450A00
@@ -18090,6 +18140,10 @@ VIS 299  Graduate Research	/courses/VIS.html#vis299
 9999TBA  TBA  INTBA  TBA TBA 014
  015Edwin Teddy,Cruz
 9999TBA  TBA  INTBA  TBA TBA 015
+ 016Ruben,Ortiz-Torres
+9999TBA  TBA  INTBA  TBA TBA 016
+ 017Mariah J,Garnett
+9999TBA  TBA  INTBA  TBA TBA 017
 VIS 500  Apprentice Teaching	/courses/VIS.html#vis500
  A00Ruben,Ortiz-Torres
 0015TBA  TBA  INTBA  TBA TBA A00
