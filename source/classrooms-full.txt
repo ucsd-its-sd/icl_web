@@ -1,4 +1,4 @@
-V31728414927455
+V31728426077212
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3939,7 +3939,7 @@ CGS 110  Struggles for Environ. Justice	/courses/CGS.html#cgs110
 0032CENTR135  LE217A 12001250A00
 CGS 113  Gender & Sexuality in the Arts	/courses/CGS.html#cgs113
  A00Amanda Maria Yoland,Martin Sandino
-0022YORK 24   LE3060 11001220A00
+0023YORK 24   LE3060 11001220A00
 CGS 119  Asian American Film and Media	/courses/CGS.html#cgs119
  A00Hoang Tan,Nguyen
 0020PCYNH24   LE121  08000920A00
@@ -7053,7 +7053,7 @@ ECE 199  Independent Study/Undergrads	/courses/ECE.html#ece199
 9999TBA  TBA  INTBA  TBA TBA 007
 ECE 201  Introduction to Biophysics	/courses/ECE.html#ece201
 :A00Yu-Hwa,Lo
-0056EBU1 24   LE2315 15301650A00
+0060EBU1 24   LE2315 15301650A00
 TBA  TBA  DITBA  TBA TBA A01
 20241209TBA  FITBA  15001759
 ECE 203  Biomedical Integrat Circ & Sys	/courses/ECE.html#ece203
@@ -8041,7 +8041,7 @@ ETHN128  Hip Hop: Politics of Culture	/courses/ETHN.html#ethn128
 20241213TBA  FITBA  08001059
 ETHN140A Refugee San Diego	/courses/ETHN.html#ethn140a
  A00Yen,Espiritu
-0041MANDE24   LEB104 09301050A00
+0040MANDE24   LEB104 09301050A00
 ETHN144M Antiracist Medicine/HealthCare	/courses/ETHN.html#ethn144m
  A00Brenda K,Wilson
 0051PETER24   LE102  12301350A00
@@ -9315,7 +9315,7 @@ LIGN17   Making and Breaking Codes	/courses/LING.html#lign17
 20241210TBA  FITBA  11301429
 LIGN101  Introduction/Study of Language	/courses/LING.html#lign101
 :A00William Francis,Styler
-0036WLH  5    DI2208 09000950A010036HSS  5    DI1128A12001250A020036HSS  5    DI2154 10001050A030034HSS  4    DI2154 17001750A04
+0036WLH  5    DI2208 09000950A010037HSS  5    DI1128A12001250A020036HSS  5    DI2154 10001050A030034HSS  4    DI2154 17001750A04
 CENTR24   LE113  12301350A00
 20241213TBA  FITBA  11301429
 LIGN110  Phonetics	/courses/LING.html#lign110
@@ -10352,7 +10352,7 @@ MAE 150  Computational Methods/Design	/courses/MAE.html#mae150
 CENTR3    LE214  11001150A00
 20241209TBA  FITBA  15001759
 :B00Nicholas G,Gravish
-0146CENTR24   LE109  12301350B00
+0147CENTR24   LE109  12301350B00
 CENTR3    LE214  10001050B00
 20241213TBA  FITBA  11301429
 MAE 152  Intro Manual and CNC Machining	/courses/MAE.html#mae152
@@ -11187,7 +11187,7 @@ MATH280A Probability Theory I	/courses/MATH.html#math280a
 20241212TBA  FITBA  08001059
 MATH281A Mathematical Statistics	/courses/MATH.html#math281a
 'A00Jelena,Bradic
-0049APM  24   LEB412 12301350A00
+0050APM  24   LEB412 12301350A00
 20241213TBA  FITBA  11301429
 MATH282A Applied Statistics I	/courses/MATH.html#math282a
 'A00Danna,Zhang
@@ -11930,7 +11930,7 @@ MUS 32V  Vocal Instruction	/courses/MUS.html#mus32v
 0004TBA  TBA  LATBA  TBA TBA D00
 MUS 32VM Vocal Master Class	/courses/MUS.html#mus32vm
  A00Natalia,Merlano Gomez
-0015CPMC 1    LA264  15001650A00
+0017CPMC 1    LA264  15001650A00
 MUS 33A  Introduction to Composition I	/courses/MUS.html#mus33a
 'A00Jiyoung,Ko
 0020CPMC 3    LE145  14001650A00
@@ -11958,7 +11958,7 @@ MUS 95G  Gospel Choir	/courses/MUS.html#mus95g
 0395WLH  4    ST2001 18302120B00
 MUS 95JC Jazz Chamber Ensembles	/courses/MUS.html#mus95jc
  A00David Garcia,Borgo
-0025WLH  24   ST2154 14001520A00
+0037WLH  24   ST2154 14001520A00
 MUS 95L  Wind Ensemble	/courses/MUS.html#mus95l
  A00Katherine Sue,Pittman
 0065CPMC 4    ST136  19002150A00
@@ -12062,7 +12062,7 @@ MUS 173A Electronic Music Prod & Comp	/courses/MUS.html#mus173a
 20241213TBA  FITBA  11301429
 MUS 174A Audio&MIDIStudioTechniques I	/courses/MUS.html#mus174a
  A00Tom,Erbe
-0025CPMC 2    LA269  09301220A00
+0038CPMC 2    LA269  09301220A00
 MUS 198  Direct Group Study	/courses/MUS.html#mus198
  001Tom,Erbe
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -12619,7 +12619,7 @@ TBA  TBA  SETBA  TBA TBA A01
 NEU 268  Molecular&Cellular Neurobiolgy	/courses/NEU.html#neu268
 NEU 276  Neurosciences Research Rounds	/courses/NEU.html#neu276
 .A00Brenda Laurie,Bloodgood
-0002TBA  4    DITBA  15001550A01
+0005TBA  4    DITBA  15001550A01
 TBA  4    LETBA  13001450A00
 NEU 296  Neurosciences Resrch Rotation	/courses/NEU.html#neu296
  001Sean Jeffrey,Evans
