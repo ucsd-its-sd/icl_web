@@ -1,4 +1,4 @@
-V31728944532091
+V31728998956451
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -13699,7 +13699,7 @@ PHYS1AL  Mechanics Laboratory	/courses/PHYS.html#phys1al
  018Philbert S,Tsai	Jessica Lynn,Arlett
 0030MAYER3    LA2326 14001550018
  019Philbert S,Tsai	Jessica Lynn,Arlett
-0030MAYER3    LA2306 16001750019
+0029MAYER3    LA2306 16001750019
  020Philbert S,Tsai	Jessica Lynn,Arlett
 0030MAYER3    LA2326 16001750020
  021Philbert S,Tsai	Jessica Lynn,Arlett
