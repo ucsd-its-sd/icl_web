@@ -1,4 +1,4 @@
-V31729171740785
+V31729192684488
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -16766,7 +16766,7 @@ SOCG234  Foundations of Science Study	/courses/SOC.html#socg234
 0012SSB  4    SE414  14001650A00
 SOCG252  Research Practicum I	/courses/SOC.html#socg252
  B00Christena L.,Turner
-0000SSB  3    SE414  15301830B00
+0009SSB  3    SE414  15301830B00
 SOCG255A Intro to Sci Studies Part I	/courses/SOC.html#socg255a
  A00Lisa,Cartwright
 0006RWAC 3    SE0474 12001450A00
