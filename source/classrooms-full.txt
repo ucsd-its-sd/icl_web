@@ -1,4 +1,4 @@
-V31729279004437
+V31729290040203
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10485,7 +10485,7 @@ MAE 142  Dynmcs&Control/Aerospace Vehic	/courses/MAE.html#mae142
 20241213TBA  FITBA  19002159
 MAE 143A Signals and Systems	/courses/MAE.html#mae143a
 :A00Sylvia Lee,Herbert
-0100PCYNH24   LE122  14001520A00
+0099PCYNH24   LE122  14001520A00
 CENTR5    LE214  11001150A00
 20241212TBA  FITBA  15001759
 MAE 148  Intro to Autonomous Vehicles	/courses/MAE.html#mae148
@@ -16138,7 +16138,7 @@ SE  501  Teaching Experience	/courses/SE.html#se501
 0099TBA  TBA  LETBA  TBA TBA B00
 SIO 15   Natural Disasters	/courses/SIO.html#sio15
 'A00Gabi,Laske
-0359YORK 135  LE2722 15001550A00
+0350YORK 135  LE2722 15001550A00
 20241213TBA  FITBA  15001759
 SIO 20R  The Atmosphere	/courses/SIO.html#sio20r
 .A00Lynn M.,Russell
@@ -16653,7 +16653,7 @@ SIOB278  Seminar in Ocean Biosciences	/courses/SIO.html#siob278
 0020HUBBS3    SE4500 14001650B00
 SIOB279  Ecology Seminar/BO	/courses/SIO.html#siob279
 'A00Andrew David,Barton
-0015HUBBS3    SE4500 12151315A00
+0019HUBBS3    SE4500 12151315A00
 20241212TBA  FITBA  11301429
 SIOB280  Biological Oceanography	/courses/SIO.html#siob280
 'A00Andrew Ellis,Allen	Simone,Baumann-Pickering 
