@@ -1,4 +1,4 @@
-V31730413281115
+V31730467660502
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1743,7 +1743,7 @@ BGGN271  Adv Experimental Methods/Bio	/courses/BIOL.html#bggn271
 9999TBA  TBA  INTBA  TBA TBA 093
  094Victoria Blythe,Risbrough
 9999TBA  TBA  INTBA  TBA TBA 094
- 095Robert Andrew,Rissman
+ 095Paula A,Desplats
 9999TBA  TBA  INTBA  TBA TBA 095
  096Noah Hartmann,Rose
 9999TBA  TBA  INTBA  TBA TBA 096
@@ -2145,7 +2145,7 @@ BGRD200  Research Discussion	/courses/BIOL.html#bgrd200
 9999TBA  TBA  SETBA  TBA TBA 158
  159Victoria Blythe,Risbrough
 9999TBA  TBA  SETBA  TBA TBA 159
- 160Robert Andrew,Rissman
+ 160Paula A,Desplats
 9999TBA  TBA  SETBA  TBA TBA 160
  161Fabian Chavez,Rivera
 9999TBA  TBA  SETBA  TBA TBA 161
@@ -4694,7 +4694,7 @@ SPPS264A Managed Care I
  A00Shirley M.,Tsunoda
 0099TBA  TBA  LETBA  TBA TBA A00
 SPPS266  Veterinary Pharmacy
-.A00Margo J.,Karriker
+.A00Shirley M.,Tsunoda
 0025TBA  TBA  DITBA  TBA TBA A01
 TBA  TBA  LETBA  TBA TBA A00
 SPPS267  Pediatric Pharmacotherapy	http://pharmacy.ucsd.edu/current
@@ -8188,7 +8188,7 @@ ETHN109  Race & Social Movements	/courses/ETHN.html#ethn109
 20241213TBA  FITBA  11301429
 ETHN112A NativeAm& Indigenous Hist US I	/courses/ETHN.html#ethn112a
 'A00Mary Cameron,Klann
-0048RWAC 135  LE0115 11001150A00
+0052RWAC 135  LE0115 11001150A00
 20241210TBA  FITBA  11301429
 ETHN113  Decolonizing Education	/courses/ETHN.html#ethn113
 'A00Tricia Meghan,Gallagher-Geurtsen
@@ -10820,6 +10820,8 @@ MAE 299  Graduate Research	/courses/MAE.html#mae299
 9999TBA  TBA  INTBA  TBA TBA 063
  064Dmitriy,Orlov
 9999TBA  TBA  INTBA  TBA TBA 064
+ 065Behrouz,Touri
+9999TBA  TBA  INTBA  TBA TBA 065
 MATH2    Intro to College Mathematics	/courses/MATH.html#math2
 .A00David James,Quarfoot
 0300TBA  TBA  INTBA  TBA TBA A01
