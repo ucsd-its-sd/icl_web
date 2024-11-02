@@ -1,4 +1,4 @@
-V31730553841200
+V31730575102723
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6995,6 +6995,10 @@ DSC 299  Graduate Research	/courses/DSC.html#dsc299
 9999TBA  TBA  INTBA  TBA TBA 023
  024Eran A,Mukamel
 9999TBA  TBA  INTBA  TBA TBA 024
+ 025Bradley Thomas,Voytek
+9999TBA  TBA  INTBA  TBA TBA 025
+ 026Alexander,Cloninger
+9999TBA  TBA  INTBA  TBA TBA 026
 DSC 500  Teaching Assistantship	/courses/DSC.html#dsc500
  001Justin Matthew,Eldridge
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -12847,6 +12851,8 @@ NEU 299  Neurosciences Research	/courses/NEU.html#neu299
 0005TBA  TBA  INTBA  TBA TBA 004
  005Maksim,Bazhenov
 0005TBA  TBA  INTBA  TBA TBA 005
+ 006Binhai,Zheng
+9999TBA  TBA  INTBA  TBA TBA 006
 NEU 401  Neurology Core Clerkship
  A00Jamie Nicole,LaBuzetta
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -14501,6 +14507,8 @@ POLI197SDLocal Internship Pol Sci	/courses/POLI.html#poli197sd
 POLI199  Independent Study	/courses/POLI.html#poli199
  001Pamela M,Ban
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Margaret Earling,Roberts
+9999TBA  TBA  INTBA  TBA TBA 002
 POLI204A Research Design	/courses/POLI.html#poli204a
  A00Karen E,Ferree
 0025SSB  4    SE104  12001450A00
