@@ -1,4 +1,4 @@
-V31730845262208
+V31730899623064
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5286,6 +5286,8 @@ COGS199  Special Project	/courses/COGS.html#cogs199
 9999TBA  TBA  INTBA  TBA TBA 013
  014Anne,Beatty-Martinez
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Virginia,De Sa
+9999TBA  TBA  INTBA  TBA TBA 015
 COGS201  Neural Dynamics of Cognition	/courses/COGS.html#cogs201
 :A00Lara M,Rangel
 0025TBA  TBA  DITBA  TBA TBA A01
@@ -16378,6 +16380,10 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 016
  017William H.,Fenical
 9999TBA  TBA  INTBA  TBA TBA 017
+ 018Theresa,Gaasterland
+9999TBA  TBA  INTBA  TBA TBA 018
+ 019Vashan,Wright
+9999TBA  TBA  INTBA  TBA TBA 019
 SIO 299  Research	/courses/SIO.html#sio299
  100Richard D.,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
