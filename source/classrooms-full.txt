@@ -1,7 +1,4 @@
-V31731438990514
-FA24     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31731504452056
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10161,6 +10158,9 @@ LTGM2A   Intermediate German I	/courses/LIT.html#ltgm2a
 0025RWAC 4    DI0374 08300920A01
 RWAC 135  LE0374 09000950A00
 20241211TBA  FITBA  08001059
+LTGM199  Special Studies	/courses/LIT.html#ltgm199
+ 001Frank Peter,Biess
+9999TBA  TBA  INTBA  TBA TBA 001
 LTIT2A   Intermediate Italian I	/courses/LIT.html#ltit2a
 :A00Adriana,De Marchi Gherini
 0025RCLAS2    DIR17  12001250A01
@@ -12293,6 +12293,8 @@ MUS 199  Independent Study	/courses/MUS.html#mus199
 9999TBA  TBA  INTBA  TBA TBA 002
  003Tom,Erbe
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Keyavash,Nourai
+9999TBA  TBA  INTBA  TBA TBA 004
 MUS 201B Projects in New Music Prfrmnce	/courses/MUS.html#mus201b
  A00Erik,Carlson
 0015CPMC 2    LA264  14001650A00
