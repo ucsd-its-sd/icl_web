@@ -2,6 +2,9 @@ V31732389374700
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
+FA24     Version
+.A00Kevin,Fisher
+0035APM  12345LE1313 08001930A00
 AAPI87   First-year Seminar	/courses/AAPI.html#aapi87
  A00Amanda Lee Albaniel,Solomon
 0024TBA  2    SETBA  10001050A00
