@@ -1,4 +1,4 @@
-V31733523759411
+V31733599037852
 FA24     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -11889,7 +11889,7 @@ MED 246  Current Literatre/Glycobiology
  A00Philip,Gordts	Kamil,Godula	Jeffrey D.,Esko	Pascal,Gagneux	Amanda Lark,Lewis	Lars,Bode
 0010BRF2 5    SE4103 12001300A00
 MED 249  Understd Applic Meditation-Med
- A00Daniel E.,Lee
+ A00Daniel,Lee
 0040TBA  TBA  LETBA  TBA TBA A00
 MED 262  Curr Trends/Biomed Informatics
  A00Jejo David,Koola
