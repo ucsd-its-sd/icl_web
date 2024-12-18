@@ -1,4 +1,4 @@
-V31734549481768
+V31734560528416
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5407,7 +5407,7 @@ COMM134  Media Audiences	/courses/COMM.html#comm134
 COMM137  Black Women Filmmakers	/courses/COMM.html#comm137
 COMM138  Black Women,Feminism & Media	/courses/COMM.html#comm138
 'A00Boatema,Boateng
-0035MCC  24   SE201  15301650A00
+0000MCC  24   SE201  15301650A00
 20250318TBA  FITBA  15001759
 COMM145  History, Memory &Popular Cultr	/courses/COMM.html#comm145
 'A00Juan Jose,Rojo Solis
@@ -13634,7 +13634,7 @@ POLI124A Pol Conseq/Electoral Systems	/courses/POLI.html#poli124a
 20250320TBA  FITBA  11301429
 POLI127  Politics of Development	/courses/POLI.html#poli127
 'A00Maureen Catherine,Feeley
-0115PCYNH24   LE122  11001220A00
+0104PCYNH24   LE122  11001220A00
 20250320TBA  FITBA  11301429
 POLI135  Comparative LGBT Politics	/courses/POLI.html#poli135
 'A00David Lee,Fisk
@@ -13982,7 +13982,7 @@ PSYC184  Choice and Self-Control	/courses/PSYC.html#psyc184
 20250317TBA  FITBA  19002159
 PSYC185  Psychology Climate Crisis	/courses/PSYC.html#psyc185
 'A00Adam,Aron
-0250SOLIS24   LE107  17001820A00
+0149SOLIS24   LE107  17001820A00
 20250320TBA  FITBA  19002159
 PSYC187  Development/Social Cognition	/courses/PSYC.html#psyc187
 'A00Adena,Schachner
