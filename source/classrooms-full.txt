@@ -1,4 +1,4 @@
-V31735683593766
+V31735737881621
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10847,7 +10847,7 @@ MATH269  Seminar in Combinatorics	/courses/MATH.html#math269
 0010APM  2    SE7321 14001450A00
 MATH270B Numerical Approx&Nonlinear Eqs	/courses/MATH.html#math270b
 'A00Melvin,Leok
-0020APM  24   LEB402A11001220A00
+0025APM  24   LEB402A11001220A00
 20250320TBA  FITBA  11301429
 MATH271B Numerical Optimization	/courses/MATH.html#math271b
 'A00Jiawang,Nie
