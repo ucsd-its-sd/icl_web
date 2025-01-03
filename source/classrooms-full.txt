@@ -1,4 +1,4 @@
-V31735910748880
+V31735931811286
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -60,6 +60,8 @@ AIP 197  Academic Internship Program	/courses/AIP.html#aip197
 9999TBA  TBA  ITTBA  TBA TBA 014
  015Dong,Wang
 9999TBA  TBA  ITTBA  TBA TBA 015
+ 016Jessica Erin,D'Elena-Tweed
+9999TBA  TBA  ITTBA  TBA TBA 016
 AIP 197DCWashington, DC Internship	/courses/AIP.html#aip197dc
  001Seth J,Hill
 0031TBA  TBA  ITTBA  TBA TBA 001
@@ -480,6 +482,8 @@ ASTR298  Directed Studies in Astronomy	/courses/ASTR.html#astr298
 9999TBA  TBA  INTBA  TBA TBA 005
  006Shelley Adams,Wright
 9999TBA  TBA  INTBA  TBA TBA 006
+ 007Dusan,Keres
+9999TBA  TBA  INTBA  TBA TBA 007
 ASTR299  Thesis Research in Astro	/courses/ASTR.html#astr299
  001Quinn Morgan,Konopacky
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -525,7 +529,7 @@ AWP 3    Analytical Writing	/courses/AWP.html#awp3
  010Guy,Zimmerman
 0009UNEXG24   SE124  12301350010
  012Guy,Zimmerman
-0009UNEXG24   SE124  15301650012
+0010UNEXG24   SE124  15301650012
  013Alexandra,Sartor
 0012UNEXG24   SE125  09301050013
  014Alexandra,Sartor
@@ -3837,6 +3841,9 @@ CCS 102  Research Persp/Climate Change	/courses/CCS.html#ccs102
 CCS 123  Policy\Politics Climate Change	/courses/CCS.html#ccs123
  A00
 0025CENTR24   LE217B 11001220A00
+CCS 197  Carbon Neutrality Internship	/courses/CCS.html#ccs197
+ 001Amy M,Lerner
+9999TBA  TBA  ITTBA  TBA TBA 001
 CGS 101  Gender & Globalization	/courses/CGS.html#cgs101
  A00Marisol,Cuong
 0035HSS  135  LE2150 10001050A00
@@ -4145,6 +4152,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 007
  008Lisa Michelle,Jones
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Pieter,Dorrestein
+9999TBA  TBA  INTBA  TBA TBA 009
 CHEM200B Instrumental Analysis	/courses/CHEM.html#chem200b
  A00Robert S.,Pomeroy
 0020TBA  24   LETBA  12301350A00
@@ -4552,7 +4561,7 @@ SPPS287  Solid Organ Transplant Elect
 0060TBA  TBA  LETBA  TBA TBA A00
 SPPS288  Intro to Clinical Oncology	http://pharmacy.ucsd.edu/current
  A00Ila Maewal,Saunders
-0099TBA  TBA  LETBA  TBA TBA A00
+0084TBA  TBA  LETBA  TBA TBA A00
 SPPS289  Pharmacy Topics-Endocrinology
  A00Jon Christopher,Armour
 0060TBA  TBA  LETBA  TBA TBA A00
@@ -5225,6 +5234,10 @@ COGS299  Thesis Research	/courses/COGS.html#cogs299
 9999TBA  TBA  INTBA  TBA TBA 007
  008Meenakshi,Khosla
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Federico,Rossano
+9999TBA  TBA  INTBA  TBA TBA 009
+ 010Anastasia,Kiyonaga
+9999TBA  TBA  INTBA  TBA TBA 010
 COGS500  Teaching Apprenticeship	/courses/COGS.html#cogs500
  001Drew Ellen,Hoffman
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -6961,7 +6974,7 @@ ECE 230B Solid State Electronics II	/courses/ECE.html#ece230b
 20250318TBA  FITBA  08001059
 ECE 238A Thermodynamics of Solids	/courses/ECE.html#ece238a
 'A00Jian,Luo
-0000WLH  24   LE2204 09301050A00
+0005WLH  24   LE2204 09301050A00
 20250318TBA  FITBA  08001059
 ECE 240B Optical Information Processing	/courses/ECE.html#ece240b
 'A00Noah,Rubin
@@ -7184,6 +7197,10 @@ ECE 299  Research	/courses/ECE.html#ece299
 9999TBA  TBA  INTBA  TBA TBA 071
  072Abdoulaye,Ndao
 9999TBA  TBA  INTBA  TBA TBA 072
+ 073Rahul,Parhi
+9999TBA  TBA  INTBA  TBA TBA 073
+ 074Jun-Kun,Wang
+9999TBA  TBA  INTBA  TBA TBA 074
 ECE 501  Teaching	/courses/ECE.html#ece501
  001Rajeev,Sahay
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7221,6 +7238,12 @@ ECE 501  Teaching	/courses/ECE.html#ece501
 9999TBA  TBA  INTBA  TBA TBA 017
  018Mingu,Kang
 9999TBA  TBA  INTBA  TBA TBA 018
+ 019Behrouz,Touri
+9999TBA  TBA  INTBA  TBA TBA 019
+ 020Jose H.,Unpingco
+9999TBA  TBA  INTBA  TBA TBA 020
+ 021Patrick Philip,Mercier
+9999TBA  TBA  INTBA  TBA TBA 021
 ECON1    Principles of Microeconomics	/courses/ECON.html#econ1
 :A00Meredith Helen,Crane
 0158MANDE1    DIB202 15001550A01
@@ -7295,7 +7318,7 @@ CSB  24   LE002  09301050A00
 20250318TBA  FITBA  08001059
 ECON105  Industrl Orgniztn&Firm Stratgy	/courses/ECON.html#econ105
 'A00Emanuel Ignacio,Vespa
-0100PCYNH24   LE122  14001520A00
+0056PCYNH24   LE122  14001520A00
 20250320TBA  FITBA  15001759
 ECON109  Game Theory	/courses/ECON.html#econ109
 :A00Joel Christopher,Watson
@@ -7334,7 +7357,7 @@ ECON116  Economic Development	/courses/ECON.html#econ116
 20250315TBA  FITBA  08001059
 ECON120A Econometrics A	/courses/ECON.html#econ120a
 :A00Clemence Marie,Idoux
-0193PCYNH1    DI109  19001950A01
+0141PCYNH1    DI109  19001950A01
 PCYNH13   LE109  17001820A00
 20250317TBA  FITBA  19002159
 :B00Maria Teresa,Candido
@@ -7471,6 +7494,10 @@ ECON297  Independent Study	/courses/ECON.html#econ297
 9999TBA  TBA  INTBA  TBA TBA 004
  005Judson P,Boomhower
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Fabian Paul,Eckert
+9999TBA  TBA  INTBA  TBA TBA 006
+ 007Prashant,Bharadwaj
+9999TBA  TBA  INTBA  TBA TBA 007
 ECON299  Research in Economics	/courses/ECON.html#econ299
  001Julie,Cullen
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7498,6 +7525,12 @@ ECON299  Research in Economics	/courses/ECON.html#econ299
 9999TBA  TBA  INTBA  TBA TBA 012
  013Joel,Sobel
 9999TBA  TBA  INTBA  TBA TBA 013
+ 014Titan Michael,Alon
+9999TBA  TBA  INTBA  TBA TBA 014
+ 015Tom Saul,Vogl
+9999TBA  TBA  INTBA  TBA TBA 015
+ 016Prashant,Bharadwaj
+9999TBA  TBA  INTBA  TBA TBA 016
 ECON500B Teaching Methods in Economics	/courses/ECON.html#econ500b
  A00Prashant,Bharadwaj
 0050TBA  TBA  INTBA  TBA TBA A00
@@ -7897,7 +7930,7 @@ ETHN112B NativeAm& Indigenous Hist USII	/courses/ETHN.html#ethn112b
 0030DIB  135  LE121  11001150A00
 ETHN119  Race in the Americas	/courses/ETHN.html#ethn119
 'A00Jose Ignacio,Fuste
-0040PCYNH24   LE120  09301050A00
+0050PCYNH24   LE120  09301050A00
 20250318TBA  FITBA  08001059
 ETHN122  Asian American Cult & Identity	/courses/ETHN.html#ethn122
 'A00Ly Thi Hai,Tran
@@ -8223,6 +8256,9 @@ GLBH181  Essentials of Global Health	/courses/GHP.html#glbh181
 'A00Jose L.,Burgos
 0216LEDDN24   LEAUD  08000920A00
 20250320TBA  FITBA  08001059
+GLBH199  Independent Study	/courses/GHP.html#glbh199
+ 001Jay S.,Desgrosellier
+9999TBA  TBA  INTBA  TBA TBA 001
 GLBH214  ProgramManagement/GlobalHealth	/courses/GLBH.html#glbh214
  A00Radhika,Bhavsar
 0019RWAC 3    SE0425 15001750A00
@@ -8318,7 +8354,7 @@ GPGN497  Internship	/courses/GPS.html#gpgn497
 0005TBA  TBA  ITTBA  TBA TBA 001
 GPIM452  Big Data:Policy/Governing/Mgmt	/courses/GPS.html#gpim452
  A00John S.,Ahlquist
-0075RBC  24   LE3203 14001520A00
+0075RBC  24   LE3201 14001520A00
 GPIM470  International Business	/courses/GPS.html#gpim470
 'A00Elizabeth Deirdre,Lyons
 0080RBC  24   LE3201 12301350A00
@@ -8505,6 +8541,8 @@ HIGR299  Ph.D. Thesis Direction	/courses/HIST.html#higr299
 9999TBA  TBA  INTBA  TBA TBA 013
  014Rebecca Jo,Plant
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Karl G.,Gerth
+9999TBA  TBA  INTBA  TBA TBA 015
 HIGR500  Apprentice Teaching	/courses/HIST.html#higr500
  A00Jeremy,Prestholdt
 0001TBA  TBA  SETBA  TBA TBA A00
@@ -9034,7 +9072,7 @@ CENTR24   LE113  14001520A00
 20250320TBA  FITBA  15001759
 LIGN111  Phonology I	/courses/LING.html#lign111
 .A00Eric John,Bakovic
-0030YORK 5    TU3000A15001550A010030YORK 5    TU3000A14001450A020034HSS  1    TU2150 15001550A03
+0030YORK 5    TU3000A15001550A010031YORK 5    TU3000A14001450A020035HSS  1    TU2150 15001550A03
 PODEM24   LE1A18 11001220A00
 LIGN112  Speech Sounds&Speech Disorders	/courses/LING.html#lign112
 'A00Marc,Garellek
@@ -9285,7 +9323,7 @@ LIPO1BX  Analysis of Portuguese	/courses/LING.html#lipo1bx
 20250318TBA  FITBA  15001759
 LIPO17   Int Brazil Portug: Ethnicity	/courses/LING.html#lipo17
 :B00Denise,Paladini
-0016APM  13   TU3218 14001450B00
+0018APM  13   TU3218 14001450B00
 TBA  TBA  DITBA  TBA TBA B01
 20250317TBA  FITBA  15001759
 LISL1B   American Sign Lang Conversatn	/courses/LING.html#lisl1b
@@ -9602,6 +9640,8 @@ LTEN196  Honors Thesis	/courses/LIT.html#lten196
 9999TBA  TBA  TUTBA  TBA TBA 005
  006Ameeth Varma,Vijay
 9999TBA  TBA  TUTBA  TBA TBA 006
+ 007Kathryn A,Walkiewicz
+9999TBA  TBA  TUTBA  TBA TBA 007
 LTEN252  Studies/Modern Amer Lit&Cultur	/courses/LIT.html#lten252
  A00Megan E.,Wesling
 0015RWAC 3    SE0374 14001650A00
@@ -9987,8 +10027,9 @@ MAE 114  Space Propulsion	/courses/MAE.html#mae114
 0050DIB  24   LE121  08000920A00
 20250320TBA  FITBA  08001059
 MAE 118  Intro to Energy & Environment	/courses/MAE.html#mae118
-'A00Alessandro,Marinoni
-0000FAH  135  LE1450 13001350A00
+:B00Alessandro,Marinoni
+0000FAH  135  LE1450 13001350B00
+FAH  5    LE1101 14001450B00
 20250321TBA  FITBA  11301429
 MAE 120  Introduction to Nuclear Energy	/courses/MAE.html#mae120
 :A00Sergei,Krasheninnikov
@@ -10748,6 +10789,8 @@ MATH199  Independent Study/Undergrad	/courses/MATH.html#math199
 9999TBA  TBA  INTBA  TBA TBA 004
  005Brandon M.,Seward
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Siddharth,Vishwanath
+9999TBA  TBA  INTBA  TBA TBA 006
 MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
  001Jiawang,Nie
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -11552,6 +11595,8 @@ MSED299  Reading and Research	/courses/MSED.html#msed299
 0015TBA  TBA  INTBA  TBA TBA 001
  002David James,Quarfoot
 0015TBA  TBA  INTBA  TBA TBA 002
+ 003Christopher P.,Halter
+0000TBA  TBA  INTBA  TBA TBA 003
 MUS 1B   Fundamentals of Music B	/courses/MUS.html#mus1b
 :A00Myra,Hinrichs
 0025CPMC 13   LA265  09000950A010025CPMC 13   LA265  10001050A020025CPMC 13   LA145  12001250A030025CPMC 13   LA145  13001350A04
@@ -12660,7 +12705,7 @@ PATH224  Scientific Ethics
 TBA  TBA  LETBA  TBA TBA A00
 PATH225  Seminars/Molecular Pathology
 .A00Richard,Klemke
-0025TBA  TBA  SETBA  TBA TBA A01
+0000TBA  TBA  SETBA  TBA TBA A01
 TBA  3    LETBA  12001300A00
 PATH296  Pathology Independent Research	/courses/PATH.html#path296
  001
@@ -13982,6 +14027,8 @@ POLI299  Dissertation Research	/courses/POLI.html#poli299
 PSY 199  Independent Study
  001Gail D.,Heyman
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Jessica A,Bomyea
+9999TBA  TBA  INTBA  TBA TBA 002
 PSY 227  Youth Mental Health Outreach
 .A00Desiree Nicolette,Shapiro
 0005TBA  TBA  PRTBA  TBA TBA A01
@@ -14286,6 +14333,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 035
  036Emma Harlan,Geller
 9999TBA  TBA  INTBA  TBA TBA 036
+ 037Jennalee,Wooldridge
+9999TBA  TBA  INTBA  TBA TBA 037
 PSYC201B Quant Methods in Psyc II	/courses/PSYC.html#psyc201b
 :A00
 0020MNDLR2    LA3545 17001850A01
@@ -16480,6 +16529,10 @@ PCYNH24   PR245  12301350A00
 PH  199  Independent Study
  001Becky,Marquez
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Eric Craig,Leas
+9999TBA  TBA  INTBA  TBA TBA 002
+ 003Britta Ann,Larsen
+9999TBA  TBA  INTBA  TBA TBA 003
 PH  480  Intro: Grant Writing (Non-NIH)
  001Victoria D.,Ojeda
 0000MET  4    LE304  13001550001
@@ -16505,10 +16558,10 @@ PHB 244B Foundations in Biostatistics B
 0046MET  13   LE143  11001220B00
 20250317TBA  FITBA  11301429
 PHB 280  Biostat Journal Club
- A00Loki,Natarajan
-0000PETER1    SE104  17001750A00
  B00Loki,Natarajan
 0038BRF2 3    SE4103 15301730B00
+ C00Loki,Natarajan
+0039MET  2    SE141  16001800C00
 PHB 281  Biostatistics Seminar Series
  A00Xinlian,Zhang	Jingjing,Zou
 0065TBA  3    SETBA  13001350A00
@@ -17245,7 +17298,7 @@ USP 6    Intro to Global Architecture	/courses/USP.html#usp6
 RWAC 24   LE0116 11001220A00
 USP 15   Urban Econ/Plan&Development	/courses/USP.html#usp15
 :A00William Raymond,Anderson
-0035CENTR3    DI217A 15001550A010035CENTR3    DI217A 16001650A02
+0040CENTR3    DI217A 15001550A010040CENTR3    DI217A 16001650A02
 RWAC 24   LE0116 14001520A00
 20250320TBA  FITBA  15001759
 USP 25   Real Estate/Principle&Analysis	/courses/USP.html#usp25
@@ -17384,6 +17437,15 @@ USP 271  Sustainable Development	/courses/USP.html#usp271
 'A00Amy M,Lerner
 0005WLH  24   LE2111 14001520A00
 20250320TBA  FITBA  15001759
+USP 500  Apprentice Teaching
+ A00John Christopher,Arroyo
+0000TBA  TBA  SETBA  TBA TBA A00
+ B00Isaac,Martin
+0000TBA  TBA  SETBA  TBA TBA B00
+ C00Manuel,Shvartzberg Carrio
+0000TBA  TBA  SETBA  TBA TBA C00
+ D00Abigail Leslie,Andrews
+0000TBA  TBA  SETBA  TBA TBA D00
 VIS 2    Intr/Art-Making:Motn&Time Base	/courses/VIS.html#vis2
 .A00Alexandro Abraham,Segade
 0025MANDE13   STB115A08000950A010025MANDE13   STB115A10001150A020025MANDE24   STB115B08301020A030025MANDE24   STB115B10301220A040025MANDE24   STB115B12301420A050025MANDE24   STB115A10301220A060025MANDE24   STB115A12301420A070025MANDE24   STB115A14301620A08
