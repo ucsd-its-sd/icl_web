@@ -1,4 +1,4 @@
-V31737141425061
+V31737152364639
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -898,7 +898,7 @@ BENG199  Independent Study/Undergrads	/courses/BENG.html#beng199
 9999TBA  TBA  INTBA  TBA TBA 032
 BENG202  Bioinf II:Intro to Bioinf Algr	/courses/BENG.html#beng202
 'A00Pavel Arkadjevich,Pevzner
-0025PCYNH13   LE120  18301950A00
+0026PCYNH13   LE120  18301950A00
 20250319TBA  FITBA  19002159
 BENG204  Sys Med: Data Analytics & Mech
 .A00Shankar,Subramaniam
@@ -7265,7 +7265,7 @@ ECE 258A Digital Communications I	/courses/ECE.html#ece258a
 20250317TBA  FITBA  08001059
 ECE 260B VLSI Integr Cmputing Circuitry	/courses/ECE.html#ece260b
 'A00Mingu,Kang
-0195CENTR24   LE115  12301350A00
+0196CENTR24   LE115  12301350A00
 20250318TBA  FITBA  11301429
 ECE 264A CMOS Analog Integr Circ&Syst I	/courses/ECE.html#ece264a
 :A00Ian A,Galton
@@ -10907,7 +10907,7 @@ MATH87   First-year Seminar	/courses/MATH.html#math87
 0020APM  2    SE7321 15001550A00
 MATH95   Introduction to Teaching Math	/courses/MATH.html#math95
 'A00Laura Jeanne,Stevens
-0037APM  5    LEB402A11001250A00
+0020APM  5    LEB402A11001250A00
 20250317TBA  FITBA  11301429
 MATH100A Abstract Algebra I	/courses/MATH.html#math100a
 :A00Jon Merrill,Aycock
@@ -10921,7 +10921,7 @@ PETER135  LE103  13001350A00
 20250321TBA  FITBA  11301429
 MATH102  Applied Linear Algebra	/courses/MATH.html#math102
 :A00Guershon,Harel
-0015APM  3    DIB412 17001750A01
+0025APM  3    DIB412 17001750A01
 PCYNH24   LE120  17001820A00
 20250320TBA  FITBA  19002159
 :B00Amit,Ophir
@@ -11738,7 +11738,7 @@ MCWP50   Critical Writing	/courses/MCWP.html#mcwp50
  016Vincent Minhduc,Pham
 0000MANDE24   SEB153 12301350016
  017Michael James,Morshed
-0020HSS  24   SE1106B11001220017
+0000HSS  24   SE1106B11001220017
  018Kelly B,Silva
 0000TAMRK13   SE106  08000920018
  019Kelly B,Silva
@@ -11748,7 +11748,7 @@ MCWP50   Critical Writing	/courses/MCWP.html#mcwp50
  021Jennifer A,Carter
 0000MANDE24   SEB153 09301050021
  022Jennifer A,Carter
-0020MANDE24   SEB153 11001220022
+0000MANDE24   SEB153 11001220022
  024Laurie Elizabeth,Nies
 0000HSS  24   SE2305A08000920024
  025Laurie Elizabeth,Nies
@@ -16637,7 +16637,7 @@ SIOC237B Ocean Color Remote Sensing	/courses/SIO.html#sioc237b
 20250319TBA  FITBA  11301429
 SIOC296  Climate Science & Policy Forum	/courses/SIO.html#sioc296
 'A00Corey John,Gabriel
-0025ECKRT3    SE127  16301720A00
+0026ECKRT3    SE127  16301720A00
 20250321TBA  FITBA  15001759
 SIOG200C Geophysics Research Skills III	/courses/SIO.html#siog200c
  A00Wenyuan,Fan
