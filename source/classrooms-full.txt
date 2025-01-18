@@ -1,4 +1,4 @@
-V31737152364639
+V31737206442189
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6929,7 +6929,7 @@ DSC 291  Topics in Data Science	/courses/DSC.html#dsc291
 0022WLH  24   LE2112 15301650G00
 20250318TBA  FITBA  15001759
  H00Hao,Zhang
-0052TBA  24   LETBA  18301950H00
+0046TBA  24   LETBA  18301950H00
 DSC 293  Faculty Research Seminar	/courses/DSC.html#dsc293
  A00Tevfik Berk,Ustun
 9999TBA  3    SETBA  14001450A00
@@ -11216,7 +11216,7 @@ MATH207A Topics in Algebra	/courses/MATH.html#math207a
 20250320TBA  FITBA  08001059
 MATH208  Seminar in Algebraic Geometry	/courses/MATH.html#math208
  A00Dragos N.,Oprea
-0010APM  5    SE7321 15301650A00
+0018APM  5    SE7321 15301650A00
 MATH209  Seminar in Number Theory	/courses/MATH.html#math209
  A00Alina Ioana,Bucur
 0025APM  3    SE7321 16001650A00
@@ -16887,7 +16887,7 @@ SOCI140  Sociology Of Law	/courses/SOC.html#soci140
 20250320TBA  FITBA  15001759
 SOCI142  Social Deviance	/courses/SOC.html#soci142
 'A00Christine,Crofts
-0070PETER135  LE102  12001250A00
+0096PETER135  LE102  12001250A00
 20250319TBA  FITBA  11301429
 SOCI144P Sociology of Policing
 SOCI148  Political Sociology	/courses/SOC.html#soci148
@@ -16908,7 +16908,7 @@ SOCI150  Madness and the Movies	/courses/SOC.html#soci150
 20250321TBA  FITBA  19002159
 SOCI154  Religious Institutions/America	/courses/SOC.html#soci154
 'A00Christine,Crofts
-0070PETER135  LE102  13001350A00
+0075PETER135  LE102  13001350A00
 20250321TBA  FITBA  11301429
 SOCI159  Spec Top/Soc/Organztns&Institn	/courses/SOC.html#soci159
 'B00Brad Allen,Weinreb
