@@ -1,4 +1,4 @@
-V31737552365420
+V31737573478639
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4784,7 +4784,7 @@ SPPS278  Free Clinic	http://pharmacy.ucsd.edu/current
 0099TBA  TBA  PRTBA  TBA TBA A00
 SPPS282  VRManip DrugMacro StrucInterac
  A00Zoran,Radic
-0010TBA  TBA  LETBA  TBA TBA A00
+0000TBA  TBA  LETBA  TBA TBA A00
 SPPS287  Solid Organ Transplant Elect
  A00Ashley,Feist
 0060TBA  TBA  LETBA  TBA TBA A00
@@ -10519,7 +10519,7 @@ FAH  5    LE1101 14001450B00
 20250321TBA  FITBA  11301429
 MAE 120  Introduction to Nuclear Energy	/courses/MAE.html#mae120
 :A00Sergei,Krasheninnikov
-0056CENTR2    LE222  17001950A00
+0054CENTR2    LE222  17001950A00
 CENTR3    LE222  09000950A00
 20250320TBA  FITBA  19002159
 MAE 125  Building Energy Efficiency	/courses/MAE.html#mae125
@@ -10668,7 +10668,7 @@ MAE 221B Mass Transfer	/courses/MAE.html#mae221b
 20250321TBA  FITBA  15001759
 MAE 221C Convection Heat Transfer	/courses/MAE.html#mae221c
 'A00Abhishek,Saha
-0014EBU2 135  LE105  10001050A00
+0013EBU2 135  LE105  10001050A00
 20250321TBA  FITBA  08001059
 MAE 231C Inelasticity	/courses/MAE.html#mae231c
 :A00Shabnam,Jandaghi Semnani
@@ -11603,7 +11603,7 @@ MATS200  Graduate Seminar	/courses/MATS.html#mats200
 9999TBA  TBA  SETBA  TBA TBA A00
 MATS201A Thermodynamics of Solids	/courses/MATS.html#mats201a
 'A00Jian,Luo
-0055WLH  24   LE2204 09301050A00
+0053WLH  24   LE2204 09301050A00
 20250318TBA  FITBA  08001059
 MATS231  Mechanics of Soft Materials	/courses/MATS.html#mats231
 'A00Shengqiang,Cai
@@ -12409,7 +12409,7 @@ MUS 206  Experimental Studies Seminar	/courses/MUS.html#mus206
  E00Sarah E.,Hankins
 0000CPMC 4    SE145  13001550E00
  F00Sarah E.,Hankins
-0000CPMC 3    SE231  10001250F00
+0015CPMC 3    SE231  10001250F00
 MUS 207  Theoretical Studies Seminar	/courses/MUS.html#mus207
 MUS 210  Musical Analysis	/courses/MUS.html#mus210
 'A00Timothy Matthew,McCormack
@@ -12632,7 +12632,7 @@ CENG199  Independent Study/Undergrads	/courses/NANO.html#ceng199
 9999TBA  TBA  INTBA  TBA TBA 003
 CENG205  Grad Sem./Chemical Engineering	/courses/NANO.html#ceng205
  A00Zeinab,Jahed Motlagh
-0060SME  3    SE248  11001150A00
+0062SME  3    SE248  11001150A00
 CENG213  Nanoscale Characterization	/courses/NANO.html#ceng213
 'A00David,Fenning
 0007FAH  24   LE1101 14001520A00
@@ -12811,7 +12811,7 @@ NANO199  Independent Study/Undergrad	/courses/NANO.html#nano199
 9999TBA  TBA  INTBA  TBA TBA 046
 NANO200  Grad Sem./Chemical Engineering	/courses/NANO.html#nano200
  A00Zeinab,Jahed Motlagh
-0120SME  3    SE248  11001150A00
+0118SME  3    SE248  11001150A00
 NANO203  Nanoscale Characterization	/courses/NANO.html#nano203
 'A00David,Fenning
 0082FAH  24   LE1101 14001520A00
