@@ -1,4 +1,4 @@
-V31737573478639
+V31737584405747
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3997,26 +3997,26 @@ CGS 124  Girls & Sexuality	/courses/CGS.html#cgs124
 0015CENTR24   LE208  15301650A00
 CGS 125  Women of Color Writers	/courses/CGS.html#cgs125
  A00Errol Tsekani,Browne
-0020HSS  135  LE1106B09000950A00
+0008HSS  135  LE1106B09000950A00
 CGS 135  Feminist Science&Tech Studies	/courses/CGS.html#cgs135
  A00Holly,Okonkwo
-0015CENTR24   LE208  14001520A00
+0006CENTR24   LE208  14001520A00
 CGS 136  Gender, Tech and Development	/courses/CGS.html#cgs136
  A00Deepti,Chatti
-0015CENTR24   LE208  11001220A00
+0005CENTR24   LE208  11001220A00
 CGS 137  Latina Issues & Cultural Prod.	/courses/CGS.html#cgs137
  A00Amanda Maria Yoland,Martin Sandino
 0020PODEM24   LE1A22 11001220A00
 CGS 165  Gender&Sexuality/Af Am Comm.	/courses/CGS.html#cgs165
 'A00Errol Tsekani,Browne
-0015HSS  135  LE2321 10001050A00
+0005HSS  135  LE2321 10001050A00
 20250321TBA  FITBA  08001059
 CGS 167A Decolonial Muslim Feminisms	/courses/CGS.html#cgs167a
  A00Shaista,Patel
-0012YORK 24   SE4050A12301350A00
+0006YORK 24   SE4050A12301350A00
 CGS 187  Latinx Sexualities	/courses/CGS.html#cgs187
  A00Marisol,Cuong
-0015HSS  135  LE2150 12001250A00
+0009HSS  135  LE2150 12001250A00
 CGS 196A CGS Honors Research	/courses/CGS.html#cgs196a
  A00Daphne,Taylor-Garcia
 0001TBA  TBA  TUTBA  TBA TBA A00
@@ -8382,7 +8382,7 @@ ETHN163F Playing Indian:Native Am Cinem	/courses/ETHN.html#ethn163f
 0015CENTR2    LE119  17001950A00
 ETHN165  Gender&Sexuality/Af Am Comm.	/courses/ETHN.html#ethn165
 'A00Errol Tsekani,Browne
-0013HSS  135  LE2321 10001050A00
+0012HSS  135  LE2321 10001050A00
 20250321TBA  FITBA  08001059
 ETHN167A Decolonial Muslim Feminisms	/courses/ETHN.html#ethn167a
  A00Shaista,Patel
