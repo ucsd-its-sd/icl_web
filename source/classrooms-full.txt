@@ -1,4 +1,4 @@
-V31737659796611
+V31737670782428
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4388,7 +4388,7 @@ CHEM215  Genome Editing	/courses/CHEM.html#chem215
 20250318TBA  FITBA  15001759
 CHEM219C Special Topics in Biochemistry	/courses/CHEM.html#chem219c
 'A00Patricia A.,Jennings
-0015PACIF24   LE4501 11001220A00
+0016PACIF24   LE4501 11001220A00
 20250320TBA  FITBA  11301429
 CHEM223  Organometallic Chemistry	/courses/CHEM.html#chem223
 'A00Joseph M.,Oconnor
@@ -7598,7 +7598,7 @@ ECE 501  Teaching	/courses/ECE.html#ece501
  009Hanh-Phuc,Le
 9999TBA  TBA  INTBA  TBA TBA 009
  010
-9999TBA  TBA  INTBA  TBA TBA 010
+0000TBA  TBA  INTBA  TBA TBA 010
  011Ian A,Galton
 9999TBA  TBA  INTBA  TBA TBA 011
  012Prasad S.S.,Gudem
@@ -12145,7 +12145,7 @@ MMW 501  Teaching/Making/Modern World	/courses/MMW.html#mmw501
 0000TBA  TBA  LETBA  TBA TBA A00
 MSED295  Orientation Practicum	/courses/MSED.html#msed295
  A00
-0005TBA  TBA  PRTBA  TBA TBA A00
+0000TBA  TBA  PRTBA  TBA TBA A00
 MSED299  Reading and Research	/courses/MSED.html#msed299
  001Stanley M.,Lo
 0015TBA  TBA  INTBA  TBA TBA 001
