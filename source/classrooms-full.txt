@@ -1,4 +1,4 @@
-V31737584405747
+V31737638775150
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -557,6 +557,8 @@ ASTR298  Directed Studies in Astronomy	/courses/ASTR.html#astr298
 9999TBA  TBA  INTBA  TBA TBA 007
  008Eve Jihyun,Lee
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Adam Jonathan,Burgasser
+9999TBA  TBA  INTBA  TBA TBA 009
 ASTR299  Thesis Research in Astro	/courses/ASTR.html#astr299
  001Quinn Morgan,Konopacky
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -2749,7 +2751,7 @@ BILD1    The Cell	/courses/BIOL.html#bild1
 :A00Stacy Daniel,Ochoa Mikrut
 0104FAH  3    DI1101 14001450A010104FAH  3    DI1101 15001550A020100CNCB 1    DISEM  11001150A030100CNCB 3    DISEM  13001350A04
 GH   24   LE242  12301350A00
-20250318TBA  FITBA  11301429
+20250122CENTRRE214  1000105020250212CENTRRE214  1000105020250226CENTRRE214  1000105020250318TBA  FITBA  11301429
 :B00Cressida Ariana,Madigan
 0104FAH  1    DI1101 15001550B010100CNCB 3    DISEM  14001450B020100CNCB 3    DISEM  15001550B030104FAH  5    DI1101 15001550B04
 GH   135  LE242  12001250B00
@@ -3979,6 +3981,8 @@ CCS 197  Carbon Neutrality Internship	/courses/CCS.html#ccs197
 CCS 199  Independent Study or Research	/courses/CCS.html#ccs199
  001Nicholas J.,Lutsko
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Daniel,Wangpraseurt
+9999TBA  TBA  INTBA  TBA TBA 002
 CGS 101  Gender & Globalization	/courses/CGS.html#cgs101
  A00Marisol,Cuong
 0037SOLIS135  LE109  10001050A00
@@ -4365,6 +4369,10 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 044
  045Andrew Brian,Pun
 9999TBA  TBA  INTBA  TBA TBA 045
+ 046Nicole F,Steinmetz
+9999TBA  TBA  INTBA  TBA TBA 046
+ 047Faik,Tezcan
+9999TBA  TBA  INTBA  TBA TBA 047
 CHEM200B Instrumental Analysis	/courses/CHEM.html#chem200b
  A00Robert S.,Pomeroy
 0020TBA  24   LETBA  12301350A00
@@ -4426,7 +4434,7 @@ CHEM297  Experimental Methods/Chemistry	/courses/CHEM.html#chem297
 9999TBA  TBA  INTBA  TBA TBA 004
  005
 9999TBA  TBA  INTBA  TBA TBA 005
- 006Neville Peter,Bethel Ii
+ 006Neville,Bethel
 9999TBA  TBA  INTBA  TBA TBA 006
 CHEM298  Special Study in Chemistry	/courses/CHEM.html#chem298
  001Itay,Budin
@@ -4452,7 +4460,7 @@ CHEM299  Research in Chemistry	/courses/CHEM.html#chem299
 9999TBA  TBA  INTBA  TBA TBA 003
  004Guy,Bertrand
 9999TBA  TBA  INTBA  TBA TBA 004
- 005Neville Peter,Bethel Ii
+ 005Neville,Bethel
 9999TBA  TBA  INTBA  TBA TBA 005
  006Itay,Budin
 9999TBA  TBA  INTBA  TBA TBA 006
@@ -4783,8 +4791,6 @@ SPPS278  Free Clinic	http://pharmacy.ucsd.edu/current
  A00Eduardo Santiago,Fricovsky
 0099TBA  TBA  PRTBA  TBA TBA A00
 SPPS282  VRManip DrugMacro StrucInterac
- A00Zoran,Radic
-0000TBA  TBA  LETBA  TBA TBA A00
 SPPS287  Solid Organ Transplant Elect
  A00Ashley,Feist
 0060TBA  TBA  LETBA  TBA TBA A00
@@ -5903,6 +5909,8 @@ CSE 99H  Independent Study
 9999TBA  TBA  INTBA  TBA TBA 001
  002Hadi,Esmaeilzadeh
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Nuno Filipe Cabrita,Bandeira
+9999TBA  TBA  INTBA  TBA TBA 003
 CSE 100  Advanced Data Structures	/courses/CSE.html#cse100
 :A00Niema,Moshiri
 0196WLH  3    DI2005 18001850A01
@@ -10537,7 +10545,7 @@ CENTR5    LE214  13001350A00
 20250319TBA  FITBA  11301429
 MAE 142  Dynmcs&Control/Aerospace Vehic	/courses/MAE.html#mae142
 :A00Mark Ronald,Anderson
-0108CSB  135  LE002  11001150A00
+0107CSB  135  LE002  11001150A00
 CENTR5    LE216  10001050A00
 20250317TBA  FITBA  11301429
 MAE 143A Signals and Systems	/courses/MAE.html#mae143a
@@ -10551,7 +10559,7 @@ PODEM5    LE1A19 12001250B00
 20250212CENTRMI113  1900202020250321TBA  FITBA  11301429
 MAE 143B Linear Control	/courses/MAE.html#mae143b
 :A00Tania,Morimoto
-0104FAH  24   LE1101 11001220A00
+0101FAH  24   LE1101 11001220A00
 CENTR3    LE214  11001150A00
 20250320TBA  FITBA  11301429
 MAE 148  Intro to Autonomous Vehicles	/courses/MAE.html#mae148
@@ -11303,6 +11311,10 @@ MATH199  Independent Study/Undergrad	/courses/MATH.html#math199
 9999TBA  TBA  INTBA  TBA TBA 008
  009Joshua R,Frisch
 9999TBA  TBA  INTBA  TBA TBA 009
+ 010Kiran S.,Kedlaya
+9999TBA  TBA  INTBA  TBA TBA 010
+ 011Kiran S.,Kedlaya
+9999TBA  TBA  INTBA  TBA TBA 011
 MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
  001Jiawang,Nie
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -11328,6 +11340,8 @@ MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
 9999TBA  TBA  INTBA  TBA TBA 011
  012David A.,Meyer
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013Alexander,Cloninger
+9999TBA  TBA  INTBA  TBA TBA 013
 MATH200B Algebra II	/courses/MATH.html#math200b
 'A00Alireza,Salehi Golsefidy
 0020APM  24   LE5402 09301050A00
@@ -11603,7 +11617,7 @@ MATS200  Graduate Seminar	/courses/MATS.html#mats200
 9999TBA  TBA  SETBA  TBA TBA A00
 MATS201A Thermodynamics of Solids	/courses/MATS.html#mats201a
 'A00Jian,Luo
-0053WLH  24   LE2204 09301050A00
+0052WLH  24   LE2204 09301050A00
 20250318TBA  FITBA  08001059
 MATS231  Mechanics of Soft Materials	/courses/MATS.html#mats231
 'A00Shengqiang,Cai
@@ -12934,6 +12948,8 @@ NEU 199  Independent Study	/courses/NEU.html#neu199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Hoameng,Ung
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Jody P,Corey-Bloom
+9999TBA  TBA  INTBA  TBA TBA 003
 NEU 200B Basic Neuroscience	/courses/NEU.html#neu200b
  A00Eiman,Abdel-Azim
 0000TBA  24   LETBA  10001150A00
@@ -15053,6 +15069,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 058
  059Christina E,Wierenga
 9999TBA  TBA  INTBA  TBA TBA 059
+ 060Adam L.,Halberstadt
+9999TBA  TBA  INTBA  TBA TBA 060
 PSYC201B Quant Methods in Psyc II	/courses/PSYC.html#psyc201b
 :A00Eshin,Jolly
 0020MNDLR2    LA3545 17001850A01
@@ -15286,7 +15304,7 @@ TBA  4    LATBA  19002200A01
 RAD 296  Radiology Independent Research
  001Zachary,Berman
 0010TBA  TBA  INTBA  TBA TBA 001
- 002
+ 002Albert,Hsiao
 0010TBA  TBA  INTBA  TBA TBA 002
  003
 0010TBA  TBA  INTBA  TBA TBA 003
@@ -16252,6 +16270,9 @@ SIO 87   First-year Seminar	/courses/SIO.html#sio87
 SIO 90   Undergraduate Seminar	/courses/SIO.html#sio90
  A00
 0065ECKRT1    SE227  14001450A00
+SIO 99   Independent Study	/courses/SIO.html#sio99
+ 001Colleen Mary,Petrik
+9999TBA  TBA  INTBA  TBA TBA 001
 SIO 102  Introduction to Geochemistry	/courses/SIO.html#sio102
 :A00James M.D.,Day
 0045VAUGN2    DI100  12301320A01
@@ -16400,6 +16421,10 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 022
  023Linda Ellen Wegley,Kelly
 9999TBA  TBA  INTBA  TBA TBA 023
+ 024Margaret Larkin,Odlum
+9999TBA  TBA  INTBA  TBA TBA 024
+ 025Amr,Hamdoun
+9999TBA  TBA  INTBA  TBA TBA 025
 SIO 299  Research	/courses/SIO.html#sio299
  100Joel Roland,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
