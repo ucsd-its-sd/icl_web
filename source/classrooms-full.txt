@@ -1,4 +1,4 @@
-V31737638775150
+V31737659796611
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10522,7 +10522,7 @@ MAE 114  Space Propulsion	/courses/MAE.html#mae114
 20250320TBA  FITBA  08001059
 MAE 118  Intro to Energy & Environment	/courses/MAE.html#mae118
 :B00Alessandro,Marinoni
-0072FAH  135  LE1450 13001350B00
+0071FAH  135  LE1450 13001350B00
 FAH  5    LE1101 14001450B00
 20250321TBA  FITBA  11301429
 MAE 120  Introduction to Nuclear Energy	/courses/MAE.html#mae120
@@ -10540,7 +10540,7 @@ CENTR5    LE222  13001350A00
 20250320TBA  FITBA  19002159
 MAE 131B Solid Mechanics II	/courses/MAE.html#mae131b
 :A00Claire,Scholtes Acevedo
-0100CENTR135  LE214  12001250A00
+0099CENTR135  LE214  12001250A00
 CENTR5    LE214  13001350A00
 20250319TBA  FITBA  11301429
 MAE 142  Dynmcs&Control/Aerospace Vehic	/courses/MAE.html#mae142
@@ -10714,7 +10714,7 @@ MAE 276  Mechanics of Soft Materials	/courses/MAE.html#mae276
 20250320TBA  FITBA  11301429
 MAE 281A Nonlinear Systems	/courses/MAE.html#mae281a
 'A00Miroslav,Krstic
-0042EBU2 24   LE584  08000920A00
+0041EBU2 24   LE584  08000920A00
 20250320TBA  FITBA  08001059
 MAE 289B Real Analysis for Applications	/courses/MAE.html#mae289b
 'A00Sonia,Martinez
@@ -15340,7 +15340,7 @@ RAD 496  Clinical Independent Study
 0010TBA  TBA  INTBA  TBA TBA 002
 RELI101  Tools&Methods/Studyof Religion	/courses/RELI.html#reli101
 'A00Babak,Rahimi
-0040SOLIS24   LE105  12301350A00
+0045SOLIS24   LE105  12301350A00
 20250318TBA  FITBA  11301429
 REV 20   Revelle Honors Seminar	/courses/REV.html#rev20
  A00Robert S.,Pomeroy
