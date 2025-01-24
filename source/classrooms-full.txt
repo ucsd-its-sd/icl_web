@@ -1,4 +1,4 @@
-V31737725094814
+V31737746128629
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4437,7 +4437,7 @@ CHEM297  Experimental Methods/Chemistry	/courses/CHEM.html#chem297
  004Jonathan,Slade
 9999TBA  TBA  INTBA  TBA TBA 004
  005
-9999TBA  TBA  INTBA  TBA TBA 005
+0000TBA  TBA  INTBA  TBA TBA 005
  006Neville,Bethel
 9999TBA  TBA  INTBA  TBA TBA 006
 CHEM298  Special Study in Chemistry	/courses/CHEM.html#chem298
@@ -10530,7 +10530,7 @@ MAE 114  Space Propulsion	/courses/MAE.html#mae114
 20250320TBA  FITBA  08001059
 MAE 118  Intro to Energy & Environment	/courses/MAE.html#mae118
 :B00Alessandro,Marinoni
-0071FAH  135  LE1450 13001350B00
+0070FAH  135  LE1450 13001350B00
 FAH  5    LE1101 14001450B00
 20250321TBA  FITBA  11301429
 MAE 120  Introduction to Nuclear Energy	/courses/MAE.html#mae120
