@@ -1,4 +1,4 @@
-V31737670782428
+V31737725094814
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1558,6 +1558,8 @@ BGGN271  Adv Experimental Methods/Bio	/courses/BIOL.html#bggn271
 9999TBA  TBA  INTBA  TBA TBA 122
  123Ivonne,Gonzalez Gamboa
 9999TBA  TBA  INTBA  TBA TBA 123
+ 124William J.,Joiner
+9999TBA  TBA  INTBA  TBA TBA 124
  001Susan,Ackerman
 9999TBA  TBA  INTBA  TBA TBA 001
  002Omar Sultan,Akbari
@@ -2436,6 +2438,8 @@ BGRD200  Research Discussion	/courses/BIOL.html#bgrd200
 9999TBA  TBA  SETBA  TBA TBA 309
  310Chengbiao,Wu
 9999TBA  TBA  SETBA  TBA TBA 310
+ 311William J.,Joiner
+9999TBA  TBA  SETBA  TBA TBA 311
  001Susan,Ackerman
 9999TBA  TBA  SETBA  TBA TBA 001
  002Omar Sultan,Akbari
@@ -6091,6 +6095,8 @@ CSE 198  Direct Group Study	/courses/CSE.html#cse198
 9999TBA  TBA  INTBA  TBA TBA 013
  014Tzumao,Li
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Leonard Emerson,Porter
+9999TBA  TBA  INTBA  TBA TBA 015
 CSE 199  Independent Study	/courses/CSE.html#cse199
  001Julian John,McAuley
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -6116,6 +6122,8 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 011
  012Alex C.,Snoeren
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013Terrence J,Sejnowski
+9999TBA  TBA  INTBA  TBA TBA 013
 CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
  001Sicun,Gao
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7597,8 +7605,6 @@ ECE 501  Teaching	/courses/ECE.html#ece501
 9999TBA  TBA  INTBA  TBA TBA 008
  009Hanh-Phuc,Le
 9999TBA  TBA  INTBA  TBA TBA 009
- 010
-0000TBA  TBA  INTBA  TBA TBA 010
  011Ian A,Galton
 9999TBA  TBA  INTBA  TBA TBA 011
  012Prasad S.S.,Gudem
@@ -7903,6 +7909,8 @@ ECON297  Independent Study	/courses/ECON.html#econ297
 9999TBA  TBA  INTBA  TBA TBA 012
  013Nir,Jaimovich
 9999TBA  TBA  INTBA  TBA TBA 013
+ 014Pak Yeung,Wu
+9999TBA  TBA  INTBA  TBA TBA 014
 ECON299  Research in Economics	/courses/ECON.html#econ299
  001Julie,Cullen
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -8827,7 +8835,7 @@ GPPS469  CompGrandStrategy/DefensePol	/courses/GPS.html#gpps469
 0050RBC  4    LE3202 18302120A00
 GPPS479  Politics&Institutions/LatnAmer	/courses/GPS.html#gpps479
  A00Agustina,Paglayan
-0050DIB  24   LE122  15301650A00
+0050RCLAS24   LER02  15301650A00
 GSS 22   LatinAm Carib History Culture	/courses/GSS.html#gss22
 'A00Troy Andreas,Kokinis
 0036HSS  24   LE2150 14001520A00
@@ -11928,7 +11936,7 @@ MCWP500  Apprentice Teaching in MCWP	/courses/MCWP.html#mcwp500
 MED 199  Independent Study
  001Laramie Rae,Smith
 0010TBA  TBA  INTBA  TBA TBA 001
- 002
+ 002George Yenhsi,Liu
 0010TBA  TBA  INTBA  TBA TBA 002
  003Ferhat,Ay
 0010TBA  TBA  INTBA  TBA TBA 003
@@ -12144,8 +12152,6 @@ MMW 501  Teaching/Making/Modern World	/courses/MMW.html#mmw501
  A00Johanna L,Peterson
 0000TBA  TBA  LETBA  TBA TBA A00
 MSED295  Orientation Practicum	/courses/MSED.html#msed295
- A00
-0000TBA  TBA  PRTBA  TBA TBA A00
 MSED299  Reading and Research	/courses/MSED.html#msed299
  001Stanley M.,Lo
 0015TBA  TBA  INTBA  TBA TBA 001
@@ -12278,7 +12284,7 @@ MUS 103B Seminar in Composition II	/courses/MUS.html#mus103b
 0015CPMC 3    SE265  14001650A00
 20250317TBA  FITBA  15001759
 MUS 103E Honors Seminar in Composition	/courses/MUS.html#mus103e
- A00Rand,Steiger
+ A00Timothy Matthew,McCormack
 0010TBA  TBA  LETBA  TBA TBA A00
 MUS 107  Critical Studies Seminar	/courses/MUS.html#mus107
  A00Matana,Roberts
@@ -12379,6 +12385,8 @@ MUS 199  Independent Study	/courses/MUS.html#mus199
 9999TBA  TBA  INTBA  TBA TBA 003
  004Shahrokh D,Yadegari
 9999TBA  TBA  INTBA  TBA TBA 004
+ 005Kyle Adam,Blair
+9999TBA  TBA  INTBA  TBA TBA 005
 MUS 201A Projects in New Music Prfrmnce	/courses/MUS.html#mus201a
  A00Mark Stuart,Dresser
 0015CPMC 2    LA264  14001650A00
@@ -13284,6 +13292,9 @@ TBA  TBA  LETBA  TBA TBA A00
 PAE 236  The Pediatric Patient
  A00Elias,Villarreal Jr.
 0030TBA  TBA  LETBA  TBA TBA A00
+PATH199  Independent Study
+ 001David Tevis,Pride
+9999TBA  TBA  INTBA  TBA TBA 001
 PATH216  Lab Medicine Preclerkship Expr
 .A00David N.,Bailey
 0030TBA  TBA  PRTBA  TBA TBA A00
@@ -14676,6 +14687,8 @@ POLI299  Dissertation Research	/courses/POLI.html#poli299
 9999TBA  TBA  INTBA  TBA TBA 016
  017Victor Chung,Shih
 9999TBA  TBA  INTBA  TBA TBA 017
+ 018Agustina,Paglayan
+9999TBA  TBA  INTBA  TBA TBA 018
 PSY 199  Independent Study
  001Gail D.,Heyman
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -16268,7 +16281,7 @@ SIO 87   First-year Seminar	/courses/SIO.html#sio87
  B00Geoffrey W,Cook
 0020VAUGN2    SE100  09001050B00
 SIO 90   Undergraduate Seminar	/courses/SIO.html#sio90
- A00
+ A00Laela Maree',Booshehri
 0065ECKRT1    SE227  14001450A00
 SIO 99   Independent Study	/courses/SIO.html#sio99
  001Colleen Mary,Petrik
@@ -17042,7 +17055,7 @@ SOCI119  Sexuality & Sexual Identities	/courses/SOC.html#soci119
 0090PODEM135  LE1A18 11001150A00
 20250317TBA  FITBA  11301429
 SOCI120T Spec Top/Cult,Lang&Soc Interac	/courses/SOC.html#soci120t
-'B00
+'B00Asa,Maron
 0050CSB  135  LE004  08000850B00
 20250317TBA  FITBA  08001059
 SOCI124  The Good Society	/courses/SOC.html#soci124
