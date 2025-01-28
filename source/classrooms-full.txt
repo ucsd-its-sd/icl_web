@@ -1,4 +1,4 @@
-V31738016410617
+V31738070721756
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -185,7 +185,7 @@ ANAR164  Underwater Archaeology	/courses/ANTH.html#anar164
 0045PODEM24   LE1A18 15301650A00
 20250318TBA  FITBA  15001759
 ANAR165  Archaeology & Biblical Seas	/courses/ANTH.html#anar165
-'A00
+'A00Pascal,Gagneux
 0030CENTR24   LE217B 14001520A00
 20250320TBA  FITBA  15001759
 ANBI100  Special Topic/Biological Anth	/courses/ANTH.html#anbi100
@@ -337,7 +337,7 @@ ANTH230  Department Colloquium	/courses/ANTH.html#anth230
  001Pascal,Gagneux
 0020TBA  TBA  SETBA  TBA TBA 001
 ANTH231  Levantine Maritime Archaeology	/courses/ANTH.html#anth231
- A00
+ A00Pascal,Gagneux
 0015HSS  24   SE1128B11001220A00
 ANTH236  What is Religion?
  A00Thomas J.,Csordas
@@ -4381,6 +4381,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 046
  047Faik,Tezcan
 9999TBA  TBA  INTBA  TBA TBA 047
+ 048Jonathan,Slade
+9999TBA  TBA  INTBA  TBA TBA 048
 CHEM200B Instrumental Analysis	/courses/CHEM.html#chem200b
  A00Robert S.,Pomeroy
 0020TBA  24   LETBA  12301350A00
@@ -7347,6 +7349,8 @@ ECE 199  Independent Study/Undergrads	/courses/ECE.html#ece199
 9999TBA  TBA  INTBA  TBA TBA 010
  011Xinyu,Zhang
 9999TBA  TBA  INTBA  TBA TBA 011
+ 012Rajeev,Sahay
+9999TBA  TBA  INTBA  TBA TBA 012
 ECE 212BNNanoelectronics	/courses/ECE.html#ece212bn
 'A00Tse Nga,Ng
 0056EBU1 13   LE2315 15301650A00
@@ -8086,6 +8090,8 @@ EDS 199  Special Studies	/courses/EDS.html#eds199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Amy S.V.,Bintliff
 0004TBA  TBA  INTBA  TBA TBA 002
+ 003Sherice Nicole,Clarke
+0004TBA  TBA  INTBA  TBA TBA 003
 EDS 205A Reflective Teaching Practice	/courses/EDS.html#eds205a
  A00Christopher P.,Halter
 0040TBA  4    SETBA  17302020A00
@@ -8327,6 +8333,10 @@ ERC 92   Honors Project	/courses/ERC.html#erc92
 9999TBA  TBA  INTBA  TBA TBA B00
  C00Aliya L,Frederick
 9999TBA  TBA  INTBA  TBA TBA C00
+ D00Guido Klaus,Frank
+9999TBA  TBA  INTBA  TBA TBA D00
+ E00Holly B,Shakya
+9999TBA  TBA  INTBA  TBA TBA E00
 ESYS10   Intro to Environmental Systems	/courses/ESYS.html#esys10
 :A00Lauren Elizabeth,Shipp
 0035HSS  1    DI2154 11001150A010035HSS  1    DI2154 12001250A02
@@ -8606,6 +8616,8 @@ FPM 299  Comm/Fam Med Indepndnt Stu-ISP
 0001TBA  TBA  INTBA  TBA TBA 004
  005Ming,Tai-Seale
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006David R,Strong
+9999TBA  TBA  INTBA  TBA TBA 006
 FPM 410  Intro to Underserved Medicine
  A00Michelle Lee,Johnson
 0004TBA  TBA  CLTBA  TBA TBA A00
@@ -9819,7 +9831,7 @@ LIPO1BX  Analysis of Portuguese	/courses/LING.html#lipo1bx
 20250318TBA  FITBA  15001759
 LIPO17   Int Brazil Portug: Ethnicity	/courses/LING.html#lipo17
 :B00Denise,Paladini
-0018APM  13   TU3218 14001450B00
+0018APM  13   TU2452 14001450B00
 TBA  TBA  DITBA  TBA TBA B01
 20250317TBA  FITBA  15001759
 LISL1B   American Sign Lang Conversatn	/courses/LING.html#lisl1b
@@ -10044,7 +10056,7 @@ LTCS111  Topics/Pop Culture/Historical	/courses/LIT.html#ltcs111
 20250318TBA  FITBA  08001059
 LTCS131  Topics/Queer Cultures	/courses/LIT.html#ltcs131
 'A00Jorge,Sanchez Cruz
-0040SOLIS135  LE105  14001450A00
+0040RWAC 135  LE0373 14001450A00
 20250317TBA  FITBA  15001759
 LTCS297  Directed Studies: Reading Crse	/courses/LIT.html#ltcs297
  001Shelley,Streeby
@@ -10292,14 +10304,14 @@ LTSP2F   Spanish Heritage Learners II
 0025RWAC 135  LE0372 10001050A00
 LTSP3F   Spanish Heritage Learners III
  A00Noelia,Dominguez
-0025RWAC 135  LE0372 11001150A00
+0025HSS  135  LE1315 11001150A00
  B00Noelia,Dominguez
-0025RWAC 135  LE0372 12001250B00
+0025HSS  135  LE2321 12001250B00
 LTSP100F Adv Span Heritage Lang & Cult
  A00Carol,Arcos Herrera
 0025RWAC 135  LE0374 11001150A00
  B00Noelia,Dominguez
-0025RWAC 135  LE0372 13001350B00
+0025HSS  135  LE2321 13001350B00
  C00Nadia,Villafuerte Vazquez
 0025RWAC 135  LE0372 09000950C00
 LTSP116  Representatns/Span Colonialism	/courses/LIT.html#ltsp116
@@ -10314,7 +10326,7 @@ LTSP145  Hispanic Memory/HumRghts/Cultr	/courses/LIT.html#ltsp145
 20250320TBA  FITBA  11301429
 LTSP155  Asia in Latin America	/courses/LIT.html#ltsp155
 'A00John D,Blanco
-0040PODEM24   LE0133 14001520A00
+0040RWAC 24   LE0292 14001520A00
 20250320TBA  FITBA  15001759
 LTSP166  Creative Writing	/courses/LIT.html#ltsp166
  A00Jose,Carvajal Regidor
@@ -10650,6 +10662,12 @@ MAE 199  Independent Study/Undergrads	/courses/MAE.html#mae199
 9999TBA  TBA  INTBA  TBA TBA 007
  008Keiko K.,Nomura
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009John T,Hwang
+9999TBA  TBA  INTBA  TBA TBA 009
+ 010Michael,Yip
+9999TBA  TBA  INTBA  TBA TBA 010
+ 011Tania,Morimoto
+9999TBA  TBA  INTBA  TBA TBA 011
 MAE 200  Controls	/courses/MAE.html#mae200
 'A00Mamadou Lamine,Diagne
 0056CENTR24   LE222  11001220A00
@@ -11360,6 +11378,8 @@ MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
 9999TBA  TBA  INTBA  TBA TBA 012
  013Alexander,Cloninger
 9999TBA  TBA  INTBA  TBA TBA 013
+ 014Steven V,Sam
+9999TBA  TBA  INTBA  TBA TBA 014
 MATH200B Algebra II	/courses/MATH.html#math200b
 'A00Alireza,Salehi Golsefidy
 0020APM  24   LE5402 09301050A00
@@ -14188,6 +14208,8 @@ PHYS199H Honors Thesis Rsrch/Undergrads	/courses/PHYS.html#phys199h
 9999TBA  TBA  INTBA  TBA TBA 004
  005Javier Mauricio,Duarte
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Tatyana,Sharpee
+9999TBA  TBA  INTBA  TBA TBA 006
 PHYS203A Adv Classical Electrodynam. I	/courses/PHYS.html#phys203a
 :A00Michael M.,Fogler
 0030MAYER5    DI5301 09000950A01
@@ -16567,6 +16589,8 @@ SIO 299  Research	/courses/SIO.html#sio299
 9999TBA  TBA  INTBA  TBA TBA 155
  156Colleen Mary,Petrik
 9999TBA  TBA  INTBA  TBA TBA 156
+ 157Lia,Siegelman
+9999TBA  TBA  INTBA  TBA TBA 157
  001Sarah Miranda,Aarons
 9999TBA  TBA  INTBA  TBA TBA 001
  002Marco Octavio,Aburto Oropeza
@@ -16792,7 +16816,7 @@ SIOB291  Biology Graduate Research Pres	/courses/SIO.html#siob291
  A00Eric,Allen
 0020VAUGN3    SE300  15301720A00
 SIOB296  Special Topics/Ocean Bio	/courses/SIO.html#siob296
-'A00
+'A00Lihini,Aluwihare
 0020MCGIL5    SE2148 08001050A00
 20250317TBA  FITBA  08001059
 SIOB297  Marine Biology Seminar	/courses/SIO.html#siob297
@@ -18647,6 +18671,8 @@ VIS 500  Apprentice Teaching	/courses/VIS.html#vis500
 WARR99H  Independent Study	/courses/WARR.html#warr99h
  001Hao,Su
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Mark H.,Ginsberg
+9999TBA  TBA  INTBA  TBA TBA 002
 WCWP10A  The Writing Course A	/courses/WARR.html#wcwp10a
  002Emily,Windham
 0020WSAC 13   SE101  09301050002
