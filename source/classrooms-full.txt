@@ -1,7 +1,4 @@
-V31738966799756
-WI25     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31739042211618
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -7961,6 +7958,8 @@ ECON297  Independent Study	/courses/ECON.html#econ297
 9999TBA  TBA  INTBA  TBA TBA 014
  015Juan,Herreno Lopera
 9999TBA  TBA  INTBA  TBA TBA 015
+ 016Joshua,Graff Zivin
+9999TBA  TBA  INTBA  TBA TBA 016
 ECON299  Research in Economics	/courses/ECON.html#econ299
  001Julie,Cullen
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -8856,7 +8855,7 @@ GPGN497  Internship	/courses/GPS.html#gpgn497
 0005TBA  TBA  ITTBA  TBA TBA 001
 GPGN499  Independent Research	/courses/GPS.html#gpgn499
  001Lauren R,Prather
-0000TBA  TBA  INTBA  TBA TBA 001
+0001TBA  TBA  INTBA  TBA TBA 001
 GPIM452  Big Data:Policy/Governing/Mgmt	/courses/GPS.html#gpim452
  A00John S.,Ahlquist
 0050RBC  24   LE3203 14001520A00
@@ -13977,7 +13976,7 @@ PHIL500  Apprentice Teaching	/courses/PHIL.html#phil500
 PHYS1A   Mechanics	/courses/PHYS.html#phys1a
 'A00Philbert S,Tsai
 0410PETER135  LE108  11001150A00
-20250317TBA  FITBA  11301429
+20250211MANDEPBB202 1700175020250218MANDEPBB202 1700175020250225MANDEPBB202 1700175020250304MANDEPBB202 1700175020250311MANDEPBB202 1700175020250317TBA  FITBA  11301429
 PHYS1AL  Mechanics Laboratory	/courses/PHYS.html#phys1al
  001Avi,Yagil	Philbert S,Tsai
 0030MAYER2    LA2306 10001150001
@@ -15869,7 +15868,7 @@ MGT 410  Strategy	/courses/MGT.html#mgt410
  C00Alexandra,Wellsjo
 0060OTRSN4    LE1E10618302120C00
 MGT 413  Operations Management	/courses/MGT.html#mgt413
-'A00Mandy,Morrell
+'A00Hyo Duk,Shin
 0060OTRSN4    LE4E10618302120A00
 20250320TBA  FITBA  18302130
 'B00Shirin,Shahsavand
@@ -16538,6 +16537,8 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 028
  029William S.,Hodgkiss
 9999TBA  TBA  INTBA  TBA TBA 029
+ 030Bradley S.,Moore
+9999TBA  TBA  INTBA  TBA TBA 030
 SIO 299  Research	/courses/SIO.html#sio299
  100Joel Roland,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
@@ -17952,7 +17953,7 @@ TDGR251  Playwriting Practicum	/courses/THEA.html#tdgr251
  B00Deborah Isobel,Stein
 0005TBA  TBA  PRTBA  TBA TBA B00
 TDGR257A Screenwriting	/courses/THEA.html#tdgr257a
- A00Deborah Isobel,Stein	Andrew,Williams
+ A00Andrew,Williams
 0007GH   1    SE254  17001950A00
 TDGR262  Cross Boundaries:Design Improv	/courses/THEA.html#tdgr262
 .A00Victoria A.,Petrovich
