@@ -1,7 +1,4 @@
-V31740349200757
-WI25     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31740424663806
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4042,7 +4039,7 @@ CGS 137  Latina Issues & Cultural Prod.	/courses/CGS.html#cgs137
 0020PODEM24   LE1A22 11001220A00
 CGS 165  Gender&Sexuality/Af Am Comm.	/courses/CGS.html#cgs165
 'A00Errol Tsekani,Browne
-0005WLH  135  LE2209 10001050A00
+0005HSS  135  LE1106B10001050A00
 20250321TBA  FITBA  08001059
 CGS 167A Decolonial Muslim Feminisms	/courses/CGS.html#cgs167a
  A00Shaista,Patel
@@ -8468,7 +8465,7 @@ ETHN163F Playing Indian:Native Am Cinem	/courses/ETHN.html#ethn163f
 0015CENTR2    LE119  17001950A00
 ETHN165  Gender&Sexuality/Af Am Comm.	/courses/ETHN.html#ethn165
 'A00Errol Tsekani,Browne
-0012WLH  135  LE2209 10001050A00
+0012HSS  135  LE1106B10001050A00
 20250321TBA  FITBA  08001059
 ETHN167A Decolonial Muslim Feminisms	/courses/ETHN.html#ethn167a
  A00Shaista,Patel
