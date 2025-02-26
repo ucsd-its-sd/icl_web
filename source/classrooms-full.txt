@@ -1,4 +1,4 @@
-V31740576510113
+V31740597473560
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6172,6 +6172,8 @@ CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
 9999TBA  TBA  INTBA  TBA TBA 001
  002Adalbert Geral,Soosai Raj
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Miles E,Jones
+9999TBA  TBA  INTBA  TBA TBA 003
 CSE 202  Algorithm Design and Analysis	/courses/CSE.html#cse202
 'A00Russell,Impagliazzo
 0390PETER135  LE108  10001050A00
@@ -10798,7 +10800,7 @@ MAE 271A Thermodynamics of Solids	/courses/MAE.html#mae271a
 20250318TBA  FITBA  08001059
 MAE 274  Model Reduction	/courses/MAE.html#mae274
  A00Boris,Kramer
-0000EBU2 24   LE105  11001220A00
+0020EBU2 24   LE105  11001220A00
 MAE 276  Mechanics of Soft Materials	/courses/MAE.html#mae276
 'A00Shengqiang,Cai
 0027PODEM24   LE0133 11001220A00
