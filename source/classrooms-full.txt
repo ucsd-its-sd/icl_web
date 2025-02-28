@@ -1,4 +1,4 @@
-V31740749272512
+V31740770335923
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -9,7 +9,7 @@ AAS 10   Intro/African-American Studies	/courses/AASM.html#aas10
 :A00Elizabeth Annette,Butler
 0034PCYNH1    DI240  14001450A010034PCYNH1    DI240  15001550A02
 MANDE13   LEB150 18301950A00
-20250129MANDEREB150 20002050
+20250129MANDEREB150 2000205020250312MANDEREB150 20002050
 AAS 11   Intro Black Diasporic Studies	/courses/AASM.html#aas11
 :A00Elizabeth Annette,Butler
 0034RCLAS1    DIR02  14001450A010034RCLAS1    DIR02  15001550A02
@@ -186,7 +186,7 @@ ANAR164  Underwater Archaeology	/courses/ANTH.html#anar164
 0045PODEM24   LE1A18 15301650A00
 20250318TBA  FITBA  15001759
 ANAR165  Archaeology & Biblical Seas	/courses/ANTH.html#anar165
-'A00Pascal,Gagneux
+'A00Meir,Edrey
 0030CENTR24   LE217B 14001520A00
 20250320TBA  FITBA  15001759
 ANBI100  Special Topic/Biological Anth	/courses/ANTH.html#anbi100
@@ -340,7 +340,7 @@ ANTH230  Department Colloquium	/courses/ANTH.html#anth230
  001Pascal,Gagneux
 0020TBA  TBA  SETBA  TBA TBA 001
 ANTH231  Levantine Maritime Archaeology	/courses/ANTH.html#anth231
- A00Pascal,Gagneux
+ A00Meir,Edrey
 0015HSS  24   SE1128B11001220A00
 ANTH236  What is Religion?
  A00Thomas J.,Csordas
@@ -3992,8 +3992,9 @@ CCS 102  Research Persp/Climate Change	/courses/CCS.html#ccs102
  A00Kimberly A,Prather
 0045SPIES3    LE330  15301720A00
 CCS 123  Policy\Politics Climate Change	/courses/CCS.html#ccs123
- A00Corey John,Gabriel
+'A00Corey John,Gabriel
 0025CENTR24   LE217B 11001220A00
+20250306CENTRRE217B 12301350
 CCS 197  Carbon Neutrality Internship	/courses/CCS.html#ccs197
  001Amy M,Lerner
 9999TBA  TBA  ITTBA  TBA TBA 001
@@ -16563,6 +16564,10 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 031
  032Sarah T,Gille
 9999TBA  TBA  INTBA  TBA TBA 032
+ 033Simone,Baumann-Pickering 
+9999TBA  TBA  INTBA  TBA TBA 033
+ 034Todd R.,Martz
+9999TBA  TBA  INTBA  TBA TBA 034
 SIO 299  Research	/courses/SIO.html#sio299
  100Joel Roland,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
