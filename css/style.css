@@ -1,267 +1,274 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
 /* Set font for all elements to Fira Sans */
 html * {
-    font-family: "Fira Sans", sans-serif;
-    box-sizing: border-box;
+	font-family: "Fira Sans", sans-serif;
+	box-sizing: border-box;
 }
 html.seanwall * {
-    font-family: "Open Sans", sans-serif;
-    box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
 }
 .template {
-    display: none;
+	display: none;
 }
 /* Only headers keep Open Sans. */
 #header h1,
 #header h1 a {
-    font-size: 2vh;
-    margin: 0;
-    text-decoration: none;
-    color: #fff;
-    font-family: "Open Sans";
+	font-size: 2vh;
+	margin: 0;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Open Sans";
 }
 /* Turn off scroll bars and set background color */
 html,
 body {
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    background-color: #182b49;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #182b49;
 }
 /* Site top header */
 #header {
-    position: absolute;
-    top: 0;
-    bottom: 95vh;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0.5em;
+	position: absolute;
+	top: 0;
+	bottom: 95vh;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0.5em;
 }
 /* Site bottom footer */
 #footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0.5em;
-    color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0.5em;
+	color: #ffffff;
 }
 /* Make sure the links aren't blue */
 #footer a {
-    color: #ffffff;
+	color: #ffffff;
 }
 /* Container for all the .windows */
 #container {
-    position: absolute;
-    top: 5vh;
-    bottom: 5vh;
-    left: 0;
-    right: 0;
-    margin: 0;
+	position: absolute;
+	top: 5vh;
+	bottom: 5vh;
+	left: 0;
+	right: 0;
+	margin: 0;
 }
 /* We will use transforms in app.js to move these windows around, so have them in a good position by default */
 .window {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 .window-newly-added {
-    display: none;
+	display: none;
 }
 /* Window interior container */
 .window-panel {
-    padding: 2em;
-    background-color: #fff;
-    max-height: 90vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    width: 90vw;
+	padding: 2em;
+	background-color: #fff;
+	max-height: 90vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 90vw;
 }
 /* WE WANT A BIG SEARCH BOX */
 .search-box {
-    font-size: 5vh;
-    padding: 1vh;
-    max-width: 100%;
-    border: 1px solid #000;
+	font-size: 5vh;
+	padding: 1vh;
+	max-width: 100%;
+	border: 1px solid #000;
 }
 .search-results {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .search-result {
-    padding: 1em;
-    font-size: 120%;
+	padding: 1em;
+	font-size: 120%;
 }
 .schedule-table {
-    width: 100%;
-    border-spacing: 0;
+	width: 100%;
+	border-spacing: 0;
 }
 .schedule-day-table {
-    width: 100%;
+	width: 100%;
 }
 .schedule-day-table td.class-row-datacell {
-    background-color: #fff;
-    padding: 0;
-    /* Adding this line lets us set the element inside to the same height */
-    height: inherit;
+	background-color: #fff;
+	padding: 0;
+	/* Adding this line lets us set the element inside to the same height */
+	height: inherit;
+	/* Fix border on firefox */
+	position: relative;
 }
 /* Using an interior element inside the datacell lets me fix the 1-pixel gaps we were seeing. */
 .schedule-day-table td.class-row-datacell div {
-    border: 1px solid #000;
-    height: 100%;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 1px;
+	border: 1px solid #000;
+	height: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 /* We don't need a top border if the outer cell has one */
 .schedule-day-table td.class-row-datacell.time-border-datacell div,
 .schedule-day-table td.class-row-datacell.current-time-border-datacell div {
-    border-top: none;
+	border-top: none;
 }
 td,
 th {
-    line-height: 12.4px;
-    font-size: 12px;
-    padding-bottom: 0px;
-    padding-top: 1px;
-    padding-left: 3px;
+	line-height: 12.4px;
+	font-size: 12px;
+	padding-bottom: 0px;
+	padding-top: 1px;
+	padding-left: 3px;
 }
 
 /* Padding will mess with the spacing */
 .schedule-table td.schedule-container {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 td.schedule-container {
-    /* Navy from brand.ucsd.edu */
-    background-color: #182b49;
+	/* Navy from brand.ucsd.edu */
+	background-color: #182b49;
 }
 td.schedule-container:has(.time-increments) {
-    background-color: inherit;
+	background-color: inherit;
 }
 td.class-row-datacell.current-class,
 td.class-row-datacell.current-class * {
-    /* Citron from brand.ucsd.edu */
-    background-color: #f3e500;
-    color: #000;
+	/* Citron from brand.ucsd.edu */
+	background-color: #f3e500;
+	color: #000;
 }
 td.schedule-container:has(.schedule-day-table.not-current-day) {
-    /* Sand from brand.ucsd.edu */
-    background-color: #f5f0e6;
+	/* Sand from brand.ucsd.edu */
+	background-color: #f5f0e6;
 }
 td.noborder {
-    /* It's called noborder, it better have no border */
-    border: none;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    line-height: 10px;
+	/* It's called noborder, it better have no border */
+	border: none;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 10px;
 }
 table {
-    /* The fixed layout is where the magic heppens */
-    table-layout: fixed;
-    border-spacing: 0;
-    border-collapse: collapse;
+	/* The fixed layout is where the magic heppens */
+	table-layout: fixed;
+	border-spacing: 0;
+	border-collapse: collapse;
 }
 .schedule-day-table tr {
-    height: 10px;
+	height: 10px;
 }
 .schedule-day-table td {
-    width: auto;
+	width: auto;
 }
 .time-border-datacell {
-    border-top: 5px solid white !important;
+	border-top: 5px solid white !important;
 }
 .time-bottom-border-datacell {
-    border-bottom: 5px solid white !important;
+	border-bottom: 5px solid white !important;
 }
 .not-current-day .time-border-datacell {
-    /* Navy from brand.ucsd.edu */
-    border-top: 5px solid #182b49 !important;
+	/* Navy from brand.ucsd.edu */
+	border-top: 5px solid #182b49 !important;
 }
 .not-current-day .time-bottom-border-datacell {
-    /* Navy from brand.ucsd.edu */
-    border-bottom: 5px solid #182b49 !important;
+	/* Navy from brand.ucsd.edu */
+	border-bottom: 5px solid #182b49 !important;
 }
 .min-width-datacell {
-    width: 10px;
+	width: 10px;
 }
 .current-time-border-datacell {
-    /* Magenta from brand.ucsd.edu */
-    border-top: 5px solid #d462ad !important;
+	/* Magenta from brand.ucsd.edu */
+	border-top: 5px solid #d462ad !important;
 }
 .current-time-bottom-border-datacell {
-    /* Magenta from brand.ucsd.edu */
-    border-bottom: 5px solid #d462ad !important;
+	/* Magenta from brand.ucsd.edu */
+	border-bottom: 5px solid #d462ad !important;
 }
 .temporal-class-table {
-    width: 100%;
+	width: 100%;
 }
 .temporal-class-table table {
-    width: 100%;
+	width: 100%;
 }
 /* We want these tables as centred as possible, so align the headers right and the data left */
 .temporal-class-table table th {
-    text-align: right;
+	text-align: right;
 }
 .temporal-class-table table td {
-    text-align: left;
+	text-align: left;
 }
 .temporal-class-table,
 .temporal-class-table table {
-    table-layout: fixed;
+	table-layout: fixed;
 }
 .class-detail-datacell {
-    text-align: center;
+	text-align: center;
 }
 /* Move these down slightly because they are too high by default */
 .search-result-icon {
-    margin-bottom: -0.25em;
+	margin-bottom: -0.25em;
 }
 .today-schedule-header {
-    display: none;
+	display: none;
 }
 @media only screen and (max-width: 950px) {
-    .not-current-day {
-        display: none;
-    }
-    .overall-schedule-header {
-        display: none;
-    }
-    .today-schedule-header {
-        display: block;
-    }
-    #footer {
-        display: none;
-    }
-    #container {
-        bottom: 0;
-    }
-    .window-panel {
-        max-height: 95vh;
-    }
+	.not-current-day {
+		display: none;
+	}
+	.overall-schedule-header {
+		display: none;
+	}
+	.today-schedule-header {
+		display: block;
+	}
+	#footer {
+		display: none;
+	}
+	#container {
+		bottom: 0;
+	}
+	.window-panel {
+		max-height: 95vh;
+	}
 }
 @media only screen and (min-width: 1285px) {
-    td,
-    th {
-        font-size: 18px;
-        line-height: 19px;
-    }
-    .schedule-day-table tr {
-        height: 15px;
-    }
+	td,
+	th {
+		font-size: 18px;
+		line-height: 19px;
+	}
+	.schedule-day-table tr {
+		height: 15px;
+	}
 }
