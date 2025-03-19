@@ -1,7 +1,4 @@
-V31742325533040
-WI25     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31742391094901
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -733,7 +730,7 @@ BENG99H  Independent Study	/courses/BENG.html#beng99h
  001Robert Lie-Yuan,Sah
 9999TBA  TBA  INTBA  TBA TBA 001
 BENG112A Soft Tissue Biomechanics	/courses/BENG.html#beng112a
-:A00Geert W,Schmid-Schoenbein	Adam J.,Engler
+:A00Adam J.,Engler
 0030CENTR1    DI217A 14001450A010020CENTR1    DI217A 15001550A02
 DIB  24   LE121  11001220A00
 20250320DIB  FI121  11301429
@@ -16500,7 +16497,7 @@ SIO 194  Research Seminar/Washington DC	/courses/SIO.html#sio194
  A00Seth J,Hill
 9999TBA  TBA  SETBA  TBA TBA A00
 SIO 196  Honors Thesis Research	/courses/SIO.html#sio196
- A00Andrew David,Barton	Ronald S.,Burton
+ A00Andrew David,Barton
 9999TBA  TBA  TUTBA  TBA TBA A00
  B00Dahiana K,Arcila
 9999TBA  TBA  TUTBA  TBA TBA B00
