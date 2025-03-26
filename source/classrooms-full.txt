@@ -1,4 +1,4 @@
-V31742995923527
+V31743016731656
 WI25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1521,7 +1521,7 @@ BGGN246A Computational Neurobiolgy	/courses/BIOL.html#bggn246a
 TBA  TBA  DITBA  TBA TBA A01
 20250321TBA  FITBA  15001759
 BGGN249B Basic Neuroscience	/courses/BIOL.html#bggn249b
- A00Eiman,Abdel-Azim
+ A00Eiman,Abdel-Azim	Sreekanth,Chalasani	John,Reynolds
 0000TBA  24   LETBA  10001150A00
 BGGN271  Adv Experimental Methods/Bio	/courses/BIOL.html#bggn271
  100Robert,Signer
@@ -13068,7 +13068,7 @@ NEU 199  Independent Study	/courses/NEU.html#neu199
  004Matthew,Shtrahman
 9999TBA  TBA  INTBA  TBA TBA 004
 NEU 200B Basic Neuroscience	/courses/NEU.html#neu200b
- A00Eiman,Abdel-Azim
+ A00Eiman,Abdel-Azim	Sreekanth,Chalasani	John,Reynolds
 0000TBA  24   LETBA  10001150A00
 NEU 223  Preceptorship: Clin Neurology
  A00Jamie Nicole,LaBuzetta
