@@ -1,4 +1,4 @@
-V31744831027703
+V31744842212366
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10592,7 +10592,7 @@ WLH  135  LE2112 17001850A00
 20250613WLH  FI2112 19002159
 MAE 184  Flight Simulation Techniques	/courses/MAE.html#mae184
 :A00Mark Ronald,Anderson
-0096PODEM135  LE1A18 11001150A00
+0095PODEM135  LE1A18 11001150A00
 PODEM5    LE1A20 15001550A00
 20250613PODEMFI1A18 11301429
 MAE 185  Computational Fluid Mechanics	/courses/MAE.html#mae185
@@ -10697,7 +10697,7 @@ MAE 242  Robot Motion Planning	/courses/MAE.html#mae242
 20250613SOLISFI110  11301429
 MAE 243  Electric Power Systms Modeling	/courses/MAE.html#mae243
  A00Michael R,Davidson
-0019EBU2 24   LE305  11001220A00
+0017EBU2 24   LE305  11001220A00
 MAE 254  Energy Materials & Application	/courses/MAE.html#mae254
 'A00Renkun,Chen
 0023WLH  24   LE2205 14001520A00
@@ -14610,7 +14610,7 @@ PSYC124  Clinical Assessment/Treatment	/courses/PSYC.html#psyc124
 20250611PETERFI108  19002159
 PSYC125  Clinical Neuropsychology	/courses/PSYC.html#psyc125
 'A00Fred E.,Rose
-0146SOLIS24   LE104  15301650A00
+0147SOLIS24   LE104  15301650A00
 20250609SOLISFI104  15001759
 PSYC127  Sexual Inequities & Wellbeing	/courses/PSYC.html#psyc127
  A00Janna Alene,Dickenson
@@ -18113,7 +18113,7 @@ WLH  24   LE2001 12301350A00
 20250609WLH  FI2001 11301429
 VIS 31   Undead Media All Things Zombie	/courses/VIS.html#vis31
 'A00Ricardo,Dominguez
-0332CTL  24   LE0125 11001220A00
+0320CTL  24   LE0125 11001220A00
 20250610CTL  FI0125 11301429
 VIS 32   Art, Design, and the Brain	/courses/VIS.html#vis32
 :A00Pinar,Yoldas
