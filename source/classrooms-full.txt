@@ -1,4 +1,4 @@
-V31744928558176
+V31744982996359
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10493,7 +10493,7 @@ MAE 101D Intermediate Heat Transfer	/courses/MAE.html#mae101d
 0025EBU2 1    LE305  17001950A00
 MAE 104  Aerodynamics	/courses/MAE.html#mae104
 :A00Hieu Tan,Pham
-0102FAH  24   LE1101 14001520A00
+0101FAH  24   LE1101 14001520A00
 FAH  3    LE1101 16001650A00
 20250610FAH  FI1101 15001759
 MAE 105  Intro to Mathematical Physics	/courses/MAE.html#mae105
@@ -10610,7 +10610,7 @@ MAE 185  Computational Fluid Mechanics	/courses/MAE.html#mae185
 FAH  5    LE1450 09000950A00
 MAE 190  Topics in Mech and Aero Eng	/courses/MAE.html#mae190
 :A00Farhat N.,Beg
-0045DIB  1    LE121  15001550A00
+0044DIB  1    LE121  15001550A00
 WLH  24   LE2113 09301050A00
 20250610WLH  FI2113 08001059
 :B00George Robert,Tynan	Jennifer S,Mullin
