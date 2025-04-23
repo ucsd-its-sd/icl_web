@@ -1,4 +1,4 @@
-V31745415204631
+V31745435984277
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4374,6 +4374,12 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 038
  039Steve,Gonias
 9999TBA  TBA  INTBA  TBA TBA 039
+ 040Francesco,Paesani
+9999TBA  TBA  INTBA  TBA TBA 040
+ 041Guy,Bertrand
+9999TBA  TBA  INTBA  TBA TBA 041
+ 042James Andrew,McCammon
+9999TBA  TBA  INTBA  TBA TBA 042
 CHEM207  Protein NMR	/courses/CHEM.html#chem207
 .A00Lalit,Deshmukh
 0030HSS  135  LE1315 10001050A00
@@ -7174,6 +7180,8 @@ DSC 299  Graduate Research	/courses/DSC.html#dsc299
 9999TBA  TBA  INTBA  TBA TBA 030
  031Frank,Wuerthwein
 9999TBA  TBA  INTBA  TBA TBA 031
+ 032Ilya,Zaslavsky
+9999TBA  TBA  INTBA  TBA TBA 032
 DSC 500  Teaching Assistantship	/courses/DSC.html#dsc500
  A00Justin Matthew,Eldridge
 9999TBA  TBA  INTBA  TBA TBA A00
@@ -8661,6 +8669,8 @@ FPM 297  SpecialStudy/FamMed&PublicHlth
 0001TBA  TBA  INTBA  TBA TBA 004
  005Peter,Lindholm
 0001TBA  TBA  INTBA  TBA TBA 005
+ 006Natasha,Martin
+9999TBA  TBA  INTBA  TBA TBA 006
 FPM 299  Comm/Fam Med Indepndnt Stu-ISP
  001
 0005TBA  TBA  INTBA  TBA TBA 001
@@ -14171,6 +14181,8 @@ PHYS298  Directed Study in Physics	/courses/PHYS.html#phys298
 9999TBA  TBA  INTBA  TBA TBA 035
  036Johnatan,Aljadeff
 9999TBA  TBA  INTBA  TBA TBA 036
+ 037Xin,Jin
+9999TBA  TBA  INTBA  TBA TBA 037
 PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
  001Alex M,Frano Pereira
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -14870,6 +14882,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 055
  056Kerri,Boutelle
 9999TBA  TBA  INTBA  TBA TBA 056
+ 057Cory T.,Miller
+9999TBA  TBA  INTBA  TBA TBA 057
 PSYC210  Methods of Human Cog Neuro	/courses/PSYC.html#psyc210
  A00Lindsey Jane,Powell
 0020MNDLR2    SE3545 14001650A00
