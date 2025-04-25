@@ -1,4 +1,4 @@
-V31745533465064
+V31745587916042
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4385,6 +4385,10 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 043
  044Samuel A,Myers
 9999TBA  TBA  INTBA  TBA TBA 044
+ 045Roger Ken,Sunahara
+9999TBA  TBA  INTBA  TBA TBA 045
+ 046Amr,Hamdoun
+9999TBA  TBA  INTBA  TBA TBA 046
 CHEM207  Protein NMR	/courses/CHEM.html#chem207
 .A00Lalit,Deshmukh
 0030HSS  135  LE1315 10001050A00
@@ -6157,6 +6161,8 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 013
  014Michael J,Coblenz
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Leonard Emerson,Porter
+9999TBA  TBA  INTBA  TBA TBA 015
 CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
  001Deepak,Kumar
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -11944,6 +11950,8 @@ MED 299  Medicine Independnt Study Proj
 0005TBA  TBA  INTBA  TBA TBA 009
  010Michael Andrew,Hogarth
 0001TBA  TBA  INTBA  TBA TBA 010
+ 011Ming,Tai-Seale
+9999TBA  TBA  INTBA  TBA TBA 011
 MED 401  Medicine Core Clerkship
  A00Brian K,Kwan
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -15184,6 +15192,8 @@ RMAS299  Independent Research Project
 0005TBA  TBA  INTBA  TBA TBA 002
  003
 0005TBA  TBA  INTBA  TBA TBA 003
+ 004Melody Karen,Schiaffino
+9999TBA  TBA  INTBA  TBA TBA 004
 RMAS410  Componts/Clin Radiatn Oncology
  A00Michael Vincent,Sherer
 0008TBA  TBA  CLTBA  TBA TBA A00
