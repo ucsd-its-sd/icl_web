@@ -1,4 +1,4 @@
-V31745587916042
+V31745608750272
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3947,7 +3947,7 @@ CCE 1    CriticalApproach/CommPractice	/courses/CCE.html#cce1
 'H00Kassandra,Lee
 0040PODEM135  SE0273 13001350H00
 20250612PODEMFI0273 11301429
-CCE 3    Elements/CommEngageColResearch
+CCE 3    Elements/CommEngageColResearch	/courses/CCE.html#cce3
 '001Nicole,Kenley
 0020YORK 24   SE3070 09301050001
 20250610YORK FI3070 08001059
@@ -7951,7 +7951,7 @@ ECON243  Organizational Econ/Develop	/courses/ECON.html#econ243
 'A00Paul,Niehaus	Achyuta Rasendra,Adhvaryu
 0015SSB  24   LE506  09301050A00
 20250610SSB  FI506  08001059
-ECON248  Spatial Economics
+ECON248  Spatial Economics	/courses/ECON.html#econ248
  A00Fabian Paul,Eckert	Fabian Gunter We,Trottner
 0025CALIT5    LE4004 09001150A00
 ECON250C Advanced Topics in Labor Econ	/courses/ECON.html#econ250c
@@ -8280,10 +8280,10 @@ EDS 299  Dissertation Research	/courses/EDS.html#eds299
 0010TBA  TBA  INTBA  TBA TBA 016
  017Shana R,Cohen
 0010TBA  TBA  INTBA  TBA TBA 017
-EDS 324ARTeaching Impacts of Technology
+EDS 324ARTeaching Impacts of Technology	/courses/EDS.html#eds324ar
  A00Elizabeth A,Simon
 0015TBA  TBA  LETBA  TBA TBA A00
-EDS 324BRCT & Block-Based Programming
+EDS 324BRCT & Block-Based Programming	/courses/EDS.html#eds324br
  A00Emi,Eguchi
 0010TBA  TBA  LETBA  TBA TBA A00
 EDS 352C Bilingual Instr Practices III	/courses/EDS.html#eds352c
@@ -8467,7 +8467,7 @@ ETHN142  Medcn/Race&Globl Poli/Inequity	/courses/ETHN.html#ethn142
 0028CENTR24   LE203  12301350A00
 20250609CENTRFI203  11301429
 ETHN147  Black Feminisms Past & Pres	/courses/ETHN.html#ethn147
-ETHN171  Ethnic Studies and Education
+ETHN171  Ethnic Studies and Education	/courses/ETHN.html#ethn171
  A00Tricia Meghan,Gallagher-Geurtsen
 0024HSS  135  LE1315 14001450A00
 ETHN172  Topics/African-American Prose	/courses/ETHN.html#ethn172
@@ -8582,15 +8582,15 @@ ETHN500  Apprntice Teaching/Ethn Stdies	/courses/ETHN.html#ethn500
 ETIM289  Interdis Methds Sem Spec Topic	/courses/ETHN.html#etim289
  A00Curtis F.,Marez
 0015SSB  4    SE103  14001650A00
-FILM71   Fundamentals of Cinematography
+FILM71   Fundamentals of Cinematography	/courses/FILM.html#film71
 .A00Joanne Moeun,Park
 0022MCC  3    LA140  15001650A01
 RWAC 1    LE0624 15001750A00
-FILM72   Fundamentals of Directing
+FILM72   Fundamentals of Directing	/courses/FILM.html#film72
 .A00Christopher Mason,Johnson
 0022MANDE4    LAB206 09301120A01
 MANDE2    LEB206 09301220A00
-FILM73   Fundamentals of Editing
+FILM73   Fundamentals of Editing	/courses/FILM.html#film73
 .A00Jackson Stanford,Kroopf
 0022MANDE4    LAB206 12301420A01
 MANDE2    LEB206 12301520A00
