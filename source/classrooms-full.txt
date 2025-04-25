@@ -1,4 +1,4 @@
-V31745608750272
+V31745619865323
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8763,10 +8763,10 @@ GLBH114W CSI: GlobalHealthCommunication	/courses/GLBH.html#glbh114w
  A00Lillian B,Walkover
 0012PODEM24   LE0132 11001220A00
 GLBH117  Non-Communicable Diseases	/courses/GLBH.html#glbh117
-GLBH121  Caring for Underserved People
+GLBH121  Caring for Underserved People	/courses/GLBH.html#glbh121
  A00Margarita,Villarino
 0044SOLIS4    LE109  17001950A00
-GLBH130  Global Health & Climate Change
+GLBH130  Global Health & Climate Change	/courses/GLBH.html#glbh130
  A00Jeffrey,Schonberg
 0040PODEM24   LE0133 11001220A00
 GLBH131  Climate Resilience
@@ -8787,7 +8787,7 @@ GLBH181  Essentials of Global Health	/courses/GHP.html#glbh181
 'A00Jose L.,Burgos
 0216FAH  24   LE1301 08000920A00
 20250612FAH  FI1301 08001059
-GLBH190  Global Health Careers
+GLBH190  Global Health Careers	/courses/GLBH.html#glbh190
  A00Radhika,Bhavsar
 0044YORK 3    LE4080A17001950A00
 GLBH195  Instructional Apprenticeship	/courses/GHP.html#glbh195
@@ -9041,7 +9041,7 @@ HIEU283  Social Hist/Mediterranean	/courses/HIST.html#hieu283
 'A00Thomas W.,Gallant
 0010RWAC 5    SE0915 09001150A00
 20250611RWAC FI0915 08001059
-HIGL126  Ecstasy: History Transcendence
+HIGL126  Ecstasy: History Transcendence	/courses/HIST.html#higl126
  A00Karl G.,Gerth
 0034YORK 24   LE3000A11001220A00
 HIGR209  Historical Pedagogy	/courses/HIST.html#higr209
@@ -9155,7 +9155,7 @@ HILA132  Modern Mexico	/courses/HIST.html#hila132
 'A00Matthew,Vitz
 0146CENTR24   LE113  15301650A00
 20250609CENTRFI113  15001759
-HILA144P Topics: Pre-Modern Latin Amer.
+HILA144P Topics: Pre-Modern Latin Amer.	/courses/HIST.html#hila144p
  A00Dana V.,Murillo
 0050WLH  135  LE2207 09000950A00
 HILD2C   United States History	/courses/HIST.html#hild2c
@@ -9193,10 +9193,10 @@ HINE199  Independent Study/Near East	/courses/HIST.html#hine199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Mira,Balberg
 9999TBA  TBA  INTBA  TBA TBA 002
-HISA101  South Asia in Global History
+HISA101  South Asia in Global History	/courses/HIST.html#hisa101
  A00Aniket,De
 0040RWAC 24   LE0935 12301350A00
-HISA120  Race and Empire in South Asia
+HISA120  Race and Empire in South Asia	/courses/HIST.html#hisa120
  A00Aniket,De
 0035RWAC 24   LE0935 15301650A00
 HITO87   First-year Seminar	/courses/HIST.html#hito87
@@ -9420,11 +9420,11 @@ SOLIS13   LE104  12001250A00RCLAS5    LER02  12001250A00
 LATI130  Latinx Envir Justice	/courses/LATI.html#lati130
  A00Camila Huerta,Alvarez
 0046PODEM24   LE1A23 15301650A00
-LATI131  Gender as a Border
+LATI131  Gender as a Border	/courses/LATI.html#lati131
  A00Nadia,Villafuerte Vazquez
 0030LASB 135  LE4    14001450A00
 LATI160  Third Cinema/Lat Amer Cold War	/courses/LATI.html#lati160
-LATI166  Latin Food Ethno Amer
+LATI166  Latin Food Ethno Amer	/courses/LATI.html#lati166
  A00Troy Andreas,Kokinis
 0042MANDE135  LEB104 11001150A00
 LATI180  Special Topic/Lat Amer Studies	/courses/LATI.html#lati180
