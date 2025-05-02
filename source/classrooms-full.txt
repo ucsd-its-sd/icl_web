@@ -1,4 +1,4 @@
-V31746192750375
+V31746213555197
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5955,6 +5955,11 @@ CSE 95   Tutor Apprentice	/courses/CSE.html#cse95
 .A00Yingjun,Cao
 0100EBU3B5    PR1202 09000950A00
 TBA  TBA  OTTBA  TBA TBA A01
+CSE 99   Independent Study in CSE	/courses/CSE.html#cse99
+ 001Trey,Ideker
+9999TBA  TBA  INTBA  TBA TBA 001
+ 002Qi,Yu
+9999TBA  TBA  INTBA  TBA TBA 002
 CSE 100  Advanced Data Structures	/courses/CSE.html#cse100
 .A00Debashis,Sahoo
 0395PETER5    DI108  11001150A01
@@ -7804,7 +7809,7 @@ SOLIS24   LE107  15301650A00
 :B00Judson P,Boomhower
 0145CENTR2    DI113  20002050B01
 HSS  24   LE1330 09301050B00
-20250507TBA  MITBA  2000215020250607CSB  FI002  11301429
+20250507WLH  MI2111 2000215020250607CSB  FI002  11301429
 ECON100BHHonors Microeconomics B	/courses/ECON.html#econ100bh
 'A00Judson P,Boomhower
 0020SSB  1    LE107  12001250A00
@@ -8418,6 +8423,8 @@ ERC 92   Honors Project	/courses/ERC.html#erc92
 9999TBA  TBA  INTBA  TBA TBA C00
  D00Gerald M.,Hendrickson
 9999TBA  TBA  INTBA  TBA TBA D00
+ E00Guido Klaus,Frank
+9999TBA  TBA  INTBA  TBA TBA E00
 ESYS103  Envrnmntl Chall: Science & Sol	/courses/ESYS.html#esys103
 :A00Amy M,Lerner
 0034CENTR1    DI217B 15001550A010034CENTR1    DI217B 16001650A020034SOLIS3    DI111  13001350A030034SOLIS3    DI111  14001450A040034HSS  5    DI2154 14001450A050030HSS  5    DI2154 15001550A06
@@ -15529,6 +15536,8 @@ MGT 198  Directed Group Study	/courses/MGT.html#mgt198
 MGT 199  Directed Independent Study	/courses/MGT.html#mgt199
  001Travis Dean,Chamberlain
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002William H,Molloie Jr.
+9999TBA  TBA  INTBA  TBA TBA 002
 MGT 255  Psychology and Decision Making	/courses/MGT.html#mgt255
 'A00Yuval S,Rottenstreich
 0020OTRSN4    SE3E10910001250A00
@@ -18441,7 +18450,7 @@ VIS 208  Thesis Exhibition	/courses/VIS.html#vis208
  A00Ceci,Moss
 0015VAF  2    SE366  12301520A00
 VIS 211  Fact and Fiction	/courses/VIS.html#vis211
- A00Danielle Adobi,Dean
+ A00Janelle Ann,Iglesias
 0015VAF  2    SE366  15301820A00
 VIS 220  Professional Practice Seminar	/courses/VIS.html#vis220
 VIS 258  Seminar in Chinese Art	/courses/VIS.html#vis258
