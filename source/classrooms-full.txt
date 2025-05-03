@@ -1,4 +1,4 @@
-V31746224617434
+V31746278899304
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6627,6 +6627,8 @@ CSE 298  Independent Study	/courses/CSE.html#cse298
 9999TBA  TBA  INTBA  TBA TBA 071
  072Hannah Kathryn,Carter
 9999TBA  TBA  INTBA  TBA TBA 072
+ 073Adalbert Geral,Soosai Raj
+9999TBA  TBA  INTBA  TBA TBA 073
 CSE 299  Research	/courses/CSE.html#cse299
  001Ammanabrolu,Prithviraj
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7543,6 +7545,8 @@ ECE 298  Independent Study	/courses/ECE.html#ece298
 9999TBA  TBA  INTBA  TBA TBA 004
  005Nuno,Vasconcelos
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Yuanyuan,Shi
+9999TBA  TBA  INTBA  TBA TBA 006
 ECE 299  Research	/courses/ECE.html#ece299
  001Nicholas A,Antipa
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -10342,7 +10346,7 @@ LTSP100F Adv Span Heritage Lang & Cult	/courses/LIT.html#ltsp100f
 0028RWAC 24   LE0291 14001520B00
 LTSP134  Literatre of the Southern Cone	/courses/LIT.html#ltsp134
  A00Carol,Arcos Herrera
-0025WLH  135  LE2115 11001150A00
+0025HSS  135  LE2152 11001150A00
 LTSP155  Asia in Latin America	/courses/LIT.html#ltsp155
 'A00Andrea,Mendoza
 0040SOLIS24   LE111  11001220A00
@@ -10353,7 +10357,7 @@ LTSP169  Latin American Popular Culture	/courses/LIT.html#ltsp169
 20250609SOLISFI111  11301429
 LTSP175  Feminisms, Gender, & Sexuality	/courses/LIT.html#ltsp175
  A00Carol,Arcos Herrera
-0025PODEM135  LE1A22 13001350A00
+0025HSS  135  LE2152 13001350A00
 LTSP272  Literature & Society Studies	/courses/LIT.html#ltsp272
  A00Gloria Elizabeth,Chacon
 0015RWAC 5    SE0372 14001650A00
@@ -10444,7 +10448,7 @@ CSB  24   LE002  11001220A00
 20250610CSB  FI002  11301429
 LTWR100W Short Fiction Workshop	/courses/LIT.html#ltwr100w
  A00Christopher,Terry
-0015RWAC 24   SE0371 09301050A00
+0016RWAC 24   SE0371 09301050A00
 LTWR102W Poetry Workshop	/courses/LIT.html#ltwr102w
  A00Ben,Doller
 0015RCLAS13   SER05  11001220A00
@@ -14923,6 +14927,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 057
  058Adam L.,Halberstadt
 9999TBA  TBA  INTBA  TBA TBA 058
+ 059Heline,Mirzakhanian
+9999TBA  TBA  INTBA  TBA TBA 059
 PSYC210  Methods of Human Cog Neuro	/courses/PSYC.html#psyc210
  A00Lindsey Jane,Powell
 0020MNDLR2    SE3545 14001650A00
