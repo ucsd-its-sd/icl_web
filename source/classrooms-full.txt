@@ -1,4 +1,4 @@
-V31749248667516
+V31749303040526
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4048,7 +4048,7 @@ CGS 112  Sexuality & Nation	/courses/CGS.html#cgs112
 20250609MANDEFIB150 08001059
 CGS 114  Gender,Race,Ethnicity & Class	/courses/CGS.html#cgs114
  A00Marisol,Cuong
-0026YORK 135  LE4080A12001250A00
+0025YORK 135  LE4080A12001250A00
 CGS 117  Transgenderisms	/courses/CGS.html#cgs117
 'A00Amanda Maria Yoland,Martin Sandino
 0018WLH  24   LE2112 14001520A00
@@ -9060,8 +9060,9 @@ HIEU146  Fascism,Communism 1919-1945	/courses/HIST.html#hieu146
 0070WLH  24   LE2111 11001220A00
 20250610WLH  FI2111 11301429
 HIEU148  Europe and the World II	/courses/HIST.html#hieu148
- A00Frank Peter,Biess
+'A00Frank Peter,Biess
 0120CSB  24   LE002  17001820A00
+20250612CSB  FI002  19002159
 HIEU160  Topics/Ancient Greek History	/courses/HIST.html#hieu160
  A00Denise,Demetriou
 0015RWAC 1    SE0846 09001150A00
@@ -10580,7 +10581,7 @@ MAE 107  Computational Methods/Engineer	/courses/MAE.html#mae107
 :A00Stephanie,Lindsey
 0104FAH  135  LE1101 08000850A00
 FAH  3    LE1101 13001350A00
-20250613FAH  FI1101 08001059
+20250611WLH  RE2205 1600185020250613FAH  FI1101 08001059
 MAE 119  Intro Renew Energ/Solar & Wind	/courses/MAE.html#mae119
 :A00Patricia,Hidalgo-Gonzalez
 0146CENTR24   LE109  14001520A00
