@@ -1,4 +1,4 @@
-V31749767048818
+V31749821742017
 SP25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -15175,7 +15175,7 @@ PSYC500  Apprentice Teaching	/courses/PSYC.html#psyc500
  024Catherine Walsh,Tallman
 9999TBA  TBA  INTBA  TBA TBA 024
 RAD 296  Radiology Independent Research
- 001
+ 001Albert,Hsiao
 0005TBA  TBA  INTBA  TBA TBA 001
  002
 0005TBA  TBA  INTBA  TBA TBA 002
