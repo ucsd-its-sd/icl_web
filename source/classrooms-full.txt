@@ -1,4 +1,4 @@
-V31751495077031
+V31751549763185
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -328,6 +328,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 054
  055Christina Agnes,Jamieson
 9999TBA  TBA  INTBA  TBA TBA 055
+ 056Victoria Blythe,Risbrough
+9999TBA  TBA  INTBA  TBA TBA 056
 CAT 125GSPublic Rhetoric & Prac Comm GS	/courses/CAT.html#cat125gs
 .A00Phoebe Malan,Bronstein
 0025TBA  TBA  DITBA  TBA TBA A01
@@ -424,6 +426,8 @@ RCLAS13   LER22  08001050A00
 CHEM199  Reading and Research	/courses/CHEM.html#chem199
  001Monica T,Allen
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Lalit,Deshmukh
+9999TBA  TBA  INTBA  TBA TBA 002
 CHIN169A Medical Chinese I	/courses/CHIN.html#chin169a
 COGS3    Introduction to Computing	/courses/COGS.html#cogs3
 :A00Mary E. T.,Boyle
@@ -704,7 +708,7 @@ WLH  1234 LE2111 11001220A00
 ECE 65   Components & Circuits Lab	/courses/ECE.html#ece65
 :A00Andrew S,Saad
 0025WLH  13   LA2213A18002050A500025WLH  13   LA2215 18002050A51
-DIB  24   LE121  18002050A00PCYNH3    DI120  16001750A01
+WLH  24   LE2207 18002050A00PCYNH3    DI120  16001750A01
 20250802TBA  FITBA  19002159
 ECE 198  Direct Group Study	/courses/ECE.html#ece198
  001Robert Wendell,Heath Jr.
@@ -1753,6 +1757,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 008
  009Lawrence Gregor,Appelbaum
 9999TBA  TBA  INTBA  TBA TBA 009
+ 010Joanna,Jacobus
+9999TBA  TBA  INTBA  TBA TBA 010
 RELI161GSAnc Gk Drama,Politics,Religion
  A00Babak,Rahimi
 0020TBA  TBA  LETBA  TBA TBA A00
