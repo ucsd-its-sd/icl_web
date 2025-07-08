@@ -1,4 +1,4 @@
-V31751927128612
+V31751981972010
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -330,6 +330,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 055
  056Victoria Blythe,Risbrough
 9999TBA  TBA  INTBA  TBA TBA 056
+ 057Randy Thomas,Cowling
+9999TBA  TBA  INTBA  TBA TBA 057
 CAT 125GSPublic Rhetoric & Prac Comm GS	/courses/CAT.html#cat125gs
 .A00Phoebe Malan,Bronstein
 0025TBA  TBA  DITBA  TBA TBA A01
@@ -787,7 +789,7 @@ ECON129  Cities, Inequality, Innovation	/courses/ECON.html#econ129
 ECON131  Economics of the Environment	/courses/ECON.html#econ131
 'A00Augusto,Nieto-Barthaburu
 0080PODEM24   LE1A19 17001950A00
-20250802TBA  FITBA  19002159
+20250716PODEMRE1A19 1700185020250801PODEMRE1A18 1700185020250802TBA  FITBA  19002159
 ECON138  Economics of Discrimination	/courses/ECON.html#econ138
 'A00Prashant,Bharadwaj
 0025RCLAS13   LER15  08001050A00
