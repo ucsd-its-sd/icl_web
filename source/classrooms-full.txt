@@ -1,4 +1,4 @@
-V31752272750128
+V31752327177461
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -332,6 +332,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 056
  057Randy Thomas,Cowling
 9999TBA  TBA  INTBA  TBA TBA 057
+ 058David Tevis,Pride
+9999TBA  TBA  INTBA  TBA TBA 058
 CAT 125GSPublic Rhetoric & Prac Comm GS	/courses/CAT.html#cat125gs
 .A00Phoebe Malan,Bronstein
 0025TBA  TBA  DITBA  TBA TBA A01
