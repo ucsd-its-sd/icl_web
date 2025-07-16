@@ -1,4 +1,4 @@
-V31752618388368
+V31752673283401
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1765,7 +1765,7 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 009
  010Joanna,Jacobus
 9999TBA  TBA  INTBA  TBA TBA 010
-RELI161GSAnc Gk Drama,Politics,Religion
+RELI161GSAnc Gk Drama,Politics,Religion	/courses/RELI.html#reli161gs
  A00Babak,Rahimi
 0020TBA  TBA  LETBA  TBA TBA A00
 MGT 18GS Managing Diverse Teams	/courses/MGT.html#mgt18gs
@@ -2014,7 +2014,7 @@ HSS  13   LE7077 13301620B00
 0020HSS  24   DI7077 15301620C01
 HSS  24   LE7077 12301520C00
 20250802TBA  FITBA  11301429
-SYN 100GSEngaging/Changing Planet GS
+SYN 100GSEngaging/Changing Planet GS	/courses/SYN.html#syn100gs
  A00Thomas Rainer,Schmidt
 0000TBA  TBA  LETBA  TBA TBA A00
 SYN 150R Defining Scope/Changing Planet	/courses/SYN.html#syn150r
