@@ -1,4 +1,4 @@
-V31752673283401
+V31752693726862
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -988,7 +988,7 @@ HUM 3    Renaissance,Reform&Early Europ	/courses/HUM.html#hum3
 0050DIB  24   DI121  13001350A01
 DIB  24   LE121  14001650A00
 20250802TBA  FITBA  15001759
-HUM 3R   Renaissance,Reform&Early Europ
+HUM 3R   Renaissance,Reform&Early Europ	/courses/HUM.html#hum3r
 .A00Bretton Sigfred,Rodriguez
 0050RCLAS24   DIR08  10001050A01
 TBA  TBA  LETBA  TBA TBA A00
@@ -1010,7 +1010,7 @@ HUM 5    Modern Culture	/courses/HUM.html#hum5
 0050YORK 24   DI4080A14001450A01
 YORK 24   LE4080A11001350A00
 20250802TBA  FITBA  11301429
-HUM 5R   Modern Culture
+HUM 5R   Modern Culture	/courses/HUM.html#hum5r
 .A00Tatiana Sophia,Zavodny
 0050RCLAS13   DIR05  10001050A01
 TBA  TBA  LETBA  TBA TBA A00
@@ -1088,7 +1088,7 @@ LISP1DX  Analysis of Spanish	/courses/LING.html#lisp1dx
 LTAF120GSLit & Film of Modern Africa	/courses/LIT.html#ltaf120gs
  A00Robert,Cancel
 0020TBA  TBA  LETBA  TBA TBA A00
-LTAM110GSLatin American Lit/Translation
+LTAM110GSLatin American Lit/Translation	/courses/LIT.html#ltam110gs
 LTCH101  Readings/Contemp Chinese Lit	/courses/LIT.html#ltch101
 LTCS108  Gender, Race, & Artificial Int	/courses/LIT.html#ltcs108
 LTCS130  Gender,Race/Ethn,Class&Culture	/courses/LIT.html#ltcs130
@@ -1102,7 +1102,7 @@ LTEA142  Korean Film, Lit & Pop Culture	/courses/LIT.html#ltea142
 'A00Samuel,Kim
 0040PODEM13   LE0133 14001650A00
 20250801TBA  FITBA  15001759
-LTEN128GSBritish/Irish Poetry 1900-Pres
+LTEN128GSBritish/Irish Poetry 1900-Pres	/courses/LIT.html#lten128gs
  A00Antony J.,Lyon
 0020TBA  TBA  LETBA  TBA TBA A00
 LTEN158  Modern American Literature	/courses/LIT.html#lten158
