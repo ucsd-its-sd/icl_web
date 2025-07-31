@@ -2,6 +2,9 @@ V31753914392158
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
+S125     Version
+.A00Kevin,Fisher
+0035APM  12345LE1313 08001930A00
 ANAR104  Intro GIS for Anth & Arch	/courses/ANTH.html#anar104
 ANAR116  Sea Level Change - Israel	/courses/ANTH.html#anar116
 ANAR117  Archaeology Field&Lab, SoCal	/courses/ANTH.html#anar117
