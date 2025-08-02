@@ -1,4 +1,4 @@
-V31754087199536
+V31754141714704
 S125     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -432,6 +432,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Lalit,Deshmukh
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Navtej,Toor
+9999TBA  TBA  INTBA  TBA TBA 003
 CHIN169A Medical Chinese I	/courses/CHIN.html#chin169a
 COGS3    Introduction to Computing	/courses/COGS.html#cogs3
 :A00Mary E. T.,Boyle
