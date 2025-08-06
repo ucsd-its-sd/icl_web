@@ -1,4 +1,4 @@
-V31754432879189
+V31754488051879
 S225     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -212,7 +212,7 @@ TBA  TBA  LETBA  TBA TBA A00
 BILD3    Organismic&Evolutionary Biol	/courses/BIOL.html#bild3
 :A00Zachary John Corey,Tobias
 0020PCYNH13   DI240  11001150A010015PCYNH13   DI240  12001250A020015PCYNH24   DI240  13001350A030015PCYNH24   DI240  14001450A04
-CENTR1234 LE113  09301050A00
+CENTR1234 LE222  09301050A00
 20250905TBA  FITBA  08001059
 BILD4    Introductory Biology Lab	/courses/BIOL.html#bild4
 :A00Keefe,Reuther
@@ -371,6 +371,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 039
  040Michael,Karin
 9999TBA  TBA  INTBA  TBA TBA 040
+ 041William,Mobley
+9999TBA  TBA  INTBA  TBA TBA 041
 CAT 1    Culture, Art, and Technology 1	/courses/CAT.html#cat1
 CAT 124  Sixth College Practicum	/courses/CAT.html#cat124
 .A00William,Geibel
@@ -448,6 +450,10 @@ PCYNH24   LE122  11001350A00
 CHEM199  Reading and Research	/courses/CHEM.html#chem199
  001Colleen A,McHugh
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Lalit,Deshmukh
+9999TBA  TBA  INTBA  TBA TBA 002
+ 003Monica T,Allen
+9999TBA  TBA  INTBA  TBA TBA 003
 CHIN165A Business Chinese I	/courses/CHIN.html#chin165a
 CLAS120  Classical Diversities	/courses/CLAS.html#clas120
 COGS9    Introduction to Data Science	/courses/COGS.html#cogs9
@@ -670,6 +676,10 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Niema,Moshiri
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Nadezhda,Polikarpova
+9999TBA  TBA  INTBA  TBA TBA 003
+ 004Russell,Impagliazzo
+9999TBA  TBA  INTBA  TBA TBA 004
 CSE 299  Research	/courses/CSE.html#cse299
  001Rajesh K.,Gupta
 0000TBA  TBA  INTBA  TBA TBA 001
