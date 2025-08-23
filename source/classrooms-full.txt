@@ -1,4 +1,4 @@
-V31755901369567
+V31755955732678
 S225     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -736,6 +736,9 @@ DIB  24   LE253  17301820A00
 ECE 197  ECE Internship	/courses/ECE.html#ece197
  001Patrick Philip,Mercier
 9999TBA  TBA  ITTBA  TBA TBA 001
+ECE 299  Research	/courses/ECE.html#ece299
+ 001Nikolay A.,Atanasov
+9999TBA  TBA  INTBA  TBA TBA 001
 ECON1    Principles of Microeconomics	/courses/ECON.html#econ1
 :A00Meredith Helen,Crane
 0086RCLAS5    DIR40  08000950A01
