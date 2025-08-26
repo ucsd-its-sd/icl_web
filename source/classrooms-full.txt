@@ -1,4 +1,4 @@
-V31756160629877
+V31756215394458
 S225     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -172,6 +172,9 @@ BENG196  Bioeng Industrial Internship	/courses/BENG.html#beng196
 9999TBA  TBA  INTBA  TBA TBA 001
 BENG199  Independent Study/Undergrads	/courses/BENG.html#beng199
  001Ludmil B,Alexandrov
+9999TBA  TBA  INTBA  TBA TBA 001
+BENG299  Graduate Research	/courses/BENG.html#beng299
+ 001Shankar,Subramaniam
 9999TBA  TBA  INTBA  TBA TBA 001
 BIBC102  Metabolic Biochemistry	/courses/BIOL.html#bibc102
 :A00Julie Ella-May,McNutt
@@ -463,6 +466,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 002
  003Monica T,Allen
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Judy E.,Kim
+9999TBA  TBA  INTBA  TBA TBA 004
 CHIN165A Business Chinese I	/courses/CHIN.html#chin165a
 CLAS120  Classical Diversities	/courses/CLAS.html#clas120
 COGS9    Introduction to Data Science	/courses/COGS.html#cogs9
