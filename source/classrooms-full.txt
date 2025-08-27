@@ -1,11 +1,11 @@
-V31756246978250
+V31756301538592
 S225     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
 AAS 10   Intro/African-American Studies	/courses/AASM.html#aas10
 :A00Dennis R.,Childs
 0008TBA  TBA  DITBA  TBA TBA A01
-HSS  24   LE1128A11001350A00
+RCLAS24   LER09  11001350A00
 20250906TBA  FITBA  11301429
 ANAR104  Intro GIS for Anth & Arch	/courses/ANTH.html#anar104
 ANAR120  Documenting Climate Change	/courses/ANTH.html#anar120
