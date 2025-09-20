@@ -1,4 +1,4 @@
-V31758320503961
+V31758374740628
 S225     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -1481,6 +1481,9 @@ NANO199  Independent Study/Undergrad	/courses/NANO.html#nano199
 9999TBA  TBA  INTBA  TBA TBA 001
  002Oscar,Vazquez Mena
 9999TBA  TBA  INTBA  TBA TBA 002
+NEU 199  Independent Study	/courses/NEU.html#neu199
+ 001Eric,Halgren
+0000TBA  TBA  INTBA  TBA TBA 001
 PHIL1    Introduction to Philosophy	/courses/PHIL.html#phil1
 'A00Huadian,Liu
 0030RWAC 24   LE0472 14001650A00
