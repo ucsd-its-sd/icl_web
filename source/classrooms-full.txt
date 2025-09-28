@@ -1,4 +1,4 @@
-V31759011614019
+V31759065900527
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -856,7 +856,7 @@ BENG219  Data Sci Multiscale Biology	/courses/BENG.html#beng219
 0036PFBH 24   LE161  12301350A00
 BENG221  Mathematical Methods/Bioeng	/courses/BENG.html#beng221
 :A00Daniela,Valdez-Jasso
-0070WLH  24   LE2205 11001220A00
+0075WLH  24   LE2205 11001220A00
 TBA  5    DITBA  11001150A01
 20251210WLH  FI2205 11301429
 BENG226  Foundations of Bioeng I	/courses/BENG.html#beng226
@@ -6839,7 +6839,7 @@ ECE 222A Antennas & Their System Applic	/courses/ECE.html#ece222a
 20251212SOLISFI109  11301429
 ECE 225A Prob & Stats for Data Science	/courses/ECE.html#ece225a
 'A00Alon,Orlitsky
-0191PCYNH24   LE106  09301050A00
+0192PCYNH24   LE106  09301050A00
 20251211PCYNHFI106  08001059
 ECE 230A Solid State Electronics I	/courses/ECE.html#ece230a
 'A00Kenji,Nomura
@@ -6851,7 +6851,7 @@ ECE 238A Thermodynamics of Solids	/courses/ECE.html#ece238a
 20251209WLH  FI2204 19002159
 ECE 240A Lasers and Optics	/courses/ECE.html#ece240a
 'A00Abdoulaye,Ndao
-0030SOLIS24   LE110  11001220A00
+0036SOLIS24   LE110  11001220A00
 20251210SOLISFI110  11301429
 ECE 247A Advanced BioPhotonics	/courses/ECE.html#ece247a
 'A00Lingyan,Shi
@@ -6885,7 +6885,7 @@ EBU1 13   LE2315 11001220A00
 20251209EBU1 FI2315 11301429
 ECE 258A Digital Communications I	/courses/ECE.html#ece258a
 'A00Robert Wendell,Heath Jr.
-0020EBU1 24   LE2315 11001220A00
+0024EBU1 24   LE2315 11001220A00
 20251210EBU1 FI2315 11301429
 ECE 260A VLSI Digit Sys Algorithms&Arch	/courses/ECE.html#ece260a
 :A00John,Eldon
