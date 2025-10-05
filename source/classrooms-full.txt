@@ -1,4 +1,4 @@
-V31759670701030
+V31759691816934
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10706,7 +10706,7 @@ MATH261A ProblstcCombintrcs&Algorthm	/courses/MATH.html#math261a
 20251208APM  FIB412 15001759
 MATH269  Seminar in Combinatorics	/courses/MATH.html#math269
  A00Brendon Patrick,Rhoades	Lutz Peter,Warnke
-0019APM  2    SE7321 14001450A00
+0020APM  2    SE7321 14001450A00
 MATH270A Numerical Linear Algebra	/courses/MATH.html#math270a
 'A00Ioana,Dumitriu
 0045APM  135  LEB412 15001550A00
@@ -10754,7 +10754,7 @@ MATH283  Stat Methods in Bioinformatics	/courses/MATH.html#math283
 20251210APM  FIB402A15001759
 MATH287A Time Series Analysis	/courses/MATH.html#math287a
 'A00Dimitris,Politis
-0026APM  35   LEB402A12001320A00
+0028APM  35   LEB402A12001320A00
 20251211APM  FIB402A11301429
 MATH288  Seminar/Probability&Statistics	/courses/MATH.html#math288
  A00John Michael,Peca-Medlin
