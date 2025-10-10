@@ -1,4 +1,4 @@
-V31760123939742
+V31760134898946
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8085,7 +8085,7 @@ ETHN120  Race/Perfrm: Poltcs Poplr Cult	/courses/ETHN.html#ethn120
 20251211SOLISFI111  19002159
 ETHN122A AsianAmerican Culture & Health	/courses/ETHN.html#ethn122a
  A00Samuel David,Museus
-0029HSS  24   LE1315 17001820A00
+0030HSS  24   LE1315 17001820A00
 ETHN125R R-Asian American History	/courses/ETHN.html#ethn125r
  A00Christen T,Sasaki
 0036RCLAS24   LER09  14001520A00
@@ -10169,7 +10169,7 @@ MAE 152  Intro Manual and CNC Machining	/courses/MAE.html#mae152
 0016EBU2 4    LAB35  12301520C00
 MAE 153  Design of Machine Components	/courses/MAE.html#mae153
 :A00Maziar,Ghazinejad
-0046DIB  24   LE122  11001220A00
+0049DIB  24   LE122  11001220A00
 SOLIS2    LE110  17001750A00
 20251210DIB  FI122  11301429
 MAE 156A Fund. Prin./Mechanical Desgn I	/courses/MAE.html#mae156a
@@ -11513,7 +11513,7 @@ MMW 501  Teaching/Making/Modern World	/courses/MMW.html#mmw501
 0000TBA  TBA  LETBA  TBA TBA A00
 MSED295  Orientation Practicum	/courses/MSED.html#msed295
  A00
-0005TBA  TBA  PRTBA  TBA TBA A00
+0000TBA  TBA  PRTBA  TBA TBA A00
 MSED296A Theories & Applications/MSED	/courses/MSED.html#msed296a
 'A00Jeffrey Mark,Rabin
 0015APM  1    LEB402A09001150A00
