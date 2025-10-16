@@ -1,4 +1,4 @@
-V31760566857771
+V31760621751942
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -2816,6 +2816,14 @@ BILD99H  Independent Study
 9999TBA  TBA  INTBA  TBA TBA 002
  003Eric J,Bennett
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Elina I,Zuniga
+9999TBA  TBA  INTBA  TBA TBA 004
+ 005Eugene Wei-Ming,Yeo
+9999TBA  TBA  INTBA  TBA TBA 005
+ 006Gurol Mehmet,Suel
+9999TBA  TBA  INTBA  TBA TBA 006
+ 007Rommie E,Amaro
+9999TBA  TBA  INTBA  TBA TBA 007
 BIMM100  Molecular Biology	/courses/BIOL.html#bimm100
 :A00Jens,Lykke-Andersen
 0056PCYNH1    DI120  08000850A010056PCYNH1    DI120  17001750A020056PCYNH3    DI120  15001550A030056CSB  5    DI005  12001250A04
@@ -3100,6 +3108,8 @@ BISP196  Honors: Biological Sciences	/courses/BIOL.html#bisp196
 9999TBA  TBA  INTBA  TBA TBA 055
  056Christopher,Glass
 9999TBA  TBA  INTBA  TBA TBA 056
+ 057Eugene Wei-Ming,Yeo
+9999TBA  TBA  INTBA  TBA TBA 057
 BISP197  Biology Internship Program	/courses/BIOL.html#bisp197
  001Brenda Laurie,Bloodgood
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -3200,6 +3210,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 142
  143Jill P.,Mesirov
 9999TBA  TBA  INTBA  TBA TBA 143
+ 144Mary P.,Corr
+9999TBA  TBA  INTBA  TBA TBA 144
  001Mingxiong,Huang
 9999TBA  TBA  INTBA  TBA TBA 001
  002Jonathan,Shurin
@@ -4275,6 +4287,14 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 031
  032Neville,Bethel
 9999TBA  TBA  INTBA  TBA TBA 032
+ 033Jair,Lage de Siqueira Neto
+9999TBA  TBA  INTBA  TBA TBA 033
+ 034Jair,Lage de Siqueira Neto
+9999TBA  TBA  INTBA  TBA TBA 034
+ 035John M.,Ravits
+9999TBA  TBA  INTBA  TBA TBA 035
+ 036Jonathan,Slade
+9999TBA  TBA  INTBA  TBA TBA 036
 CHEM204  Intro to X-ray Crystallography	/courses/CHEM.html#chem204
 'A00Partho,Ghosh
 0020MANDE24   LEB153 15301650A00
@@ -4342,6 +4362,10 @@ CHEM294  Organic Chemistry Seminar	/courses/CHEM.html#chem294
 CHEM297  Experimental Methods/Chemistry	/courses/CHEM.html#chem297
  001Erik Anthony,Romero
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Guy,Bertrand
+9999TBA  TBA  INTBA  TBA TBA 002
+ 003Jonathan,Slade
+9999TBA  TBA  INTBA  TBA TBA 003
 CHEM298  Special Study in Chemistry	/courses/CHEM.html#chem298
  001Itay,Budin
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -6717,11 +6741,11 @@ DSC 80   Practice of Data Science	/courses/DSC.html#dsc80
 :A00Justin Matthew,Eldridge
 0145HSS  4    DI1330 18001850A01
 CENTR24   LE212  12301350A00
-20251206CENTRFI212  15001759
+20251201CENTRRE212  1900205020251206CENTRFI212  15001759
 :B00Justin Matthew,Eldridge
 0044HSS  4    DI1330 19001950B01
 PODEM24   LE1A22 15301650B00
-20251206CENTRFI214  15001759
+20251201TBA  RETBA  1900205020251206CENTRFI214  15001759
 DSC 95   Tutor Appshp in Data Science	/courses/DSC.html#dsc95
 .A00Marina,Langlois
 0020TBA  TBA  PRTBA  TBA TBA A01
@@ -6812,8 +6836,8 @@ DSC 241  Statistical Models	/courses/DSC.html#dsc241
 0090PODEM135  LE1A20 11001150A00
 DSC 242  High-Dimensional Prob/Stats	/courses/DSC.html#dsc242
 'A00Tianhao,Wang
-0040PODEM24   LE1A19 14001520A00
-20251211PODEMFI1A19 15001759
+0040WLH  24   LE2209 14001520A00
+20251211WLH  FI2209 15001759
 DSC 256R Data Mining on the Web	/courses/DSC.html#dsc256r
 .A00Julian John,McAuley
 0100TBA  TBA  DITBA  TBA TBA A01
@@ -7641,7 +7665,7 @@ ECON129  Cities, Inequality, Innovation	/courses/ECON.html#econ129
 ECON130  Public Policy	/courses/ECON.html#econ130
 'A00Yuan Emily,Tang
 0190CENTR1    LE115  17001950A00
-20251211CENTRFI115  19002159
+20251015CENTRRE212  1900212020251211CENTRFI115  19002159
 ECON131  Economics of the Environment	/courses/ECON.html#econ131
 'A00Mark,Jacobsen
 0250CTL  4    LE0125 17001950A00
@@ -10165,6 +10189,8 @@ MAE 99H  Independent Study	/courses/MAE.html#mae99h
 9999TBA  TBA  INTBA  TBA TBA 002
  003John T,Hwang
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004David,Saintillan
+9999TBA  TBA  INTBA  TBA TBA 004
 MAE 101A Introductory Fluid Mechanics	/courses/MAE.html#mae101a
 :A00Sutanu,Sarkar
 0144CENTR24   LE216  11001220A00
@@ -12463,12 +12489,10 @@ NEU 199  Independent Study	/courses/NEU.html#neu199
  002Justin Howard,Trotter
 9999TBA  TBA  INTBA  TBA TBA 002
 NEU 233  Circadian Rhythms and Health	/courses/NEU.html#neu233
-.A00Paula A,Desplats
-0000BRF2 2    SE4A04 15001600A01
-BRF2 2    LE4A04 14001450A00
 NEU 276  Neurosciences Research Rounds	/courses/NEU.html#neu276
- A00Jerome Stefan,Mertens
-0022TBA  TBA  LETBA  TBA TBA A000005CNCB 4    DISEM  14001500A01
+.B00Jerome Stefan,Mertens
+0000CNCB 4    DISEM  14001500B01
+TBA  TBA  LETBA  TBA TBA B00
 NEU 296  Neurosciences Resrch Rotation	/courses/NEU.html#neu296
  001Sean Jeffrey,Evans
 0010TBA  TBA  INTBA  TBA TBA 001
@@ -15807,6 +15831,8 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 015
  016Andrew Ellis,Allen
 9999TBA  TBA  INTBA  TBA TBA 016
+ 017Matthias,Morzfeld
+9999TBA  TBA  INTBA  TBA TBA 017
 SIO 299  Research	/courses/SIO.html#sio299
  100Richard D.,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
@@ -16485,12 +16511,10 @@ SOCG500  Apprentice Teaching	/courses/SOC.html#socg500
 9999TBA  TBA  INTBA  TBA TBA 035
  036Khashayar,Ostovany
 9999TBA  TBA  INTBA  TBA TBA 036
- 037
+ 037Elizabeth Anne,Miller
 9999TBA  TBA  INTBA  TBA TBA 037
  039Kristopher M.,Kohler
 9999TBA  TBA  INTBA  TBA TBA 039
- 040Elizabeth Anne,Miller
-0000TBA  TBA  INTBA  TBA TBA 040
 SOCI1    Introduction to Sociology	/courses/SOC.html#soci1
 :A00John David,Skrentny
 0032SSB  4    DI101  08000850A010032SSB  4    DI101  09000950A020032SSB  4    DI101  10001050A030032SSB  4    DI101  11001150A040032SSB  5    DI101  08000850A050032SSB  5    DI101  09000950A060032SSB  5    DI101  10001050A070032SSB  5    DI101  11001150A080032SSB  5    DI101  12001250A09
@@ -17607,6 +17631,9 @@ TMC 15   Public Service in America	/courses/TMC.html#tmc15
 'A00Patricia Ann Benitez,Hemans
 0020HSS  13   LE6008 09301050A00
 20251210HSS  FI6008 08001059
+TMC 99H  Independent Study
+ 001Dionicio R.,Siegel
+9999TBA  TBA  INTBA  TBA TBA 001
 TMC 120  Partnership Schools Program	/courses/TMC.html#tmc120
 .A00Errol Tsekani,Browne
 0020TBA  TBA  FWTBA  TBA TBA A01
@@ -17707,7 +17734,7 @@ USP 125  The Design of Social Research	/courses/USP.html#usp125
 0030RWAC 24   LE0424 14001520A00
 20251211RWAC FI0424 15001759
 USP 136  Community Organizing	/courses/USP.html#usp136
- A00
+ A00Mirle Rabinowitz,Bussell
 0035MANDE2    SEB104 17001950A00
 USP 141A Life Course Scholars Research	/courses/USP.html#usp141a
 'A00Leslie R,Lewis
@@ -18032,7 +18059,7 @@ VIS 243  Aesthetic Theory	/courses/VIS.html#vis243
  A00Jordan M,Rose
 0015VAF  2    SE366  15301820A00
 VIS 255  Seminar in Contemporary Art	/courses/VIS.html#vis255
- A00
+ A00Monique Luise,Vangenderen
 0015VAF  1    SE366  12001450A00
 VIS 295  Individual Studies/Grad Studnt	/courses/VIS.html#vis295
  001Nicole L,Miller
