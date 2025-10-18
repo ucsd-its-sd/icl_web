@@ -1,4 +1,4 @@
-V31760739730782
+V31760793985395
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -926,6 +926,10 @@ BENG199  Independent Study/Undergrads	/courses/BENG.html#beng199
 9999TBA  TBA  INTBA  TBA TBA 031
  032Erika Leah,Cyphert
 9999TBA  TBA  INTBA  TBA TBA 032
+ 033Brian Alberto,Aguado
+9999TBA  TBA  INTBA  TBA TBA 033
+ 034Frank E,Talke
+9999TBA  TBA  INTBA  TBA TBA 034
 BENG211  Sys Biol & Bioeng I: Biol Comp	/courses/BENG.html#beng211
 'A00Benjamin,Smarr
 0065PFBH 13   LE161  12301350A00
@@ -1083,6 +1087,8 @@ BENG299  Graduate Research	/courses/BENG.html#beng299
 9999TBA  TBA  INTBA  TBA TBA 135
  136Claire,Scholtes Acevedo
 9999TBA  TBA  INTBA  TBA TBA 136
+ 137Jing,Yang
+9999TBA  TBA  INTBA  TBA TBA 137
  001Pedro,Cabrales
 9999TBA  TBA  INTBA  TBA TBA 001
  002Ludmil B,Alexandrov
@@ -5934,6 +5940,8 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 010
  011Hao,Su
 9999TBA  TBA  INTBA  TBA TBA 011
+ 012Michael J,Coblenz
+9999TBA  TBA  INTBA  TBA TBA 012
 CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
  001Deepak,Kumar
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -10351,6 +10359,8 @@ MAE 199  Independent Study/Undergrads	/courses/MAE.html#mae199
 9999TBA  TBA  INTBA  TBA TBA 011
  012Olivia A,Graeve
 9999TBA  TBA  INTBA  TBA TBA 012
+ 013Michael Thomas,Tolley
+9999TBA  TBA  INTBA  TBA TBA 013
 MAE 201  Mechanics of Fluids	/courses/MAE.html#mae201
 'A00Geno Ronald,Pawlak
 0089FAH  24   LE1450 09301050A00
@@ -10445,6 +10455,8 @@ MAE 296  Independent Study	/courses/MAE.html#mae296
 9999TBA  TBA  INTBA  TBA TBA 001
  002John T,Hwang
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Thomas R,Bewley
+9999TBA  TBA  INTBA  TBA TBA 003
 MAE 298  Direct Group Study	/courses/MAE.html#mae298
  001Nicholas Sebastia,Boechler	Claire,Scholtes Acevedo
 0025TBA  TBA  INTBA  TBA TBA 001
@@ -16914,6 +16926,8 @@ PH  299  Dissertation Research PH
 9999TBA  TBA  INTBA  TBA TBA 006
  007Aryana,Sepassi
 9999TBA  TBA  INTBA  TBA TBA 007
+ 008Alexandra K,Heaney
+9999TBA  TBA  INTBA  TBA TBA 008
 PH  400  Introduction to Biostatistics
 .A00Brinda Kanti,Rana
 0042MET  4    LA200  12001250A01
