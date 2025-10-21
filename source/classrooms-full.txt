@@ -1,4 +1,4 @@
-V31760998960144
+V31761053872353
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -489,6 +489,9 @@ ASTR65   Astronomy of Climate Change	/courses/ASTR.html#astr65
 .A00Samantha Kathleen,Trumbo
 0068WLH  5    DI2205 11001150A01
 MANDE135  LEB150 09000950A00
+ASTR99   Independent Study	/courses/ASTR.html#astr99
+ 001Carl Anthony,Melis
+9999TBA  TBA  INTBA  TBA TBA 001
 ASTR101  Astrophysical Dynamics	/courses/ASTR.html#astr101
 :A00Adam Jonathan,Burgasser
 0032CENTR3    DI220  18001850A02
@@ -2926,7 +2929,7 @@ RBC  4    LEAUD  17001950C00
 :D00Mingyu,Yang
 0054CSB  3    DI004  08000850D010054CSB  5    DI005  16001650D020054CSB  5    DI005  17001750D030054CSB  5    DI005  18001850D04
 LEDDN135  LEAUD  13001350D00
-20251208LEDDNFIAUD  11301429
+20251021MOS  RE0204 1700182020251208LEDDNFIAUD  11301429
 BIPN103  Human Anatomy with Lab	/courses/BIOL.html#bipn103
 :A00Mingyu,Yang	Carlos Roberto,Rojo
 0000TATA 35   LA2501 10001150A01
@@ -3642,6 +3645,8 @@ BIOM298  Directed Study	/courses/BIOM.html#biom298
 0010TBA  TBA  INTBA  TBA TBA 092
  093Reuben,Shaw
 0010TBA  TBA  INTBA  TBA TBA 093
+ 094Miguel Alej,Lopez Ramirez
+0010TBA  TBA  INTBA  TBA TBA 094
 BIOM299  Independent Study	/courses/BIOM.html#biom299
  001Ludmil B,Alexandrov
 0010TBA  TBA  INTBA  TBA TBA 001
@@ -4301,6 +4306,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 035
  036Jonathan,Slade
 9999TBA  TBA  INTBA  TBA TBA 036
+ 037Alina M,Schimpf
+9999TBA  TBA  INTBA  TBA TBA 037
 CHEM204  Intro to X-ray Crystallography	/courses/CHEM.html#chem204
 'A00Partho,Ghosh
 0020MANDE24   LEB153 15301650A00
@@ -6244,6 +6251,8 @@ CSE 293  Spec Proj/Computer Sci & Engin	/courses/CSE.html#cse293
 9999TBA  TBA  INTBA  TBA TBA 078
  079Ryan Charles,Kastner
 9999TBA  TBA  INTBA  TBA TBA 079
+ 080Zhuowen,Tu
+9999TBA  TBA  INTBA  TBA TBA 080
 CSE 294  Research Meeting in CSE	/courses/CSE.html#cse294
  A00Alex,Orailoglu
 0000EBU3B5    SE2109 14001650A00
@@ -7686,8 +7695,8 @@ ECON139  Labor Economics	/courses/ECON.html#econ139
 20251209RWAC FI0121 11301429
 ECON152  Public Economics:ExpenditureII	/courses/ECON.html#econ152
 'A00Yizhak,Fadlon
-0034YORK 24   LE3000A11001220A00
-20251206YORK FI3000A08001059
+0034CENTR24   LE217A 11001220A00
+20251206CENTRFI217A 08001059
 ECON181  Topics in Economics	/courses/ECON.html#econ181
 'A00Sara,Esfahani
 0104PODEM24   LE1A20 09301050A00
@@ -10788,7 +10797,7 @@ PODEM135  LE1A18 13001350C00
 :D00Lucas,Buzaglo
 0032HSS  3    DI2150 17001750D010032HSS  3    DI2150 18001850D020032HSS  3    DI1315 18001850D03
 PODEM135  LE1A18 15001550D00
-20251212PODEMFI1A18 15001759
+20251022WLH  RE2114 1300135020251022WLH  RE2114 1400145020251212PODEMFI1A18 15001759
 :E00Lucas,Buzaglo
 0035APM  4    DI2402 08000850E010035APM  4    DI2402 09000950E02
 PODEM135  LE1A19 16001650E00
@@ -13023,6 +13032,8 @@ PEDS299  Pediatric Indepndnt Study Proj
 0005TBA  TBA  INTBA  TBA TBA 002
  003M Paula,Aristizabal
 0005TBA  TBA  INTBA  TBA TBA 003
+ 004Vanessa P,Scott
+0005TBA  TBA  INTBA  TBA TBA 004
 PEDS401  Pediatrics Core Clerkship
  A00Christopher Ray,Cannavino
 0070TBA  TBA  CLTBA  TBA TBA A00
@@ -15419,11 +15430,11 @@ MGTF418  Preparing for the CFA Exam	/courses/MGT.html#mgtf418
  A00Christopher C,Girand
 0036WFH  4    LE3N12911001250A00
 MGTF490  Capstone: Applied Finance Proj	/courses/MGT.html#mgtf490
- A00Christopher C,Girand	Susan B,Padernacht
+ A00Christopher C,Girand	Susan B,Padernacht	Michael T.,Melvin
 0098OTRSN3    LE1E10608001050A00
- B00Christopher C,Girand	Susan B,Padernacht
+ B00Christopher C,Girand	Susan B,Padernacht	Michael T.,Melvin
 0098OTRSN3    LE1E10614001650B00
- C00Christopher C,Girand	Susan B,Padernacht
+ C00Christopher C,Girand	Susan B,Padernacht	Michael T.,Melvin
 0060OTRSN4    LE4E10608001050C00
 MGTF495  Special Topics	/courses/MGT.html#mgtf495
  A00Lu,Yu
@@ -16924,10 +16935,12 @@ PH  299  Dissertation Research PH
 9999TBA  TBA  INTBA  TBA TBA 005
  006Gretchen,Bandoli
 9999TBA  TBA  INTBA  TBA TBA 006
- 007Aryana,Sepassi
+ 007Elizabeth Victoria,Eikey
 9999TBA  TBA  INTBA  TBA TBA 007
  008Alexandra K,Heaney
 9999TBA  TBA  INTBA  TBA TBA 008
+ 009Tala,Al Rousan
+9999TBA  TBA  INTBA  TBA TBA 009
 PH  400  Introduction to Biostatistics
 .A00Brinda Kanti,Rana
 0042MET  4    LA200  12001250A01
@@ -17265,9 +17278,9 @@ SYN 150  Defining Scope/Changing Planet	/courses/SYN.html#syn150
  004Gwendolyn Anne,Fish
 0000HSS  24   SE7076 12301350004
  006Jason,Lagapa
-0000MANDE24   SEB146 12301350006
+0000HSS  24   SE2150 12301350006
  007Jason,Lagapa
-0000MANDE24   SEB146 14001520007
+0000HSS  24   SE2305A14001520007
  008Gwendolyn Anne,Fish
 0021MANDE24   SEB146 15301650008
 SYN 150R Defining Scope/Changing Planet	/courses/SYN.html#syn150r
@@ -17766,7 +17779,7 @@ USP 125  The Design of Social Research	/courses/USP.html#usp125
 0030RWAC 24   LE0424 14001520A00
 20251211RWAC FI0424 15001759
 USP 136  Community Organizing	/courses/USP.html#usp136
- A00Mirle Rabinowitz,Bussell
+ A00Satomi Jessica,Rash-Zeigler
 0035MANDE2    SEB104 17001950A00
 USP 141A Life Course Scholars Research	/courses/USP.html#usp141a
 'A00Leslie R,Lewis
