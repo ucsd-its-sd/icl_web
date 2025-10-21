@@ -1,4 +1,4 @@
-V31761053872353
+V31761074441041
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8204,7 +8204,7 @@ ETHN120  Race/Perfrm: Poltcs Poplr Cult	/courses/ETHN.html#ethn120
 20251211SOLISFI111  19002159
 ETHN122A AsianAmerican Culture & Health	/courses/ETHN.html#ethn122a
  A00Samuel David,Museus
-0039HSS  24   LE1315 17001820A00
+0029HSS  24   LE1315 17001820A00
 ETHN125R R-Asian American History	/courses/ETHN.html#ethn125r
  A00Christen T,Sasaki
 0034RCLAS24   LER09  14001520A00
