@@ -1,4 +1,4 @@
-V31761949404107
+V31762003656271
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5196,6 +5196,8 @@ COGS199  Special Project	/courses/COGS.html#cogs199
 9999TBA  TBA  INTBA  TBA TBA 013
  014Anne,Beatty-Martinez
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Lucy,Lai
+9999TBA  TBA  INTBA  TBA TBA 015
 COGS203  Foundation:Theor&Meth in Studi	/courses/COGS.html#cogs203
  A00Martin,Zettersten
 0023CSB  4    SE003  09001150A00
@@ -5949,7 +5951,7 @@ CSE 239B Top/Sem/Programming Languages	/courses/CSE.html#cse239b
 CSE 240A Princ/Computer Architecture	/courses/CSE.html#cse240a
 'A00Dean Michael,Tullsen
 0192PCYNH24   LE106  14001520A00
-20251211PCYNHFI106  15001759
+20251104SOLISRE104  1800192020251211PCYNHFI106  15001759
 CSE 249E Seminar in Embedded Systems	/courses/CSE.html#cse249e
  A00Patrick William,Pannuto
 0050EBU3B4    SE4140 12301320A00
@@ -8109,6 +8111,8 @@ ERC 92   Honors Project	/courses/ERC.html#erc92
 9999TBA  TBA  INTBA  TBA TBA G00
  H00Dima,Saab
 9999TBA  TBA  INTBA  TBA TBA H00
+ I00Oumelbanine,Zhiri
+9999TBA  TBA  INTBA  TBA TBA I00
 ESYS90   Undergraduate Seminar	/courses/ESYS.html#esys90
  A00Katrina Heidi,Johnson
 0020ECKRT3    SE227  10001050A00
@@ -9851,7 +9855,7 @@ LTGK1    Beginning Greek	/courses/LIT.html#ltgk1
 20251212MANDEFIB104 15001759
 LTGK104  Greek Prose	/courses/LIT.html#ltgk104
  A00Jacobo,Myerston Santana
-0030CENTR13   LE203  17001820A00
+0030RWAC 13   LE0371 17001820A00
 LTGM2A   Intermediate German I	/courses/LIT.html#ltgm2a
 :A00Eva K,Fischer-Grunski
 0030RCLAS4    DIR06  08300920A01
@@ -15855,6 +15859,8 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 017
  018Falk,Feddersen
 9999TBA  TBA  INTBA  TBA TBA 018
+ 019Martin,Tresguerres
+9999TBA  TBA  INTBA  TBA TBA 019
 SIO 299  Research	/courses/SIO.html#sio299
  100Richard D.,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
