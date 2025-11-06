@@ -1,4 +1,4 @@
-V31762381482179
+V31762436155689
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -10328,6 +10328,8 @@ MAE 199  Independent Study/Undergrads	/courses/MAE.html#mae199
 9999TBA  TBA  INTBA  TBA TBA 013
  014Michael,Yip
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Frank E,Talke
+9999TBA  TBA  INTBA  TBA TBA 015
 MAE 201  Mechanics of Fluids	/courses/MAE.html#mae201
 'A00Geno Ronald,Pawlak
 0089FAH  24   LE1450 09301050A00
