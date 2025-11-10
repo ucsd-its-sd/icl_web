@@ -1,4 +1,4 @@
-V31762781723648
+V31762802447312
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -16671,7 +16671,7 @@ SOCI173  Soc/Health, Illness, Medicine	/courses/SOC.html#soci173
 20251208WLH  FI2204 08001059
 SOCI180  Social Movemnts&Social Protest	/courses/SOC.html#soci180
 'A00Michael Aar,Calderon-Zaks
-0060PCYNH24   LE121  12301350A00
+0063PCYNH24   LE121  12301350A00
 20251212PCYNHFI121  11301429
 SOCI184  Gender and Film	/courses/SOC.html#soci184
 'A00Elizabeth Anne,Miller
