@@ -1,4 +1,4 @@
-V31765319137438
+V31765374057098
 FA25     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5897,6 +5897,8 @@ CSE 199  Independent Study	/courses/CSE.html#cse199
 9999TBA  TBA  INTBA  TBA TBA 013
  014Nadir,Weibel
 9999TBA  TBA  INTBA  TBA TBA 014
+ 015Edwin A,Solares
+9999TBA  TBA  INTBA  TBA TBA 015
 CSE 199H CSE Honors Thesis Research/UN	/courses/CSE.html#cse199h
  001Deepak,Kumar
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -7063,7 +7065,7 @@ ECE 107  Electromagnetism	/courses/ECE.html#ece107
 :A00Eric E,Fullerton
 0120HSS  5    DI1330 13001350A01
 CENTR24   LE212  14001520A00
-20251022PODEMMI1A20 1900202020251112PODEMMI1A20 1900202020251211RWAC FI0121 15001759
+20251022PODEMMI1A20 1900202020251112PODEMMI1A20 1900202020251211PODEMFI1A20 15001759
 ECE 108  Digital Circuits	/courses/ECE.html#ece108
 :A00Yatish Girish,Turakhia
 0075PODEM3    DI1A20 16001650A01
@@ -10911,6 +10913,8 @@ MATH199  Independent Study/Undergrad	/courses/MATH.html#math199
 9999TBA  TBA  INTBA  TBA TBA 005
  006Jie Jun,Ang
 9999TBA  TBA  INTBA  TBA TBA 006
+ 007Jacques Allan,Verstraete
+9999TBA  TBA  INTBA  TBA TBA 007
 MATH199H Honors/Thesis Resrch/Undergrad	/courses/MATH.html#math199h
  001Brandon M.,Seward
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -16360,7 +16364,7 @@ SOCG226  Political Sociology	/courses/SOC.html#socg226
  A00John David,Skrentny
 0015SSB  4    LE414  09001150A00
 SOCG227  Ethnographic Film: Media Meth	/courses/SOC.html#socg227
-.B00Bennetta W.,Jules-Rosette
+.B00Ivan T,Evans
 0012SSB  3    SE101  15001750B00
 TBA  4    LATBA  14001620B01
 SOCG244  Sociology of Race & Ethnicity	/courses/SOC.html#socg244
@@ -16610,7 +16614,7 @@ SOCI104Q Qualitative Interviewing	/courses/SOC.html#soci104q
 0030SSB  2    LE101  09001150A00
 20251211SSB  FI101  08001059
 SOCI105  Ethnographic Film: Media Meth	/courses/SOC.html#soci105
-.B00Bennetta W.,Jules-Rosette
+.B00Ivan T,Evans
 0020TBA  4    LATBA  14001620B01
 SSB  3    SE101  15001750B00
 SOCI109  Analysis of Sociological Data	/courses/SOC.html#soci109
