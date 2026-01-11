@@ -1,4 +1,4 @@
-V31768083969015
+V31768138465623
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5157,7 +5157,7 @@ COGS260  Seminar on Special Topics	/courses/COGS.html#cogs260
  D00Anne,Beatty-Martinez
 0020CSB  2    SE272  09001150D00
  E00Bradley Thomas,Voytek
-0022TBA  1    SETBA  14001550E00
+0024TBA  1    SETBA  14001550E00
 COGS290  Cognitive Science Lab Rotation	/courses/COGS.html#cogs290
  001Bradley Thomas,Voytek
 9999TBA  TBA  LATBA  TBA TBA 001
