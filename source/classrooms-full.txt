@@ -1,7 +1,4 @@
-V31768764047774
-WI26     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31768830593835
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -7954,7 +7951,7 @@ EDS 252  Transforming Outcomes	/courses/EDS.html#eds252
 0010RWAC 3    SE0416 12001450A00
 EDS 254  Intro to Quantitative Analysis	/courses/EDS.html#eds254
  A00Andrew,Phuong
-0011RWAC 1    SE0416 14001650A00
+0010RWAC 1    SE0416 14001650A00
 EDS 259A Communicating Res./Lit. Review	/courses/EDS.html#eds259a
  A00Megan Beth,Hopkins
 0015RWAC 3    SE0401 09001150A00
