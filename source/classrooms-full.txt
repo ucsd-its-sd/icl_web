@@ -1,4 +1,4 @@
-V31769110216610
+V31769121019661
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5961,7 +5961,7 @@ CSE 202  Algorithm Design and Analysis	/courses/CSE.html#cse202
 20260317CENTRFI212  11301429
 CSE 203B Convex Optimization Algorithms	/courses/CSE.html#cse203b
 .A00Chung Kuan,Cheng
-0250MOS  5    DI0113 11001150A01
+0146MOS  5    DI0113 11001150A01
 MOS  24   LE0114 20002120A00
 CSE 207A Modern Cryptography
 'A00Mihir,Bellare
@@ -8260,7 +8260,7 @@ ETHN112A NativeAm& Indigenous Hist US I	/courses/ETHN.html#ethn112a
 0037CSB  135  LE004  12001250A00
 ETHN112C California Native Am. History	/courses/ETHN.html#ethn112c
  A00Mary Cameron,Klann
-0042PODEM135  LE1A22 12001250A00
+0041PODEM135  LE1A22 12001250A00
 ETHN113  Decolonizing Education	/courses/ETHN.html#ethn113
 'A00Tricia Meghan,Gallagher-Geurtsen
 0035HSS  135  LE1315 13001350A00
@@ -8299,7 +8299,7 @@ ETHN185A The University & Inequality	/courses/ETHN.html#ethn185a
 0040PODEM135  LE1A22 14001450A00
 ETHN198  Directed Group Studies	/courses/ETHN.html#ethn198
  A00Holly,Okonkwo
-0003RWAC 5    IN0424 14001650A00
+0004RWAC 5    IN0424 14001650A00
 ETHN200B Formulations: Interdisciplinar	/courses/ETHN.html#ethn200b
 'A00Jose Ignacio,Fuste
 0010SSB  1    SE103  12301520A00
