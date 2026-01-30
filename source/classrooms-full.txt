@@ -1,4 +1,4 @@
-V31769801844902
+V31769812417916
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8459,7 +8459,7 @@ FILM87   First-year Seminar	/courses/CIN.html#film87
 0020MCC  2    SE221  16001650B00
 FILM179  Fundamentals of Animation	/courses/CIN.html#film179
  A00Robert Martin,Davis
-0023MANDE2    STB206 18302120A00
+0022MANDE2    STB206 18302120A00
 FILM182  Production Studio Technique	/courses/CIN.html#film182
  A00Rajee Ranpathi,Samarasinghe
 0022MCC  3    ST140  09001150A00
