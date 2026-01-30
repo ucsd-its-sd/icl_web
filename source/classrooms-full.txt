@@ -1,7 +1,4 @@
-V31769726093716
-WI26     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31769801844902
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6297,6 +6294,8 @@ CSE 293  Spec Proj/Computer Sci & Engin	/courses/CSE.html#cse293
 9999TBA  TBA  INTBA  TBA TBA 075
  076Tauhidur,Rahman
 9999TBA  TBA  INTBA  TBA TBA 076
+ 077Marc S,Niethammer
+9999TBA  TBA  INTBA  TBA TBA 077
 CSE 294  Research Meeting in CSE	/courses/CSE.html#cse294
  B00Alex,Orailoglu
 0000EBU3B4    SE2109 17001950B00
@@ -7912,6 +7911,8 @@ ECON299  Research in Economics	/courses/ECON.html#econ299
 9999TBA  TBA  INTBA  TBA TBA 018
  019Titan Michael,Alon
 9999TBA  TBA  INTBA  TBA TBA 019
+ 020Nir,Jaimovich
+9999TBA  TBA  INTBA  TBA TBA 020
 ECON500B Teaching Methods in Economics	/courses/ECON.html#econ500b
  A00Katherine Hunter,Meckel
 0050TBA  TBA  INTBA  TBA TBA A00
@@ -14759,6 +14760,8 @@ PSYC199  Independent Study	/courses/PSYC.html#psyc199
 9999TBA  TBA  INTBA  TBA TBA 043
  044Chuchu,Li
 9999TBA  TBA  INTBA  TBA TBA 044
+ 045Catherine R.,Ayers
+9999TBA  TBA  INTBA  TBA TBA 045
 PSYC201B Quant Methods in Psyc II	/courses/PSYC.html#psyc201b
 :A00Eshin,Jolly
 0020MNDLR2    LA3545 14001550A01
@@ -17206,6 +17209,8 @@ PHB 298  Independent Study	/courses/PH.html#phb298
 9999TBA  TBA  INTBA  TBA TBA K00
  L00Hyun Keun,Cho
 9999TBA  TBA  INTBA  TBA TBA L00
+ M00Ravi,Goyal
+9999TBA  TBA  INTBA  TBA TBA M00
 PHB 299  Dissertation Research	/courses/PH.html#phb299
  001Jingjing,Zou
 9999TBA  TBA  INTBA  TBA TBA 001
