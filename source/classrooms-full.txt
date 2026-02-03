@@ -1,7 +1,4 @@
-V31770127598978
-WI26     Version
-.A00Kevin,Fisher
-0035APM  12345LE1313 08001930A00
+V31770158239525
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -12706,7 +12703,7 @@ NEU 234  Introduction/AerospaceMedicine
 TBA  TBA  LETBA  TBA TBA A01
 NEU 276  Neurosciences Research Rounds	/courses/NEU.html#neu276
 .A00Jerome Stefan,Mertens
-0023CNCB 4    DISEM  15001600A02
+0025CNCB 4    DISEM  15001600A02
 CNCB 4    LESEM  01000300A00
 NEU 296  Neurosciences Resrch Rotation	/courses/NEU.html#neu296
  001Sean Jeffrey,Evans
