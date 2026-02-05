@@ -2,6 +2,9 @@ V31770320377381
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
+WI26     Version
+.A00Kevin,Fisher
+0035APM  12345LE1313 08001930A00
 AAPI198  Directed Group Studies	/courses/AAPI.html#aapi198
  002Amanda Lee Albaniel,Solomon
 0020TBA  24   INTBA  16301750002
