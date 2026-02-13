@@ -1,4 +1,4 @@
-V31770991452490
+V31771011935165
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -6925,7 +6925,7 @@ DSC 208R Data Management for Analytics	/courses/DSC.html#dsc208r
 TBA  TBA  LETBA  TBA TBA A00
 DSC 210  Numerical Linear Algebra	/courses/DSC.html#dsc210
 'A00Biwei,Huang
-0075MOS  135  LE0204 11001150A00
+0068MOS  135  LE0204 11001150A00
 20260316MOS  FI0204 11301429
 DSC 211  Introduction to Optimization	/courses/DSC.html#dsc211
 'A00Jun-Kun,Wang
