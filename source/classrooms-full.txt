@@ -1,4 +1,4 @@
-V31771444299065
+V31771454417440
 WI26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -8501,7 +8501,7 @@ FPM 272  Community Advocacy	/courses/FMPH.html#fpm272
 0060TBA  TBA  SETBA  TBA TBA A00
 FPM 286  Free Clinic II	/courses/FMPH.html#fpm286
  A00Michelle Lee,Johnson
-0000TBA  TBA  CLTBA  TBA TBA A00
+0105TBA  TBA  CLTBA  TBA TBA A00
 FPM 296  Community Med Independnt Rsrch
  001Michelle Lee,Johnson
 0005TBA  TBA  INTBA  TBA TBA 001
