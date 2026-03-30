@@ -1,4 +1,4 @@
-V31774900638255
+V31774910731543
 SP26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -5635,7 +5635,7 @@ CSE 252D Advanced Computer Vision	/courses/CSE.html#cse252d
 20260608PETERFI104  15001759
 CSE 253  Machine Learning for Music	/courses/CSE.html#cse253
 .A00Julian John,McAuley
-0146TBA  TBA  DITBA  TBA TBA A01
+0176TBA  TBA  DITBA  TBA TBA A01
 JEANN24   LEAUD  11001220A00
 CSE 253R Machine Learning for Music	/courses/CSE.html#cse253r
 .A00Julian John,McAuley
@@ -6788,7 +6788,7 @@ ECE 238B Solid State Diffusn&Reactn Kin	/courses/ECE.html#ece238b
 20260611CENTRFI222  08001059
 ECE 240C Optical Modulation&Detection	/courses/ECE.html#ece240c
 'A00Shayan,Mookherjea
-0020CENTR24   LE207  15301650A00
+0021CENTR24   LE207  15301650A00
 20260608CENTRFI207  15001759
 ECE 244A Statistical Optics	/courses/ECE.html#ece244a
 'A00Noah,Rubin
@@ -6845,7 +6845,7 @@ ECE 276B Planning & Learning Robotics	/courses/ECE.html#ece276b
 20260608WLH  FI2204 15001759
 ECE 284  Topics/Computer Engineering	/courses/ECE.html#ece284
 'A00Georgios V,Makris
-0120CENTR24   LE113  09301050A00
+0124CENTR24   LE113  09301050A00
 20260609CENTRFI113  08001059
 'B00Edward Jay,Wang
 0042EBU1 24   LE2315 11001220B00
@@ -9788,7 +9788,7 @@ MAE 185  Computational Fluid Mechanics	/courses/MAE.html#mae185
 0088FAH  135  LE1101 11001150A00
 MAE 190  Topics in Mech and Aero Eng	/courses/MAE.html#mae190
 :A00Hortense Flotilde,Gerardo
-0020CENTR24   LE220  11001220A00
+0019CENTR24   LE220  11001220A00
 CENTR3    LE217B 13001350A00
 20260609CENTRFI220  11301429
 MAE 197  Engineering Internship	/courses/MAE.html#mae197
@@ -11221,7 +11221,7 @@ MUS 88   Sustainable Well-Being/Music
 20260612CPMC FI264  15001759
 MUS 95C  Concert Choir	/courses/MUS.html#mus95c
  A00Miguel Angel,Zazueta Cervera
-0040CPMC 3    ST136  14001650A00
+0050CPMC 3    ST136  14001650A00
 MUS 95D  Symphonic Chorus	/courses/MUS.html#mus95d
  A00Tom,Erbe
 0040CPMC 3    ST127  19002150A00
@@ -11239,7 +11239,7 @@ MUS 95G  Gospel Choir	/courses/MUS.html#mus95g
 0395WLH  4    ST2001 18302120B00
 MUS 95JC Jazz Chamber Ensembles	/courses/MUS.html#mus95jc
  A00Kamau,Kenyatta
-0025WLH  24   ST2154 14001520A00
+0035WLH  24   ST2154 14001520A00
 MUS 95L  Wind Ensemble	/courses/MUS.html#mus95l
  A00Long Tao,Tang
 0065CPMC 4    ST136  19002150A00
@@ -11291,7 +11291,7 @@ MUS 130  Chamber Music Performance	/courses/MUS.html#mus130
 20260609CPMC FI368  15001759
 MUS 131  Advd Improvisation Performance	/courses/MUS.html#mus131
  A00Kamau,Kenyatta
-0010WLH  3    ST2154 12001450A00
+0011WLH  3    ST2154 12001450A00
 MUS 132  Pro-Seminar/Instrmntl Instruct	/courses/MUS.html#mus132
  001Mark Stuart,Dresser
 0010TBA  TBA  STTBA  TBA TBA 001
@@ -15742,13 +15742,13 @@ ENG 100D Sustainable Development Design	/courses/ENG.html#eng100d
 20260608COA  FIB23  11301429
 ENG 100L Design for Development Lab	/courses/ENG.html#eng100l
  A00Jan,Kleissl
-0012CMRR 3    LA1H   15001650A00
+0000CMRR 3    LA1H   15001650A00
  B00Maryann,Bratton
 0012CMRR 3    LA1H   13001450B00
  C00Maryann,Bratton
 0012CMRR 2    LA1H   15301720C00
  D00Mary E. T.,Boyle
-0012CSB  1    LA272  12001350D00
+0000CSB  1    LA272  12001350D00
  E00Mauricio,de Oliveira
 0008CMRR 2    LA109  16001750E00
 SOMC229  Endocrinology/Reprod & Metab I
