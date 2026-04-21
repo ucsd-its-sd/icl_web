@@ -1,4 +1,4 @@
-V31776782979287
+V31776802076223
 SP26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -168,6 +168,8 @@ AIP 197  Academic Internship Program	/courses/AIP.html#aip197
 9999TBA  TBA  ITTBA  TBA TBA 062
  064Mingyu,Yang
 9999TBA  TBA  ITTBA  TBA TBA 064
+ 065Keith,Pezzoli
+9999TBA  TBA  ITTBA  TBA TBA 065
 AIP 197DCWashington, DC Internship	/courses/AIP.html#aip197dc
  001Seth J,Hill
 0040TBA  TBA  ITTBA  TBA TBA 001
@@ -802,6 +804,12 @@ BENG87   Freshman Seminar	/courses/BENG.html#beng87
 0020PFBH 5    SE391  10001050B00
  C00Michael Joseph,Sailor
 0006TBA  3    SETBA  11001250C00
+BENG97   Internship/Field Study	/courses/BENG.html#beng97
+ 001Robert Lie-Yuan,Sah
+9999TBA  TBA  INTBA  TBA TBA 001
+BENG98   Directed Group Study	/courses/BENG.html#beng98
+ 001Robert Lie-Yuan,Sah
+9999TBA  TBA  INTBA  TBA TBA 001
 BENG99   Independent Study/Undergraduat	/courses/BENG.html#beng99
  001Christian Michael,Metallo
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -892,6 +900,9 @@ BENG196  Bioeng Industrial Internship	/courses/BENG.html#beng196
 BENG197  Engineering Internship	/courses/BENG.html#beng197
  A00Isgard Swana,Hueck
 9999TBA  TBA  ITTBA  TBA TBA A00
+BENG198  Directed Group Study	/courses/BENG.html#beng198
+ 001Robert Lie-Yuan,Sah
+9999TBA  TBA  SETBA  TBA TBA 001
 BENG199  Independent Study/Undergrads	/courses/BENG.html#beng199
  001Pedro,Cabrales
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -3588,6 +3599,8 @@ BIOM298  Directed Study	/courses/BIOM.html#biom298
 0010TBA  TBA  INTBA  TBA TBA 078
  079Miguel Alej,Lopez Ramirez
 0010TBA  TBA  INTBA  TBA TBA 079
+ 080Farah,Sheikh
+9999TBA  TBA  INTBA  TBA TBA 080
 BIOM299  Independent Study	/courses/BIOM.html#biom299
  001Ludmil B,Alexandrov
 0010TBA  TBA  INTBA  TBA TBA 001
@@ -4068,6 +4081,8 @@ CHEM99   Independent Study	/courses/CHEM.html#chem99
 9999TBA  TBA  INTBA  TBA TBA 001
  002Neville,Bethel
 9999TBA  TBA  INTBA  TBA TBA 002
+ 003Guy,Bertrand
+9999TBA  TBA  INTBA  TBA TBA 003
 CHEM99H  Independent Study	/courses/CHEM.html#chem99h
  001Francesco,Paesani
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -4267,6 +4282,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 040
  041Fleur,Ferguson
 9999TBA  TBA  INTBA  TBA TBA 041
+ 042Kimberly A,Prather
+9999TBA  TBA  INTBA  TBA TBA 042
 CHEM221  Signal Transduction	/courses/CHEM.html#chem221
 'A00Susan S.,Taylor
 0020NSB  24   LE2303 14001520A00
@@ -5939,6 +5956,8 @@ CSE 198  Direct Group Study	/courses/CSE.html#cse198
 9999TBA  TBA  INTBA  TBA TBA 006
  007Nadir,Weibel
 9999TBA  TBA  INTBA  TBA TBA 007
+ 008Adalbert Geral,Soosai Raj
+9999TBA  TBA  INTBA  TBA TBA 008
 CSE 199  Independent Study	/courses/CSE.html#cse199
  001Lianhui,Qin
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -6280,6 +6299,10 @@ CSE 293  Spec Proj/Computer Sci & Engin	/courses/CSE.html#cse293
 9999TBA  TBA  INTBA  TBA TBA 069
  070Marc S,Niethammer
 9999TBA  TBA  INTBA  TBA TBA 070
+ 071Deepak,Kumar
+9999TBA  TBA  INTBA  TBA TBA 071
+ 072Haijun,Xia
+9999TBA  TBA  INTBA  TBA TBA 072
 CSE 294  Research Meeting in CSE	/courses/CSE.html#cse294
  A00Leonard Emerson,Porter
 0000EBU3B1    SE2154 14001450A00
@@ -7154,7 +7177,7 @@ WLH  24   LE2207 12301350A00
 20260608WLH  FI2207 11301429
 ECE 148  Intro to Autonomous Vehicles	/courses/ECE.html#ece148
 .A00Jack,Silberman
-0025TBA  24   LATBA  18301950A01
+0026TBA  24   LATBA  18301950A01
 DIB  24   LE122  17001820A00
 ECE 153  Probability&Random Process/Eng	/courses/ECE.html#ece153
 :A00Parinaz,Naghizadeh Ardabili
@@ -7655,7 +7678,7 @@ MANDE135  LEB202 10001050A00
 ECON101  International Trade	/courses/ECON.html#econ101
 'A00Sara,Esfahani
 0120CSB  24   LE002  15301650A00
-20260424CSB  RE002  1800195020260608CSB  FI002  15001759
+20260424CSB  RE002  1800195020260515CSB  RE002  1800195020260605CSB  RE002  1800195020260608CSB  FI002  15001759
 ECON109T Advanced Topics in Game Theory	/courses/ECON.html#econ109t
 ECON110A Long Run Macroeconomics	/courses/ECON.html#econ110a
 :A00Titan Michael,Alon
@@ -7678,7 +7701,7 @@ CTL  24   LE0125 09301050A00
 ECON112  Macroeconomic Data Analysis	/courses/ECON.html#econ112
 'A00Giacomo,Rondina
 0040COA  24   LE122  12301350A00
-20260415HSS  RE2154 1800195020260608COA  FI122  11301429
+20260415HSS  RE2154 1800195020260504CSB  RE004  1800195020260522CSB  RE004  1700185020260605CSB  RE004  1700185020260608COA  FI122  11301429
 ECON120A Econometrics A	/courses/ECON.html#econ120a
 :A00Yinlin,Dai
 0073PETER2    DI104  17001750A010073PETER2    DI104  18001850A02
@@ -7735,7 +7758,7 @@ ECON132  Energy Economics	/courses/ECON.html#econ132
 ECON134  U.S. Budget Policy	/courses/ECON.html#econ134
 'A00Alexander Michael,Gelber
 0075PODEM2    LE1A20 17001950A00
-20260415MOS  RE0204 1900205020260429MOS  RE0204 1900205020260611PODEMFI1A20 19002159
+20260415MOS  RE0204 1900205020260429MOS  RE0204 1900205020260513PETERRE103  1800195020260527PETERRE103  1800195020260611PODEMFI1A20 19002159
 ECON136  Human Resources	/courses/ECON.html#econ136
 'A00Julian,Betts
 0110COA  24   LE125  11001220A00
@@ -8990,6 +9013,9 @@ HINE128R Hist of Mideast:Early Medieval
 HINE199  Independent Study/Near East	/courses/HIST.html#hine199
  001Mira,Balberg
 9999TBA  TBA  INTBA  TBA TBA 001
+HISA199  Indpndt Study/South Asian Hist
+ 001Aniket,De
+9999TBA  TBA  INTBA  TBA TBA 001
 HISC107  Emergence of Modern Science	/courses/HIST.html#hisc107
 HISC125  Early Modern Mapping	/courses/HIST.html#hisc125
  A00Nydia,Pineda De Avila
@@ -9241,6 +9267,9 @@ LATI180  Special Topic/Lat Amer Studies	/courses/LATI.html#lati180
 LATI190  Practicum in Lat/Amer Studies	/courses/LATI.html#lati190
  A00Juan Pablo,Pardo Guerra
 0001TBA  TBA  PRTBA  TBA TBA A00
+LATI191  Honors Seminar	/courses/LATI.html#lati191
+ A00Juan Pablo,Pardo Guerra
+0001LASB 2    TU4    17002000A00
 LATI199  Individual Study	/courses/LATI.html#lati199
  001Juan Pablo,Pardo Guerra
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -12428,6 +12457,8 @@ NANO199  Independent Study/Undergrad	/courses/NANO.html#nano199
 9999TBA  TBA  INTBA  TBA TBA 004
  005Nicole F,Steinmetz
 9999TBA  TBA  INTBA  TBA TBA 005
+ 006Zeinab,Jahed Motlagh
+9999TBA  TBA  INTBA  TBA TBA 006
 NANO200  Grad Sem./Chem&NanoEngineering	/courses/NANO.html#nano200
  A00Zeinab,Jahed Motlagh
 0120SME  3    SE248  11001150A00
@@ -13144,6 +13175,9 @@ TBA  TBA  LETBA  TBA TBA B00
 .C00Jennifer Rose,Carr
 0000TBA  TBA  PRTBA  TBA TBA C01
 TBA  TBA  LETBA  TBA TBA C00
+.D00Kerry V.,McKenzie
+0001TBA  TBA  PRTBA  TBA TBA D01
+TBA  TBA  LETBA  TBA TBA D00
 PHIL199  Directed Individual Study	/courses/PHIL.html#phil199
  001Saba,Bazargan-Forward
 9999TBA  TBA  INTBA  TBA TBA 001
