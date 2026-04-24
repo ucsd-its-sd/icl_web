@@ -1,4 +1,4 @@
-V31776984909155
+V31777041995298
 SP26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -4286,6 +4286,8 @@ CHEM199  Reading and Research	/courses/CHEM.html#chem199
 9999TBA  TBA  INTBA  TBA TBA 041
  042Kimberly A,Prather
 9999TBA  TBA  INTBA  TBA TBA 042
+ 043Dionicio R.,Siegel
+9999TBA  TBA  INTBA  TBA TBA 043
 CHEM221  Signal Transduction	/courses/CHEM.html#chem221
 'A00Susan S.,Taylor
 0020NSB  24   LE2303 14001520A00
@@ -12584,6 +12586,8 @@ NEU 296  Neurosciences Resrch Rotation	/courses/NEU.html#neu296
 NEU 299  Independent Study	/courses/NEU.html#neu299
  001Jeffrey Joseph,Gold
 0005TBA  TBA  INTBA  TBA TBA 001
+ 002Lisa,Stowers
+9999TBA  TBA  INTBA  TBA TBA 002
 NEU 401  Neurology Core Clerkship
  A00Jamie Nicole,LaBuzetta
 0050TBA  TBA  CLTBA  TBA TBA A00
@@ -14003,6 +14007,8 @@ PHYS299  Thesis Research in Physics	/courses/PHYS.html#phys299
 9999TBA  TBA  INTBA  TBA TBA 042
  043Tzer Han,Tan
 9999TBA  TBA  INTBA  TBA TBA 043
+ 044Bradley Thomas,Voytek
+9999TBA  TBA  INTBA  TBA TBA 044
 POLI5D   Data Analytics/Social Sciences	/courses/POLI.html#poli5d
 :A00David Hall,Arnold
 0010CSB  3    LA001  18001850A010010CSB  3    LA001  19001950A020005CSB  3    LA001  20002050A03
@@ -15148,6 +15154,8 @@ MGT 198  Directed Group Study	/courses/MGT.html#mgt198
 MGT 199  Directed Independent Study	/courses/MGT.html#mgt199
  001On,Amir
 9999TBA  TBA  INTBA  TBA TBA 001
+ 002Uri,Gneezy
+9999TBA  TBA  INTBA  TBA TBA 002
 MGT 258  Topics in Social Psychology	/courses/MGT.html#mgt258
  B00Christopher S,Oveis
 0020OTRSN1    LE3E10913001550B00
