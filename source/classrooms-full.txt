@@ -1,4 +1,4 @@
-V31777330670761
+V31777390202280
 SP26     Version
 .A00Kevin,Fisher
 0035APM  12345LE1313 08001930A00
@@ -3210,6 +3210,8 @@ BISP199  Individual Research for Ugrads	/courses/BIOL.html#bisp199
 9999TBA  TBA  INTBA  TBA TBA 187
  188Thibault Florian Thi,Alle
 9999TBA  TBA  INTBA  TBA TBA 188
+ 189Michael D,Burkart
+9999TBA  TBA  INTBA  TBA TBA 189
  001Samuel Paul,Bertin
 9999TBA  TBA  INTBA  TBA TBA 001
  002Susan,Ferro-Novick
@@ -4087,6 +4089,8 @@ CHEM99   Independent Study	/courses/CHEM.html#chem99
 9999TBA  TBA  INTBA  TBA TBA 002
  003Guy,Bertrand
 9999TBA  TBA  INTBA  TBA TBA 003
+ 004Brian M,Zid
+9999TBA  TBA  INTBA  TBA TBA 004
 CHEM99H  Independent Study	/courses/CHEM.html#chem99h
  001Francesco,Paesani
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -5423,6 +5427,8 @@ COGS299  Thesis Research	/courses/COGS.html#cogs299
 9999TBA  TBA  INTBA  TBA TBA 015
  016David Joel,Kirsh
 9999TBA  TBA  INTBA  TBA TBA 016
+ 017Lera,Boroditsky
+9999TBA  TBA  INTBA  TBA TBA 017
 COGS500  Teaching Apprenticeship	/courses/COGS.html#cogs500
  001David Joel,Kirsh
 9999TBA  TBA  INTBA  TBA TBA 001
@@ -15893,6 +15899,10 @@ SIO 199  Special Studies	/courses/SIO.html#sio199
 9999TBA  TBA  INTBA  TBA TBA 026
  027Katharine L,Ricke
 9999TBA  TBA  INTBA  TBA TBA 027
+ 028Deirdre Colleen,Lyons
+9999TBA  TBA  INTBA  TBA TBA 028
+ 029Katherine,Barbeau
+9999TBA  TBA  INTBA  TBA TBA 029
 SIO 299  Research	/courses/SIO.html#sio299
  100Richard D.,Norris
 9999TBA  TBA  INTBA  TBA TBA 100
